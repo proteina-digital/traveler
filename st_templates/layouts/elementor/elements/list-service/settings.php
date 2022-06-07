@@ -235,7 +235,7 @@ if (!class_exists('ST_List_Service_Element')) {
                 ]
             );
             $this->add_control(
-                'city_tour',
+                'city_destinations',
                 [
                     'label' => esc_html__('Choose Destination', 'traveler'),
                     'type' => 'select2_ajax',

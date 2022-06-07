@@ -132,6 +132,30 @@ if($list_style =='list' && $style_list == 'vertical'){
                             }
                                 
                         }
+
+
+                        if(!empty($city_destinations)){
+                            $city_destinations_ids = ST_Elementor::st_explode_select2($city_destinations);
+
+                            $city_destinations_array = array();
+
+                            foreach ($city_destinations_ids as $key => $value) {
+                                $nova_key = '_'.$key.'_';
+                                array_push($city_destinations_array, $nova_key);
+                            }                            
+
+                            if ($city_destinations) {
+                                $args['meta_query'] = array(
+                                    array(
+                                        'key' => 'multi_location',
+                                        'value' => $city_destinations_array,
+                                        'compare' => 'IN'
+                                    )
+                                );
+                            }
+                        }
+
+
                         if($orderby === 'post__in' && !empty($post_ids_hotel) && $type_form == 'single'){
                             $list_ids = ST_Elementor::st_explode_select2($post_ids_hotel);
                             $args['post__in'] = array_keys($list_ids);
@@ -192,21 +216,21 @@ if($list_style =='list' && $style_list == 'vertical'){
                                 
                         }
 
-                        if(!empty($city_tour)){
-                            $city_tour_ids = ST_Elementor::st_explode_select2($city_tour);
+                        if(!empty($city_destinations)){
+                            $city_destinations_ids = ST_Elementor::st_explode_select2($city_destinations);
 
-                            $city_tour_array = array();
+                            $city_destinations_array = array();
 
-                            foreach ($city_tour_ids as $key => $value) {
+                            foreach ($city_destinations_ids as $key => $value) {
                                 $nova_key = '_'.$key.'_';
-                                array_push($city_tour_array, $nova_key);
+                                array_push($city_destinations_array, $nova_key);
                             }                            
 
-                            if ($city_tour) {
+                            if ($city_destinations) {
                                 $args['meta_query'] = array(
                                     array(
                                         'key' => 'multi_location',
-                                        'value' => $city_tour_array,
+                                        'value' => $city_destinations_array,
                                         'compare' => 'IN'
                                     )
                                 );
@@ -272,6 +296,29 @@ if($list_style =='list' && $style_list == 'vertical'){
                             }
                                 
                         }
+
+
+                        if(!empty($city_destinations)){
+                            $city_destinations_ids = ST_Elementor::st_explode_select2($city_destinations);
+
+                            $city_destinations_array = array();
+
+                            foreach ($city_destinations_ids as $key => $value) {
+                                $nova_key = '_'.$key.'_';
+                                array_push($city_destinations_array, $nova_key);
+                            }                            
+
+                            if ($city_destinations) {
+                                $args['meta_query'] = array(
+                                    array(
+                                        'key' => 'multi_location',
+                                        'value' => $city_destinations_array,
+                                        'compare' => 'IN'
+                                    )
+                                );
+                            }
+                        }
+
                         if($orderby === 'post__in' && !empty($post_ids_rental) && $type_form == 'single'){
                             $list_ids = ST_Elementor::st_explode_select2($post_ids_rental);
                             $args['post__in'] = array_keys($list_ids);
@@ -330,6 +377,30 @@ if($list_style =='list' && $style_list == 'vertical'){
                             }
                                 
                         }
+
+
+                        if(!empty($city_destinations)){
+                            $city_destinations_ids = ST_Elementor::st_explode_select2($city_destinations);
+
+                            $city_destinations_array = array();
+
+                            foreach ($city_destinations_ids as $key => $value) {
+                                $nova_key = '_'.$key.'_';
+                                array_push($city_destinations_array, $nova_key);
+                            }                            
+
+                            if ($city_destinations) {
+                                $args['meta_query'] = array(
+                                    array(
+                                        'key' => 'multi_location',
+                                        'value' => $city_destinations_array,
+                                        'compare' => 'IN'
+                                    )
+                                );
+                            }
+                        }
+
+
                         if($orderby === 'post__in' && !empty($post_ids_activity) && $type_form == 'single'){
                             $list_ids = ST_Elementor::st_explode_select2($post_ids_activity);
                             $args['post__in'] = array_keys($list_ids);
@@ -391,6 +462,28 @@ if($list_style =='list' && $style_list == 'vertical'){
                             }
                                 
                         }
+
+                        if(!empty($city_destinations)){
+                            $city_destinations_ids = ST_Elementor::st_explode_select2($city_destinations);
+
+                            $city_destinations_array = array();
+
+                            foreach ($city_destinations_ids as $key => $value) {
+                                $nova_key = '_'.$key.'_';
+                                array_push($city_destinations_array, $nova_key);
+                            }                            
+
+                            if ($city_destinations) {
+                                $args['meta_query'] = array(
+                                    array(
+                                        'key' => 'multi_location',
+                                        'value' => $city_destinations_array,
+                                        'compare' => 'IN'
+                                    )
+                                );
+                            }
+                        }
+                        
                         if($orderby === 'post__in' && !empty($post_ids_car) && $type_form == 'single'){
                             $list_ids = ST_Elementor::st_explode_select2($post_ids_car);
                             $args['post__in'] = array_keys($list_ids);
