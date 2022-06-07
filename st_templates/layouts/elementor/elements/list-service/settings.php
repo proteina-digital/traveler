@@ -235,6 +235,18 @@ if (!class_exists('ST_List_Service_Element')) {
                 ]
             );
             $this->add_control(
+                'city_tour',
+                [
+                    'label' => esc_html__('Choose Destination', 'traveler'),
+                    'type' => 'select2_ajax',
+                    'post_type' => 'location',
+                    'callback' => 'ST_Elementor:get_post_ajax',
+                    'label_block' => true,
+                    'cache' => false,
+                    'delay' => 100,
+                ]
+            );
+            $this->add_control(
                 'order',
                 [
                     'label' => esc_html__('Order', 'traveler'),

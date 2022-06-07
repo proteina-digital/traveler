@@ -191,6 +191,28 @@ if($list_style =='list' && $style_list == 'vertical'){
                             }
                                 
                         }
+
+                        if(!empty($city_tour)){
+                            $city_tour_ids = ST_Elementor::st_explode_select2($city_tour);
+
+                            $city_tour_array = array();
+
+                            foreach ($city_tour_ids as $key => $value) {
+                                $nova_key = '_'.$key.'_';
+                                array_push($city_tour_array, $nova_key);
+                            }                            
+
+                            if ($city_tour) {
+                                $args['meta_query'] = array(
+                                    array(
+                                        'key' => 'multi_location',
+                                        'value' => $city_tour_array,
+                                        'compare' => 'IN'
+                                    )
+                                );
+                            }
+                        }
+
                         if($orderby === 'post__in' && !empty($post_ids_tour) && $type_form == 'single'){
                             $list_ids = ST_Elementor::st_explode_select2($post_ids_tour);
                             $args['post__in'] = array_keys($list_ids);
