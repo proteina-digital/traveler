@@ -7,7 +7,7 @@
         <div class="accordion-item">
             <h2 class="st-heading-section" id="headingInExClude">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInExClude" aria-expanded="true" aria-controls="collapseInExClude">
-                    <?php echo __('Included/Excluded', 'traveler'); ?>
+                    <?php echo __('Informations', 'traveler'); ?>
                 </button>
             </h2>
             <div id="collapseInExClude" class="accordion-collapse collapse show" aria-labelledby="headingInExClude" data-bs-parent="#headingInExClude">

@@ -1,5 +1,6 @@
 <div class="st-service-feature">
     <div class="row">
+        <!-- DURATION -->
         <div class="col-6 col-sm-3">
             <div class="item d-flex align-items-center">
                 <div class="icon">
@@ -16,6 +17,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- CANCELAMENTO -->
         <div class="col-6 col-sm-3">
             <div class="item d-flex align-items-center">
                 <div class="icon">
@@ -37,6 +40,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- TAMANHO -->
         <div class="col-6 col-sm-3">
             <div class="item d-flex align-items-center">
                 <div class="icon">
@@ -57,6 +62,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- IDIOMA -->
         <div class="col-6 col-sm-3">
             <div class="item d-flex align-items-center">
                 <div class="icon">

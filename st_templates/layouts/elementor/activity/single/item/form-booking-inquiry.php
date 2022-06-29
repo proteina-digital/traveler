@@ -1,4 +1,4 @@
-<div class="form-book-wrapper st-border-radius relative">
+<div id="pd-form-book" class="form-book-wrapper st-border-radius relative">
     <?php if ( !empty( $info_price[ 'discount' ] ) and $info_price[ 'discount' ] > 0 and $info_price[ 'price_new' ] > 0 ) { ?>
         <div class="tour-sale-box">
             <?php echo STFeatured::get_sale( $info_price[ 'discount' ] ); ?>

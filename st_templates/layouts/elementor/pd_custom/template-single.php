@@ -110,12 +110,7 @@
                                 </div>
                             </div>
                             <!-- Tour Infor -->
-                            <?php echo st()->load_template('layouts/elementor/pd_custom/infor', '', array(
-                                'icon_duration_single_activity' => $icon_duration_single_activity,
-                                'icon_cancel_single_activity' => $icon_cancel_single_activity,
-                                'icon_groupsize_single_activity' => $icon_groupsize_single_activity,
-                                'icon_language_single_activity' => $icon_language_single_activity,
-                            )); ?>
+                            <?php echo st()->load_template('layouts/elementor/pd_custom/infor', ''); ?>
                             <!--Tour Info-->      
                             <!--Tour Overview-->
                             <?php echo st()->load_template('layouts/elementor/hotel/single/item/description'); ?>
@@ -123,7 +118,7 @@
 
                             <!--Tour highlight-->
 
-                            <?php
+                            <?php /*
                                 $tours_highlight = get_post_meta( get_the_ID(), 'activity_highlight', true );
                                 if ( !empty( $tours_highlight ) ) {
                                     $arr_highlight = explode( "\n", trim( $tours_highlight ) );
@@ -140,20 +135,25 @@
                                             ?>
                                         </ul>
                                     </div>
-                                <?php } ?>
+                                <?php } */?>
                             <!--End Tour highlight-->
+
+
                             <!--Table Discount group -->
-                            <?php echo st()->load_template('layouts/elementor/activity/single/item/discount'); ?>
+                            <?php //echo st()->load_template('layouts/elementor/activity/single/item/discount'); ?>
                             <!--End Table Discount group -->
                                                 
                             <!--Tour program-->
-                            <?php echo st()->load_template('layouts/elementor/activity/single/item/itinerary'); ?>
+                            <?php //echo st()->load_template('layouts/elementor/activity/single/item/itinerary'); ?>
+                            <?php echo st()->load_template('layouts/elementor/pd_custom/program-itinerary'); ?>
                             <!--End Tour program-->
+
+                            <div class="st-hr large"></div>
+
+                            <?php echo st()->load_template('layouts/elementor/hotel/single/item/attributes','',['post_type' => 'st_activity']);?>
 
                             <!--Tour Include/Exclude-->
                             <?php echo st()->load_template('layouts/elementor/activity/single/item/include-exclude'); ?>
-
-                            <?php echo st()->load_template('layouts/elementor/hotel/single/item/attributes','',['post_type' => 'st_activity']);?>
                             <!--End Tour Include/Exclude-->
 
                             <div class="st-hr large"></div>

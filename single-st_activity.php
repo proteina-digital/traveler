@@ -18,7 +18,7 @@
         }
         
 		if(check_using_elementor()){
-            echo st()->load_template( 'layouts/elementor/activity/single/single', 4 ); // Carrega o layout customizado 4
+            echo st()->load_template( 'layouts/elementor/pd_custom/template-single', '' ); // Carrega o layout customizado
             // echo st()->load_template( 'layouts/elementor/activity/single/single', $style );
         } else {
             echo st()->load_template( 'layouts/modern/activity/single/single', $style );
