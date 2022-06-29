@@ -112,3 +112,92 @@ img.wp-smiley,
         position: relative !important;
     }
 }
+
+
+/*PROTEÍNA*/
+
+@media (min-width: 1200px){
+
+    .pd-property-images .fotorama__wrap .fotorama__stage,
+    .pd-property-images .fotorama__wrap .fotorama__nav-wrap{
+        width: 50% !important;
+        max-width: 688px;
+        max-height: 634px !important;
+    }
+
+    .pd-property-images .fotorama__wrap .fotorama__nav-wrap .fotorama__nav__shaft .fotorama__nav__frame.fotorama__nav__frame--thumb{
+        /*width: 28% !important;*/
+        width: 275px !important;
+        height: 210px !important;
+        padding: 0px !important;
+        margin: 0px 5px 0px 5px !important;
+    }
+
+
+    .pd-property-images{
+        width: 100%;
+    }
+
+    .pd-property-images .fotorama__wrap{
+        display: flex !important;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .pd-property-images .fotorama__wrap .fotorama__nav-wrap .fotorama__nav.fotorama__nav--thumbs{
+        overflow: initial !important;
+        height: 100% !important;
+    }
+
+
+    .pd-property-images .fotorama__wrap .fotorama__stage .fotorama__stage__shaft{
+        width: auto !important;
+    }
+
+    /*GRANDE*/
+    .pd-property-images .fotorama__wrap .fotorama__stage .fotorama__loaded--img img{
+        width: auto !important;
+        height: auto !important; 
+        left: 0px !important; 
+        top: 0px !important;
+    }
+
+    /*MINIATURAS*/
+    .pd-property-images .fotorama__nav-wrap .fotorama__img{
+        width: 100% !important;
+        height: auto !important; 
+        left: 0px !important; 
+        top: 0px !important;
+    }
+
+    .pd-property-images .fotorama__wrap .fotorama__nav-wrap .fotorama__nav__shaft{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 60% !important;
+    }
+
+    .fotorama__thumb-border{
+        display: none;
+    }
+}
+
+
+@media (min-width: 1400px){
+    .pd-property-images .fotorama__wrap .fotorama__stage,
+    .pd-property-images .fotorama__wrap .fotorama__nav-wrap{
+        width: 50% !important;
+        max-width: 688px;
+        max-height: 634px !important;
+    }
+
+    .pd-property-images .fotorama__wrap .fotorama__nav-wrap .fotorama__nav__shaft .fotorama__nav__frame.fotorama__nav__frame--thumb{
+        /*width: 28% !important;*/
+        width: 310px !important;
+        height: 210px !important;
+        padding: 0px !important;
+        margin: 0px 5px 0px 5px !important;
+    }
+}
+

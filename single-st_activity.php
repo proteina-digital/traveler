@@ -16,8 +16,10 @@
         if ( !$style ) {
             $style = st()->get_option('activity_layout_v2', 1);
         }
+        
 		if(check_using_elementor()){
-            echo st()->load_template( 'layouts/elementor/activity/single/single', $style );
+            echo st()->load_template( 'layouts/elementor/activity/single/single', 4 ); // Carrega o layout customizado 4
+            // echo st()->load_template( 'layouts/elementor/activity/single/single', $style );
         } else {
             echo st()->load_template( 'layouts/modern/activity/single/single', $style );
         }
