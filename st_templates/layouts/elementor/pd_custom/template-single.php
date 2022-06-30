@@ -150,7 +150,7 @@
 
                             <div class="st-hr large"></div>
 
-                            <?php echo st()->load_template('layouts/elementor/hotel/single/item/attributes','',['post_type' => 'st_activity']);?>
+                            <?php echo st()->load_template('layouts/elementor/pd_custom/attributes','',['post_type' => 'st_activity']);?>
 
                             <!--Tour Include/Exclude-->
                             <?php echo st()->load_template('layouts/elementor/activity/single/item/include-exclude'); ?>
