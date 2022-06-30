@@ -3,7 +3,7 @@ $all_attribute = TravelHelper::st_get_attribute_advance($post_type);
 
 if(is_array($all_attribute) && !empty($all_attribute)){ ?>
 
-    <h2 class="st-heading-section" id="heading<?php echo esc_attr($attr["value"]);?>"><?php __( 'What does this place offer?', 'traveler' ); ?></h2><?php
+    <h2 class="st-heading-section" ><?php echo __( 'What does this place offer?', 'traveler' ); ?></h2><?php
 
 
     foreach ($all_attribute as $key_attr => $attr) {
@@ -15,11 +15,11 @@ if(is_array($all_attribute) && !empty($all_attribute)){ ?>
             <div class="st-attributes accordion-item  stt-attr-<?php echo esc_attr($attr["value"]);?>">
                 <?php
                     if(!empty($get_label_tax) && !empty($facilities)  ){ ?>
-                        <h2 class="st-heading-section" id="heading<?php echo esc_attr($attr["value"]);?>">
+                        <h3 class="st-heading-section" id="heading<?php echo esc_attr($attr["value"]);?>">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?php echo esc_attr($attr["value"]);?>" aria-expanded="true" aria-controls="collapse<?php echo esc_attr($attr["value"]);?>">
                                 <?php echo esc_html($get_label_tax->label); ?>
                             </button>
-                        </h2>
+                        </h3>
                     <?php }
                 ?>
                 <div id="collapse<?php echo esc_attr($attr["value"]);?>" class="accordion-collapse collapse show" aria-labelledby="heading<?php echo esc_attr($attr["value"]);?>" data-bs-parent="#heading<?php echo esc_attr($attr["value"]);?>">
