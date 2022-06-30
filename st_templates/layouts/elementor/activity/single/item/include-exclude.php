@@ -29,12 +29,12 @@
                         <?php } ?>
                         <?php if (!empty($exclude)) { ?>
                             <div class="col-lg-6">
-                                <ul class="exclude">
+                                <ul class="include">
                                     <?php
                                     $ex_arr = explode("\n", $exclude);
                                     if (!empty($ex_arr)) {
                                         foreach ($ex_arr as $k => $v) {
-                                            echo '<li>' . TravelHelper::getNewIcon('remove', '#FA5636', '18px', '18px', false) . esc_attr($v) . '</li>';
+                                            echo '<li>' . TravelHelper::getNewIcon('check-1', '#2ECC71', '14px', '14px', false) . esc_attr($v) . '</li>';
                                         }
                                     }
                                     ?>
