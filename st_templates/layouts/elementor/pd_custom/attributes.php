@@ -38,19 +38,16 @@ if(is_array($all_attribute) && !empty($all_attribute)){ ?>
                                     foreach ( $facilities as $term ) {
                                         $icon     = TravelHelper::handle_icon( get_tax_meta( $term->term_id, 'st_icon') );
                                         $icon_new = TravelHelper::handle_icon( get_tax_meta( $term->term_id, 'st_icon_new') );
-                                        if ( !$icon ) $icon = "fa fa-cogs";
                                         ?>
-                                        <div> <!-- class="col-xs-6 col-sm-4" -->
                                             <div class="item d-flex align-items-center has-matchHeight pd-single-attribute">
                                                 <?php
-                                                    if ( !$icon_new ) {
-                                                        echo '<i class="' . esc_attr($icon) . '"></i>' . esc_html($term->name);
-                                                    } else {
-                                                        echo TravelHelper::getNewIcon( $icon_new, '#5E6D77', '24px', '24px' ) . esc_html($term->name);
-                                                    }
+                                                if ( !$icon ){
+                                                    echo '<i class="fa fa-cogs"></i>' . esc_html($term->name);
+                                                }else{
+                                                    echo '<div style="height: 30px; background-size: contain; width: 30px; background-repeat: no-repeat; background-image: url('.esc_html(get_template_directory_uri().'/pd_assets/attrs/'.esc_attr($icon).'.svg').');" class="fa pd pd-' . esc_attr($icon) . '"></div>' . esc_html($term->name);
+                                                }
                                                 ?>
                                             </div>
-                                        </div>
                                     <?php }
                                 ?>
                             </div>
