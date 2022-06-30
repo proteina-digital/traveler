@@ -25,9 +25,11 @@ if ( !empty( $tour_programs ) ) {
                                 ?>
                                 <?php if(!empty( trim(balanceTags(nl2br($v['desc']))) )): ?>
                                     <div class="pd-program-item">
-                                        <h6><?php echo esc_html($v['title']); ?></h6>
-                                        <div class="body">
-                                            <?php echo balanceTags(nl2br($v['desc'])); ?>
+                                        <div>
+                                            <h6><?php echo esc_html($v['title']); ?></h6>
+                                            <div class="body">
+                                                <?php echo balanceTags(nl2br($v['desc'])); ?>
+                                            </div>
                                         </div>
                                     </div>
                                 <?php else: ?>
