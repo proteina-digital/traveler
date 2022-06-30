@@ -3,9 +3,10 @@ $all_attribute = TravelHelper::st_get_attribute_advance($post_type);
 
 if(is_array($all_attribute) && !empty($all_attribute)){ ?>
 
-    <h2 class="st-heading-section" ><?php echo __( 'What does this place offer?', 'traveler' ); ?></h2><?php
-
-
+    
+    <h2 class="st-heading-section pd-heading-section" ><?php echo __( 'What does this place offer?', 'traveler' ); ?></h2>
+    
+    <?php
     foreach ($all_attribute as $key_attr => $attr) {
         if(!empty($attr["value"])){
             $get_label_tax = get_taxonomy($attr["value"]);
@@ -16,7 +17,7 @@ if(is_array($all_attribute) && !empty($all_attribute)){ ?>
                 <?php
                     if(!empty($get_label_tax) && !empty($facilities)  ){ ?>
                         <h3 class="st-heading-section" id="heading<?php echo esc_attr($attr["value"]);?>">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?php echo esc_attr($attr["value"]);?>" aria-expanded="true" aria-controls="collapse<?php echo esc_attr($attr["value"]);?>">
+                            <button class="accordion-button pd-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?php echo esc_attr($attr["value"]);?>" aria-expanded="true" aria-controls="collapse<?php echo esc_attr($attr["value"]);?>">
                                 <?php echo esc_html($get_label_tax->label); ?>
                             </button>
                         </h3>
@@ -31,7 +32,7 @@ if(is_array($all_attribute) && !empty($all_attribute)){ ?>
                             <?php if ( $count > 9 ) echo 'data-show-all="st-'. esc_attr($attr["value"]) .'"
                             data-height="150"'; ?>
                             >
-                            <div class="row">
+                            <div class="row pd-attributes-row">
                                 <?php
     
                                     foreach ( $facilities as $term ) {
@@ -39,8 +40,8 @@ if(is_array($all_attribute) && !empty($all_attribute)){ ?>
                                         $icon_new = TravelHelper::handle_icon( get_tax_meta( $term->term_id, 'st_icon_new') );
                                         if ( !$icon ) $icon = "fa fa-cogs";
                                         ?>
-                                        <div class="col-xs-6 col-sm-4">
-                                            <div class="item d-flex align-items-center has-matchHeight">
+                                        <div> <!-- class="col-xs-6 col-sm-4" -->
+                                            <div class="item d-flex align-items-center has-matchHeight pd-single-attribute">
                                                 <?php
                                                     if ( !$icon_new ) {
                                                         echo '<i class="' . esc_attr($icon) . '"></i>' . esc_html($term->name);

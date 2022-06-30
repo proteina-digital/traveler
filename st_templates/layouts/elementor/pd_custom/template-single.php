@@ -153,7 +153,7 @@
                             <?php echo st()->load_template('layouts/elementor/pd_custom/attributes','',['post_type' => 'st_activity']);?>
 
                             <!--Tour Include/Exclude-->
-                            <?php echo st()->load_template('layouts/elementor/activity/single/item/include-exclude'); ?>
+                            <?php echo st()->load_template('layouts/elementor/pd_custom/include-exclude'); ?>
                             <!--End Tour Include/Exclude-->
 
                             <div class="st-hr large"></div>
