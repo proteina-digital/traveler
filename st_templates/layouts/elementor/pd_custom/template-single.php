@@ -442,6 +442,18 @@
                             <?php echo st()->load_template('layouts/elementor/activity/single/item/faq'); ?>
                             <!--End Tour FAQ-->
 
+
+
+                            <!-- INFORMATION CONTACT -->
+                            <?php
+                                $allow_partner = st()->get_option('setting_partner','off');
+                                if($allow_partner == 'on'){
+                                    ?>
+                                <?php echo st()->load_template('layouts/elementor/hotel/single/item/owner-info'); ?>
+                                <?php } 
+                                echo st()->load_template('layouts/modern/common/single/information-contact');
+                            ?>
+
                             
                             <div class="stoped-scroll-section"></div>
                         </div>
@@ -485,14 +497,7 @@
                                     }
                                     ?>
                                     
-                                    <?php
-                                        $allow_partner = st()->get_option('setting_partner','off');
-                                        if($allow_partner == 'on'){
-                                            ?>
-                                        <?php echo st()->load_template('layouts/elementor/hotel/single/item/owner-info'); ?>
-                                        <?php } 
-                                        echo st()->load_template('layouts/modern/common/single/information-contact');
-                                    ?>
+                                    
                                 </div>
                             </div>
                         </div>
