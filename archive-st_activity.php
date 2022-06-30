@@ -6,3 +6,5 @@
  * Time: 6:45 PM
  */
 get_template_part('search-activity');
+
+// adcionei um comentário
