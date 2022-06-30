@@ -16,7 +16,7 @@
                                 case 'st_activity':
                                     $current_pt_name = __( 'Restaurante', 'traveler' );
                                     break;
-                                case 'st_tour':
+                                case 'st_tours':
                                     $current_pt_name = __( 'Tour', 'traveler' );
                                     break;
                                 case 'st_hotel':
@@ -53,7 +53,7 @@
                                 // Restaurante = Por Mesa
                                     $per_type = __( 'per group', 'traveler' );
                                     break;
-                                case 'st_tour':
+                                case 'st_tours':
                                     $per_type = __( 'per group', 'traveler' );
                                     break;
                                 case 'st_hotel':
