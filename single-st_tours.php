@@ -17,7 +17,8 @@
             $style = st()->get_option('tours_layout_v2', 1);
         }
         if(check_using_elementor()){
-            echo st()->load_template( 'layouts/elementor/tour/single/single', $style );
+            echo st()->load_template( 'layouts/elementor/pd_custom/template-single', '' );
+            // echo st()->load_template( 'layouts/elementor/tour/single/single', $style );
         } else {
             echo st()->load_template( 'layouts/modern/tour/single/single', $style );
         }
