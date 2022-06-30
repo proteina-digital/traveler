@@ -197,6 +197,10 @@ img.wp-smiley,
         min-height: 317px;
     }
 
+    .pd-property-images .fotorama__loaded--img {
+        border-radius: 15px !important;
+    }
+
     .fotorama__thumb {
         width: 100% !important;
         height: 100% !important;
@@ -208,9 +212,7 @@ img.wp-smiley,
         height: 100% !important;
         width: 100% !important;
         padding-top: 5px !important;
-        border-radius: 15px !important;
     }
-
 
     /* ATTRIBUTES */
     #st-content-wrapper .st-heading-section, #st-content-wrapper .pd-heading-section {
@@ -224,16 +226,20 @@ img.wp-smiley,
     }
 
     #st-content-wrapper .pd-attributes-row {
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex !important;
     }
 
     #st-content-wrapper .st-attributes .item-attribute .item.pd-single-attribute,
     #collapseInExClude ul li.pd-single-attribute {
+        width: 50% !important;
         font-size: 16px;
         font-weight: 400;
         margin-bottom: 25px;
         color: #000;
+    }
+
+    #collapseInExClude ul li.pd-single-attribute {
+        width: 100% !important;
     }
 
     .st-program-list.pd-program-list{
