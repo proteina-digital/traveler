@@ -17,7 +17,8 @@
             $style = st()->get_option('hotel_single_layout_v2', '1');
         }
         if(check_using_elementor()){
-            echo st()->load_template( 'layouts/elementor/hotel/single/single-style', $style , ['style_single' => $style]);
+            // echo st()->load_template( 'layouts/elementor/hotel/single/single-style', $style , ['style_single' => $style]);
+            echo st()->load_template( 'layouts/elementor/pd_custom/template-hotel-single', '' ); // Carrega o layout customizado
         } else {
             echo st()->load_template( 'layouts/modern/hotel/single/single-style', $style );
         }
