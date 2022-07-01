@@ -69,16 +69,21 @@ while (have_posts()): the_post();
 
                     <div class="st-hr large"></div>
 
+                    <?php echo st()->load_template('layouts/elementor/hotel/single/item/list-room','',['post_id' => $post_id]); ?>
+
+                    <div class="st-hr large"></div>
+
                     <?php //echo st()->load_template('layouts/elementor/hotel/single/item/attributes','',['post_type' => 'st_hotel']);?>
                     <?php echo st()->load_template('layouts/elementor/pd_custom/attributes','',['post_type' => 'st_hotel']);?>
 
-                    marcador 1
-
-                    <?php echo st()->load_template('layouts/elementor/hotel/single/item/rules','',['post_id' => $post_id]); ?>
-                    <div class="st-hr large"></div>
+                    <?php echo st()->load_template('layouts/elementor/pd_custom/hotel-checkins','',['post_id' => $post_id]); ?>
+                    <?php echo st()->load_template('layouts/elementor/pd_custom/hotel-rules','',['post_id' => $post_id]); ?>
                     
-                    <?php echo st()->load_template('layouts/elementor/hotel/single/item/list-room','',['post_id' => $post_id]); ?>
                     <?php echo st()->load_template('layouts/elementor/hotel/single/item/review','',['post_id' => $post_id]); ?>
+
+                    <?php echo st()->load_template('layouts/elementor/hotel/single/item/owner-info'); ?>
+
+                    <?php echo st()->load_template('layouts/modern/common/single/information-contact'); ?>
                     <div class="stoped-scroll-section"></div>
                 </div>
                 <div class="col-12 col-md-3">
@@ -88,10 +93,7 @@ while (have_posts()): the_post();
                                 <?php echo TravelHelper::getNewIcon('Ico_close'); ?>
                             </div>
                             <?php echo st()->load_template('layouts/elementor/hotel/single/item/form-book','',['price' => $price]); ?>
-
-                            <?php echo st()->load_template('layouts/elementor/hotel/single/item/owner-info'); ?>
-
-                            <?php echo st()->load_template('layouts/modern/common/single/information-contact'); ?>
+                            
                         </div>
                     </div>
                 </div>
