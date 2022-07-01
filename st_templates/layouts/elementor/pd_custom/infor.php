@@ -4,7 +4,7 @@
         <?php $current_post_type = get_post_type(get_the_ID()); ?>
 
         <!-- TIPO -->
-        <div class="col-6 col-sm-3">
+         <div class="col-6 col-sm-3 pd-col-infor-items">
             <div class="pd-infor-items">
                 <div class="pd-infor-item pd-infor-item-icon">
                     <img height="35" alt="Tipo de Acomodação" src="<?php echo get_template_directory_uri(); ?>/pd_assets/casa.svg">
@@ -33,13 +33,14 @@
                     </p>
                 </div>
             </div>
+            <div class="pd-linha"></div>
         </div>
 
 
         <!-- TAMANHO -->
         <?php $max_people = get_post_meta( get_the_ID(), 'max_people', true ); ?>
         <?php if(!empty($max_people)): ?>
-        <div class="col-6 col-sm-3">
+        <div class="col-6 col-sm-3 pd-col-infor-items">
             <div class="pd-infor-items">
                 <div class="pd-infor-item pd-infor-item-icon">
                     <img height="35" alt="Tipo de Acomodação" src="<?php echo get_template_directory_uri(); ?>/pd_assets/grupo.svg">
@@ -75,6 +76,7 @@
                     </p>
                 </div>
             </div>
+            <div class="pd-linha"></div>
         </div>
         <?php endif; ?>
 
@@ -83,7 +85,7 @@
         <!-- CAMA/QUARTO -->
         <?php $bed_number = get_post_meta( get_the_ID(), 'bed_number', true ); ?>
         <?php if(!empty($bed_number) && ($current_post_type == 'st_hotel' || $current_post_type == 'hotel_room')): ?>
-        <div class="col-6 col-sm-3">
+        <div class="col-6 col-sm-3 pd-col-infor-items">
             <div class="pd-infor-items">
                 <div class="pd-infor-item pd-infor-item-icon">
                     <img height="35" alt="Tipo de Acomodação" src="<?php echo get_template_directory_uri(); ?>/pd_assets/quarto.svg">
@@ -94,6 +96,7 @@
                     </p>
                 </div>
             </div>
+            <div class="pd-linha"></div>
         </div>
         <?php endif; ?>
 
