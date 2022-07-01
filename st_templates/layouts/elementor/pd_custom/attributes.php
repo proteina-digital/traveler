@@ -1,7 +1,34 @@
 <?php
 $all_attribute = TravelHelper::st_get_attribute_advance($post_type);
 
-if(is_array($all_attribute) && !empty($all_attribute)){ ?>
+
+if(is_array($all_attribute) && !empty($all_attribute)){
+
+
+    $temp_array_num = array();
+    $temp_array_normal = array();
+
+    foreach ($all_attribute as $key_attr => $attr) {
+
+        $string_limpa = preg_replace('/\s/', '', $attr["label"]);
+        $primeiro_caractere = substr($string_limpa, 0, 1);
+
+        if (is_numeric($primeiro_caractere)) {
+            $attr["label"] = substr(trim($attr["label"]), 1);
+            $attr["label"] = str_replace('-', '', trim($attr["label"]));
+            $attr["label"] = trim($attr["label"]);
+            $temp_array_num[$primeiro_caractere] = $attr;
+        }else{
+            array_push($temp_array_normal, $attr);
+        }
+    }
+
+    ksort($temp_array_num);
+
+    $all_attribute = array_merge($temp_array_num, $temp_array_normal);
+?>
+
+
 
     
     <h2 class="st-heading-section pd-heading-section" ><?php echo __( 'What does this place offer?', 'traveler' ); ?></h2>
@@ -18,7 +45,13 @@ if(is_array($all_attribute) && !empty($all_attribute)){ ?>
                     if(!empty($get_label_tax) && !empty($facilities)  ){ ?>
                         <h3 class="st-heading-section" id="heading<?php echo esc_attr($attr["value"]);?>">
                             <button class="accordion-button pd-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?php echo esc_attr($attr["value"]);?>" aria-expanded="true" aria-controls="collapse<?php echo esc_attr($attr["value"]);?>">
-                                <?php echo esc_html($get_label_tax->label); ?>
+                                <?php
+                                    $attr_label = substr(trim(esc_html($get_label_tax->label)), 1);
+                                    $attr_label = str_replace('-', '', trim($attr_label));
+                                    $attr_label = trim($attr_label);
+
+                                    echo $attr_label;
+                                ?>
                             </button>
                         </h3>
                     <?php }
