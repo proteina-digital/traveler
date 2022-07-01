@@ -34,7 +34,8 @@
             }
             
             if(check_using_elementor()){
-                echo st()->load_template( 'layouts/elementor/hotel/single/single-room', $style );
+                // echo st()->load_template( 'layouts/elementor/hotel/single/single-room', $style );
+                echo st()->load_template( 'layouts/elementor/pd_custom/template-hotel-room-single', '' ); // Carrega o layout customizado
             } else {
                 echo st()->load_template( 'layouts/modern/hotel/single/single-room', $style );
             }

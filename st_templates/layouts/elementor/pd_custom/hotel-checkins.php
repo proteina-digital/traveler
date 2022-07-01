@@ -10,7 +10,7 @@
             <div class="row">
                 <?php if (!empty(get_post_meta($post_id, 'check_in_time', true)) && !empty(get_post_meta($post_id, 'check_out_time', true))) { ?>
                     <div class="col-lg-12">
-                        <ul class="include">
+                        <ul class="include pd-list-attributes">
                             <?php echo '<li class="pd-single-attribute">' . TravelHelper::getNewIcon('check-1', '#2ECC71', '14px', '14px', false) . esc_html__('Check In', 'traveler').': '.get_post_meta($post_id, 'check_in_time', true) . '</li>'; ?>
 
                             <?php echo '<li class="pd-single-attribute">' . TravelHelper::getNewIcon('check-1', '#2ECC71', '14px', '14px', false) . esc_html__('Check Out', 'traveler').': '.get_post_meta($post_id, 'check_out_time', true) . '</li>'; ?>

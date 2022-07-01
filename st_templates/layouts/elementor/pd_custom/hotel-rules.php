@@ -11,7 +11,7 @@
                 <?php $policies = get_post_meta($post_id, 'hotel_policy', true); ?>
                 <?php if ($policies) { ?>
                     <div class="col-lg-12">
-                        <ul class="include">
+                        <ul class="include pd-list-attributes">
                             <?php
                             foreach ($policies as $policy) {
                                 ?>
