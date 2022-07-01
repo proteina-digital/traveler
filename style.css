@@ -23,6 +23,10 @@ Version: 3.0.1
     --link-color-dark: #5191FA;
 }
 
+body{
+    font-family: "Montserrat", Sans-serif !important;
+}
+
 .sticky {
 }
 
@@ -429,7 +433,24 @@ img.wp-smiley,
 
 
 
+#main-footer{
+    background-color: #F9F9F9 !important;
+}
 
+.pd-menu-footer h5{
+    font-size: 17px !important;
+    color: #762D36 !important;
+    letter-spacing: -0.231818px;
+    margin-bottom: 20px !important;
+    font-weight: 700 !important;
+}
 
-
-
+.pd-menu-footer .menu li{}
+.pd-menu-footer .menu a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.204545px;
+    color: #000000;
+    margin-bottom: 15px !important;
+}
