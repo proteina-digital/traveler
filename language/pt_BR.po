@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-01 13:00-0300\n"
+"PO-Revision-Date: 2022-07-01 13:09-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -4268,7 +4268,7 @@ msgstr ""
 #: st_templates/search/content-search-bookingdc.php:31
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_sidebar.php:163
 msgid "Room(s)"
-msgstr ""
+msgstr "Quarto(s)"
 
 #: inc/admin/class.admin.hotel.php:360 inc/admin/class.admin.hotel.php:362
 #: inc/admin/class.admin.order.php:165 inc/admin/class.admin.rental.php:590
@@ -4296,7 +4296,7 @@ msgstr ""
 #: st_templates/user/user-dashboard.php:169
 #: st_templates/vc_params/st_dropdown.php:49
 msgid "Room"
-msgstr ""
+msgstr "Quarto"
 
 #: inc/admin/class.admin.hotel.php:364 inc/admin/class.admin.rental.php:594
 #: inc/layouts/modern/admin/class.admin.hotel.php:366
@@ -30821,7 +30821,7 @@ msgstr ""
 #: st_templates/layouts/modern/single_hotel/single-room.php:154
 #: st_templates/layouts/modern/single_hotel/single-room.php:399
 msgid "CHECK AVAILABILITY"
-msgstr ""
+msgstr "CHECAR DISPONIBILIDADE"
 
 #: inc/modules/hotel-alone/views/elements/st-room-discount-by-day-info/info.php:39
 #: st_templates/layouts/modern/tour/elements/search/single/extra-solo.php:66
@@ -31019,7 +31019,7 @@ msgstr ""
 #: st_templates/tours/elements/tabs-content/tab-request.php:65
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_sidebar.php:105
 msgid "Book"
-msgstr ""
+msgstr "Reservar"
 
 #: inc/modules/product/controllers/admin.php:57
 msgid "Product Options"
@@ -34563,7 +34563,7 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/single/single-style-2.php:594
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:722
 msgid "Check Availability"
-msgstr ""
+msgstr "Checar disponibilidade"
 
 #: inc/shortcodes/vc_map.php:1660
 msgid "Tab Align"
@@ -37076,7 +37076,7 @@ msgstr ""
 #: st_templates/hotel/elements/loop-room-item.php:299
 #: st_templates/layouts/modern/hotel/loop/room_item.php:114
 msgid "Show Price"
-msgstr ""
+msgstr "Ver Preço"
 
 #: inc/vc-elements/vc_map.php:5843
 msgid "Show Facilities"
@@ -37626,7 +37626,7 @@ msgstr ""
 #: language/english/all.php:326 language/english/modun/activity.php:26
 #: language/english/modun/general.php:128 language/english/modun/hotel.php:30
 msgid "of guests recommend"
-msgstr ""
+msgstr "dos hóspedes recomendam"
 
 #: language/english/all.php:28 language/english/all.php:312
 #: language/english/all.php:442 language/english/modun/activity.php:28
@@ -37637,7 +37637,7 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:563
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:788
 msgid "Traveler rating"
-msgstr ""
+msgstr "Classificação do viajante"
 
 #: language/english/all.php:33 language/english/all.php:230
 #: language/english/all.php:447 language/english/modun/activity.php:33
@@ -37656,7 +37656,7 @@ msgstr "Faça uma avaliação"
 #: st_templates/layouts/modern/single_hotel/single-room.php:207
 #: st_templates/layouts/modern/single_hotel/single-room.php:454
 msgid "Summary"
-msgstr ""
+msgstr "Resumo"
 
 #: language/english/all.php:36 language/english/modun/activity.php:36
 msgid "Activity Near"
@@ -39491,7 +39491,7 @@ msgstr ""
 
 #: language/english/modun/user.php:33
 msgid "Member Since"
-msgstr ""
+msgstr "Member desde"
 
 #: reviews/review-list.php:68
 #: st_templates/user/partner/partner-review-list-author.php:53
@@ -39738,7 +39738,7 @@ msgstr "Cancelamento"
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_sidebar.php:106
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_sidebar.php:345
 msgid "Inquiry"
-msgstr ""
+msgstr "Consulta"
 
 #: st_templates/activity/elements/form-book.php:130
 #: st_templates/activity/elements/form-book.php:151
@@ -41843,7 +41843,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/single/single-7.php:768
 #: st_templates/layouts/modern/tour/single/single-7.php:769
 msgid "Show All"
-msgstr ""
+msgstr "Ver tudo"
 
 #: st_templates/layouts/modern/activity/single/single-1.php:503
 #: st_templates/layouts/modern/activity/single/single-2.php:470
@@ -41997,7 +41997,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/single/single-4.php:1184
 #, php-format
 msgid "Member Since %s"
-msgstr ""
+msgstr "Member desde %s"
 
 #: st_templates/layouts/modern/activity/single/single-1.php:1201
 #: st_templates/layouts/modern/activity/single/single-2.php:1155
@@ -42990,7 +42990,7 @@ msgstr ""
 #: st_templates/layouts/modern/rental/single/single-1.php:835
 #: st_templates/layouts/modern/rental/single/single-2.php:841
 msgid "Owner"
-msgstr ""
+msgstr "Proprietário"
 
 #: st_templates/layouts/modern/hotel/single/single-style-1.php:48
 #: st_templates/layouts/modern/hotel/single/single-style-2.php:40
@@ -43003,13 +43003,13 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:375
 #, php-format
 msgid "100% of guests recommend"
-msgstr ""
+msgstr "100% dos hóspedes recomendam"
 
 #: st_templates/layouts/modern/hotel/single/single-style-1.php:351
 #: st_templates/layouts/modern/hotel/single/single-style-2.php:261
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:391
 msgid "Rules"
-msgstr ""
+msgstr "Informações"
 
 #: st_templates/layouts/modern/hotel/single/single-style-1.php:375
 #: st_templates/layouts/modern/hotel/single/single-style-2.php:392
@@ -43148,7 +43148,7 @@ msgstr ""
 
 #: st_templates/layouts/modern/page/author.php:71
 msgid "Member since "
-msgstr ""
+msgstr "Member desde "
 
 #: st_templates/layouts/modern/page/blog-solo.php:57
 msgid "LOAD MORE"
