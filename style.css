@@ -256,6 +256,7 @@ img.wp-smiley,
     }
 
     /* ATTRIBUTES */
+    
     #st-content-wrapper .st-heading-section, #st-content-wrapper .pd-heading-section {
         font-size: 30;
         font-weight: 500;
@@ -455,4 +456,14 @@ img.wp-smiley,
     letter-spacing: -0.204545px;
     color: #000000;
     margin-bottom: 15px !important;
+}
+
+.pd-list-attributes {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pd-list-attributes .pd-single-attribute i {
+    display: inline-block;
+    margin-right: 10px;
 }
