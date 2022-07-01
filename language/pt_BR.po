@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-01 12:31-0300\n"
+"PO-Revision-Date: 2022-07-01 12:38-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -4187,7 +4187,7 @@ msgstr ""
 #: inc/admin/class.admin.hotel.php:327
 #: inc/layouts/modern/admin/class.admin.hotel.php:329
 msgid "New Hotel"
-msgstr ""
+msgstr "Novo"
 
 #: inc/admin/class.admin.hotel.php:328 inc/class/class.user.php:12980
 #: inc/class/class.user.php:13116
@@ -4214,7 +4214,7 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/elements/sidebar.php:12
 #: st_templates/layouts/modern/tour/elements/search-form.php:10
 msgid "Search Hotels"
-msgstr ""
+msgstr "Pesquisar Hospedagens"
 
 #: inc/admin/class.admin.hotel.php:332
 #: inc/layouts/modern/admin/class.admin.hotel.php:334
@@ -12444,7 +12444,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.settings.php:4915
 #: inc/modules/hotel-alone/vc_map.php:491 inc/st-theme-options.php:1588
 msgid "Hotel Stars"
-msgstr ""
+msgstr "Estrelas"
 
 #: inc/admin/class.admin.settings.php:6817
 #: inc/layouts/modern/admin/class.admin.settings.php:4919
@@ -19391,7 +19391,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.hotel.php:1760
 #: inc/layouts/modern/class/class.user.php:7410
 msgid "No hotel found"
-msgstr ""
+msgstr "Nenhuma hospedagem encontrada"
 
 #: inc/class/class.hotel.php:417 inc/layouts/modern/class/class.hotel.php:759
 msgid "Can not fetch data"
@@ -21563,7 +21563,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:128
 #: inc/layouts/modern/configs/partner.php:3192
 msgid "Hotel Star"
-msgstr ""
+msgstr "Estrela"
 
 #: inc/class/class.user.php:5140 inc/class/class.user.php:8205
 #: inc/layouts/modern/class/class.user.php:4841
@@ -26184,7 +26184,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:7407
 #, php-format
 msgid "%s hotel found "
-msgstr ""
+msgstr "%s hospedagem encontrada "
 
 #: inc/layouts/modern/class/class.payment_gateways.php:390
 msgid "Your payment is incomplete."
@@ -26427,7 +26427,7 @@ msgstr ""
 #: st_templates/user/loop/loop-wishlist-hotel.php:48
 #: st_templates/vc-elements/st-location/location-list-hotel.php:83
 msgid "Hotel star"
-msgstr ""
+msgstr "Estrela"
 
 #: inc/layouts/modern/configs/partner.php:94
 #: inc/layouts/modern/configs/partner.php:466
@@ -26436,7 +26436,7 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/single/single-style-2.php:258
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:388
 msgid "Facilities"
-msgstr ""
+msgstr "Facilidades"
 
 #: inc/layouts/modern/configs/partner.php:106
 #: inc/layouts/modern/configs/partner.php:3170
@@ -26503,7 +26503,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/single/single-2.php:666
 #: st_templates/layouts/modern/tour/single/single-3.php:698
 msgid "Excellent"
-msgstr ""
+msgstr "Excelente"
 
 #: inc/layouts/modern/helpers-v2/hotel.helper.php:7
 #: inc/layouts/modern/travel-helper.php:5158
@@ -26530,7 +26530,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/single/single-2.php:677
 #: st_templates/layouts/modern/tour/single/single-3.php:709
 msgid "Very Good"
-msgstr ""
+msgstr "Muito Bom"
 
 #: inc/layouts/modern/helpers-v2/hotel.helper.php:9
 #: inc/layouts/modern/travel-helper.php:5160
@@ -26559,7 +26559,7 @@ msgstr ""
 #: st_templates/layouts/modern/woo/single-product-reviews.php:106
 #: woocommerce/single-product-reviews.php:128
 msgid "Average"
-msgstr ""
+msgstr "Na média"
 
 #: inc/layouts/modern/helpers-v2/hotel.helper.php:11
 #: inc/layouts/modern/travel-helper.php:5162
@@ -26586,7 +26586,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/single/single-2.php:699
 #: st_templates/layouts/modern/tour/single/single-3.php:731
 msgid "Poor"
-msgstr ""
+msgstr "Ruim"
 
 #: inc/layouts/modern/helpers/hotel.helper.php:944
 #: inc/layouts/modern/helpers/rental.helper.php:235
@@ -26824,7 +26824,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/single/single-2.php:710
 #: st_templates/layouts/modern/tour/single/single-3.php:742
 msgid "Terrible"
-msgstr ""
+msgstr "Terrível"
 
 #: inc/layouts/modern/travel-helper.php:5166
 #: inc/layouts/modern/travel-helper.php:5170 inc/travel-helper.php:5037
@@ -37612,7 +37612,7 @@ msgstr ""
 
 #: language/english/all.php:23 language/english/modun/activity.php:23
 msgid "Very good"
-msgstr ""
+msgstr "Muito bom"
 
 #: language/english/all.php:24 language/english/modun/activity.php:24
 msgid "Superior"
@@ -38996,7 +38996,7 @@ msgstr "Dias de Duração"
 
 #: language/english/all.php:560 language/english/modun/user.php:21
 msgid "average"
-msgstr ""
+msgstr "média"
 
 #: language/english/all.php:561 language/english/modun/user.php:22
 msgid "Add to Trip"
@@ -41050,7 +41050,7 @@ msgstr ""
 
 #: st_templates/hotel/elements/tabs-content/tabs-content.php:11
 msgid "FACILITIES"
-msgstr ""
+msgstr "FACILIDADES"
 
 #: st_templates/hotel/elements/tabs-content/tabs-content.php:12
 msgid "POLICIES"
@@ -42462,7 +42462,7 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/elements/toolbar.php:7
 #: st_templates/layouts/modern/hotel/elements/toolbar2.php:7
 msgid "New hotel"
-msgstr ""
+msgstr "Novo"
 
 #: st_templates/layouts/modern/car_transfer/single/single-1.php:237
 msgid "Car Features"
@@ -43854,7 +43854,7 @@ msgstr ""
 #: st_templates/layouts/modern/woo/single-product-reviews.php:108
 #: woocommerce/single-product-reviews.php:130
 msgid "Very poor"
-msgstr ""
+msgstr "Muito ruim"
 
 #: st_templates/layouts/modern/woo/single-product-reviews.php:112
 #: woocommerce/single-product-reviews.php:134
