@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-01 11:42-0300\n"
+"PO-Revision-Date: 2022-07-01 12:15-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -944,7 +944,7 @@ msgstr ""
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_facility.php:68
 #: st_templates/vc-elements/st-list-map-new/loop-adv/tour.php:68
 msgid "Price"
-msgstr ""
+msgstr "Preço"
 
 #: header-tour-modern.php:210 header-tour-modern.php:333
 #: st_templates/activity/cart_item_html.php:219
@@ -3973,7 +3973,7 @@ msgstr ""
 #: inc/admin/class.admin.cars.php:1391
 #: inc/layouts/modern/admin/class.admin.cars.php:1565
 msgid "From ( day/hour)"
-msgstr ""
+msgstr "De ( dia/hora)"
 
 #: inc/admin/class.admin.cars.php:1397
 #: inc/layouts/modern/admin/class.admin.cars.php:1571
@@ -4366,7 +4366,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.hotel.php:402
 #, php-format
 msgid "Search %s"
-msgstr ""
+msgstr "Buscar %s"
 
 #: inc/admin/class.admin.hotel.php:401 inc/admin/class.admin.rental.room.php:38
 #: inc/class.traveler.php:411
@@ -4997,7 +4997,7 @@ msgstr ""
 #: st_templates/vc-elements/st-info-owner/st-info-owner.php:60
 #: woocommerce/single-product-reviews.php:89
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: inc/admin/class.admin.order.php:48 inc/admin/class.admin.settings.php:9135
 #: inc/helpers/class.sthelper.php:1094
@@ -11182,7 +11182,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search-new/price.php:73
 #: st_templates/layouts/modern/tour/elements/search/advanced.php:63
 msgid "Filter Price"
-msgstr ""
+msgstr "Por Preço"
 
 #: inc/admin/class.admin.settings.php:4684 inc/st-theme-options.php:3611
 msgid "Location & Date Change Box"
@@ -11407,7 +11407,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search-new/location.php:33
 #: st_templates/layouts/modern/tour/elements/search/location.php:32
 msgid "Where are you going?"
-msgstr ""
+msgstr "Tem algo específico em mente?"
 
 #: inc/admin/class.admin.settings.php:5217
 #: inc/helpers/new_layout.helper.php:106 inc/helpers/new_layout.helper.php:777
@@ -14587,7 +14587,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:746
 #: inc/layouts/modern/admin/class.admin.tours.php:824
 msgid "New Tour"
-msgstr ""
+msgstr "Novo"
 
 #: inc/admin/class.admin.tours.php:747
 #: inc/layouts/modern/admin/class.admin.tours.php:825
@@ -14642,7 +14642,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.tours.php:855
 #: inc/layouts/modern/admin/class.admin.tours.php:869
 msgid "Tour Categories"
-msgstr ""
+msgstr "Tipo de Atividade"
 
 #: inc/admin/class.admin.tours.php:778
 #: inc/layouts/modern/admin/class.admin.tours.php:856
@@ -15324,7 +15324,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/top-filter/price.php:36
 #: st_templates/user/user-dashboard.php:388
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 #: inc/admin/class.stadmin.php:242 inc/class/class.car.transfer.php:341
 #: inc/helpers/new_layout.helper.php:166 inc/helpers/new_layout.helper.php:329
@@ -16410,7 +16410,7 @@ msgstr ""
 #: inc/admin/views/users_withdrawal/partner_profile.php:217
 #: inc/modules/flights/views/admin/booking_index.php:89
 msgid "Filter by Date from"
-msgstr ""
+msgstr "Filtrar por Data de chegada"
 
 #: inc/admin/views/activity/booking_index.php:95
 #: inc/admin/views/car/booking_index.php:99
@@ -16421,7 +16421,7 @@ msgstr ""
 #: inc/admin/views/users_withdrawal/partner_profile.php:219
 #: inc/modules/flights/views/admin/booking_index.php:95
 msgid "Filter by Date to"
-msgstr ""
+msgstr "Filtrar por Data de saída"
 
 #: inc/admin/views/activity/booking_index.php:101
 #: inc/admin/views/car/booking_index.php:101
@@ -17699,7 +17699,7 @@ msgstr ""
 #: st_templates/search/search-all-post-type/search-form.php:14
 #: st_templates/search/search-all-post-type/search-form.php:46
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: inc/admin/views/users/partner_index.php:253
 #: inc/admin/views/users/partner_top.php:195
@@ -18399,7 +18399,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.room.php:36
 #: inc/layouts/modern/class/class.tour.php:38
 msgid "Name (A-Z)"
-msgstr ""
+msgstr "Nome (A-Z)"
 
 #: inc/class/class.activity.php:61 inc/class/class.car.transfer.php:35
 #: inc/class/class.cars.php:52 inc/class/class.hotel.php:48
@@ -18412,7 +18412,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.room.php:40
 #: inc/layouts/modern/class/class.tour.php:42
 msgid "Name (Z-A)"
-msgstr ""
+msgstr "Nome (Z-A)"
 
 #: inc/class/class.activity.php:194 inc/class/class.activity.php:1102
 msgid "No activity found"
@@ -20499,7 +20499,7 @@ msgstr ""
 
 #: inc/class/class.tour.php:1215
 msgid "No tour found"
-msgstr ""
+msgstr "Nenhuma Atividade encontrada"
 
 #: inc/class/class.tour.php:1397 inc/layouts/modern/class/class.tour.php:1632
 msgid "This tour is not available.."
@@ -20779,7 +20779,7 @@ msgstr ""
 #: st_templates/search/content-search-tp-flight.php:28
 #: st_templates/tours/elements/stour-package-flight.php:23
 msgid "Destination"
-msgstr ""
+msgstr "Destino"
 
 #: inc/class/class.user.php:328 inc/class/class.user.php:10740
 #: inc/configs/partner.php:2922 inc/layouts/modern/class/class.user.php:269
@@ -26248,7 +26248,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.tour.php:1506
 #, php-format
 msgid "%s tour found"
-msgstr ""
+msgstr "%s atividade(s) encontrada(s)"
 
 #: inc/layouts/modern/class/class.tour.php:1509
 msgid "Could not find any tours"
@@ -26610,7 +26610,7 @@ msgstr ""
 #: st_templates/layouts/modern/car_transfer/elements/toolbar.php:75
 #: st_templates/layouts/modern/tour/elements/search/date.php:30
 msgid "From - To"
-msgstr ""
+msgstr "Checkin - Checkout"
 
 #: inc/layouts/modern/travel-helper.php:281
 #: inc/modules/hotel-alone/views/header/top-bar/nav-item-topbar/account.php:119
@@ -26893,7 +26893,7 @@ msgstr ""
 #: language/english/modun/traveler.php:13 reviews/reviews.php:123
 #: st_templates/layouts/modern/common/reviews/reviews.php:41
 msgid "Name*"
-msgstr ""
+msgstr "Nome*"
 
 #: inc/layouts/modern/travel-helper.php:5697
 msgid "Email*"
@@ -33535,7 +33535,7 @@ msgstr ""
 
 #: inc/shortcodes/email/email.php:678
 msgid "From - To: "
-msgstr ""
+msgstr "Checkin - Checkout: "
 
 #: inc/shortcodes/email/email.php:710 inc/shortcodes/email/email.php:725
 #: inc/shortcodes/email/email.php:1746 inc/shortcodes/email/email.php:1787
@@ -36937,7 +36937,7 @@ msgstr ""
 #: inc/vc-elements/vc_map.php:5745 inc/vc-elements/vc_map.php:5942
 #: inc/vc-elements/vc_map.php:6313 inc/vc-elements/vc_map.php:6736
 msgid "Sort By"
-msgstr ""
+msgstr "Ordenar por"
 
 #: inc/vc-elements/vc_map.php:5017
 msgid "ST Detailed Activity Gallery"
@@ -37418,7 +37418,7 @@ msgstr ""
 #: inc/widgets/st-search-tours/st-search-tours.php:275
 #: language/english/all.php:425 language/english/modun/rental.php:19
 msgid "Filter By:"
-msgstr ""
+msgstr "Filtrar por:"
 
 #: inc/widgets/st-search-activity/st-search-activity.php:327
 #: inc/widgets/st-search-cars/st-search-cars.php:327
@@ -37566,7 +37566,7 @@ msgstr ""
 #: language/english/all.php:468 language/english/modun/activity.php:8
 #: language/english/modun/car.php:18 language/english/modun/tour.php:9
 msgid "Filter By"
-msgstr ""
+msgstr "Filtrar por"
 
 #: language/english/all.php:10 language/english/all.php:79
 #: language/english/all.php:470 language/english/modun/activity.php:10
@@ -37588,7 +37588,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/content2.php:19
 #: st_templates/layouts/modern/tour/elements/top-filter/top-filter.php:26
 msgid "Sort"
-msgstr ""
+msgstr "Ordenar"
 
 #: language/english/all.php:12 language/english/all.php:81
 #: language/english/all.php:434 language/english/all.php:472
@@ -38019,7 +38019,7 @@ msgstr ""
 #: st_templates/layouts/modern/rental/rental_review_form.php:16
 #: st_templates/layouts/modern/tour/elements/tour_review_form.php:16
 msgid "Name *"
-msgstr ""
+msgstr "Nome*"
 
 #: language/english/all.php:178 language/english/all.php:521
 #: language/english/modun/general.php:42 language/english/modun/traveler.php:14
@@ -41212,7 +41212,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/cart-item.php:328
 #: st_templates/layouts/modern/tour/elements/sidebar/price.php:39
 msgid "APPLY"
-msgstr ""
+msgstr "APLICAR"
 
 #: st_templates/layouts/modern/activity/elements/cart-item.php:267
 #: st_templates/layouts/modern/hotel/elements/cart-item.php:208
@@ -41245,7 +41245,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/content2.php:24
 #: st_templates/layouts/modern/tour/elements/top-filter/top-filter.php:30
 msgid "SORT BY"
-msgstr ""
+msgstr "ORDENAR POR"
 
 #: st_templates/layouts/modern/activity/elements/content2.php:30
 #: st_templates/layouts/modern/activity/elements/top-filter/top-filter.php:37
@@ -41279,7 +41279,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/content2.php:32
 #: st_templates/layouts/modern/tour/elements/top-filter/top-filter.php:38
 msgid "High to Low"
-msgstr ""
+msgstr "Maior preço"
 
 #: st_templates/layouts/modern/activity/elements/content2.php:35
 #: st_templates/layouts/modern/activity/elements/top-filter/top-filter.php:42
@@ -41404,7 +41404,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search/advanced.php:22
 #: st_templates/layouts/modern/tour/elements/search/advanced.php:27
 msgid "More option"
-msgstr ""
+msgstr "Mais opções"
 
 #: st_templates/layouts/modern/activity/elements/sidebar.php:11
 msgid "SEARCH ACTIVITIES"
@@ -41426,7 +41426,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/sidebar.php:32
 #: st_templates/layouts/modern/tour/elements/top-filter/top-filter.php:11
 msgid "FILTER BY"
-msgstr ""
+msgstr "FILTRAR POR"
 
 #: st_templates/layouts/modern/activity/single/items/itenirary/style3.php:10
 #: st_templates/layouts/modern/tour/single/items/itenirary/style3.php:10
@@ -42077,7 +42077,7 @@ msgstr ""
 #: st_templates/layouts/modern/blog/search-form.php:5
 #: st_templates/layouts/modern/blog/search/category.php:5
 msgid "Categories"
-msgstr ""
+msgstr "Categorias"
 
 #: st_templates/layouts/modern/blog/single/loop/loop-image.php:24
 msgid "Default Image"
@@ -42149,7 +42149,7 @@ msgstr ""
 #: st_templates/layouts/modern/rental/elements/search/extra.php:24
 #: st_templates/layouts/modern/tp_hotel/search/extra.php:24
 msgid "More Option"
-msgstr ""
+msgstr "Mais opções"
 
 #: st_templates/layouts/modern/bookingdc/search/guest.php:17
 #: st_templates/layouts/modern/car/elements/search/guest.php:17
@@ -42315,7 +42315,7 @@ msgstr ""
 #: st_templates/layouts/modern/car/elements/top-filter/top-filter.php:37
 #: st_templates/layouts/modern/car_transfer/elements/top-filter/top-filter.php:37
 msgid "Low to Hight"
-msgstr ""
+msgstr "Menor preço"
 
 #: st_templates/layouts/modern/car/elements/top-filter/top-filter.php:38
 #: st_templates/layouts/modern/car_transfer/elements/top-filter/top-filter.php:38
@@ -43445,7 +43445,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/content2.php:27
 #: st_templates/layouts/modern/tour/elements/top-filter/top-filter.php:33
 msgid "New tour"
-msgstr ""
+msgstr "Novo"
 
 #: st_templates/layouts/modern/tour/elements/loop/grid.php:76
 #: st_templates/layouts/modern/tour/elements/loop/grid2.php:105
@@ -43508,7 +43508,7 @@ msgstr ""
 
 #: st_templates/layouts/modern/tour/elements/sidebar.php:11
 msgid "SEARCH TOURS"
-msgstr ""
+msgstr "BUSCAR PASSEIOS"
 
 #: st_templates/layouts/modern/tour/single/single-1.php:88
 #: st_templates/layouts/modern/tour/single/single-3.php:114
@@ -45134,7 +45134,7 @@ msgstr ""
 #: st_templates/user/user-booking-rental-email.php:48
 #: st_templates/user/user-booking-tours-email.php:47
 msgid "Filter by date"
-msgstr ""
+msgstr "Filtrar por data"
 
 #: st_templates/user/user-booking-activity-email.php:52
 #: st_templates/user/user-booking-cars-email.php:55
