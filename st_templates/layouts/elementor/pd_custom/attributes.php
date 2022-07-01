@@ -31,7 +31,7 @@ if(is_array($all_attribute) && !empty($all_attribute)){
 
 
     
-    <h2 class="st-heading-section pd-heading-section" ><?php echo __( 'What does this place offer?', 'traveler' ); ?></h2>
+    <h2 class="st-heading-section pd-heading-section" ><?php echo __( 'What does this place offer', 'traveler' ); ?></h2>
     
     <?php
     foreach ($all_attribute as $key_attr => $attr) {

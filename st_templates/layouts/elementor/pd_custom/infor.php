@@ -14,7 +14,7 @@
                         <?php
                             switch ($current_post_type) {
                                 case 'st_activity':
-                                    $current_pt_name = __( 'Restaurante', 'traveler' );
+                                    $current_pt_name = __( 'Restaurant', 'traveler' );
                                     break;
                                 case 'st_tours':
                                     $current_pt_name = __( 'Tour', 'traveler' );
@@ -59,7 +59,7 @@
                                     break;
                                 case 'st_hotel':
                                 case 'hotel_room':
-                                    $per_type = __( 'per hotel guest', 'traveler' );
+                                    $per_type = __( 'per guest', 'traveler' );
                                     break;
                                 
                                 default:
