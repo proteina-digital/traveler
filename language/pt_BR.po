@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-01 13:11-0300\n"
+"PO-Revision-Date: 2022-07-01 13:22-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -4359,7 +4359,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.hotel.php:398
 #: language/english/all.php:826 language/english/modun/user_create_room.php:8
 msgid "Room Type"
-msgstr ""
+msgstr "Tipo"
 
 #: inc/admin/class.admin.hotel.php:400 inc/admin/class.admin.rental.room.php:37
 #: inc/class.traveler.php:410
@@ -5794,7 +5794,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:837
 #: inc/layouts/modern/admin/class.admin.rental.php:838
 msgid "Max adults"
-msgstr ""
+msgstr "Max Adultos"
 
 #: inc/admin/class.admin.rental.php:872 inc/admin/class.admin.rental.php:873
 #: inc/layouts/modern/admin/class.admin.rental.php:845
@@ -6076,7 +6076,7 @@ msgstr "Número de adultos"
 #: inc/admin/class.admin.rental.room.php:139 inc/admin/class.admin.room.php:983
 #: inc/layouts/modern/admin/class.admin.room.php:1056
 msgid "Number of adults in room"
-msgstr ""
+msgstr "Número de adultos"
 
 #: inc/admin/class.admin.rental.room.php:143 inc/admin/class.admin.room.php:987
 #: inc/class/class.user.php:4600
@@ -6093,11 +6093,11 @@ msgstr ""
 #: inc/admin/class.admin.rental.room.php:150 inc/admin/class.admin.room.php:995
 #: inc/layouts/modern/admin/class.admin.room.php:1068
 msgid "Number of beds"
-msgstr ""
+msgstr "Número de camas"
 
 #: inc/admin/class.admin.rental.room.php:153
 msgid "Number of beds in room"
-msgstr ""
+msgstr "Número de camas no quarto"
 
 #: inc/admin/class.admin.rental.room.php:157
 #: inc/admin/class.admin.rental.room.php:158
@@ -6419,7 +6419,7 @@ msgstr ""
 #: inc/admin/class.admin.room.php:998
 #: inc/layouts/modern/admin/class.admin.room.php:1071
 msgid "Number of Beds in room"
-msgstr ""
+msgstr "Número de camas no quarto"
 
 #: inc/admin/class.admin.room.php:1003
 #: inc/layouts/modern/admin/class.admin.room.php:1084
@@ -19519,7 +19519,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.hotel.php:1581
 #: inc/layouts/modern/helpers/hotel.helper.php:50
 msgid "This room is not available."
-msgstr ""
+msgstr "Este quarto não está disponível."
 
 #: inc/class/class.hotel.php:1257 inc/class/class.hotel.php:1266
 #: inc/layouts/modern/class/class.hotel.php:195
@@ -20891,7 +20891,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:7872
 #: inc/layouts/modern/class/class.user.php:9755
 msgid "Beds Number"
-msgstr ""
+msgstr "Número de camas"
 
 #: inc/class/class.user.php:341 inc/class/class.user.php:938
 #: inc/class/class.user.php:1000 inc/configs/partner.php:459
@@ -23024,7 +23024,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:3584 language/english/all.php:837
 #: language/english/modun/user_create_room.php:19
 msgid "Number of Adults"
-msgstr ""
+msgstr "Número de adultos"
 
 #: inc/configs/partner.php:443 inc/layouts/modern/configs/partner.php:554
 #: inc/layouts/modern/configs/partner.php:3592 language/english/all.php:838
@@ -23048,7 +23048,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:3600 language/english/all.php:839
 #: language/english/modun/user_create_room.php:21
 msgid "Number of Beds"
-msgstr ""
+msgstr "Número de camas"
 
 #: inc/configs/partner.php:492 inc/layouts/modern/configs/partner.php:603
 #: inc/layouts/modern/configs/partner.php:3641
@@ -24831,7 +24831,7 @@ msgstr ""
 #: inc/layouts/modern/helpers/hotel.helper.php:61
 #, php-format
 msgid "per %d Person per %d Night(s)"
-msgstr ""
+msgstr "por %d Pessoa por %d Noite(s)"
 
 #: inc/helpers/hotel.helper.php:75 inc/helpers/hotel.helper.php:77
 #: inc/layouts/modern/helpers/hotel.helper.php:64
@@ -26171,8 +26171,8 @@ msgstr[1] ""
 #, php-format
 msgid "/night"
 msgid_plural "/%d nights"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "/noite"
+msgstr[1] "/%d noites"
 
 #: inc/layouts/modern/class/class.hotel.php:1755
 #: inc/layouts/modern/class/class.user.php:7405
@@ -30805,13 +30805,13 @@ msgstr ""
 #: inc/modules/hotel-alone/views/elements/st-reservation-content/style/style-2.php:185
 #, php-format
 msgid "/ %s nights"
-msgstr ""
+msgstr "/ %s noites"
 
 #: inc/modules/hotel-alone/views/elements/st-reservation-content/style/style-1.php:267
 #: inc/modules/hotel-alone/views/elements/st-reservation-content/style/style-2.php:189
 #, php-format
 msgid "/ %s night"
-msgstr ""
+msgstr "/ %s noite"
 
 #: inc/modules/hotel-alone/views/elements/st-reservation-room/st-form-search.php:59
 #: inc/modules/hotel-alone/views/header/top-bar/nav-item-topbar/form-book.php:65
@@ -30871,7 +30871,7 @@ msgstr ""
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-1.php:105
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-2.php:113
 msgid "BEDS"
-msgstr ""
+msgstr "CAMAS"
 
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-1.php:115
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-2.php:123
@@ -37847,7 +37847,7 @@ msgstr ""
 #: st_templates/vc-elements/st-rental-room/st_list_rental_room.php:88
 #: st_templates/vc-elements/st-rental-room/st_rental_room_header.php:61
 msgid "Beds"
-msgstr ""
+msgstr "Camas"
 
 #: language/english/all.php:127 language/english/modun/email.php:10
 msgid "Informtion"
@@ -38444,7 +38444,7 @@ msgstr ""
 #: st_templates/vc-elements/st-location/location-list-rental.php:114
 #: st_templates/vc-elements/st-simple-location/html.php:73
 msgid "night"
-msgstr ""
+msgstr "noite"
 
 #: language/english/all.php:267 language/english/all.php:311
 #: language/english/all.php:483 language/english/modun/general.php:131
@@ -38631,15 +38631,15 @@ msgstr ""
 #: st_templates/layouts/modern/rental/success_payment_item_row.php:70
 #, php-format
 msgid "%d Nights"
-msgstr ""
+msgstr "%d Noites"
 
 #: language/english/all.php:376 language/english/modun/hotel.php:80
 msgid "1 Night"
-msgstr ""
+msgstr "1 noite"
 
 #: language/english/all.php:377 language/english/modun/hotel.php:81
 msgid "per night"
-msgstr ""
+msgstr "por noite"
 
 #: language/english/all.php:380 language/english/all.php:455
 #: language/english/all.php:508 language/english/all.php:622
@@ -38796,7 +38796,7 @@ msgstr ""
 
 #: language/english/all.php:427 language/english/modun/rental.php:21
 msgid "nights"
-msgstr ""
+msgstr "noites"
 
 #: language/english/all.php:428 language/english/modun/rental.php:22
 msgid "Property"
@@ -38852,11 +38852,11 @@ msgstr ""
 #: language/english/all.php:458 language/english/modun/rental.php:52
 #, php-format
 msgid "%d nights"
-msgstr ""
+msgstr "%d noites"
 
 #: language/english/all.php:459 language/english/modun/rental.php:53
 msgid "1 night"
-msgstr ""
+msgstr "1 noite"
 
 #: language/english/all.php:462 language/english/modun/tour.php:3
 msgid "tours"
@@ -39311,7 +39311,7 @@ msgstr ""
 
 #: language/english/all.php:833 language/english/modun/user_create_room.php:15
 msgid "Price Per night"
-msgstr ""
+msgstr "Preço Por noite"
 
 #: language/english/all.php:834 language/english/modun/user_create_room.php:16
 msgid "Room external booking "
@@ -40904,7 +40904,7 @@ msgstr ""
 #: st_templates/hotel/elements/loop-room-item.php:260
 #, php-format
 msgid "/ %d person(s)/ %d night(s)"
-msgstr ""
+msgstr "/ %d pessoa(s)/ %d noite(s)"
 
 #: st_templates/hotel/elements/loop-room-item.php:263
 #: st_templates/layouts/modern/rental/elements/loop/halfmap-list.php:87
@@ -40912,7 +40912,7 @@ msgstr ""
 #: st_templates/layouts/modern/rental/elements/loop/normal-list.php:105
 #, php-format
 msgid "/ %d night(s)"
-msgstr ""
+msgstr "/ %d noite(s)"
 
 #: st_templates/hotel/elements/map_gallery_full_map.php:74
 #: st_templates/hotel/elements/map_gallery_full_mapbox.php:66
@@ -42186,8 +42186,8 @@ msgstr[1] "%s Adultos"
 #, php-format
 msgid "%s Child"
 msgid_plural "%s Children"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s Criança"
+msgstr[1] "%s Crianças"
 
 #: st_templates/layouts/modern/bookingdc/search/guest.php:25
 #: st_templates/layouts/modern/car/elements/popup/guest.php:14
@@ -42883,7 +42883,7 @@ msgstr ""
 
 #: st_templates/layouts/modern/hotel/loop/room_item.php:59
 msgid "No. Beds"
-msgstr ""
+msgstr "N. Camas"
 
 #: st_templates/layouts/modern/hotel/loop/room_item.php:109
 msgid "Room Detail"
@@ -42958,7 +42958,7 @@ msgstr ""
 #: st_templates/layouts/modern/rental/single/single-2.php:103
 #, php-format
 msgid "Beds: %s"
-msgstr ""
+msgstr "Camas: %s"
 
 #: st_templates/layouts/modern/hotel/single/single-house-1.php:161
 #: st_templates/layouts/modern/hotel/single/single-house-2.php:112
@@ -43215,7 +43215,7 @@ msgstr ""
 #: st_templates/rental/loop-list.php:147
 #, php-format
 msgid " %d night(s)"
-msgstr ""
+msgstr " %d noite(s)"
 
 #: st_templates/layouts/modern/rental/elements/none.php:1
 msgid "No rentals found."
@@ -43281,7 +43281,7 @@ msgstr ""
 
 #: st_templates/layouts/modern/single_hotel/elements/list-room-of-hotel.php:193
 msgid "PER NIGHT"
-msgstr ""
+msgstr "POR NOITE"
 
 #: st_templates/layouts/modern/single_hotel/elements/list-room-of-hotel.php:215
 #: st_templates/layouts/modern/single_hotel/elements/list-room-of-hotel.php:267
@@ -43305,7 +43305,7 @@ msgstr ""
 #: st_templates/layouts/modern/single_hotel/elements/loop/list.php:85
 #: st_templates/layouts/modern/single_hotel/room/facility.php:20
 msgid "No beds"
-msgstr ""
+msgstr "Sem camas"
 
 #: st_templates/layouts/modern/single_hotel/elements/loop/grid.php:90
 #: st_templates/layouts/modern/single_hotel/elements/loop/list.php:87
@@ -43319,7 +43319,7 @@ msgstr ""
 #: st_templates/layouts/modern/single_hotel/room/facility.php:24
 #, php-format
 msgid "%d beds"
-msgstr ""
+msgstr "%d camas"
 
 #: st_templates/layouts/modern/single_hotel/elements/loop/grid.php:101
 #: st_templates/layouts/modern/single_hotel/elements/loop/list.php:98
@@ -43998,7 +43998,7 @@ msgstr ""
 
 #: st_templates/rental/loop-grid.php:104
 msgid "night(s)"
-msgstr ""
+msgstr "noite(s)"
 
 #: st_templates/rental/success_payment_item_row.php:48
 msgid "Number of Adult: "
@@ -44665,7 +44665,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/woo/st_rental.php:105
 #: st_templates/user/detail-booking-history/woo/st_tours.php:120
 msgid "No. Adults :"
-msgstr ""
+msgstr "N. Adultos :"
 
 #: st_templates/user/detail-booking-history/hotel_room.php:95
 #: st_templates/user/detail-booking-history/st_activity.php:135
@@ -45869,7 +45869,7 @@ msgstr ""
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_space.php:21
 #: st_templates/vc-elements/st-rental-room/st_rental_room_header.php:63
 msgid "beds"
-msgstr ""
+msgstr "camas"
 
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_header.php:76
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_space.php:21
@@ -45913,7 +45913,7 @@ msgstr ""
 #: st_templates/vc-elements/st-last-minute-deal/html-st_hotel.php:36
 #, php-format
 msgid "from %s / night"
-msgstr ""
+msgstr "a partir de %s / noite"
 
 #: st_templates/vc-elements/st-last-minute-deal/html-st_activity.php:33
 #: st_templates/vc-elements/st-last-minute-deal/html-st_rental.php:28
@@ -45988,7 +45988,7 @@ msgstr ""
 #: st_templates/vc-elements/st-list-hotel/loop-grid2.php:66
 #, php-format
 msgid "from %s /night"
-msgstr ""
+msgstr "a partir de %s /noite"
 
 #: st_templates/vc-elements/st-list-hotel/loop-grid2.php:69
 #: st_templates/vc-elements/st-list-map/loop-adv/hotel.php:59
@@ -46017,7 +46017,7 @@ msgstr ""
 #: st_templates/vc-elements/st-list-map/loop/hotel.php:74
 #, php-format
 msgid "from %s/night"
-msgstr ""
+msgstr "a partir de %s/noite"
 
 #: st_templates/vc-elements/st-list-review/html.php:35
 msgid "All Reviews"
