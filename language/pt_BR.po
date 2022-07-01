@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-01 12:38-0300\n"
+"PO-Revision-Date: 2022-07-01 13:00-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -25552,7 +25552,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search/single/guest.php:9
 #: st_templates/layouts/modern/tour/elements/search/single/guest.php:11
 msgid "Age 18+"
-msgstr ""
+msgstr "Idade 18+"
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2751
 #: inc/layouts/modern/admin/class.admin.settings.php:2986
@@ -25566,7 +25566,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search/single/guest.php:14
 #: st_templates/layouts/modern/tour/elements/search/single/guest.php:18
 msgid "Age 6-17"
-msgstr ""
+msgstr "Idade 6-17"
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2758
 #: inc/layouts/modern/admin/class.admin.settings.php:2993
@@ -25580,7 +25580,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search/single/guest.php:20
 #: st_templates/layouts/modern/tour/elements/search/single/guest.php:24
 msgid "Age 0-5"
-msgstr ""
+msgstr "Idade 0-5"
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2765
 msgid "Icon Duration Single Activity"
