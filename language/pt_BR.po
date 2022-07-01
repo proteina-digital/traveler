@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-01 13:22-0300\n"
+"PO-Revision-Date: 2022-07-01 16:00-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
-"X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -44,7 +44,7 @@ msgstr ""
 #: 404.php:38 language/english/all.php:186
 #: language/english/modun/general.php:50
 msgid "to Homepage"
-msgstr ""
+msgstr "Voltar pra Home"
 
 #: author.php:34 template-partner-information.php:25
 msgid "Partner is not exists."
@@ -53,26 +53,26 @@ msgstr ""
 #: author.php:70 st_templates/user/user-alert_package.php:11
 #: template-package-success.php:83
 msgid "Partner Information"
-msgstr ""
+msgstr "Informação do Parceiro"
 
 #: author.php:127 st_templates/layouts/modern/page/author.php:80
 #: st_templates/user/partner/partner-info-inpost.php:56
 #: st_templates/user/partner/partner-info.php:66
 msgid "Email: "
-msgstr ""
+msgstr "Email:"
 
 #: author.php:133 inc/shortcodes/email/email.php:2257
 #: st_templates/layouts/modern/page/author.php:85
 #: st_templates/user/partner/partner-info-inpost.php:62
 #: st_templates/user/partner/partner-info.php:72
 msgid "Phone: "
-msgstr ""
+msgstr "Telefone:"
 
 #: author.php:140 st_templates/layouts/modern/page/author.php:92
 #: st_templates/user/partner/partner-info-inpost.php:69
 #: st_templates/user/partner/partner-info.php:79
 msgid "Email Paypal: "
-msgstr ""
+msgstr "Email Paypal:"
 
 #: author.php:148 st_templates/layouts/modern/page/author.php:100
 #: st_templates/user/partner/partner-info-inpost.php:77
@@ -92,7 +92,7 @@ msgstr ""
 #: st_templates/user/partner/partner-info-inpost.php:87
 #: st_templates/user/partner/partner-info.php:96
 msgid "Address: "
-msgstr ""
+msgstr "Endereço:"
 
 #: author.php:177 inc/admin/views/users/partner_index.php:193
 #: inc/admin/views/users/partner_index.php:553
@@ -101,7 +101,7 @@ msgstr ""
 #: st_templates/user/partner/partner-info.php:116
 #: st_templates/user/user-verify_user.php:25 template-user.php:549
 msgid "Verifications"
-msgstr ""
+msgstr "Verificação"
 
 #: author.php:179 inc/admin/class.admin.activity.php:894
 #: inc/admin/class.admin.tours.php:994
@@ -112,14 +112,14 @@ msgstr ""
 #: st_templates/user/partner/partner-info-inpost.php:106
 #: st_templates/user/partner/partner-info.php:118
 msgid "Phone number"
-msgstr ""
+msgstr "Telefone:"
 
 #: author.php:180 st_templates/layouts/modern/page/author.php:148
 #: st_templates/user/partner/partner-info-inpost.php:107
 #: st_templates/user/partner/partner-info.php:119
 #: st_templates/user/user-verify_user.php:94
 msgid "ID Card"
-msgstr ""
+msgstr "Número do Cartão"
 
 #: author.php:181 st_templates/layouts/modern/page/author.php:162
 #: st_templates/user/partner/partner-info-inpost.php:108
@@ -127,7 +127,7 @@ msgstr ""
 #: st_templates/user/user-verify_user.php:137
 #: st_templates/user/verify/info.php:189
 msgid "Travel Certificate"
-msgstr ""
+msgstr "Certificado de viagem"
 
 #: author.php:182 inc/admin/class.admin.cars.php:1216
 #: inc/admin/class.admin.settings.php:2098
@@ -188,21 +188,21 @@ msgstr ""
 #: woocommerce/order/order-details.php:119
 #: woocommerce/single-product-reviews.php:95
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: author.php:183 st_templates/layouts/modern/page/author.php:190
 #: st_templates/user/partner/partner-info-inpost.php:110
 #: st_templates/user/partner/partner-info.php:122
 msgid "Social media"
-msgstr ""
+msgstr "Midia Social"
 
 #: author.php:196 st_templates/user/partner/partner-info.php:135
 msgid "Author's description"
-msgstr ""
+msgstr "Descrição do autor"
 
 #: author.php:204
 msgid "Partner's Service"
-msgstr ""
+msgstr "Serviço de Parceiro"
 
 #: author.php:222 inc/admin/class.admin.hotel.php:322
 #: inc/admin/class.admin.hotel.php:324 inc/admin/class.admin.hotel.php:1140
@@ -269,7 +269,7 @@ msgstr ""
 #: st_templates/user/user-wishlist.php:119
 #: st_templates/vc_params/st_dropdown.php:40 template-user.php:317
 msgid "Hotel"
-msgstr ""
+msgstr "Hotel"
 
 #: author.php:225 inc/admin/class.admin.settings.php:1548
 #: inc/admin/class.admin.settings.php:8772 inc/admin/class.admin.tours.php:741
@@ -445,7 +445,7 @@ msgstr "Gastronomia & Vinícolas"
 #: st_templates/user/user-wishlist.php:333
 #: st_templates/vc_params/st_dropdown.php:34 template-user.php:433
 msgid "Car"
-msgstr ""
+msgstr "Carro"
 
 #: author.php:234 inc/admin/class.admin.order.php:168
 #: inc/admin/class.admin.rental.php:550 inc/admin/class.admin.rental.php:551
@@ -511,7 +511,7 @@ msgstr ""
 #: st_templates/user/user-wishlist.php:278
 #: st_templates/vc_params/st_dropdown.php:43 template-user.php:468
 msgid "Rental"
-msgstr ""
+msgstr "Aluguel"
 
 #: author.php:237 inc/admin/class.admin.settings.php:1564
 #: inc/admin/class.admin.settings.php:8780
@@ -537,7 +537,7 @@ msgstr ""
 #: st_templates/user/profile-page/list_review.php:39
 #: st_templates/user/user-dashboard.php:274 template-user.php:515
 msgid "Flight"
-msgstr ""
+msgstr "Vôo"
 
 #: author.php:253 inc/shortcodes/vc_map.php:1652 language/english/all.php:221
 #: language/english/modun/general.php:85
@@ -615,24 +615,24 @@ msgstr ""
 #: st_templates/user/partner/partner-list-services.php:91
 #: woocommerce/single-product-reviews.php:37
 msgid "Reviews"
-msgstr ""
+msgstr "Avaliação"
 
 #: author.php:317 language/english/all.php:711
 #: language/english/modun/user_create_car.php:34
 #: st_templates/layouts/modern/page/elements/partner-service.php:109
 #: st_templates/user/partner/partner-list-services.php:155
 msgid "No data"
-msgstr ""
+msgstr "Sem data"
 
 #: author.php:336
 #: st_templates/layouts/modern/page/elements/partner-service.php:133
 #: st_templates/user/partner/partner-list-services.php:174
 msgid "No partner services!"
-msgstr ""
+msgstr "Sem serviços "
 
 #: author.php:388 st_templates/user/partner/partner-average-rating.php:71
 msgid "Average rating"
-msgstr ""
+msgstr "Classificação"
 
 #: author.php:403 st_templates/user/partner/partner-average-rating.php:94
 #, php-format
@@ -659,26 +659,26 @@ msgstr[1] ""
 #: comments.php:48 language/english/all.php:167
 #: language/english/modun/general.php:31
 msgid "Comment navigation"
-msgstr ""
+msgstr "Comentários "
 
 #: comments.php:54 language/english/all.php:170
 #: language/english/modun/general.php:34
 msgid "Comments are closed."
-msgstr ""
+msgstr "Comentários encerrados"
 
 #: footer-hotel-activity.php:11 footer-hotel-alone.php:28
 msgid "http://wordpress.org/"
-msgstr ""
+msgstr "http://wordpress.org/"
 
 #: footer-hotel-activity.php:11 footer-hotel-alone.php:28
 #, php-format
 msgid "Proudly powered by %s"
-msgstr ""
+msgstr "Desenvolvido por %s"
 
 #: footer-hotel-activity.php:13 footer-hotel-alone.php:30
 #, php-format
 msgid "Theme: %1$s by %2$s."
-msgstr ""
+msgstr "Tema: %1$s by %2$s."
 
 #: footer.php:38 st_templates/layouts/modern/common/footer-member.php:16
 #: st_templates/layouts/modern/common/footer.php:22
@@ -687,11 +687,11 @@ msgstr ""
 
 #: footer.php:49 footer.php:56
 msgid "Go to top"
-msgstr ""
+msgstr "Ir para o topo"
 
 #: footer.php:50
 msgid "TOP"
-msgstr ""
+msgstr "TOPO"
 
 #: header-hotel-activity.php:54 header-hotel-activity.php:68
 #: header-hotel-activity.php:133 header-hotel-activity.php:200
@@ -703,13 +703,13 @@ msgstr ""
 #: inc/modules/hotel-alone/views/header/menu/style/style_3.php:13
 #: inc/modules/hotel-alone/views/header/top-bar/top-bar-scroll.php:37
 msgid "logo"
-msgstr ""
+msgstr "logo"
 
 #: header-hotel-activity.php:118 header-hotel-activity.php:415
 #: header-hotel-activity.php:472
 #: st_templates/layouts/modern/single_hotel/single-room.php:469
 msgid "BOOK YOUR STAY"
-msgstr ""
+msgstr "FAÇA SUA RESERVA"
 
 #: header-hotel-activity.php:165 inc/admin/class.admin.settings.php:583
 #: inc/layouts/modern/admin/class.admin.settings.php:739
@@ -717,11 +717,11 @@ msgstr ""
 #: inc/modules/hotel-alone/views/elements/st-share/share.php:13
 #: inc/vc-elements/vc_map.php:2665
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: header-hotel-activity.php:172 inc/vc-elements/vc_map.php:2686
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: header-hotel-activity.php:179 inc/admin/class.admin.settings.php:639
 #: inc/layouts/modern/admin/class.admin.settings.php:795
@@ -729,13 +729,13 @@ msgstr ""
 #: inc/modules/hotel-alone/views/elements/st-share/share.php:15
 #: inc/vc-elements/vc_map.php:2672
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: header-tour-modern.php:159 header-tour-modern.php:250
 #: st_templates/layouts/modern/common/header/topbar-items/cart.php:34
 #: st_templates/layouts/modern/common/header/topbar-items/cart.php:124
 msgid "Your Cart"
-msgstr ""
+msgstr "Carrinho"
 
 #: header-tour-modern.php:200 header-tour-modern.php:288
 #: inc/admin/class.admin.activity.php:1121
@@ -973,14 +973,14 @@ msgstr "Preço"
 #: st_templates/tours/cart_item_html.php:334
 #: woocommerce/checkout/review-order.php:94
 msgid "Subtotal"
-msgstr ""
+msgstr "Subtotal"
 
 #: header-tour-modern.php:215
 #: st_templates/layouts/modern/common/header/topbar-items/cart.php:90
 #: st_templates/menu/shopping_cart.php:88
 #: st_templates/menu/shopping_cart.php:182
 msgid "Remove Cart"
-msgstr ""
+msgstr "Remover do carrinho"
 
 #: header-tour-modern.php:218 header-tour-modern.php:337
 #: inc/admin/class.admin.order.php:57 inc/admin/class.admin.settings.php:9108
@@ -1035,13 +1035,13 @@ msgstr ""
 #: st_templates/user/user-add-hotel-room-booking.php:223
 #: st_templates/user/user-add-rental-booking.php:220
 msgid "Check Out"
-msgstr ""
+msgstr "Sair"
 
 #: header-tour-modern.php:223 header-tour-modern.php:342
 #: st_templates/layouts/modern/common/header/topbar-items/cart.php:98
 #: st_templates/layouts/modern/common/header/topbar-items/cart.php:212
 msgid "Your cart is empty"
-msgstr ""
+msgstr "Seu carrinho está vazio"
 
 #: inc/admin/class.admin.activity.php:55 inc/admin/class.admin.cars.php:57
 #: inc/admin/class.admin.hotel.php:58 inc/admin/class.admin.rental.php:55
@@ -1052,7 +1052,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:55
 #: inc/layouts/modern/admin/class.admin.tours.php:51
 msgid "Email sent"
-msgstr ""
+msgstr "Email enviado"
 
 #: inc/admin/class.admin.activity.php:245 inc/admin/class.admin.rental.php:243
 #: inc/admin/class.admin.room.php:265 inc/admin/class.admin.tours.php:293
@@ -1063,7 +1063,7 @@ msgstr ""
 #: inc/modules/flights/controllers/flight_controller.php:127
 #: inc/plugins/ot-custom/fields/inventory/views/index.php:45
 msgid "Bulk Edit"
-msgstr ""
+msgstr "Editar "
 
 #: inc/admin/class.admin.activity.php:399
 #: inc/admin/class.admin.activity.php:404
@@ -1084,7 +1084,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/st_activity.php:70
 #: st_templates/user/detail-booking-history/woo/st_activity.php:68
 msgid "Daily Activity"
-msgstr ""
+msgstr "Atividade diária"
 
 #: inc/admin/class.admin.activity.php:407
 #: inc/admin/class.admin.activity.php:412
@@ -1119,7 +1119,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/woo/st_activity.php:70
 #: st_templates/user/detail-booking-history/woo/st_tours.php:76
 msgid "Specific Date"
-msgstr ""
+msgstr "Data Específica"
 
 #: inc/admin/class.admin.activity.php:441
 #: inc/admin/class.admin.packages.php:620 inc/admin/class.admin.tours.php:494
@@ -1170,7 +1170,7 @@ msgstr ""
 #: st_templates/user/user-setting.php:121 template-checkout-packages-new.php:39
 #: template-checkout-packages-new.php:40
 msgid "Unlimited"
-msgstr ""
+msgstr "Ilimitado"
 
 #: inc/admin/class.admin.activity.php:678 inc/admin/class.admin.cars.php:840
 #: inc/admin/class.admin.hotel.php:325 inc/admin/class.admin.hotel.php:363
@@ -1238,14 +1238,14 @@ msgstr ""
 #: inc/widgets/st-search-tours/st-search-tours.php:327
 #: st_templates/user/user-update-info-partner.php:193
 msgid "Add New"
-msgstr ""
+msgstr "Adicionar novo"
 
 #: inc/admin/class.admin.activity.php:679
 #: inc/layouts/modern/admin/class.admin.activity.php:679
 #: st_templates/user/user-my-activity.php:16
 #: st_templates/user/user-my-activity.php:76
 msgid "Add New Activity"
-msgstr ""
+msgstr "Adicionar nova atividade"
 
 #: inc/admin/class.admin.activity.php:680
 #: inc/layouts/modern/admin/class.admin.activity.php:680
@@ -1256,48 +1256,48 @@ msgstr "Novo"
 #: inc/layouts/modern/admin/class.admin.activity.php:681
 #: st_templates/user/user-edit-activity.php:23
 msgid "Edit Activity"
-msgstr ""
+msgstr "Editar Atividade"
 
 #: inc/admin/class.admin.activity.php:682
 #: inc/layouts/modern/admin/class.admin.activity.php:682
 msgid "View Activity"
-msgstr ""
+msgstr "Visualizar Atividade"
 
 #: inc/admin/class.admin.activity.php:683
 #: inc/layouts/modern/admin/class.admin.activity.php:683
 msgid "All Activity"
-msgstr ""
+msgstr "Todas as Atividades"
 
 #: inc/admin/class.admin.activity.php:684
 #: inc/layouts/modern/admin/class.admin.activity.php:684
 #: st_templates/user/user-my-activity.php:29
 msgid "Search Activity"
-msgstr ""
+msgstr "Procurar Atividade"
 
 #: inc/admin/class.admin.activity.php:685
 #: inc/layouts/modern/admin/class.admin.activity.php:685
 msgid "Parent Activity:"
-msgstr ""
+msgstr "Atividade"
 
 #: inc/admin/class.admin.activity.php:686
 #: inc/layouts/modern/admin/class.admin.activity.php:686
 msgid "No Activity found."
-msgstr ""
+msgstr "Atividade não encontrada."
 
 #: inc/admin/class.admin.activity.php:687
 #: inc/layouts/modern/admin/class.admin.activity.php:687
 msgid "No Activity found in Trash."
-msgstr ""
+msgstr "Atividade não encontrada no lixo."
 
 #: inc/admin/class.admin.activity.php:688
 #: inc/layouts/modern/admin/class.admin.activity.php:688
 msgid "Insert into Activity"
-msgstr ""
+msgstr "Inserir em Atividade"
 
 #: inc/admin/class.admin.activity.php:689
 #: inc/layouts/modern/admin/class.admin.activity.php:689
 msgid "Uploaded to this Activity"
-msgstr ""
+msgstr "Enviado para essa Atividade"
 
 #: inc/admin/class.admin.activity.php:690 inc/admin/class.admin.cars.php:852
 #: inc/admin/class.admin.hotel.php:337 inc/admin/class.admin.hotel.php:375
@@ -1314,7 +1314,7 @@ msgstr ""
 #: inc/mega-menu/class.megamenu-posttype.php:36
 #: inc/modules/flights/controllers/flight_controller.php:1173
 msgid "Feature Image"
-msgstr ""
+msgstr "Imagem"
 
 #: inc/admin/class.admin.activity.php:691 inc/admin/class.admin.cars.php:853
 #: inc/admin/class.admin.hotel.php:338 inc/admin/class.admin.hotel.php:376
@@ -1331,12 +1331,12 @@ msgstr ""
 #: inc/mega-menu/class.megamenu-posttype.php:37
 #: inc/modules/flights/controllers/flight_controller.php:1175
 msgid "Set featured image"
-msgstr ""
+msgstr "Definir imagem"
 
 #: inc/admin/class.admin.activity.php:722
 #: inc/layouts/modern/admin/class.admin.activity.php:722
 msgid "Activity Setting"
-msgstr ""
+msgstr "Configuração de Atividades"
 
 #: inc/admin/class.admin.activity.php:728 inc/admin/class.admin.cars.php:987
 #: inc/admin/class.admin.hotel.php:440 inc/admin/class.admin.order.php:40
@@ -1395,27 +1395,27 @@ msgstr ""
 #: st_templates/tours/elements/list-info/list-info.php:58
 #: st_templates/user/user-add-car-booking.php:168
 msgid "Location"
-msgstr ""
+msgstr "Localização"
 
 #: inc/admin/class.admin.activity.php:733
 #: inc/layouts/modern/admin/class.admin.activity.php:733
 msgid "Activity location"
-msgstr ""
+msgstr "Local da Atividade"
 
 #: inc/admin/class.admin.activity.php:737
 #: inc/layouts/modern/admin/class.admin.activity.php:737
 msgid "Select one or more location for your activity"
-msgstr ""
+msgstr "Selecione um ou mais locais para sua atividade"
 
 #: inc/admin/class.admin.activity.php:740
 #: inc/layouts/modern/admin/class.admin.activity.php:740
 msgid "Real activity address "
-msgstr ""
+msgstr "Endereço real da atividade"
 
 #: inc/admin/class.admin.activity.php:743
 #: inc/layouts/modern/admin/class.admin.activity.php:743
 msgid "Input your activity address detail"
-msgstr ""
+msgstr "Insira o endereço de atividade detalhado"
 
 #: inc/admin/class.admin.activity.php:746 inc/admin/class.admin.cars.php:1005
 #: inc/admin/class.admin.hotel.php:459 inc/admin/class.admin.rental.php:709
@@ -1426,7 +1426,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:716
 #: inc/layouts/modern/admin/class.admin.tours.php:923
 msgid "Location on map"
-msgstr ""
+msgstr "Localização no mapa"
 
 #: inc/admin/class.admin.activity.php:750 inc/admin/class.admin.cars.php:1009
 #: inc/admin/class.admin.hotel.php:463
@@ -1434,7 +1434,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.cars.php:1147
 #: inc/layouts/modern/admin/class.admin.hotel.php:465
 msgid "Select one location on map to see latiture and longiture"
-msgstr ""
+msgstr "Selecione uma localização no mapa para ver longitude e latitude"
 
 #: inc/admin/class.admin.activity.php:753 inc/admin/class.admin.cars.php:1012
 #: inc/admin/class.admin.hotel.php:466 inc/admin/class.admin.rental.php:716
@@ -1458,7 +1458,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5413
 #: inc/layouts/modern/configs/partner.php:5857
 msgid "Properties near by"
-msgstr ""
+msgstr "Propriedade perto"
 
 #: inc/admin/class.admin.activity.php:756 inc/admin/class.admin.cars.php:1015
 #: inc/admin/class.admin.hotel.php:469 inc/admin/class.admin.rental.php:719
@@ -1469,7 +1469,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:726
 #: inc/layouts/modern/admin/class.admin.tours.php:932
 msgid "Properties near by this hotel"
-msgstr ""
+msgstr "Propriedades perto do hotel"
 
 #: inc/admin/class.admin.activity.php:760 inc/admin/class.admin.cars.php:1019
 #: inc/admin/class.admin.hotel.php:473 inc/admin/class.admin.rental.php:723
@@ -1513,7 +1513,7 @@ msgstr ""
 #: st_templates/user/edit/user-create-location.php:103
 #: st_templates/user/user-create-location.php:109
 msgid "Featured Image"
-msgstr ""
+msgstr "Imagem"
 
 #: inc/admin/class.admin.activity.php:765 inc/admin/class.admin.cars.php:1024
 #: inc/admin/class.admin.hotel.php:478 inc/admin/class.admin.rental.php:728
@@ -1673,7 +1673,7 @@ msgstr "Descrição"
 #: inc/layouts/modern/admin/class.admin.rental.php:741
 #: inc/layouts/modern/admin/class.admin.tours.php:947
 msgid "Map icon"
-msgstr ""
+msgstr "Ícone do mapa"
 
 #: inc/admin/class.admin.activity.php:776 inc/admin/class.admin.cars.php:1035
 #: inc/admin/class.admin.hotel.php:489 inc/admin/class.admin.rental.php:739
@@ -1684,7 +1684,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:746
 #: inc/layouts/modern/admin/class.admin.tours.php:952
 msgid "Map lat"
-msgstr ""
+msgstr "Mapa lat"
 
 #: inc/admin/class.admin.activity.php:781 inc/admin/class.admin.cars.php:1040
 #: inc/admin/class.admin.hotel.php:494 inc/admin/class.admin.rental.php:744
@@ -1695,7 +1695,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:751
 #: inc/layouts/modern/admin/class.admin.tours.php:957
 msgid "Map long"
-msgstr ""
+msgstr "Mapa long"
 
 #: inc/admin/class.admin.activity.php:787 inc/admin/class.admin.cars.php:1046
 #: inc/admin/class.admin.rental.php:750 inc/admin/class.admin.tours.php:886
@@ -1704,7 +1704,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:757
 #: inc/layouts/modern/admin/class.admin.tours.php:963
 msgid "Street view mode"
-msgstr ""
+msgstr "Street View"
 
 #: inc/admin/class.admin.activity.php:790 inc/admin/class.admin.cars.php:1049
 #: inc/admin/class.admin.hotel.php:503 inc/admin/class.admin.rental.php:753
@@ -1712,7 +1712,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.cars.php:1187
 #: inc/layouts/modern/admin/class.admin.rental.php:760
 msgid "Turn on/off streetview mode for this location"
-msgstr ""
+msgstr "Ligar/desligar streetview para essa localidade"
 
 #: inc/admin/class.admin.activity.php:794
 #: inc/admin/class.admin.rental.room.php:103 inc/admin/class.admin.room.php:712
@@ -1735,12 +1735,12 @@ msgstr ""
 #: language/english/modun/user_create_activity.php:8
 #: language/english/modun/user_create_tour.php:7
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #: inc/admin/class.admin.activity.php:799
 #: inc/layouts/modern/admin/class.admin.activity.php:799
 msgid "Set activity as feature"
-msgstr ""
+msgstr "Definir atividade"
 
 #: inc/admin/class.admin.activity.php:802
 #: inc/layouts/modern/admin/class.admin.activity.php:802
@@ -6978,7 +6978,7 @@ msgstr ""
 #: st_templates/user/user-create-location.php:23
 #: st_templates/user/user-create-location.php:25
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: inc/admin/class.admin.settings.php:589
 #: inc/layouts/modern/admin/class.admin.settings.php:745
@@ -11407,7 +11407,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search-new/location.php:33
 #: st_templates/layouts/modern/tour/elements/search/location.php:32
 msgid "Where are you going?"
-msgstr "Lugar específico?"
+msgstr "Para onde você vai?"
 
 #: inc/admin/class.admin.settings.php:5217
 #: inc/helpers/new_layout.helper.php:106 inc/helpers/new_layout.helper.php:777
@@ -14930,7 +14930,7 @@ msgstr ""
 #: st_templates/email/booking_infomation_rental.php:63
 #: st_templates/email/booking_infomation_tours.php:68
 msgid "Information"
-msgstr ""
+msgstr "Informação"
 
 #: inc/admin/class.admin.tours.php:1297 inc/class/class.user.php:4057
 #: inc/layouts/modern/admin/class.admin.tours.php:1411
@@ -15231,7 +15231,7 @@ msgstr "Criança: "
 #: inc/layouts/modern/helpers/availability.helper.php:1357
 #: inc/layouts/modern/helpers/availability.helper.php:1387
 msgid "Infant: "
-msgstr "Criança de colo:"
+msgstr "Bebê:"
 
 #: inc/admin/class.stadmin.php:225
 msgid "Price: "
@@ -22788,7 +22788,7 @@ msgstr ""
 
 #: inc/configs/partner.php:19 inc/configs/partner.php:356
 msgid "2. Facilities"
-msgstr ""
+msgstr "2.Facilidades"
 
 #: inc/configs/partner.php:23 inc/configs/partner.php:360
 #: inc/configs/partner.php:1317 inc/configs/partner.php:1843
@@ -22836,7 +22836,7 @@ msgstr ""
 #: st_templates/user/user-booking-hotel-email.php:75
 #: st_templates/user/user-booking-hotel.php:52
 msgid "Hotel Name"
-msgstr ""
+msgstr "Nome do Hotel"
 
 #: inc/configs/partner.php:86 inc/layouts/modern/configs/partner.php:165
 #: inc/layouts/modern/configs/partner.php:3229
@@ -22853,7 +22853,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:3259 language/english/all.php:772
 #: language/english/modun/user_create_hotel.php:11
 msgid "Hotel Email"
-msgstr ""
+msgstr "Email do Hotel"
 
 #: inc/configs/partner.php:123 inc/layouts/modern/configs/partner.php:203
 #: inc/layouts/modern/configs/partner.php:3267 language/english/all.php:397
@@ -22862,7 +22862,7 @@ msgstr ""
 #: st_templates/hotel/elements/contact-info.php:67
 #: st_templates/hotel/elements/tabs-content/tab-check_availability.php:74
 msgid "Hotel Website"
-msgstr ""
+msgstr "Site do Hotel"
 
 #: inc/configs/partner.php:131 inc/layouts/modern/configs/partner.php:211
 #: inc/layouts/modern/configs/partner.php:3275 language/english/all.php:774
@@ -25057,7 +25057,7 @@ msgstr "Criança "
 
 #: inc/helpers/new_layout.helper.php:319
 msgid "Infant "
-msgstr "Criança de colo"
+msgstr "Bebê"
 
 #: inc/helpers/new_layout.helper.php:795
 msgid "Start at"
@@ -26024,7 +26024,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.activity.php:1352
 #, php-format
 msgid "%s activities found"
-msgstr "%s restaurants/Vinícolas encontradas"
+msgstr "%s Restaurantes/Vinícolas encontradas"
 
 #: inc/layouts/modern/class/class.activity.php:1354
 #, php-format
@@ -30461,7 +30461,7 @@ msgstr ""
 
 #: inc/modules/hotel-alone/vc_map.php:1534
 msgid "List Reviews"
-msgstr ""
+msgstr "Listar Avaliações"
 
 #: inc/modules/hotel-alone/vc_map.php:1543
 msgid "Name of customer"
@@ -35397,7 +35397,7 @@ msgstr ""
 
 #: inc/st.customvc.php:941
 msgid "Restaurant"
-msgstr ""
+msgstr "Restaurante"
 
 #: inc/st.customvc.php:942
 msgid "River view"
@@ -36298,7 +36298,7 @@ msgstr ""
 
 #: inc/vc-elements/vc_map.php:1899
 msgid "ST Filter Price"
-msgstr ""
+msgstr "ST Filtrar preço"
 
 #: inc/vc-elements/vc_map.php:1930
 msgid "ST Filter Rate"
@@ -37363,7 +37363,7 @@ msgstr ""
 
 #: inc/widgets/st-location/st-location.php:183
 msgid "Tour Top Attractions"
-msgstr ""
+msgstr "Atrações"
 
 #: inc/widgets/st-location/st-location.php:195
 msgid "Layout1"
@@ -37468,7 +37468,7 @@ msgstr ""
 
 #: inc/widgets/st-search-hotel/st-search-hotel.php:281
 msgid "Review Score"
-msgstr ""
+msgstr "Avaliação"
 
 #: inc/widgets/st-search-rental/st-search-rental.php:15
 msgid "rental Filter Box"
@@ -37731,7 +37731,7 @@ msgstr ""
 #: st_templates/user/partner/partner-review-list-author.php:53
 #: st_templates/vc-elements/st-list-location/loop-normal.php:64
 msgid "reviews"
-msgstr ""
+msgstr "Avaliações"
 
 #: language/english/all.php:52 language/english/all.php:545
 #: language/english/modun/activity.php:52 language/english/modun/user.php:6
@@ -37744,7 +37744,7 @@ msgstr ""
 
 #: language/english/all.php:55 language/english/modun/activity.php:55
 msgid "Owner Website"
-msgstr ""
+msgstr "Site"
 
 #: language/english/all.php:57 language/english/all.php:102
 #: language/english/all.php:506 language/english/modun/activity.php:57
@@ -38190,7 +38190,7 @@ msgstr ""
 
 #: language/english/all.php:213 language/english/modun/general.php:77
 msgid "Website :"
-msgstr ""
+msgstr "Site:"
 
 #: language/english/all.php:214 language/english/modun/general.php:78
 #: st_templates/email/booking_infomation_activity.php:98
@@ -38565,7 +38565,7 @@ msgstr "based em 1 review"
 
 #: language/english/all.php:330 language/english/modun/hotel.php:34
 msgid "based on % reviews"
-msgstr "baseado em % reviews"
+msgstr "baseado em % avaliações"
 
 #: language/english/all.php:341 language/english/modun/hotel.php:45
 msgid "Clear"
@@ -38657,7 +38657,7 @@ msgstr ""
 #: st_templates/tours/elements/nearby.php:61
 #, php-format
 msgid "%d reviews"
-msgstr ""
+msgstr "%d avaliações"
 
 #: language/english/all.php:383 language/english/modun/hotel.php:87
 #, php-format
@@ -38749,7 +38749,7 @@ msgstr ""
 
 #: language/english/all.php:398 language/english/modun/hotel.php:102
 msgid "( Age 18+ )"
-msgstr ""
+msgstr "(Idade 18+)"
 
 #: language/english/all.php:402 language/english/modun/hotel.php:106
 msgid "City Name or Zip Code"
@@ -43040,7 +43040,7 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:659
 #, php-format
 msgid "Showing %s to %s"
-msgstr ""
+msgstr "Exibindo %s to %s"
 
 #: st_templates/layouts/modern/hotel/single/single-style-1.php:601
 #, php-format
