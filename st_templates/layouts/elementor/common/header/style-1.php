@@ -80,77 +80,79 @@
             }
         }
     ?>
-    <div class="header d-flex justify-content-between align-items-center">
-        <a href="#" class="toggle-menu"><?php echo TravelHelper::getNewIcon('Ico_off_menu'); ?></a>
-        <div class="header-left d-flex align-items-center">
-            <?php
-                $logo_url = st()->get_option( 'logo_new' );
-                $logo_mobile_url = st()->get_option('logo_mobile', $logo_url);
-                if(empty($logo_mobile_url))
-                    $logo_mobile_url = $logo_url;
-            ?>
-            <a href="<?php echo home_url( '/' ) ?>" class="logo d-none d-sm-block d-md-block">
-                <img src="<?php echo esc_url( $logo_url ); ?>" alt="<?php echo get_bloginfo( 'description' ); ?>">
-            </a>
-            <a href="<?php echo home_url( '/' ) ?>" class="logo  d-block d-sm-none d-md-none">
-                <img src="<?php echo esc_url( $logo_mobile_url ); ?>" alt="<?php echo get_bloginfo( 'description' ); ?>">
-            </a>
-            <nav id="st-main-menu">
-                <a href="" class="back-menu"><i class="fas fa-angle-left"></i></i></a>
+    <div class="header pd-header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="toggle-menu"><?php echo TravelHelper::getNewIcon('Ico_off_menu'); ?></a>
+            <div class="header-left d-flex align-items-center">
                 <?php
-                    if ( has_nav_menu( 'primary' ) ) {
-                        wp_nav_menu(array(
-                            'theme_location' => 'primary',
-                            "container" => "",
-                            'items_wrap' => '<ul id="main-menu" class="%2$s main-menu">%3$s</ul>',
-                            'depth' => 10,
-                            'walker' => new st_menu_walker_v3(),
-                        ));
-                    }
+                    $logo_url = st()->get_option( 'logo_new' );
+                    $logo_mobile_url = st()->get_option('logo_mobile', $logo_url);
+                    if(empty($logo_mobile_url))
+                        $logo_mobile_url = $logo_url;
                 ?>
-            </nav>
-        </div>
-        <div class="header-right">
-            <?php
-            $sort_header_menu = st()->get_option( 'sort_header_menu', '' );
-            if(!empty($sort_header_menu) and is_array($sort_header_menu)){
-            ?>
-            <ul class="st-list d-flex align-items-center">
+                <a href="<?php echo home_url( '/' ) ?>" class="logo d-none d-sm-block d-md-block">
+                    <img src="<?php echo esc_url( $logo_url ); ?>" alt="<?php echo get_bloginfo( 'description' ); ?>">
+                </a>
+                <a href="<?php echo home_url( '/' ) ?>" class="logo  d-block d-sm-none d-md-none">
+                    <img src="<?php echo esc_url( $logo_mobile_url ); ?>" alt="<?php echo get_bloginfo( 'description' ); ?>">
+                </a>
+                <nav id="st-main-menu">
+                    <a href="" class="back-menu"><i class="fas fa-angle-left"></i></i></a>
+                    <?php
+                        if ( has_nav_menu( 'primary' ) ) {
+                            wp_nav_menu(array(
+                                'theme_location' => 'primary',
+                                "container" => "",
+                                'items_wrap' => '<ul id="main-menu" class="%2$s main-menu">%3$s</ul>',
+                                'depth' => 10,
+                                'walker' => new st_menu_walker_v3(),
+                            ));
+                        }
+                    ?>
+                </nav>
+            </div>
+            <div class="header-right">
                 <?php
-                foreach( $sort_header_menu as $key => $val ){
-                    if( !empty( $val['header_item'] ) ){
-                        if( $val['header_item'] == 'login' ){
-                            echo st()->load_template( 'layouts/elementor/common/header/topbar-items/login', '', array('in_header' => true));
-                        }
-                        if( $val['header_item'] == 'currency' ){
-                            echo st()->load_template( 'layouts/elementor/common/header/topbar-items/currency', '' );
-                        }
-                        if( $val['header_item'] == 'language' ){
-                            echo st()->load_template( 'layouts/elementor/common/header/topbar-items/language', '' );
-                        }
-                        if( $val['header_item'] == 'link' ){
-                            $icon = '';
-                            if( !empty( $val['header_custom_link_icon'] ) ){
-                                $icon = esc_html( $val['header_custom_link_icon'] );
+                $sort_header_menu = st()->get_option( 'sort_header_menu', '' );
+                if(!empty($sort_header_menu) and is_array($sort_header_menu)){
+                ?>
+                <ul class="st-list d-flex align-items-center">
+                    <?php
+                    foreach( $sort_header_menu as $key => $val ){
+                        if( !empty( $val['header_item'] ) ){
+                            if( $val['header_item'] == 'login' ){
+                                echo st()->load_template( 'layouts/elementor/common/header/topbar-items/login', '', array('in_header' => true));
                             }
-                            echo '<li class="d-none d-sm-block d-md-block st-header-link"><a href="'. esc_url( $val['header_custom_link'] ).'"> <i class="fa '. esc_attr($icon) .' mr5"></i>'. esc_html( $val['header_custom_link_title'] ).'</a></li>';
-                        }
-                        if( $val['header_item'] == 'shopping_cart' ){
-                            echo st()->load_template( 'layouts/elementor/common/header/topbar-items/cart', '' );
-                        }
-                        if( $val['header_item'] == 'search' ){
-                            $search_header_onoff = st()->get_option('search_header_onoff', 'on');
-                            if($search_header_onoff == 'on'):
-                                echo st()->load_template( 'layouts/elementor/common/header/topbar-items/search', '' );
-                            endif;
+                            if( $val['header_item'] == 'currency' ){
+                                echo st()->load_template( 'layouts/elementor/common/header/topbar-items/currency', '' );
+                            }
+                            if( $val['header_item'] == 'language' ){
+                                echo st()->load_template( 'layouts/elementor/common/header/topbar-items/language', '' );
+                            }
+                            if( $val['header_item'] == 'link' ){
+                                $icon = '';
+                                if( !empty( $val['header_custom_link_icon'] ) ){
+                                    $icon = esc_html( $val['header_custom_link_icon'] );
+                                }
+                                echo '<li class="d-none d-sm-block d-md-block st-header-link"><a href="'. esc_url( $val['header_custom_link'] ).'"> <i class="fa '. esc_attr($icon) .' mr5"></i>'. esc_html( $val['header_custom_link_title'] ).'</a></li>';
+                            }
+                            if( $val['header_item'] == 'shopping_cart' ){
+                                echo st()->load_template( 'layouts/elementor/common/header/topbar-items/cart', '' );
+                            }
+                            if( $val['header_item'] == 'search' ){
+                                $search_header_onoff = st()->get_option('search_header_onoff', 'on');
+                                if($search_header_onoff == 'on'):
+                                    echo st()->load_template( 'layouts/elementor/common/header/topbar-items/search', '' );
+                                endif;
+                            }
                         }
                     }
+                    ?>
+                </ul>
+                <?php
                 }
                 ?>
-            </ul>
-            <?php
-            }
-            ?>
+            </div>
         </div>
     </div>
 </header>

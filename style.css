@@ -118,6 +118,43 @@ img.wp-smiley,
 
 @media (min-width: 1200px){
 
+    /* HEADER */
+    .header.pd-header {
+        padding: 15px 10px;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .logged-in.admin-bar .header.pd-header {
+        top: 32px;
+    }
+
+    .pd-sub-heading {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .pd-sub-heading > div {
+        margin-right: 10px;
+    }
+
+    .st-breadcrumb.hidden-xs {
+        margin-top: 70px !important;
+        border-bottom: none !important;
+    }
+
+    #st-content-wrapper .st-breadcrumb.hidden-xs ul li a, 
+    #st-content-wrapper .st-breadcrumb.hidden-xs ul li.active {
+        color: #2C5E52 !important;
+        font-size: 16px !important;
+        font-weight: 400 !important;
+    }
+
     .pd-property-images .fotorama__wrap .fotorama__stage,
     .pd-property-images .fotorama__wrap .fotorama__nav-wrap{
         width: 50% !important;
@@ -319,6 +356,21 @@ img.wp-smiley,
     }
 }
 
+.pd-col-infor-items {
+    width: auto !important;
+    margin-right: 10px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.pd-col-infor-items:not(:last-of-type) .pd-linha {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 1px;
+    height: 50%;
+    border: 1px solid #E7E7E7;
+}
 
 .pd-infor-items{
     display: flex;
