@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-01 12:15-0300\n"
+"PO-Revision-Date: 2022-07-01 12:31-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -1250,7 +1250,7 @@ msgstr ""
 #: inc/admin/class.admin.activity.php:680
 #: inc/layouts/modern/admin/class.admin.activity.php:680
 msgid "New Activity"
-msgstr ""
+msgstr "Novo"
 
 #: inc/admin/class.admin.activity.php:681
 #: inc/layouts/modern/admin/class.admin.activity.php:681
@@ -2251,12 +2251,12 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4078
 #: inc/layouts/modern/configs/partner.php:4602
 msgid "Child price"
-msgstr ""
+msgstr "Preço por criança"
 
 #: inc/admin/class.admin.activity.php:1009
 #: inc/layouts/modern/admin/class.admin.activity.php:1150
 msgid "Price per child"
-msgstr ""
+msgstr "Preço por criança"
 
 #: inc/admin/class.admin.activity.php:1014
 #: inc/admin/class.admin.activity.php:1017 inc/admin/class.admin.tours.php:1093
@@ -3080,7 +3080,7 @@ msgstr ""
 #: st_templates/email/booking_infomation_activity.php:104
 #: st_templates/email/booking_infomation_tours.php:107
 msgid "Child Price"
-msgstr ""
+msgstr "Preço por criança"
 
 #: inc/admin/class.admin.activity.php:1698
 #: inc/admin/class.admin.activity.php:1700
@@ -5644,7 +5644,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:136
 #: st_templates/tours/wc_cart_item_information.php:56
 msgid "Adult"
-msgstr ""
+msgstr "Adulto"
 
 #: inc/admin/class.admin.rental.php:653 inc/class/class.hotel.php:1015
 #: inc/class/class.rental.php:735 inc/class/class.room.php:804
@@ -6071,7 +6071,7 @@ msgstr ""
 #: inc/admin/class.admin.rental.room.php:136 inc/admin/class.admin.room.php:979
 #: inc/layouts/modern/admin/class.admin.room.php:1052
 msgid "Number of adults"
-msgstr ""
+msgstr "Número de adultos"
 
 #: inc/admin/class.admin.rental.room.php:139 inc/admin/class.admin.room.php:983
 #: inc/layouts/modern/admin/class.admin.room.php:1056
@@ -6341,7 +6341,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.room.php:881
 #, php-format
 msgid "Adult Pricing (%s)"
-msgstr ""
+msgstr "Preço por adulto (%s)"
 
 #: inc/admin/class.admin.room.php:835
 #: inc/layouts/modern/admin/class.admin.room.php:884
@@ -6352,12 +6352,12 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.room.php:888
 #, php-format
 msgid "Child Pricing (%s)"
-msgstr ""
+msgstr "Preço por criança (%s)"
 
 #: inc/admin/class.admin.room.php:842
 #: inc/layouts/modern/admin/class.admin.room.php:891
 msgid "The price per child"
-msgstr ""
+msgstr "O Preço por criança"
 
 #: inc/admin/class.admin.room.php:846
 #: inc/layouts/modern/admin/class.admin.room.php:895
@@ -8169,7 +8169,7 @@ msgstr ""
 #: st_templates/layouts/modern/activity/elements/content2.php:83
 #: st_templates/user/user-wishlist.php:225
 msgid "Activities"
-msgstr ""
+msgstr "Gastronomia & Vinícolas"
 
 #: inc/admin/class.admin.settings.php:1568
 #: inc/layouts/modern/admin/class.admin.settings.php:1620
@@ -11407,7 +11407,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search-new/location.php:33
 #: st_templates/layouts/modern/tour/elements/search/location.php:32
 msgid "Where are you going?"
-msgstr "Tem algo específico em mente?"
+msgstr "Lugar específico?"
 
 #: inc/admin/class.admin.settings.php:5217
 #: inc/helpers/new_layout.helper.php:106 inc/helpers/new_layout.helper.php:777
@@ -14861,7 +14861,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:1088
 #: inc/layouts/modern/admin/class.admin.tours.php:1191
 msgid "Price per Child"
-msgstr ""
+msgstr "Preço por criança"
 
 #: inc/admin/class.admin.tours.php:1111
 msgid "Discount Amount"
@@ -15208,7 +15208,7 @@ msgstr ""
 #: inc/layouts/modern/helpers/availability.helper.php:1381
 #: inc/layouts/modern/helpers/hotel.helper.php:927
 msgid "Adult: "
-msgstr ""
+msgstr "Adulto: "
 
 #: inc/admin/class.stadmin.php:223 inc/helpers/availability.helper.php:1230
 #: inc/helpers/availability.helper.php:1258
@@ -15220,7 +15220,7 @@ msgstr ""
 #: inc/layouts/modern/helpers/availability.helper.php:1384
 #: inc/layouts/modern/helpers/hotel.helper.php:928
 msgid "Child: "
-msgstr ""
+msgstr "Criança: "
 
 #: inc/admin/class.stadmin.php:224 inc/helpers/availability.helper.php:1231
 #: inc/helpers/availability.helper.php:1259
@@ -15250,12 +15250,12 @@ msgstr ""
 #: inc/admin/class.stadmin.php:228 inc/helpers/new_layout.helper.php:317
 #: inc/helpers/new_layout.helper.php:784 inc/st-hook-functions.php:508
 msgid "Adult Price "
-msgstr ""
+msgstr "Preço por adulto "
 
 #: inc/admin/class.stadmin.php:229 inc/helpers/new_layout.helper.php:318
 #: inc/helpers/new_layout.helper.php:785 inc/st-hook-functions.php:509
 msgid "Child Price "
-msgstr ""
+msgstr "Preço por criança "
 
 #: inc/admin/class.stadmin.php:230 inc/helpers/new_layout.helper.php:64
 #: inc/helpers/new_layout.helper.php:67 inc/helpers/new_layout.helper.php:300
@@ -16075,7 +16075,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:175
 #: st_templates/user/user-add-tour-booking.php:194
 msgid "No. Adults"
-msgstr ""
+msgstr "N. Adultos"
 
 #: inc/admin/views/activity/booking_edit.php:559
 #: inc/admin/views/hotel/booking_edit.php:423
@@ -16118,7 +16118,7 @@ msgstr ""
 #: st_templates/user/user-add-activity-booking.php:190
 #: st_templates/user/user-add-tour-booking.php:179
 msgid "Children Price"
-msgstr ""
+msgstr "Preço por criança"
 
 #: inc/admin/views/activity/booking_edit.php:677
 #: inc/admin/views/hotel/booking_edit.php:511
@@ -18494,12 +18494,12 @@ msgstr ""
 #: inc/layouts/modern/class/class.activity.php:686
 #, php-format
 msgid " Activities in %s"
-msgstr ""
+msgstr "Gastronomia & Vinícolas em %s"
 
 #: inc/class/class.activity.php:453
 #: inc/layouts/modern/class/class.activity.php:694
 msgid " Activities"
-msgstr ""
+msgstr " Gastronomia & Vinícolas"
 
 #: inc/class/class.activity.php:469
 #: inc/layouts/modern/class/class.activity.php:708
@@ -18519,7 +18519,7 @@ msgstr ""
 
 #: inc/class/class.activity.php:1097
 msgid " activities "
-msgstr ""
+msgstr " Gastronomia & Vinícolas "
 
 #: inc/class/class.activity.php:1099
 msgid " activity "
@@ -18564,7 +18564,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.rental.php:1551
 #, php-format
 msgid " for %s adults"
-msgstr ""
+msgstr " Para %s adultos"
 
 #: inc/class/class.activity.php:1129 inc/class/class.cars.php:1673
 #: inc/class/class.rental.php:1409 inc/class/class.tour.php:1251
@@ -18572,7 +18572,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.rental.php:1553
 #, php-format
 msgid " for %s adult"
-msgstr ""
+msgstr " Para %s adulto"
 
 #: inc/class/class.activity.php:1165
 #: inc/layouts/modern/class/class.activity.php:1389
@@ -19621,13 +19621,13 @@ msgstr ""
 #: inc/layouts/modern/class/class.room.php:737
 #, php-format
 msgid "for %s adults"
-msgstr ""
+msgstr "Para %s adultos"
 
 #: inc/class/class.hotel.php:1545 inc/class/class.room.php:890
 #: inc/layouts/modern/class/class.room.php:739
 #, php-format
 msgid "for %s adult"
-msgstr ""
+msgstr "Para %s adulto"
 
 #: inc/class/class.hotel.php:1601 inc/layouts/modern/class/class.hotel.php:1797
 #: inc/modules/hotel-alone/helpers/hotel-alone-helper.php:469
@@ -20327,11 +20327,11 @@ msgstr ""
 #: inc/class/class.room.php:732 inc/layouts/modern/class/class.room.php:603
 #, php-format
 msgid " Rooms in %s"
-msgstr ""
+msgstr " Quartos em %s"
 
 #: inc/class/class.room.php:741 inc/layouts/modern/class/class.room.php:611
 msgid " Rooms"
-msgstr ""
+msgstr " Quartos"
 
 #: inc/class/class.room.php:841 inc/layouts/modern/class/class.room.php:699
 msgid "Price Custom Settings"
@@ -20654,7 +20654,7 @@ msgstr ""
 #: st_templates/user/partner/partner-review-list-author.php:155
 #: st_templates/user/profile-page/review-list-author.php:153
 msgid "More"
-msgstr ""
+msgstr "Mais"
 
 #: inc/class/class.user-verify.php:26
 msgid "Passport Name"
@@ -24877,7 +24877,7 @@ msgstr ""
 #: st_templates/layouts/modern/tp_hotel/search/guest.php:19
 #: st_templates/tours/wc_cart_item_information.php:68
 msgid "Child"
-msgstr ""
+msgstr "Criança"
 
 #: inc/helpers/new_layout.helper.php:69 inc/helpers/new_layout.helper.php:305
 #: inc/helpers/new_layout.helper.php:737 inc/helpers/new_layout.helper.php:781
@@ -24927,7 +24927,7 @@ msgstr ""
 
 #: inc/helpers/new_layout.helper.php:108 inc/helpers/new_layout.helper.php:779
 msgid "Childrens"
-msgstr ""
+msgstr "Crianças"
 
 #: inc/helpers/new_layout.helper.php:109 inc/helpers/new_layout.helper.php:320
 #: inc/helpers/new_layout.helper.php:791 inc/st-hook-functions.php:515
@@ -25049,11 +25049,11 @@ msgstr ""
 
 #: inc/helpers/new_layout.helper.php:315 inc/st-hook-functions.php:512
 msgid "Adult "
-msgstr ""
+msgstr "Adulto "
 
 #: inc/helpers/new_layout.helper.php:316 inc/st-hook-functions.php:513
 msgid "Child "
-msgstr ""
+msgstr "Criança "
 
 #: inc/helpers/new_layout.helper.php:319
 msgid "Infant "
@@ -25658,7 +25658,7 @@ msgstr ""
 #: st_templates/layouts/modern/tp_hotel/search/guest.php:14
 #: st_templates/search/content-search-tp-hotel.php:41
 msgid "Guests"
-msgstr ""
+msgstr "Hospedes"
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2889
 msgid "Tour Detail Layout"
@@ -26024,7 +26024,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.activity.php:1352
 #, php-format
 msgid "%s activities found"
-msgstr ""
+msgstr "%s restaurants/Vinícolas encontradas"
 
 #: inc/layouts/modern/class/class.activity.php:1354
 #, php-format
@@ -30772,7 +30772,7 @@ msgstr ""
 #: inc/modules/hotel-alone/views/elements/st-reservation-content/style/style-2.php:231
 #: inc/modules/hotel-alone/views/elements/st-room-related/list-room.php:193
 msgid "GUESTS"
-msgstr ""
+msgstr "HOSPEDES"
 
 #: inc/modules/hotel-alone/views/elements/st-list-offers/offer-style-1.php:123
 #: inc/modules/hotel-alone/views/elements/st-list-offers/offer-style-2.php:117
@@ -30861,7 +30861,7 @@ msgstr ""
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-1.php:69
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-2.php:77
 msgid "ADULT"
-msgstr ""
+msgstr "ADULTO"
 
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-1.php:87
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-2.php:95
@@ -31527,7 +31527,7 @@ msgstr ""
 #: inc/plugins/ot-custom/fields/hidden/views/index.php:22
 #: inc/plugins/ot-custom/fields/tour-calendar/views/index.php:29
 msgid "Price of adult"
-msgstr ""
+msgstr "Preço por adulto"
 
 #: inc/plugins/ot-custom/fields/activity-calendar/views/index.php:28
 #: inc/plugins/ot-custom/fields/hidden/views/index.php:28
@@ -33633,7 +33633,7 @@ msgstr ""
 
 #: inc/shortcodes/email/email.php:1456
 msgid "adult(s)"
-msgstr ""
+msgstr "adulto(s)"
 
 #: inc/shortcodes/email/email.php:1479
 msgid "No. Child(s)"
@@ -37550,7 +37550,7 @@ msgstr ""
 
 #: language/english/all.php:3 language/english/modun/activity.php:3
 msgid "activities"
-msgstr ""
+msgstr "Gastronomia & Vinícolas"
 
 #: language/english/all.php:5 language/english/modun/activity.php:5
 #: st_templates/activity/search-form-2.php:15
@@ -38805,12 +38805,12 @@ msgstr ""
 #: language/english/all.php:429 language/english/modun/rental.php:23
 #, php-format
 msgid "%d adult"
-msgstr ""
+msgstr "%d adulto"
 
 #: language/english/all.php:430 language/english/modun/rental.php:24
 #, php-format
 msgid "%d adults"
-msgstr ""
+msgstr "%d adultos"
 
 #: language/english/all.php:431 language/english/modun/rental.php:25
 #, php-format
@@ -40840,7 +40840,7 @@ msgstr ""
 #: st_templates/rental/wc_cart_item_information.php:22
 #: st_templates/rental/wc_order_item_meta.php:30
 msgid "Adult:"
-msgstr ""
+msgstr "Adulto:"
 
 #: st_templates/hotel-room/wc_cart_item_information.php:23
 #: st_templates/hotel-room/wc_order_item_meta.php:37
@@ -40867,7 +40867,7 @@ msgstr ""
 #: st_templates/hotel/wc_cart_item_information.php:29
 #: st_templates/hotel/wc_order_item_meta.php:61
 msgid "Adult Price:"
-msgstr ""
+msgstr "Preço por adulto:"
 
 #: st_templates/hotel-room/wc_cart_item_information.php:28
 #: st_templates/hotel-room/wc_order_item_meta.php:63
@@ -41226,7 +41226,7 @@ msgstr ""
 #: st_templates/layouts/modern/activity/elements/content2.php:26
 #: st_templates/layouts/modern/activity/elements/top-filter/top-filter.php:33
 msgid "New activity"
-msgstr ""
+msgstr "Novo"
 
 #: st_templates/layouts/modern/activity/elements/content2.php:23
 #: st_templates/layouts/modern/activity/elements/top-filter/top-filter.php:30
@@ -41262,7 +41262,7 @@ msgstr "ORDENAR POR"
 #: st_templates/layouts/modern/tour/elements/content2.php:31
 #: st_templates/layouts/modern/tour/elements/top-filter/top-filter.php:37
 msgid "Low to High"
-msgstr ""
+msgstr "Menor preço"
 
 #: st_templates/layouts/modern/activity/elements/content2.php:31
 #: st_templates/layouts/modern/activity/elements/top-filter/top-filter.php:38
@@ -41377,7 +41377,7 @@ msgstr ""
 
 #: st_templates/layouts/modern/activity/elements/search-form.php:10
 msgid "Search Activities"
-msgstr ""
+msgstr "Buscar Atividades"
 
 #: st_templates/layouts/modern/activity/elements/search/advanced.php:19
 #: st_templates/layouts/modern/car/elements/search/advanced.php:19
@@ -41387,7 +41387,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search-new/advance.php:19
 #: st_templates/layouts/modern/tour/elements/search/advanced.php:19
 msgid "Advance"
-msgstr ""
+msgstr "Avançado"
 
 #: st_templates/layouts/modern/activity/elements/search/advanced.php:22
 #: st_templates/layouts/modern/activity/elements/search/advanced.php:27
@@ -41408,7 +41408,7 @@ msgstr "Mais opções"
 
 #: st_templates/layouts/modern/activity/elements/sidebar.php:11
 msgid "SEARCH ACTIVITIES"
-msgstr ""
+msgstr "BUSCAR ATIVIDADES"
 
 #: st_templates/layouts/modern/activity/elements/sidebar.php:32
 #: st_templates/layouts/modern/activity/elements/top-filter/top-filter.php:11
@@ -42167,8 +42167,8 @@ msgstr "Mais opções"
 #, php-format
 msgid "%s Adult"
 msgid_plural "%s Adults"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s Adulto"
+msgstr[1] "%s Adultos"
 
 #: st_templates/layouts/modern/bookingdc/search/guest.php:20
 #: st_templates/layouts/modern/car/elements/search/guest.php:20
@@ -42203,7 +42203,7 @@ msgstr[1] ""
 #: st_templates/layouts/modern/tour/elements/popup/guest.php:14
 #: st_templates/layouts/modern/tp_hotel/search/guest.php:25
 msgid "Rooms"
-msgstr ""
+msgstr "Quartos"
 
 #: st_templates/layouts/modern/car/elements/cart-item.php:32
 #: st_templates/layouts/modern/car/success_payment_item_row.php:36
@@ -42305,7 +42305,7 @@ msgstr ""
 #: st_templates/layouts/modern/tp_hotel/elements/search-form-home.php:43
 #: st_templates/search/content-search-tp-hotel.php:43
 msgid "Guest"
-msgstr ""
+msgstr "Hospede"
 
 #: st_templates/layouts/modern/car/elements/sidebar.php:11
 #: st_templates/layouts/modern/car_transfer/elements/sidebar.php:11
@@ -42315,7 +42315,7 @@ msgstr ""
 #: st_templates/layouts/modern/car/elements/top-filter/top-filter.php:37
 #: st_templates/layouts/modern/car_transfer/elements/top-filter/top-filter.php:37
 msgid "Low to Hight"
-msgstr "Menor preço"
+msgstr "Baixo para alto"
 
 #: st_templates/layouts/modern/car/elements/top-filter/top-filter.php:38
 #: st_templates/layouts/modern/car_transfer/elements/top-filter/top-filter.php:38
@@ -42733,8 +42733,8 @@ msgstr[1] ""
 #, php-format
 msgid "%s Activity"
 msgid_plural "%s Activities"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s Gastronomia & Vinícola"
+msgstr[1] "%s Gastronomia & Vinícolas"
 
 #: st_templates/layouts/modern/elements/list_of_destination.php:164
 #: st_templates/layouts/modern/elements/list_of_destination.php:199
@@ -43647,7 +43647,7 @@ msgstr ""
 #: st_templates/layouts/modern/travelpayouts_api/search/hotel/field-guest.php:25
 #: st_templates/travelpayouts_api/search/hotel/field-guest.php:25
 msgid "guest(s)"
-msgstr ""
+msgstr "hospede(s)"
 
 #: st_templates/layouts/modern/travelpayouts_api/search/hotel/field-guest.php:38
 #: st_templates/travelpayouts_api/search/hotel/field-guest.php:38
@@ -44119,7 +44119,7 @@ msgstr ""
 
 #: st_templates/tours/elements/stour-package-activity.php:43
 msgid "No activities found!"
-msgstr ""
+msgstr "Nenhum restaurante encontrado!"
 
 #: st_templates/tours/elements/stour-package-car.php:20
 #: st_templates/tours/elements/stour-package-car.php:31
@@ -45182,7 +45182,7 @@ msgstr ""
 
 #: st_templates/user/user-booking-activity-email.php:168
 msgid "No Activities"
-msgstr ""
+msgstr "Sem Gastronomia & Vinícolas"
 
 #: st_templates/user/user-booking-activity.php:27
 #: st_templates/user/user-booking-cars.php:29
