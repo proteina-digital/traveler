@@ -4,7 +4,50 @@
         if(count($services) > 1){ 
             echo '<ul class="multi-search nav nav-pills" role="tablist">';
                 $j = 0;
-                foreach ($services as $vtab) {
+                
+                $new_services = array();
+
+                for ($i=0; $i < count($services); $i++) { 
+                    switch ($services[$i]) {
+                        case 'st_rental':
+                            $new_services[3] = $services[$i];
+                            break;
+                        case 'st_tours':
+                            $new_services[2] = $services[$i];
+                            break;
+                        case 'st_activity':
+                            $new_services[0] = $services[$i];
+                            break;
+                        case 'st_cars':
+                            $new_services[4] = $services[$i];
+                            break;
+                        case 'st_cartransfer':
+                            $new_services[5] = $services[$i];
+                            break;
+                        default:
+                            $new_services[1] = $services[$i];
+                            break;
+                    }
+                }
+
+                // ksort($services);
+                // echo "<pre>";
+                // print_r($new_services);
+                // echo "</pre>";
+
+                // // $services = $new_services;
+
+                // // echo "<pre>";
+                // // print_r($services);
+                // // echo "</pre>";
+                // ksort($services);
+
+                //  echo "<pre>";
+                // print_r($services);
+                // echo "</pre>";
+
+                for ($i=0; $i < count($new_services); $i++) { 
+                    $vtab = $new_services[$i];
                     switch ($vtab) {
                         case 'st_rental':
                             $tab_title = __('Rental','traveler');
@@ -35,7 +78,8 @@
 
             echo '<div class="tab-content">';
                 $jj = 0;
-                foreach ($services as $vtabcontent) {
+                for ($i=0; $i < count($new_services); $i++) { 
+                    $vtabcontent = $new_services[$i];
                     switch ($vtabcontent) {
                         case 'st_rental':
                             $folder_name = 'rental';
