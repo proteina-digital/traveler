@@ -9,6 +9,8 @@
      */
     wp_enqueue_script('filter-activity');
     while ( have_posts() ): the_post();
+        $ps_type = get_post_type();
+        
         $post_id     = get_the_ID();
         $address     = get_post_meta( $post_id, 'address', true );
         $review_rate = STReview::get_avg_rate();
@@ -455,50 +457,110 @@
                             
                             <div class="stoped-scroll-section"></div>
                         </div>
-                        <div class="col-12 col-sm-3 col-md-3">
-                            <?php
-                                $info_price = STActivity::inst()->get_info_price();
-                            ?>
-                            <div class="widgets">
-                                <div class="fixed-on-mobile" id="booking-request" data-screen="992px">
-                                    <div class="close-icon hide">
-                                        <?php echo TravelHelper::getNewIcon( 'Ico_close' ); ?>
-                                    </div>
 
-                                    <?php
-                                    if($booking_type == 'instant_enquire'){
-                                        echo st()->load_template('layouts/elementor/activity/single/item/form-booking','instant-inquiry',
-                                        [
-                                            'info_price' =>$info_price,
-                                            'activity_external' => $activity_external,
-                                            'activity_external_link' => $activity_external_link,
-                                            'activity_type' => $activity_type,
-                                        ]);
-                                    }else{
-                                        if($booking_type == 'enquire'){
-                                            echo st()->load_template('layouts/elementor/activity/single/item/form-booking','inquiry',
-                                            [
-                                                'info_price' => $info_price,
-                                                'activity_external' => $activity_external,
-                                                'activity_external_link' => $activity_external_link,
-                                                'activity_type' => $activity_type,
-                                            ]);
-                                        }else{
-                                            echo st()->load_template('layouts/elementor/activity/single/item/form-booking','instant',
+                        <?php if($ps_type == 'st_activity'): ?>
+                            <!-- ACTIVITY -->
+                            <div class="col-12 col-sm-3 col-md-3">
+                                <?php
+                                    $info_price = STActivity::inst()->get_info_price();
+                                ?>
+                                <div class="widgets">
+                                    <div class="fixed-on-mobile" id="booking-request" data-screen="992px">
+                                        <div class="close-icon hide">
+                                            <?php echo TravelHelper::getNewIcon( 'Ico_close' ); ?>
+                                        </div>
+
+                                        <?php
+                                        if($booking_type == 'instant_enquire'){
+                                            echo st()->load_template('layouts/elementor/activity/single/item/form-booking','instant-inquiry',
                                             [
                                                 'info_price' =>$info_price,
                                                 'activity_external' => $activity_external,
                                                 'activity_external_link' => $activity_external_link,
                                                 'activity_type' => $activity_type,
                                             ]);
+                                        }else{
+                                            if($booking_type == 'enquire'){
+                                                echo st()->load_template('layouts/elementor/activity/single/item/form-booking','inquiry',
+                                                [
+                                                    'info_price' => $info_price,
+                                                    'activity_external' => $activity_external,
+                                                    'activity_external_link' => $activity_external_link,
+                                                    'activity_type' => $activity_type,
+                                                ]);
+                                            }else{
+                                                echo st()->load_template('layouts/elementor/activity/single/item/form-booking','instant',
+                                                [
+                                                    'info_price' =>$info_price,
+                                                    'activity_external' => $activity_external,
+                                                    'activity_external_link' => $activity_external_link,
+                                                    'activity_type' => $activity_type,
+                                                ]);
+                                            }
                                         }
-                                    }
-                                    ?>
-                                    
-                                    
+                                        ?>
+                                        
+                                        
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        <?php elseif($ps_type == 'st_tours'): ?>
+                            <!-- TOUR -->
+                            <div class="col-12 col-sm-3 col-md-3">
+                                <?php
+                                $info_price = STTour::get_info_price();
+                                ?>
+                                <div class="widgets">
+                                    <div class="fixed-on-mobile" id="booking-request" data-screen="992px">
+                                        <div class="close-icon hide">
+                                            <?php echo TravelHelper::getNewIcon('Ico_close'); ?>
+                                        </div>
+
+                                        <?php
+                                            if($booking_type == 'instant_enquire'){
+                                                echo st()->load_template('layouts/elementor/tour/single/item/form-booking','instant-inquiry',
+                                                [
+                                                    'info_price' =>$info_price,
+                                                    'tour_external' => $tour_external,
+                                                    'tour_external_link' => $tour_external_link,
+                                                    'tour_type' => $tour_type,
+                                                ]);
+                                            }else{
+                                                if($booking_type == 'enquire'){
+                                                    echo st()->load_template('layouts/elementor/tour/single/item/form-booking','inquiry',
+                                                    [
+                                                        'info_price' => $info_price,
+                                                        'tour_external' => $tour_external,
+                                                        'tour_external_link' => $tour_external_link,
+                                                        'tour_type' => $tour_type,
+                                                    ]);
+                                                }else{
+                                                    echo st()->load_template('layouts/elementor/tour/single/item/form-booking','instant',
+                                                    [
+                                                        'info_price' =>$info_price,
+                                                        'tour_external' => $tour_external,
+                                                        'tour_external_link' => $tour_external_link,
+                                                        'tour_type' => $tour_type,
+                                                    ]);
+                                                }
+                                            }
+                                        ?>
+                                        <?php
+                                        $allow_partner = st()->get_option('setting_partner','off');
+                                        $tour_information_contact = st()->get_option('tour_information_contact','off');
+                                        if($allow_partner == 'on'){
+                                            ?>
+                                        <?php echo st()->load_template('layouts/elementor/hotel/single/item/owner-info'); ?>
+                                        <?php } 
+                                        echo st()->load_template('layouts/modern/common/single/information-contact');
+                                        ?>
+                                         
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+
+
                     </div>
                     <?php
                         $search_tax_advance = st()->get_option( 'attribute_search_form_activity', 'activity_types' );
