@@ -34,10 +34,19 @@
 
         $gallery       = get_post_meta( $post_id, 'gallery', true );
         $gallery_array = explode( ',', $gallery );
+
+
+        $tour_external = get_post_meta(get_the_ID(), 'st_tour_external_booking', true);
+        $tour_external_link = get_post_meta(get_the_ID(), 'st_tour_external_booking_link', true);
+        // $map_iframe = get_post_meta($post_id,'map_iframe',true);
+        // $is_iframe = get_post_meta(get_the_ID(), 'is_iframe', true);
+        $tour_type = get_post_meta(get_the_ID(), 'type_tour', true);
         ?>
         <div id="st-content-wrapper" class="st-single-tour st_single_activity pd-single-page">
             <?php st_breadcrumbs_new() ?>
             <div class="container">
+
+                <?php if($ps_type == 'st_activity'): ?>
                 <div class="st-hotel-content">
                     <div class="hotel-target-book-mobile d-flex justify-content-between align-items-center">
                         <div class="price-wrapper">
@@ -58,7 +67,30 @@
                         ?>
                     </div>
                 </div>
-            
+
+                <?php elseif($ps_type == 'st_tours'): ?>
+                <!-- TOUR -->
+                <div class="st-hotel-content">
+                    <div class="hotel-target-book-mobile d-flex justify-content-between align-items-center">
+                        <div class="price-wrapper">
+                            <?php echo wp_kses(sprintf(__('from <span class="price">%s</span>', 'traveler'), STTour::get_price_html(get_the_ID())), ['span' => ['class' => []]]) ?>
+                        </div>
+                        <?php
+                        if ($tour_external == 'off' || empty($tour_external)) {
+                            ?>
+                            <a href=""
+                            class="btn btn-mpopup btn-green"><?php echo esc_html__('Check Availability', 'traveler') ?></a>
+                            <?php
+                        } else {
+                            ?>
+                            <a href="<?php echo esc_url($tour_external_link); ?>"
+                            class="btn btn-green"><?php echo esc_html__('Book Now', 'traveler') ?></a>
+                            <?php
+                        }
+                        ?>
+                    </div>
+                </div>
+                <?php endif; ?>
             </div>
 
 
