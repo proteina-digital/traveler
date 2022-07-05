@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-05 16:05-0300\n"
+"PO-Revision-Date: 2022-07-05 16:16-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -5260,7 +5260,7 @@ msgstr ""
 
 #: inc/admin/class.admin.order.php:153 st_templates/tours/cart_item_html.php:70
 msgid "Type Tour"
-msgstr ""
+msgstr "Tipo de Passeio"
 
 #: inc/admin/class.admin.order.php:159 inc/admin/class.admin.tours.php:453
 #: inc/admin/class.admin.tours.php:458 inc/admin/class.admin.tours.php:2052
@@ -10773,7 +10773,7 @@ msgstr ""
 #: st_templates/user/user-add-activity-booking.php:254
 #: st_templates/user/user-add-tour-booking.php:239
 msgid "Departure date"
-msgstr ""
+msgstr "Data da chegada"
 
 #: inc/admin/class.admin.settings.php:3796
 #: inc/admin/class.admin.settings.php:9359 inc/class/class.tour.php:563
@@ -14223,7 +14223,7 @@ msgstr ""
 #: st_templates/car_transfer/success_payment_item_row.php:72
 #: st_templates/user/detail-booking-history/car_transfer.php:57
 msgid "Departure Date"
-msgstr ""
+msgstr "Data da Chegada"
 
 #: inc/admin/class.admin.settings.php:9361 inc/class/class.car.transfer.php:349
 #: inc/class/class.user.php:2587 inc/configs/partner.php:1967
@@ -20451,7 +20451,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:10813
 #: inc/layouts/modern/class/class.user.php:10851
 msgid "tour"
-msgstr ""
+msgstr "passeio"
 
 #: inc/class/class.tour.php:583 inc/configs/partner.php:780
 #: inc/layouts/modern/class/class.tour.php:991
@@ -29344,7 +29344,7 @@ msgstr ""
 #: inc/modules/flights/views/flights/content-flights-load-data-ajax.php:1175
 #: inc/modules/flights/views/flights/content-flights.php:1177
 msgid "Departure Date: "
-msgstr ""
+msgstr "Data da Chegada: "
 
 #: inc/modules/flights/views/flights/content-flights-load-data-ajax.php:1193
 #: inc/modules/flights/views/flights/content-flights-load-data-ajax.php:1293
@@ -33527,7 +33527,7 @@ msgstr ""
 
 #: inc/shortcodes/email/email.php:668 inc/shortcodes/email/email.php:1732
 msgid "Departure date: "
-msgstr ""
+msgstr "Data da chegada: "
 
 #: inc/shortcodes/email/email.php:670
 msgid "Departure date - Return date: "
@@ -39624,7 +39624,7 @@ msgstr ""
 #: st_templates/tours/cart_item_html.php:288 woocommerce/cart/cart.php:199
 #: woocommerce/checkout/form-coupon.php:29
 msgid "Apply Coupon"
-msgstr ""
+msgstr "Usar Cupom"
 
 #: st_templates/activity/cart_item_html.php:241
 #: st_templates/activity/cart_item_html.php:244
@@ -43698,7 +43698,7 @@ msgstr ""
 #: st_templates/layouts/modern/woo/cart/cart.php:221
 #: woocommerce/cart/cart.php:206
 msgid "Update Cart"
-msgstr ""
+msgstr "Atualizar carrinho"
 
 #: st_templates/layouts/modern/woo/cart/cart.php:238
 msgid "Cart totals"
@@ -44227,7 +44227,7 @@ msgstr ""
 #: st_templates/tours/wc_cart_item_information.php:19
 #: st_templates/user/user-add-tour-booking.php:158
 msgid "Type tour"
-msgstr ""
+msgstr "Tipo de passeio"
 
 #: st_templates/tours/wc_cart_item_information.php:151
 msgid "Selected Hotels"
@@ -44250,7 +44250,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/woo/st_activity.php:84
 #: st_templates/user/detail-booking-history/woo/st_tours.php:90
 msgid "Departure date:"
-msgstr ""
+msgstr "Data da chegada:"
 
 #: st_templates/tours/wc_order_item_meta.php:46
 #: st_templates/user/detail-booking-history/st_tours.php:125
