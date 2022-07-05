@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-05 16:16-0300\n"
+"PO-Revision-Date: 2022-07-05 16:19-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -38407,7 +38407,7 @@ msgstr ""
 #: st_templates/layouts/modern/woo/checkout/form-checkout.php:56
 #: st_templates/modal_booking.php:45 template-checkout.php:63
 msgid "Your Booking"
-msgstr ""
+msgstr "Sua Reserva"
 
 #: language/english/all.php:260 language/english/modun/general.php:124
 #, php-format
@@ -43724,12 +43724,12 @@ msgstr ""
 #: st_templates/layouts/modern/woo/checkout/form-coupon.php:20
 #: woocommerce/checkout/form-coupon.php:18
 msgid "Have a coupon?"
-msgstr ""
+msgstr "Tim um cupom?"
 
 #: st_templates/layouts/modern/woo/checkout/form-coupon.php:20
 #: woocommerce/checkout/form-coupon.php:18
 msgid "Click here to enter your code"
-msgstr ""
+msgstr "Clique aqui e informe seu código"
 
 #: st_templates/layouts/modern/woo/checkout/thankyou.php:21
 #: woocommerce/checkout/thankyou.php:21
