@@ -467,3 +467,8 @@ img.wp-smiley,
     display: inline-block;
     margin-right: 10px;
 }
+
+
+.search-result-page .top-filter{
+    display: none !important;
+}
