@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-05 16:19-0300\n"
+"PO-Revision-Date: 2022-07-05 16:22-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -5077,7 +5077,7 @@ msgstr ""
 #: inc/admin/class.admin.order.php:66
 #: inc/admin/views/tour/booking_index.php:163
 msgid "Adult Number"
-msgstr ""
+msgstr "Número de adultos"
 
 #: inc/admin/class.admin.order.php:69
 #: inc/admin/views/tour/booking_index.php:165
@@ -39849,7 +39849,7 @@ msgstr ""
 
 #: st_templates/activity/wc_cart_item_information.php:42
 msgid "Adult Number:"
-msgstr ""
+msgstr "Número de adultos:"
 
 #: st_templates/activity/wc_cart_item_information.php:54
 msgid "Children Number:"
@@ -45824,7 +45824,7 @@ msgstr ""
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_facility.php:45
 #: st_templates/vc-elements/st-rental-room/st_rental_room_facility.php:30
 msgid "Adult number"
-msgstr ""
+msgstr "Número de adultos"
 
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_facility.php:48
 #: st_templates/vc-elements/st-rental-room/st_rental_room_facility.php:33
