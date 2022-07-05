@@ -20451,7 +20451,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:10813
 #: inc/layouts/modern/class/class.user.php:10851
 msgid "tour"
-msgstr "passeio"
+msgstr "Passeio"
 
 #: inc/class/class.tour.php:583 inc/configs/partner.php:780
 #: inc/layouts/modern/class/class.tour.php:991
@@ -43504,7 +43504,7 @@ msgstr[1] ""
 #: st_templates/layouts/modern/tour/elements/search/single/guest-solo.php:149
 #: st_templates/layouts/modern/tour/elements/search/single/guest.php:122
 msgid "Guest  name"
-msgstr ""
+msgstr "Nome"
 
 #: st_templates/layouts/modern/tour/elements/sidebar.php:11
 msgid "SEARCH TOURS"
