@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-05 16:22-0300\n"
+"PO-Revision-Date: 2022-07-05 18:27-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -14619,7 +14619,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:752
 #: inc/layouts/modern/admin/class.admin.tours.php:830
 msgid "No Tours found."
-msgstr ""
+msgstr "Nenhum passeio encontrado."
 
 #: inc/admin/class.admin.tours.php:753
 #: inc/layouts/modern/admin/class.admin.tours.php:831
@@ -18287,7 +18287,7 @@ msgstr ""
 #: st_templates/rental/cart_item_html.php:151
 #: st_templates/tours/cart_item_html.php:277
 msgid "Coupon Code"
-msgstr ""
+msgstr "Código do Cupom"
 
 #: inc/class.traveler.php:629 st_templates/booking_infomation.php:284
 #: st_templates/layouts/modern/page/booking_infomation.php:271
@@ -20444,7 +20444,7 @@ msgstr ""
 
 #: inc/class/class.tour.php:334
 msgid "No tours found"
-msgstr ""
+msgstr "Nenhum passeio encontrado"
 
 #: inc/class/class.tour.php:527 inc/class/class.user.php:11736
 #: inc/class/class.user.php:11775 inc/layouts/modern/class/class.tour.php:937
@@ -23823,7 +23823,7 @@ msgstr ""
 #: inc/gateways/authorize/authorize.php:105 inc/gateways/stripe/stripe.php:161
 #: inc/gateways/twocheckout/twocheckout.php:112
 msgid "Card Number"
-msgstr ""
+msgstr "Número do Cartão"
 
 #: inc/gateways/authorize/authorize.php:106 inc/gateways/stripe/stripe.php:162
 #: inc/gateways/twocheckout/twocheckout.php:113
@@ -26243,7 +26243,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.tour.php:1504
 #, php-format
 msgid "%s tours found"
-msgstr ""
+msgstr "%s passeio(s) encontrado(s)"
 
 #: inc/layouts/modern/class/class.tour.php:1506
 #, php-format
@@ -40733,12 +40733,12 @@ msgstr ""
 #: st_templates/gateways/authorize.php:20 st_templates/gateways/stripe.php:21
 #: st_templates/gateways/stripe.php:78 st_templates/gateways/twocheckout.php:21
 msgid "Card number (*)"
-msgstr ""
+msgstr "Número do Cartão(*)"
 
 #: st_templates/gateways/authorize.php:22 st_templates/gateways/stripe.php:23
 #: st_templates/gateways/twocheckout.php:23
 msgid "Your card number"
-msgstr ""
+msgstr "Número do Cartão"
 
 #: st_templates/gateways/authorize.php:29
 #: st_templates/gateways/twocheckout.php:30
@@ -43693,7 +43693,7 @@ msgstr ""
 #: st_templates/layouts/modern/woo/checkout/form-coupon.php:27
 #: woocommerce/cart/cart.php:199 woocommerce/checkout/form-coupon.php:25
 msgid "Coupon code"
-msgstr ""
+msgstr "Código de cupom"
 
 #: st_templates/layouts/modern/woo/cart/cart.php:221
 #: woocommerce/cart/cart.php:206
