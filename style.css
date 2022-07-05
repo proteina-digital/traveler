@@ -472,3 +472,7 @@ img.wp-smiley,
 .search-result-page .top-filter{
     display: none !important;
 }
+
+.search-result-page .modern-search-result{
+    margin-top: 25px !important;
+}
