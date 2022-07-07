@@ -3,14 +3,12 @@
     <div class="form-head">
         <?php
         if ( $price_by_per_person == 'on' ) :
-            echo __('from ', 'traveler');
             echo sprintf( '<span class="price">%s</span>', TravelHelper::format_money($sale_price) );
             echo '<span class="unit">';
             echo sprintf( _n( '/person', '/%d persons', $total_person, 'traveler' ), $total_person );
             echo sprintf( _n( '/night', '/%d nights', $numberday, 'traveler' ), $numberday );
             echo '</span>';
         else:
-            echo __('from ', 'traveler');
             echo sprintf( '<span class="price">%s</span>', TravelHelper::format_money($sale_price) );
             echo '<span class="unit">';
             echo sprintf( _n( '/night', '/%d nights', $numberday, 'traveler' ), $numberday );

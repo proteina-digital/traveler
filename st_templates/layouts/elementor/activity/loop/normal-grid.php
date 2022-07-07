@@ -103,7 +103,6 @@ if( !empty($slider) && $slider === 'slider'){
                     <div class="price-wrapper d-flex align-items-center " itemprop="priceRange">
                         <span>
                             <?php echo TravelHelper::getNewIcon('thunder', '#ffab53', '10px', '16px'); ?>
-                                <span class="fr_text"><?php _e("from", 'traveler') ?></span>
                         </span>
                         <span class="price">
                             <?php

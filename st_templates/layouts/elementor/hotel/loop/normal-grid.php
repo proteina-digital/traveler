@@ -78,7 +78,7 @@
                 </div>
                 <div class="price-wrapper d-flex align-items-center" itemprop="priceRange">
                     <?php echo TravelHelper::getNewIcon('thunder', '#ffab53', '10px', '16px'); ?>
-                    <?php echo __('from', 'traveler'); ?> <span class="price"><?php echo TravelHelper::format_money( $price ) ?></span><span
+                    <span class="price"><?php echo TravelHelper::format_money( $price ) ?></span><span
                             class="unit"><?php echo __( '/night', 'traveler' ) ?></span>
                 </div>
             </div>

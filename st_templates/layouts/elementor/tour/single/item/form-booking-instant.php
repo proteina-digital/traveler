@@ -7,9 +7,6 @@
     <?php echo st()->load_template('layouts/modern/common/loader'); ?>
     <div class="form-head">
         <div class="price">
-            <span class="label">
-                <?php _e("from", 'traveler') ?>
-            </span>
             <span class="value">
                 <?php
                 echo STTour::get_price_html(get_the_ID());

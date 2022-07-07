@@ -1,11 +1,6 @@
 <div class="form-book-wrapper st-border-radius relative">
     <div class="form-head st-border-radius">
-        <?php
-        if(STHotel::is_show_min_price()):
-            _e("from", 'traveler');
-        else:
-            _e("avg", 'traveler');
-        endif;?>
+        
         <?php echo wp_kses(sprintf(__(' <span class="price">%s</span> <span class="unit"> /night</span>', 'traveler'), TravelHelper::format_money($price)), ['span' => ['class' => []]]) ?>
     </div>
     <nav>

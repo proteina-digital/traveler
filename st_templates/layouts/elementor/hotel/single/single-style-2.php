@@ -27,7 +27,7 @@
                 <div class="st-hotel-content">
                     <div class="hotel-target-book-mobile d-flex justify-content-between align-items-center">
                         <div class="price-wrapper">
-                            <?php echo wp_kses(sprintf(__('from <span class="price">%s</span>', 'traveler'), TravelHelper::format_money($price)), ['span' => ['class' => []]]) ?>
+                            <?php echo wp_kses(sprintf(__('<span class="price">%s</span>', 'traveler'), TravelHelper::format_money($price)), ['span' => ['class' => []]]) ?>
                         </div>
                         <a href=""
                         class="btn btn-mpopup btn-green"><?php echo esc_html__('Check Availability', 'traveler') ?></a>
