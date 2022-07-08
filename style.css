@@ -169,9 +169,10 @@ img.wp-smiley,
     .pd-property-images .fotorama__wrap .fotorama__nav-wrap .fotorama__nav__shaft .fotorama__nav__frame.fotorama__nav__frame--thumb{
         /*width: 28% !important;*/
         width: 275px !important;
-        height: 210px !important;
+        height: 100% !important;
         padding: 0px !important;
         margin: 0px 5px 0px 5px !important;
+        /*min-height: 317px;*/
     }
 
 
@@ -232,11 +233,6 @@ img.wp-smiley,
         /* overflow-x: hidden; */
     }
 
-    .pd-property-images .fotorama__wrap .fotorama__nav-wrap .fotorama__nav__shaft .fotorama__nav__frame.fotorama__nav__frame--thumb {
-        height: 100% !important;
-        width: 100% !important;
-        min-height: 317px;
-    }
 
     .pd-property-images .fotorama__loaded--img {
         border-radius: 15px !important;
