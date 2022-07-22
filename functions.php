@@ -149,16 +149,23 @@ define( 'SMTP_DEBUG',   2 );  // for debugging purposes only
 define( 'SMTP_FROM', 'web@proteina.digital' );   // Your Business Email Address
 
 
-function mailtrap($phpmailer) {
-  $phpmailer->isSMTP();
-  $phpmailer->Host = 'smtp.mailtrap.io';
-  $phpmailer->SMTPAuth = true;
-  $phpmailer->Port = 2525;
-  $phpmailer->Username = 'f790314a13e68d';
-  $phpmailer->Password = '3d444bfccde2ff';
-}
+add_action( 'phpmailer_init', 'my_phpmailer_smtp' );
+function my_phpmailer_smtp( $phpmailer ) {
+    $phpmailer->isSMTP();     
+    $phpmailer->Host = SMTP_server;  
+    $phpmailer->SMTPAuth = SMTP_AUTH;
+    $phpmailer->Port = SMTP_PORT;
+    $phpmailer->Username = SMTP_username;
+    $phpmailer->Password = SMTP_password;
+    $phpmailer->SMTPSecure = SMTP_SECURE;
+    $phpmailer->From = SMTP_FROM;
+    $phpmailer->FromName = SMTP_NAME;
+    $phpmailer->SMTPDebug = SMTP_DEBUG;
 
-add_action('phpmailer_init', 'mailtrap');
+    $phpmailer->Debugoutput = function($str, $level) {
+        error_log("\t$level\t$str\n");
+    };
+}
 
 
 add_action( 'wp_mail_failed', function ( $error ) {

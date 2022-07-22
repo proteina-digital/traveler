@@ -481,6 +481,10 @@ img.wp-smiley,
     padding-bottom: 20px;
 }
 
+.pd-container-fluid-margin .st_check_term_conditions{
+    display: none !important;
+}
+
 .pd-container-fluid-margin .form-group{
     margin-bottom: 15px;
 }
