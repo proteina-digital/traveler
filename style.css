@@ -511,5 +511,5 @@ img.wp-smiley,
 
 
 .st-header-link a {
-    var(--link-color, #5191FA) !important;
+    background: var(--link-color, #5191FA) !important;
 }
