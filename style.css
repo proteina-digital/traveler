@@ -472,3 +472,39 @@ img.wp-smiley,
 .search-result-page .modern-search-result{
     margin-top: 25px !important;
 }
+
+
+
+
+.pd-container-fluid-margin{
+    padding-top:100px;
+    padding-bottom: 20px;
+}
+
+.pd-container-fluid-margin .form-group{
+    margin-bottom: 15px;
+}
+
+.pd-container-fluid-margin .form-group input{
+    margin-top: 3px;
+}
+
+
+@media (max-width: 1200px){
+   .pd-container-fluid-margin{
+        padding-top:20px;
+        padding-bottom: 20px;
+    } 
+}
+
+
+.chiller-theme .sidebar-wrapper{
+    background: #fff !important;
+}
+
+
+.chiller-theme .sidebar-wrapper .sidebar-menu ul li > a,
+.sidebar-wrapper .sidebar-header .user-info > span,
+.sidebar-footer ul li a span{
+    color: #000 !important;
+}

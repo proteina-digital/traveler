@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-07-05 19:18-0300\n"
+"PO-Revision-Date: 2022-07-22 17:58-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -66,7 +66,7 @@ msgstr "Email:"
 #: st_templates/user/partner/partner-info-inpost.php:62
 #: st_templates/user/partner/partner-info.php:72
 msgid "Phone: "
-msgstr "Telefone:"
+msgstr "Telefone: "
 
 #: author.php:140 st_templates/layouts/modern/page/author.php:92
 #: st_templates/user/partner/partner-info-inpost.php:69
@@ -78,7 +78,7 @@ msgstr "Email Paypal:"
 #: st_templates/user/partner/partner-info-inpost.php:77
 #: st_templates/user/partner/partner-info.php:87
 msgid "Home Airport: "
-msgstr ""
+msgstr "Aeroporto de origem: "
 
 #: author.php:157 st_templates/layouts/modern/page/author.php:109
 #: st_templates/user/detail-booking-history/st_activity.php:80
@@ -92,7 +92,7 @@ msgstr ""
 #: st_templates/user/partner/partner-info-inpost.php:87
 #: st_templates/user/partner/partner-info.php:96
 msgid "Address: "
-msgstr "Endereço:"
+msgstr "Endereço: "
 
 #: author.php:177 inc/admin/views/users/partner_index.php:193
 #: inc/admin/views/users/partner_index.php:553
@@ -112,7 +112,7 @@ msgstr "Verificação"
 #: st_templates/user/partner/partner-info-inpost.php:106
 #: st_templates/user/partner/partner-info.php:118
 msgid "Phone number"
-msgstr "Telefone:"
+msgstr "Telefone"
 
 #: author.php:180 st_templates/layouts/modern/page/author.php:148
 #: st_templates/user/partner/partner-info-inpost.php:107
@@ -3458,7 +3458,7 @@ msgstr ""
 #: st_templates/rental/success_payment_item_row.php:42
 #: st_templates/user/user-update-info-partner.php:115
 msgid "Address"
-msgstr ""
+msgstr "Endereço"
 
 #: inc/admin/class.admin.cars.php:1053
 #: inc/layouts/modern/admin/class.admin.cars.php:1191
@@ -4373,7 +4373,7 @@ msgstr "Buscar %s"
 #: inc/layouts/modern/admin/class.admin.hotel.php:403
 #, php-format
 msgid "All %s"
-msgstr ""
+msgstr "Todos %s"
 
 #: inc/admin/class.admin.hotel.php:402 inc/admin/class.admin.hotel.php:403
 #: inc/admin/class.admin.rental.room.php:39
@@ -5141,7 +5141,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/woo/st_rental.php:24
 #: st_templates/user/detail-booking-history/woo/st_tours.php:25
 msgid "Booking ID"
-msgstr ""
+msgstr "Reserva ID"
 
 #: inc/admin/class.admin.order.php:87
 msgid "Sharing"
@@ -6527,7 +6527,7 @@ msgstr ""
 #: inc/admin/class.admin.room.php:1124
 #: inc/layouts/modern/admin/class.admin.room.php:1205
 msgid "Payment methods"
-msgstr ""
+msgstr "Métodos de pagamento"
 
 #: inc/admin/class.admin.settings.php:105
 #: inc/admin/class.admin.settings.php:128
@@ -6580,7 +6580,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.settings.php:446
 #: language/english/all.php:607 language/english/modun/user.php:68
 msgid "Save Changes"
-msgstr ""
+msgstr "Salvar Alterações"
 
 #: inc/admin/class.admin.settings.php:284 inc/admin/class.user.php:506
 #: inc/class/class.user.php:13439 inc/class/class.user.php:13802
@@ -9356,7 +9356,7 @@ msgstr ""
 #: inc/shortcodes/vc_map.php:773 language/english/all.php:601
 #: language/english/modun/user.php:62
 msgid "Home Airport"
-msgstr ""
+msgstr "Aeroporto de origem"
 
 #: inc/admin/class.admin.settings.php:2126
 #: inc/layouts/modern/admin/class.admin.settings.php:2196
@@ -9618,7 +9618,7 @@ msgstr ""
 #: st_templates/vc-elements/st-inbox-form/index.php:45
 #: template-login-normal.php:40 template-login.php:36
 msgid "Login"
-msgstr ""
+msgstr "Entrar"
 
 #: inc/admin/class.admin.settings.php:2309
 #: inc/admin/class.admin.settings.php:8298
@@ -10016,7 +10016,7 @@ msgstr ""
 #: inc/modules/hotel-alone/controllers/base_controller.php:423
 #: inc/st-theme-options.php:5495
 msgid "Email Address"
-msgstr ""
+msgstr "E-mail"
 
 #: inc/admin/class.admin.settings.php:2485
 #: inc/modules/hotel-alone/controllers/base_controller.php:437
@@ -11626,7 +11626,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:13458 language/english/all.php:598
 #: language/english/modun/user.php:59 st_templates/user/user-setting.php:217
 msgid "Username"
-msgstr ""
+msgstr "Nome de usuário"
 
 #: inc/admin/class.admin.settings.php:5634
 #: inc/layouts/modern/admin/class.admin.settings.php:3732
@@ -11642,12 +11642,12 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/search-page2.php:73
 #: st_templates/layouts/modern/rental/search-page2.php:59
 msgid "Password"
-msgstr ""
+msgstr "Senha"
 
 #: inc/admin/class.admin.settings.php:5642
 #: inc/layouts/modern/admin/class.admin.settings.php:3740
 msgid "Enter your password"
-msgstr ""
+msgstr "Insira sua senha"
 
 #: inc/admin/class.admin.settings.php:5648
 #: inc/layouts/modern/admin/class.admin.settings.php:3746
@@ -13602,7 +13602,7 @@ msgstr ""
 #: st_templates/layouts/modern/page/booking_infomation.php:369
 #: st_templates/layouts/modern/single_hotel/page/booking_infomation.php:312
 msgid "First Name"
-msgstr ""
+msgstr "Nome"
 
 #: inc/admin/class.admin.settings.php:8983 inc/helpers/class.sthelper.php:955
 #: inc/layouts/modern/admin/class.admin.settings.php:5930
@@ -13616,7 +13616,7 @@ msgstr ""
 #: st_templates/check_out/member_packages.php:20
 #: st_templates/check_out/member_packages.php:22
 msgid "Last Name"
-msgstr ""
+msgstr "Sobrenome"
 
 #: inc/admin/class.admin.settings.php:8998 inc/admin/class.user.php:1450
 #: inc/class/class.user-verify.php:25 inc/helpers/class.sthelper.php:970
@@ -13627,7 +13627,7 @@ msgstr ""
 #: st_templates/user/user-verify_user.php:162
 #: st_templates/user/verify/info.php:244
 msgid "Phone Number"
-msgstr ""
+msgstr "Telefone"
 
 #: inc/admin/class.admin.settings.php:9003 inc/admin/class.user.php:188
 #: inc/admin/class.user.php:189 inc/helpers/class.sthelper.php:975
@@ -13644,7 +13644,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/customer.php:50
 #: st_templates/user/detail-booking-history/woo/customer.php:41
 msgid "City"
-msgstr ""
+msgstr "Cidade"
 
 #: inc/admin/class.admin.settings.php:9008 inc/helpers/class.sthelper.php:980
 #: inc/layouts/modern/admin/class.admin.settings.php:5955
@@ -13688,7 +13688,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/customer.php:68
 #: st_templates/user/detail-booking-history/woo/customer.php:59
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #: inc/admin/class.admin.settings.php:9028
 #: inc/layouts/modern/admin/class.admin.settings.php:5975
@@ -13785,7 +13785,7 @@ msgstr ""
 #: inc/modules/flights/views/admin/booking_index.php:223
 #: inc/st-theme-options.php:7477
 msgid "Payment Method"
-msgstr ""
+msgstr "Método de Pagamento"
 
 #: inc/admin/class.admin.settings.php:9081 inc/helpers/class.sthelper.php:1041
 #: inc/layouts/modern/admin/class.admin.settings.php:6028
@@ -14044,7 +14044,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/woo/st_rental.php:46
 #: st_templates/user/detail-booking-history/woo/st_tours.php:49
 msgid "Booking Status"
-msgstr ""
+msgstr "Status"
 
 #: inc/admin/class.admin.settings.php:9224 inc/helpers/class.sthelper.php:1183
 #: inc/layouts/modern/admin/class.admin.settings.php:6171
@@ -14941,7 +14941,7 @@ msgstr "Informação"
 #: st_templates/tours/elements/info-tours.php:476
 #: st_templates/tours/success_payment_item_row.php:117
 msgid "Tour type"
-msgstr ""
+msgstr "Tipo"
 
 #: inc/admin/class.admin.tours.php:1300
 #: inc/layouts/modern/admin/class.admin.tours.php:1414
@@ -15041,7 +15041,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/st_tours.php:72
 #: st_templates/user/detail-booking-history/woo/st_tours.php:69
 msgid "Tour Type"
-msgstr ""
+msgstr "Tipo"
 
 #: inc/admin/class.admin.uploadfonticon.php:89
 msgid "Importer Fonticon"
@@ -15621,7 +15621,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/customer.php:38
 #: st_templates/user/detail-booking-history/woo/customer.php:29
 msgid "Address Line 1"
-msgstr ""
+msgstr "Endereço"
 
 #: inc/admin/class.user.php:164
 msgid "Show under your reviews"
@@ -15637,7 +15637,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/customer.php:44
 #: st_templates/user/detail-booking-history/woo/customer.php:35
 msgid "Address Line 2"
-msgstr ""
+msgstr "Complemento"
 
 #: inc/admin/class.user.php:178 inc/admin/class.user.php:179
 #: language/english/all.php:724 language/english/all.php:775
@@ -15676,7 +15676,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:107
 #: st_templates/user/user-add-tour-booking.php:107
 msgid "State/Province/Region"
-msgstr ""
+msgstr "Estado"
 
 #: inc/admin/class.user.php:198 inc/admin/class.user.php:199
 #: inc/admin/views/activity/booking_edit.php:315
@@ -15703,7 +15703,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:115
 #: st_templates/user/user-add-tour-booking.php:115
 msgid "ZIP code/Postal code"
-msgstr ""
+msgstr "Código Postal / CEP:"
 
 #: inc/admin/class.user.php:278 inc/admin/class.user.php:314
 #: inc/admin/views/users/partner_index.php:609
@@ -16092,7 +16092,7 @@ msgstr "N. Adultos"
 #: st_templates/user/user-add-rental-booking.php:190
 #: st_templates/user/user-add-tour-booking.php:209
 msgid "No. Children"
-msgstr ""
+msgstr "N. Crianças"
 
 #: inc/admin/views/activity/booking_edit.php:581
 #: inc/admin/views/tour/booking_edit.php:285
@@ -17481,7 +17481,7 @@ msgstr ""
 #: inc/vc-elements/vc_map.php:3297 inc/vc-elements/vc_map.php:3924
 #: language/english/all.php:564 language/english/modun/user.php:25
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: inc/admin/views/tour/booking_edit.php:17
 msgid "Edit Tour Booking"
@@ -17657,7 +17657,7 @@ msgstr ""
 #: st_templates/login/form-new-login.php:44
 #: st_templates/login/popup-register.php:42
 msgid "Partner"
-msgstr ""
+msgstr "Anunciante"
 
 #: inc/admin/views/users/partner_index.php:73
 msgid "Partner Pending"
@@ -17819,7 +17819,7 @@ msgstr ""
 #: st_templates/user/user-booking-rental.php:54
 #: st_templates/user/user-booking-tours-email.php:76
 msgid "Order Date"
-msgstr ""
+msgstr "Data do Pedido"
 
 #: inc/admin/views/users/refund_manager.php:34
 #: inc/modules/flights/views/admin/booking_index.php:185
@@ -17832,7 +17832,7 @@ msgstr ""
 #: inc/admin/views/users/refund_manager.php:35 language/english/all.php:569
 #: language/english/modun/user.php:30
 msgid "Cost"
-msgstr ""
+msgstr "Valor"
 
 #: inc/admin/views/users/refund_manager.php:57 inc/class/class.user.php:11306
 #: inc/class/class.user.php:11504 inc/layouts/modern/class/class.user.php:10402
@@ -17946,7 +17946,7 @@ msgstr ""
 #: st_templates/vc-elements/st-list-map/loop/room.php:102
 #: st_templates/vc-elements/st-list-map/loop/tour.php:109
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: inc/admin/views/users/refund_manager.php:128
 #: st_templates/user/user-list-refund.php:135
@@ -17997,7 +17997,7 @@ msgstr ""
 #: st_templates/login/popup-register.php:50
 #: st_templates/user/user-update-info-partner.php:94
 msgid "User Name"
-msgstr ""
+msgstr "Nome de Usuário"
 
 #: inc/admin/views/users_withdrawal/partner_profile.php:125
 msgid "Joined"
@@ -18054,7 +18054,7 @@ msgstr ""
 #: language/english/modun/user.php:32
 #: st_templates/user/user-withdrawal-history.php:38
 msgid "Load More"
-msgstr ""
+msgstr "Mostrar Mais"
 
 #: inc/class.traveler.php:200
 #, php-format
@@ -19229,7 +19229,7 @@ msgstr ""
 #: inc/class/class.cart.php:1968 inc/layouts/modern/class/class.cart.php:1952
 #: language/english/all.php:148 language/english/modun/general.php:12
 msgid "(password will be sent to your e-mail)"
-msgstr ""
+msgstr "(A senha será enviada no seu E-mail)"
 
 #: inc/class/class.cart.php:1985 inc/layouts/modern/class/class.cart.php:1972
 msgid "and"
@@ -19241,7 +19241,7 @@ msgstr ""
 #: st_templates/login/popup-login.php:55
 #: st_templates/login/popup-register.php:89
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Política de Privacidade"
 
 #: inc/class/class.coupon.php:28
 msgid "Coupon Detail"
@@ -20462,7 +20462,7 @@ msgstr "Passeio"
 #: st_templates/user/user-booking-tours-email.php:74
 #: st_templates/user/user-booking-tours.php:52
 msgid "Tour Name"
-msgstr ""
+msgstr "Nome"
 
 #: inc/class/class.tour.php:598 inc/layouts/modern/class/class.tour.php:1005
 #, php-format
@@ -21613,16 +21613,16 @@ msgstr ""
 #: inc/class/class.user.php:5463 inc/class/class.user.php:14563
 #: inc/layouts/modern/class/class.user.php:5191
 msgid "Your new password"
-msgstr ""
+msgstr "Sua nova senha"
 
 #: inc/class/class.user.php:5466 inc/class/class.user.php:14566
 #: inc/layouts/modern/class/class.user.php:5193
 msgid "Your new password is:"
-msgstr ""
+msgstr "Sua nova senha é:"
 
 #: inc/class/class.user.php:5475 inc/layouts/modern/class/class.user.php:5200
 msgid "Check your email address for your new password."
-msgstr ""
+msgstr "Verifique seu e-mail para obter sua nova senha."
 
 #: inc/class/class.user.php:5479 inc/class/class.user.php:5484
 #: inc/class/class.user.php:14584 inc/layouts/modern/class/class.user.php:5203
@@ -21669,13 +21669,13 @@ msgstr ""
 
 #: inc/class/class.user.php:6280 inc/layouts/modern/class/class.user.php:5887
 msgid "Username and password not empty"
-msgstr ""
+msgstr "Nome de usuário e senha não podem estar vazios"
 
 #: inc/class/class.user.php:6332 inc/class/class.user.php:6366
 #: inc/layouts/modern/class/class.user.php:5930
 #: inc/layouts/modern/class/class.user.php:5962
 msgid "Required form field user name is missing"
-msgstr ""
+msgstr "O campo de formulário exigido de nome de usuário está faltando"
 
 #: inc/class/class.user.php:6335 inc/class/class.user.php:6369
 #: inc/layouts/modern/class/class.user.php:5933
@@ -21693,13 +21693,13 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:5939
 #: inc/layouts/modern/class/class.user.php:5971
 msgid "User Name too short. At least 3 characters is required"
-msgstr ""
+msgstr "Nome de usuário curto demais. Ao menos 3 caracteres são requeridos"
 
 #: inc/class/class.user.php:6344 inc/class/class.user.php:6378
 #: inc/layouts/modern/class/class.user.php:5942
 #: inc/layouts/modern/class/class.user.php:5974
 msgid "Password length must be greater than 6"
-msgstr ""
+msgstr "A senha deve ter pelo menos 6 caracteres"
 
 #: inc/class/class.user.php:6347 inc/class/class.user.php:6381
 #: inc/helpers/new_layout.helper.php:61 inc/helpers/new_layout.helper.php:297
@@ -21818,15 +21818,15 @@ msgstr ""
 
 #: inc/class/class.user.php:7216 inc/layouts/modern/class/class.user.php:6742
 msgid "Change password successfully !"
-msgstr ""
+msgstr "Senha alterada com sucesso!"
 
 #: inc/class/class.user.php:7221 inc/layouts/modern/class/class.user.php:6747
 msgid "New password does not match!"
-msgstr ""
+msgstr "Nova senha não corresponde!"
 
 #: inc/class/class.user.php:7227 inc/layouts/modern/class/class.user.php:6753
 msgid "Current password incorrect!"
-msgstr ""
+msgstr "Senha atual incorreta!"
 
 #: inc/class/class.user.php:7477 inc/class/class.user.php:7543
 #: inc/class/class.user.php:7609 inc/class/class.user.php:7678
@@ -22210,7 +22210,7 @@ msgstr ""
 
 #: inc/class/class.user.php:11278 inc/layouts/modern/class/class.user.php:10376
 msgid " Details"
-msgstr ""
+msgstr " Detalhes"
 
 #: inc/class/class.user.php:11299 inc/layouts/modern/class/class.user.php:10395
 #: st_templates/layouts/modern/tour/elements/cart-item.php:133
@@ -22270,7 +22270,7 @@ msgstr ""
 #: st_templates/user/user-dashboard.php:565
 #: st_templates/user/user-dashboard.php:791
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 #: inc/class/class.user.php:11725 inc/class/class.user.php:11764
 #: inc/layouts/modern/class/class.user.php:10802
@@ -22306,7 +22306,7 @@ msgstr ""
 #: st_templates/layouts/modern/common/header/topbar-items/login.php:43
 #: template-user.php:278
 msgid "Booking History"
-msgstr ""
+msgstr "Minhas Reservas"
 
 #: inc/class/class.user.php:11954 inc/class/class.user.php:12908
 #: inc/class/class.user.php:13047 inc/layouts/modern/class/class.user.php:11034
@@ -22314,7 +22314,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:12053 language/english/all.php:576
 #: language/english/modun/user.php:37 template-user.php:285
 msgid "Wishlist"
-msgstr ""
+msgstr "Favoritos"
 
 #: inc/class/class.user.php:11957 inc/class/class.user.php:12914
 #: inc/class/class.user.php:13053 inc/layouts/modern/class/class.user.php:11037
@@ -22455,7 +22455,7 @@ msgstr ""
 #: language/english/all.php:573 language/english/modun/user.php:34
 #: st_templates/user/user-alert_package.php:13 template-user.php:264
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: inc/class/class.user.php:12650 inc/layouts/modern/class/class.user.php:11671
 msgid "Quarter 1"
@@ -22505,7 +22505,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:11913
 #: inc/layouts/modern/class/class.user.php:12050
 msgid " Booking History "
-msgstr ""
+msgstr " Minhas Reservas "
 
 #: inc/class/class.user.php:12938 inc/class/class.user.php:13074
 #: inc/layouts/modern/class/class.user.php:12080 template-user.php:485
@@ -22689,12 +22689,12 @@ msgstr ""
 
 #: inc/class/class.user.php:14442 inc/layouts/modern/class/class.user.php:13347
 msgid "The username and password field is empty"
-msgstr ""
+msgstr "Os campos de nome de usuário e senha estão vazios"
 
 #: inc/class/class.user.php:14453 inc/layouts/modern/class/class.user.php:13358
 #, php-format
 msgid "The password you entered for the username <strong>%s</strong> is incorrect."
-msgstr ""
+msgstr "A senha informada para o usuário <strong>%s</strong> está errada."
 
 #: inc/class/class.user.php:14456 inc/layouts/modern/class/class.user.php:13361
 msgid "Invalid username."
@@ -22825,7 +22825,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5488
 #: inc/layouts/modern/configs/partner.php:5955
 msgid "PERSONAL INFORMATION"
-msgstr ""
+msgstr "INFORMAÇÕES PESSOAIS"
 
 #: inc/configs/partner.php:44 inc/layouts/modern/configs/partner.php:120
 #: inc/layouts/modern/configs/partner.php:3184
@@ -23251,7 +23251,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4192
 #: inc/layouts/modern/configs/partner.php:4700
 msgid "No. Children (From)"
-msgstr ""
+msgstr "N. Crianças (De)"
 
 #: inc/configs/partner.php:1063 inc/configs/partner.php:1567
 #: inc/layouts/modern/configs/partner.php:1177
@@ -23259,7 +23259,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4197
 #: inc/layouts/modern/configs/partner.php:4705
 msgid "No. Children (To)"
-msgstr ""
+msgstr "N de Crianças (Para)"
 
 #: inc/configs/partner.php:1150 inc/configs/partner.php:1654
 #: inc/layouts/modern/configs/partner.php:1264
@@ -23924,7 +23924,7 @@ msgstr ""
 #: st_templates/user/user-withdrawal.php:134
 #: st_templates/user/user-withdrawal.php:136
 msgid "Paypal Email"
-msgstr ""
+msgstr "E-mail PayPal"
 
 #: inc/gateways/paypal/paypal.php:256
 #: inc/gateways/paypaladaptivepayment/paypaladaptivepayment.php:325
@@ -26638,7 +26638,7 @@ msgstr "Checkin - Checkout"
 #: st_templates/menu/login_select.php:47
 #: st_templates/menu/mobile/login_select.php:73
 msgid "Sign Up"
-msgstr ""
+msgstr "Criar Conta"
 
 #: inc/layouts/modern/travel-helper.php:581 inc/travel-helper.php:575
 #, php-format
@@ -26847,7 +26847,7 @@ msgstr ""
 #: inc/layouts/modern/travel-helper.php:5564
 #, php-format
 msgid "<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a>. <a href=\"%4$s\">Log out?</a>"
-msgstr ""
+msgstr "<a href=“%1$s” aria-label=“%2$s”>Logao como %3$s</a>. <a href=“%4$s”>Sair?</a>"
 
 #: inc/layouts/modern/travel-helper.php:5293
 #: inc/layouts/modern/travel-helper.php:5565
@@ -29680,7 +29680,7 @@ msgstr ""
 #: st_templates/layouts/modern/single_hotel/elements/blog-single.php:160
 #: st_templates/layouts/modern/single_hotel/elements/blog-single.php:225
 msgid "Load more"
-msgstr ""
+msgstr "Mostrar mais"
 
 #: inc/modules/hotel-alone/shortcodes.php:145
 msgid "No more"
@@ -30972,7 +30972,7 @@ msgstr ""
 #: st_templates/layouts/modern/common/header/topbar-items/login-solo.php:157
 #: st_templates/layouts/modern/common/header/topbar-items/login.php:47
 msgid "Log out"
-msgstr ""
+msgstr "Sair"
 
 #: inc/modules/hotel-alone/views/header/header-mobile/extension-menu/account.php:48
 msgid "Sing up for free"
@@ -31936,14 +31936,14 @@ msgstr ""
 
 #: inc/plugins/wpbooking-form-builder/shinetheme/controllers/form-builder-checkout.php:627
 msgid "details "
-msgstr ""
+msgstr "detalhes "
 
 #: inc/plugins/wpbooking-form-builder/shinetheme/controllers/form-builder.php:94
 #: inc/plugins/wpbooking-form-builder/shinetheme/controllers/form-builder.php:97
 #: st_templates/email/booking_customer_infomation.php:23
 #: template-package-success-new.php:113 template-package-success.php:88
 msgid "First name"
-msgstr ""
+msgstr "Nome"
 
 #: inc/plugins/wpbooking-form-builder/shinetheme/controllers/form-builder.php:105
 #: inc/plugins/wpbooking-form-builder/shinetheme/controllers/form-builder.php:108
@@ -31952,7 +31952,7 @@ msgstr ""
 #: st_templates/layouts/modern/single_hotel/page/booking_infomation.php:313
 #: template-package-success-new.php:120 template-package-success.php:95
 msgid "Last name"
-msgstr ""
+msgstr "Sobrenome"
 
 #: inc/plugins/wpbooking-form-builder/shinetheme/controllers/form-builder.php:148
 #: inc/plugins/wpbooking-form-builder/shinetheme/controllers/form-builder.php:151
@@ -33767,11 +33767,11 @@ msgstr ""
 
 #: inc/shortcodes/email/email.php:2242
 msgid "First name:"
-msgstr ""
+msgstr "Nome:"
 
 #: inc/shortcodes/email/email.php:2247
 msgid "Last name:"
-msgstr ""
+msgstr "Sobrenome:"
 
 #: inc/shortcodes/email/email.php:2252
 #: st_templates/user/user-details-owner.php:98
@@ -33781,15 +33781,15 @@ msgstr ""
 
 #: inc/shortcodes/email/email.php:2262
 msgid "City:"
-msgstr ""
+msgstr "Cidade:"
 
 #: inc/shortcodes/email/email.php:2267
 msgid "Address line 1:"
-msgstr ""
+msgstr "Endereço:"
 
 #: inc/shortcodes/email/email.php:2272
 msgid "Country:"
-msgstr ""
+msgstr "País:"
 
 #: inc/shortcodes/email/email.php:2277
 msgid "Special Requirements:"
@@ -33852,7 +33852,7 @@ msgstr ""
 #: st_templates/tours/cart_item_html.php:432
 #: st_templates/tours/cart_item_html.php:445
 msgid "Pay Amount"
-msgstr ""
+msgstr "Total"
 
 #: inc/shortcodes/email/email.php:2865
 msgid " day(s)"
@@ -35002,7 +35002,7 @@ msgstr ""
 #: st_templates/login/popup-register.php:22
 #: st_templates/user/user-setting.php:179
 msgid "Register"
-msgstr ""
+msgstr "Cadastrar"
 
 #: inc/st-metabox.php:166
 msgid "Blog page setting"
@@ -37925,12 +37925,12 @@ msgstr ""
 
 #: language/english/all.php:149 language/english/modun/general.php:13
 msgid "I have read and accept the"
-msgstr ""
+msgstr "Li e concordo com os"
 
 #: language/english/all.php:150 language/english/all.php:371
 #: language/english/modun/general.php:14 language/english/modun/hotel.php:75
 msgid "terms and conditions"
-msgstr ""
+msgstr "termos e condições"
 
 #: language/english/all.php:151 language/english/modun/general.php:15
 msgid "Submit Booking"
@@ -38069,7 +38069,7 @@ msgstr ""
 #: st_templates/login/form-new-login.php:61
 #: st_templates/login/popup-register.php:59
 msgid "my secret password"
-msgstr ""
+msgstr "Senha"
 
 #: language/english/all.php:193 language/english/modun/general.php:57
 #: st_templates/layouts/modern/common/registerForm-solo.php:49
@@ -38077,7 +38077,7 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/search-page2.php:155
 #: st_templates/layouts/modern/rental/search-page2.php:141
 msgid "Full Name"
-msgstr ""
+msgstr "Nome Completo"
 
 #: language/english/all.php:195 language/english/modun/general.php:59
 msgid "Sign up for Traveler"
@@ -38126,7 +38126,7 @@ msgstr ""
 #: st_templates/email/booking_infomation_rental.php:91
 #: st_templates/email/booking_infomation_tours.php:98
 msgid "Address :"
-msgstr ""
+msgstr "Endereço :"
 
 #: language/english/all.php:202 language/english/modun/general.php:66
 #: st_templates/activity/success_payment_item_row.php:46
@@ -38145,7 +38145,7 @@ msgstr ""
 #: st_templates/email/booking_infomation_rental.php:93
 #: st_templates/email/booking_infomation_tours.php:100
 msgid "Phone :"
-msgstr ""
+msgstr "Telefone :"
 
 #: language/english/all.php:204 language/english/modun/general.php:68
 msgid "Room :"
@@ -38292,7 +38292,7 @@ msgstr ""
 
 #: language/english/all.php:241 language/english/modun/general.php:105
 msgid "Add to Wishlist"
-msgstr ""
+msgstr "Adicionar aos Favoritos"
 
 #: language/english/all.php:242 language/english/modun/general.php:106
 msgid "Account Settings"
@@ -38300,11 +38300,11 @@ msgstr ""
 
 #: language/english/all.php:243 language/english/modun/general.php:107
 msgid "No Wishlist"
-msgstr ""
+msgstr "Sem Favoritos"
 
 #: language/english/all.php:245 language/english/modun/general.php:109
 msgid "Remove to wishlist"
-msgstr ""
+msgstr "Remover dos Favoritos"
 
 #: language/english/all.php:246 language/english/modun/general.php:110
 #: st_templates/layouts/modern/activity/elements/loop/grid.php:23
@@ -38382,11 +38382,11 @@ msgstr ""
 #: woocommerce/single-style/style-list.php:99
 #: woocommerce/single-style/style.php:101
 msgid "Add to wishlist"
-msgstr ""
+msgstr "Adicionar aos Favoritos"
 
 #: language/english/all.php:248 language/english/modun/general.php:112
 msgid "Show email and phone number to other accounts"
-msgstr ""
+msgstr "Mostrar e-mail e número de telefone para outras contas"
 
 #: language/english/all.php:249 language/english/modun/general.php:113
 msgid "404"
@@ -39004,11 +39004,11 @@ msgstr ""
 
 #: language/english/all.php:570 language/english/modun/user.php:31
 msgid "No Booking History"
-msgstr ""
+msgstr "Nenhuma reserva encontrada"
 
 #: language/english/all.php:572
 msgid "Since:"
-msgstr ""
+msgstr "Desde:"
 
 #: language/english/all.php:577 language/english/all.php:764
 #: language/english/modun/user.php:38
@@ -39491,7 +39491,7 @@ msgstr ""
 
 #: language/english/modun/user.php:33
 msgid "Member Since"
-msgstr "Member desde"
+msgstr "Membro desde"
 
 #: reviews/review-list.php:68
 #: st_templates/user/partner/partner-review-list-author.php:53
@@ -39967,13 +39967,13 @@ msgstr ""
 #: st_templates/user/detail-booking-history/customer.php:5
 #: st_templates/user/detail-booking-history/woo/customer.php:5
 msgid "First name "
-msgstr ""
+msgstr "Nome "
 
 #: st_templates/booking_infomation.php:421
 #: st_templates/user/detail-booking-history/customer.php:11
 #: st_templates/user/detail-booking-history/woo/customer.php:11
 msgid "Last name "
-msgstr ""
+msgstr "Sobrenome "
 
 #: st_templates/booking_infomation.php:428
 #: st_templates/user/detail-booking-history/customer.php:17
@@ -39985,7 +39985,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/customer.php:23
 #: st_templates/user/detail-booking-history/woo/customer.php:23
 msgid "Phone "
-msgstr ""
+msgstr "Telefone "
 
 #: st_templates/bookingdc/search/field-children.php:47
 msgid "Age of children"
@@ -40491,7 +40491,7 @@ msgstr ""
 
 #: st_templates/email/booking_customer_infomation.php:79
 msgid "country"
-msgstr ""
+msgstr "país"
 
 #: st_templates/email/booking_infomation.php:45
 #: st_templates/email/booking_infomation_rental.php:29
@@ -40575,7 +40575,7 @@ msgstr ""
 #: st_templates/email/booking_infomation_rental.php:169
 #: st_templates/email/booking_infomation_tours.php:190
 msgid "Pay Amount :"
-msgstr ""
+msgstr "Total :"
 
 #: st_templates/email/booking_infomation_activity.php:108
 msgid "Activity Type:"
@@ -40616,7 +40616,7 @@ msgstr ""
 
 #: st_templates/email/booking_infomation_tours.php:111
 msgid "Tour Type:"
-msgstr ""
+msgstr "Tipo:"
 
 #: st_templates/email/email_single_service.php:36
 msgid "Inquirement"
@@ -41356,7 +41356,7 @@ msgstr ""
 #: st_templates/user/loop/loop-rental.php:45
 #: st_templates/user/loop/loop-tour.php:38
 msgid "Remove from wishlist"
-msgstr ""
+msgstr "Remover dos Favoritos"
 
 #: st_templates/layouts/modern/activity/elements/loop/list.php:86
 #: st_templates/user/loop/loop-activity.php:108
@@ -41997,7 +41997,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/single/single-4.php:1184
 #, php-format
 msgid "Member Since %s"
-msgstr "Member desde %s"
+msgstr "Membro desde %s"
 
 #: st_templates/layouts/modern/activity/single/single-1.php:1201
 #: st_templates/layouts/modern/activity/single/single-2.php:1155
@@ -42483,7 +42483,7 @@ msgstr ""
 #: st_templates/layouts/modern/common/header/topbar-items/login-solo.php:145
 #: st_templates/layouts/modern/common/header/topbar-items/login.php:35
 msgid "Hi, "
-msgstr ""
+msgstr "Olá, "
 
 #: st_templates/layouts/modern/common/loginForm-solo.php:9
 #: st_templates/layouts/modern/common/loginForm-solo.php:66
@@ -42584,7 +42584,7 @@ msgstr ""
 #: st_templates/login/form-new-login.php:31
 #: st_templates/login/popup-register.php:29
 msgid "Select User Type"
-msgstr ""
+msgstr "Escolha o tipo de cadastro"
 
 #: st_templates/layouts/modern/common/registerForm-solo.php:71
 #: st_templates/layouts/modern/common/registerForm.php:46
@@ -42593,7 +42593,7 @@ msgstr ""
 #: st_templates/login/form-new-login.php:38
 #: st_templates/login/popup-register.php:36
 msgid "Used for booking services"
-msgstr ""
+msgstr "Para reservar serviços"
 
 #: st_templates/layouts/modern/common/registerForm-solo.php:71
 #: st_templates/layouts/modern/common/registerForm.php:46
@@ -42602,7 +42602,7 @@ msgstr ""
 #: st_templates/login/form-new-login.php:37
 #: st_templates/login/popup-register.php:35
 msgid "Normal User"
-msgstr ""
+msgstr "Cliente"
 
 #: st_templates/layouts/modern/common/registerForm-solo.php:77
 #: st_templates/layouts/modern/common/registerForm.php:52
@@ -42611,7 +42611,7 @@ msgstr ""
 #: st_templates/login/form-new-login.php:45
 #: st_templates/login/popup-register.php:43
 msgid "Used for upload and booking services"
-msgstr ""
+msgstr "Usado para cadastrar e administrar serviços"
 
 #: st_templates/layouts/modern/common/registerForm-solo.php:77
 #: st_templates/layouts/modern/common/registerForm.php:52
@@ -43119,7 +43119,7 @@ msgstr ""
 
 #: st_templates/layouts/modern/page/404-solo.php:19
 msgid "BACK TO HOMEPAGE"
-msgstr ""
+msgstr "VOLTAR PARA A PÁGINA INICIAL"
 
 #: st_templates/layouts/modern/page/404.php:20
 #: st_templates/layouts/modern/single_hotel/page/404.php:18
@@ -43148,11 +43148,11 @@ msgstr ""
 
 #: st_templates/layouts/modern/page/author.php:71
 msgid "Member since "
-msgstr "Member desde "
+msgstr "Membro desde "
 
 #: st_templates/layouts/modern/page/blog-solo.php:57
 msgid "LOAD MORE"
-msgstr ""
+msgstr "MOSTRAR MAIS"
 
 #: st_templates/layouts/modern/page/booking_infomation.php:43
 #: st_templates/layouts/modern/single_hotel/page/booking_infomation.php:42
@@ -43932,7 +43932,7 @@ msgstr ""
 #: st_templates/login/popup-login.php:30
 #: st_templates/login/popup-register.php:52
 msgid "e.g. johndoe"
-msgstr ""
+msgstr "ex. johndoe"
 
 #: st_templates/login/form-login.php:60 st_templates/login/popup-login.php:48
 msgid "Forget Password"
@@ -43945,7 +43945,7 @@ msgstr ""
 #: st_templates/login/form-new-login.php:70
 #: st_templates/login/popup-register.php:68
 msgid "e.g. johndoe@gmail.com"
-msgstr ""
+msgstr "ex. johndoe@gmail.com"
 
 #: st_templates/login/form-new-login.php:77
 #: st_templates/login/popup-register.php:75
@@ -43955,7 +43955,7 @@ msgstr ""
 #: st_templates/menu/login_select.php:22
 #, php-format
 msgid "hi, %s"
-msgstr ""
+msgstr "olá, %s"
 
 #: st_templates/menu/login_select.php:44
 msgid "Account"
@@ -43964,7 +43964,7 @@ msgstr ""
 #: st_templates/menu/mobile/login_select.php:29
 #, php-format
 msgid " hi, %s"
-msgstr ""
+msgstr " olá, %s"
 
 #: st_templates/menu/mobile/shopping_cart.php:18
 #: st_templates/menu/mobile/shopping_cart.php:29
@@ -44562,7 +44562,7 @@ msgstr ""
 
 #: st_templates/user/detail-booking-history/car_transfer.php:67
 msgid "Address "
-msgstr ""
+msgstr "Endereço "
 
 #: st_templates/user/detail-booking-history/car_transfer.php:73
 msgid "No. Passengers :"
@@ -44616,7 +44616,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/st_flight.php:158
 #: st_templates/user/detail-booking-history/woo/detail-price.php:62
 msgid "Pay Amount: "
-msgstr ""
+msgstr "Total:"
 
 #: st_templates/user/detail-booking-history/detail-price.php:20
 #: st_templates/user/detail-booking-history/woo/detail-price.php:28
@@ -44676,7 +44676,7 @@ msgstr "N. Adultos :"
 #: st_templates/user/detail-booking-history/woo/st_hotel.php:135
 #: st_templates/user/detail-booking-history/woo/st_tours.php:127
 msgid "Adult Price :"
-msgstr ""
+msgstr "Preço p/Adulto :"
 
 #: st_templates/user/detail-booking-history/hotel_room.php:102
 #: st_templates/user/detail-booking-history/st_activity.php:142
@@ -44689,7 +44689,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/woo/st_rental.php:111
 #: st_templates/user/detail-booking-history/woo/st_tours.php:135
 msgid "No. Children :"
-msgstr ""
+msgstr "N Crianças :"
 
 #: st_templates/user/detail-booking-history/hotel_room.php:108
 #: st_templates/user/detail-booking-history/st_hotel.php:156
@@ -44729,21 +44729,21 @@ msgstr ""
 #: st_templates/user/detail-booking-history/woo/st_activity.php:131
 #: st_templates/user/detail-booking-history/woo/st_tours.php:142
 msgid "Children Price :"
-msgstr ""
+msgstr "Preço p/Criança :"
 
 #: st_templates/user/detail-booking-history/st_activity.php:155
 #: st_templates/user/detail-booking-history/st_tours.php:184
 #: st_templates/user/detail-booking-history/woo/st_activity.php:138
 #: st_templates/user/detail-booking-history/woo/st_tours.php:150
 msgid "No. Infant :"
-msgstr ""
+msgstr "N. Bebês :"
 
 #: st_templates/user/detail-booking-history/st_activity.php:161
 #: st_templates/user/detail-booking-history/st_tours.php:191
 #: st_templates/user/detail-booking-history/woo/st_activity.php:144
 #: st_templates/user/detail-booking-history/woo/st_tours.php:157
 msgid "Infant Price :"
-msgstr ""
+msgstr "Preço p/bebê :"
 
 #: st_templates/user/detail-booking-history/st_cars.php:96
 #: st_templates/user/detail-booking-history/woo/st_cars.php:89
@@ -45467,11 +45467,11 @@ msgstr ""
 
 #: st_templates/user/user-details-owner.php:101
 msgid "Phone:"
-msgstr ""
+msgstr "Telefone:"
 
 #: st_templates/user/user-details-owner.php:104
 msgid "Address:"
-msgstr ""
+msgstr "Enereço:"
 
 #: st_templates/user/user-details-owner.php:108
 #: st_templates/user/user-details-owner.php:182
@@ -45613,11 +45613,11 @@ msgstr ""
 
 #: st_templates/user/user-setting.php:245
 msgid "About Yourself"
-msgstr ""
+msgstr "Sobre mim"
 
 #: st_templates/user/user-setting.php:297
 msgid "Change Avatar"
-msgstr ""
+msgstr "Mudar Foto"
 
 #: st_templates/user/user-setting.php:300
 msgid "JPG or PNG"
@@ -46106,7 +46106,7 @@ msgstr ""
 
 #: template-checkout-packages-new.php:76 template-checkout-packages.php:64
 msgid "PAY AMOUNT"
-msgstr ""
+msgstr "TOTAL"
 
 #: template-commingsoon.php:25
 #, php-format
@@ -46124,16 +46124,16 @@ msgstr ""
 #: template-login-normal.php:26
 #, php-format
 msgid "Login/Register on %s"
-msgstr ""
+msgstr "Entrar/Criar conta na %s"
 
 #: template-login-normal.php:44 template-login.php:40
 #, php-format
 msgid "New To %s ?"
-msgstr ""
+msgstr "Novo na %s ?"
 
 #: template-login-normal.php:46 template-login.php:42
 msgid "Register New"
-msgstr ""
+msgstr "Cadastrar-me"
 
 #: template-member-packages.php:60
 msgid "can upload"
@@ -46202,7 +46202,7 @@ msgstr ""
 #: template-register.php:26
 #, php-format
 msgid "Register on %s"
-msgstr ""
+msgstr "Criar conta na %s"
 
 #: template-reset-pasword.php:24
 msgid "Reset"
@@ -46210,7 +46210,7 @@ msgstr ""
 
 #: template-reset-pasword.php:30
 msgid "back to Homepage"
-msgstr ""
+msgstr "Voltar para a página inicial"
 
 #: template-user.php:186
 msgid "Waiting for approval"
@@ -46218,7 +46218,7 @@ msgstr ""
 
 #: template-user.php:291
 msgid "Inbox Notification"
-msgstr ""
+msgstr "Notificações"
 
 #: template-user.php:306
 msgid "History"
@@ -46266,11 +46266,11 @@ msgstr ""
 
 #: template-user.php:561
 msgid "Log Out"
-msgstr ""
+msgstr "Sair"
 
 #: template-user.php:566
 msgid "Back to Homepage"
-msgstr ""
+msgstr "Voltar para a Home"
 
 #: template-user.php:612
 msgid "You don't have permission to access this page"
