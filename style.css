@@ -508,3 +508,8 @@ img.wp-smiley,
 .sidebar-footer ul li a span{
     color: #000 !important;
 }
+
+
+.st-header-link a {
+    var(--link-color, #5191FA) !important;
+}
