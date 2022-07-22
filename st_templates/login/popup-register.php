@@ -49,7 +49,7 @@ wp_enqueue_script( 'user.js' );
                             <div class="form-group form-group-icon-left">
                                 <label for="field-user_name"><?php _e("User Name",'traveler') ?><span class="color-red"> (*)</span></label>
                                 <i class="fa fa-user input-icon input-icon-show"></i>
-                                <input id="field-user_name" name="user_name" class="form-control" placeholder="<?php _e('e.g. johndoe','traveler')?>" type="text" value="<?php echo STInput::request('user_name') ?>" />
+                                <input id="field-user_name" name="username" class="form-control" placeholder="<?php _e('e.g. johndoe','traveler')?>" type="text" value="<?php echo STInput::request('user_name') ?>" />
                             </div>
                         </div>
                         <div class="col-md-6">

@@ -5963,9 +5963,9 @@
                     if (email_exists($email)) {
                         return new WP_Error('email', __('Email already used', 'traveler'));
                     }
-                    if (STInput::request('term_condition', '') == '') {
-                        return new WP_Error('field', esc_html__('The terms and conditions field is required', 'traveler'));
-                    }
+                    // if (STInput::request('term_condition', '') == '') {
+                    //     return new WP_Error('field', esc_html__('The terms and conditions field is required', 'traveler'));
+                    // }
                     $captcha_validate = STRecaptcha::inst()->validate_captcha();
                     if ($captcha_validate['status'] == 0) {
                         return new WP_Error('field', $captcha_validate['message']);
@@ -5995,9 +5995,9 @@
                     if (email_exists($email)) {
                         return new WP_Error('email', __('Email already used', 'traveler'));
                     }
-                    if (STInput::request('term', '') != 'on') {
-                        return new WP_Error('field', esc_html__('The terms and conditions field is required', 'traveler'));
-                    }
+                    // if (STInput::request('term', '') != 'on') {
+                    //     return new WP_Error('field', esc_html__('The terms and conditions field is required', 'traveler'));
+                    // }
                     $captcha_validate = STRecaptcha::inst()->validate_captcha();
                     if ($captcha_validate['status'] == 0) {
                         return new WP_Error('field', $captcha_validate['message']);
@@ -6013,7 +6013,7 @@
             static function registration_user()
             {
                 $userdata = [
-                    'user_login' => esc_attr( $_REQUEST[ 'user_name' ] ),
+                    'user_login' => esc_attr( $_REQUEST[ 'username' ] ),
                     'user_email' => esc_attr( $_REQUEST[ 'email' ] ),
                     'user_pass'  => esc_attr( $_REQUEST[ 'password' ] ),
                     'first_name' => esc_attr( $_REQUEST[ 'full_name' ] ),
