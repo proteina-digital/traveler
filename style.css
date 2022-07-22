@@ -517,3 +517,55 @@ img.wp-smiley,
 .st-header-link a {
     background: var(--link-color, #5191FA) !important;
 }
+
+
+.actions_login{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.actions_login .btn.btn-primary{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.link-logins{
+    color: var(--link-color, #5191FA) !important;
+}
+
+.page-template-template-reset-pasword .logo-holder{
+    display: none !important;
+}
+
+
+.page-template-template-reset-pasword{
+
+}
+
+.pd-single-form-reset{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pd-single-form-reset form{
+    width: 100%;
+    max-width: 320px;
+}
+
+
+.pd-single-form-reset > * {
+    color: #000;
+}
+
+.pd-single-form-reset .input-group{
+    margin-bottom: 15px;
+}
+
+.pd-single-form-reset .link-logins{
+    margin-top: 10px;
+    display: block;
+}

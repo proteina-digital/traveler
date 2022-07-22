@@ -52,17 +52,11 @@ if(is_page_template('template-login.php')){
         </div>
     <?php } ?>
 
-    <input class="btn btn-primary" name="dlf_submit" type="submit" value="<?php echo esc_html($btn_sing_in) ?>" />
-    <?php
-    if(!empty($status_error_login)){
-        ?>
-        <br>
-        <a href="<?php echo esc_url( $url_reset ); ?>" title="<?php _e("Forget Password",'traveler') ?>"><?php _e("Forget Password ?",'traveler') ?></a>
-    <?php
-    }
-    unset($status_error_login);
-    ?>
-
+    <div class="actions_login">
+        <input class="btn btn-primary" name="dlf_submit" type="submit" value="<?php echo esc_html($btn_sing_in) ?>" />
+        <a class="link-logins" href="<?php echo esc_url( $url_reset ); ?>" title="<?php _e("Forget Password",'traveler') ?>"><?php _e("Forget Password ?",'traveler') ?></a>
+    </div>
+    
     <div class="checkbox st_check_term_conditions mt20">
 		<?php
 		$page_privacy_policy = get_option('wp_page_for_privacy_policy');
