@@ -11,6 +11,15 @@
  */
 wp_enqueue_script( 'user.js' );
 
+$page_login = st()->get_option( 'page_user_login' );
+$page_login = get_permalink( $page_login );
+
+$query_login_register = array( 'url'=>STInput::request('url') );
+
+if(strpos(STInput::request('url'), 'st_url_redirect') === false){
+    $query_login_register['st_url_redirect'] = $page_login;
+}
+
 $reset = 'false';
 if(!empty($_REQUEST['btn_reg'])){
     $reset = STUser_f::registration_user();
@@ -24,29 +33,8 @@ if(is_page_template('template-login.php')){
 ?>
 
 <form  class="register_form" data-reset="<?php echo esc_attr($reset) ?>"  method="post" action="<?php echo esc_url(add_query_arg(array( 'url'=>STInput::request('url') )))?>" >
-
-    <div class="row mt30 <?php if(st()->get_option( 'partner_enable_feature' ) == 'off'){ echo "hidden" ;} ?>">
-        <div class="col-md-12">
-            <div class="form-group <?php echo esc_attr($class_form); ?> form-group-icon-left">
-                <label for="field-password"><?php _e("Select User Type",'traveler') ?></label>
-            </div>
-        </div>
-        <div class="col-md-6 mt20">
-            <div class="checkbox checkbox-lg">
-                <label>
-                    <input class="i-check register_as" type="radio" name="register_as" <?php if(STInput::request('register_as',"normal") == "normal") echo "checked"?> value="normal"  /><?php _e("Normal User",'traveler') ?></label>
-                    <p class="text-muted"><?php echo __('Used for booking services', 'traveler'); ?></p>
-            </div>
-        </div>
-        <div class="col-md-6 mt20">
-            <div class="checkbox checkbox-lg">
-                <label>
-                    <input class="i-check register_as" type="radio" name="register_as" <?php if(STInput::request('register_as') == "partner") echo "checked"?> value="partner" /><?php _e("Partner",'traveler') ?></label>
-                    <p class="text-muted"><?php echo __('Used for upload and booking services', 'traveler'); ?></p>
-            </div>
-        </div>
-    </div>
-    <div class="row mt20 data_field">
+    <input style="display: none;" class="i-check register_as" type="radio" name="register_as" checked value="normal"  />
+    <div class="row mt30 data_field">
         <div class="col-md-6">
             <div class="form-group <?php echo esc_attr($class_form); ?> form-group-icon-left">
                 <label for="field-user_name"><?php _e("User Name",'traveler') ?><span class="color-red"> (*)</span></label>
@@ -80,13 +68,13 @@ if(is_page_template('template-login.php')){
     </div>
     
     <div class="checkbox st_check_term_conditions mt20">
-	    <?php
-	    $page_privacy_policy = get_option('wp_page_for_privacy_policy');
-	    $page_privacy_policy_link = '#';
-	    if(!empty($page_privacy_policy)){
-		    $page_privacy_policy_link = get_permalink($page_privacy_policy);
-	    }
-	    ?>
+        <?php
+        $page_privacy_policy = get_option('wp_page_for_privacy_policy');
+        $page_privacy_policy_link = '#';
+        if(!empty($page_privacy_policy)){
+            $page_privacy_policy_link = get_permalink($page_privacy_policy);
+        }
+        ?>
         <label>
             <input class="i-check term_condition" name="term_condition" type="checkbox" <?php if(STInput::post('term_condition')==1) echo 'checked'; ?>/><?php echo  st_get_language('i_have_read_and_accept_the').'<a target="_blank" href="'.get_the_permalink(st()->get_option('page_terms_conditions')).'"> '.st_get_language('terms_and_conditions').'</a> and <a href="'. esc_url($page_privacy_policy_link) .'" target="_blank">'. __('Privacy Policy', 'traveler') .'</a>';?>
         </label>
@@ -106,3 +94,19 @@ if(is_page_template('template-login.php')){
         <button class="btn btn-primary btn-lg" type="submit" ><?php echo esc_html($btn_register) ?></button>
     </div>
 </form>
+
+<?php $page_cadastro_anunciante = get_page_by_title( 'Quero me cadastrar' ); if ($page_cadastro_anunciante->ID): ?>
+<div id="partner_register_area" class="row mt30">
+    <div class="col-md-12">
+        <div class="form-group <?php echo esc_attr($class_form); ?> form-group-icon-left">
+            <h2 for="field-password"><?php _e("I want to register as a partner",'traveler') ?></h2>
+        </div>
+    </div>
+    <div class="col-md-6 mt20">
+        <div class="checkbox checkbox-lg">
+            <a href="<?php echo esc_url(get_permalink( $page_cadastro_anunciante->ID )); ?>" class="btn btn-primary btn-lg"><?php echo __('Register as a partner', 'traveler'); ?></a>
+            <p class="text-muted"><?php echo __('Used for upload and booking services', 'traveler'); ?></p>
+        </div>
+    </div>
+</div>
+<?php endif; ?>

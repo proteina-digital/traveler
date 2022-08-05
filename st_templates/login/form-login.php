@@ -23,9 +23,7 @@ if(is_page_template('template-login.php')){
     $btn_sing_in = get_post_meta(get_the_ID(),'btn_sing_in',true);
     if(empty($btn_sing_in))$btn_sing_in=__("Sign In",'traveler');
 ?>
-<form method="post" action="<?php echo esc_url(add_query_arg(array(
-    'url'=>STInput::request('url')
-)))?>">
+<form method="post" action="<?php echo esc_url( add_query_arg( array('url'=>STInput::request('url') ) ) )?>">
     <?php
         global $status_error_login;
         echo balanceTags($status_error_login);

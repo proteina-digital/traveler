@@ -569,3 +569,13 @@ img.wp-smiley,
     margin-top: 10px;
     display: block;
 }
+
+
+#partner_register_area{
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+#partner_register_area .text-muted{
+    margin-top: 8px;
+}
