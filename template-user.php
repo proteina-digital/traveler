@@ -158,10 +158,6 @@ if(in_array(STInput::get('sc'),$hide_menu_ins))
                     </div>
                 </div>
                 <div class="sidebar-header">
-                    <div class="user-pic">
-                        <?php echo st_get_profile_avatar($current_user->ID, 50); ?>
-                        
-                    </div>
                     <div class="user-info">
                         <span class="user-name"><?php echo esc_html($current_user->display_name) ?></span>
                         <span class="user-role"><?php echo st_get_language('user_member_since') . mysql2date(' M Y', $current_user->data->user_registered); ?></span>

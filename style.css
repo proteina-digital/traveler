@@ -586,3 +586,7 @@ img.wp-smiley,
         display: none !important;
     }
 }
+
+.sidebar-submenu{
+    background: #EAEEF3 !important;
+}

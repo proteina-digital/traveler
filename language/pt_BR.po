@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-08-05 15:58-0300\n"
+"PO-Revision-Date: 2022-08-05 17:06-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -15820,7 +15820,7 @@ msgstr ""
 #: inc/admin/views/users/refund_manager.php:4 inc/class/class.user.php:12017
 #: inc/layouts/modern/class/class.user.php:11097 template-user.php:540
 msgid "Refund Manager"
-msgstr ""
+msgstr "Gestão de reembolsos"
 
 #: inc/admin/class.user.php:619
 msgid "Approve success !"
@@ -45315,11 +45315,11 @@ msgstr ""
 
 #: st_templates/user/user-dashboard-info.php:12 template-user.php:229
 msgid "Hotel Statistics"
-msgstr ""
+msgstr "Estatísticas do Hotel"
 
 #: st_templates/user/user-dashboard-info.php:13 template-user.php:234
 msgid "Room Statistics"
-msgstr ""
+msgstr "Estatísticas do Quarto"
 
 #: st_templates/user/user-dashboard-info.php:14 template-user.php:239
 msgid "Rental Statistics"
@@ -45331,30 +45331,30 @@ msgstr ""
 
 #: st_templates/user/user-dashboard-info.php:16 template-user.php:249
 msgid "Tour Statistics"
-msgstr ""
+msgstr "Estatísticas de passeios"
 
 #: st_templates/user/user-dashboard-info.php:17 template-user.php:254
 msgid "Activity Statistics"
-msgstr ""
+msgstr "Estatísticas dos restaurantes/vinícolas"
 
 #: st_templates/user/user-dashboard-info.php:56
 #: st_templates/user/user-dashboard.php:43
 msgid "Net Earning This Month"
-msgstr ""
+msgstr "Ganhos líquidos este mês"
 
 #: st_templates/user/user-dashboard-info.php:75
 #: st_templates/user/user-dashboard.php:63
 #: st_templates/user/user-withdrawal.php:36
 msgid "Your Balance"
-msgstr ""
+msgstr "Seu saldo"
 
 #: st_templates/user/user-dashboard-info.php:95
 msgid "Net Earning"
-msgstr ""
+msgstr "Ganhos líquidos"
 
 #: st_templates/user/user-dashboard-info.php:128
 msgid " Statistics"
-msgstr ""
+msgstr " Estatísticas"
 
 #: st_templates/user/user-dashboard-info.php:148
 msgid "Total Order"

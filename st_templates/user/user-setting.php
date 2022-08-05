@@ -269,66 +269,7 @@ $role = array_shift($role);
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="form-group form-group-icon-left">
-                    <?php
-                    $id_img = get_user_meta($user_id , 'st_avatar' , true);
-                    $url_avatar = "";
-                    $post_thumbnail_id = wp_get_attachment_image_src($id_img, 'full');
-                    if(!empty($post_thumbnail_id)){
-                        $url_avatar = array_shift($post_thumbnail_id);
-                    }
-                    ?>
-                    <div class="st-change-avatar">
-                        <?php
-                        if(!empty($url_avatar)){
-                            echo '<div class="user-profile-avatar user_seting">
-                                    <img width="50" height="50" class="avatar avatar-300 photo img-thumbnail" src="'.esc_url($url_avatar).'" alt="'.TravelHelper::get_alt_image().'">
-                                  </div>';
-                        } else {
-                            echo '<div class="user-profile-avatar user_seting">
-                                    <img width="50" height="50" class="avatar avatar-300 photo img-thumbnail" src="'.esc_url(get_avatar_url($user_id)).'">
-                                  </div>';
-                        }
-                        ?>
-                        <div class="st-title">
-                            <p class="title">
-                                <?php _e("Change Avatar",'traveler');?>
-                            </p>
-                            <p>
-                                <?php _e("JPG or PNG",'traveler');?>
-                            </p>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-            <div class="col-md-9">
-                <div class="form-group form-group-icon-left">
-                    <div class="input-group setting-avatar">
-                        <span class="input-group-btn">
-                            <span class="btn btn-primary btn-file" >
-                                <span class="st-upload-avatar" data-multi="false" data-output="id"><?php _e("Avatar",'traveler') ?></span>
-                            </span>
-                        </span>
-                        <input id="id_avatar_user_setting" name="id_avatar" type="hidden" value="<?php echo esc_attr($id_img) ?>">
-                        <input type="hidden" readonly="" value="<?php echo esc_url($url_avatar); ?>" class="form-control data_lable">
-                        <div class="st-selection">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="form-group form-group-icon-left">
-                    <div class="st-line-bg"></div>
-                </div>
-            </div>
-        </div>
+        
         <div class="row">
             <div class="col-md-12">
                 <h4 style="margin-top: 30px;"><?php st_the_language('user_location') ?></h4>
