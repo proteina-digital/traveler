@@ -579,3 +579,10 @@ img.wp-smiley,
 #partner_register_area .text-muted{
     margin-top: 8px;
 }
+
+
+@media (min-width: 768px){
+    .hide_on_desk{
+        display: none !important;
+    }
+}
