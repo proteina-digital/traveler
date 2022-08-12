@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-08-12 18:21-0300\n"
+"PO-Revision-Date: 2022-08-12 19:57-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -1249,7 +1249,7 @@ msgstr "Adicionar novo"
 #: st_templates/user/user-my-activity.php:16
 #: st_templates/user/user-my-activity.php:76
 msgid "Add New Activity"
-msgstr "Adicionar nova atividade"
+msgstr "Adicionar novo Restaurante/Vinícola"
 
 #: inc/admin/class.admin.activity.php:680
 #: inc/layouts/modern/admin/class.admin.activity.php:680
@@ -4199,7 +4199,7 @@ msgstr ""
 #: st_templates/user/user-my-hotel.php:16
 #: st_templates/user/user-my-hotel.php:74
 msgid "Add New Hotel"
-msgstr ""
+msgstr "Adicionar Novo Hotel"
 
 #: inc/admin/class.admin.hotel.php:327
 #: inc/layouts/modern/admin/class.admin.hotel.php:329
@@ -4319,7 +4319,7 @@ msgstr "Quarto"
 #: inc/layouts/modern/admin/class.admin.hotel.php:366
 #: st_templates/user/user-my-room.php:16 st_templates/user/user-my-room.php:74
 msgid "Add New Room"
-msgstr ""
+msgstr "Adicionar Novo Quarto"
 
 #: inc/admin/class.admin.hotel.php:365 inc/admin/class.admin.rental.php:595
 #: inc/layouts/modern/admin/class.admin.hotel.php:367
@@ -5389,7 +5389,7 @@ msgstr ""
 #: inc/admin/views/member_packages/edit.php:23
 #: inc/admin/views/member_packages/index.php:15
 msgid "Member Packages"
-msgstr ""
+msgstr "Planos de Membros"
 
 #: inc/admin/class.admin.packages.php:195
 msgid "Deleted successful."
@@ -17519,7 +17519,7 @@ msgstr ""
 
 #: inc/admin/views/member_packages/index.php:22
 msgid "Add New Package"
-msgstr ""
+msgstr "Adicionar novo pacote"
 
 #: inc/admin/views/member_packages/index.php:30
 msgid "Sub name"
@@ -18257,7 +18257,7 @@ msgstr "Localizações"
 
 #: inc/class.traveler.php:447
 msgid "Add New Location"
-msgstr ""
+msgstr "Adicionar nova localização"
 
 #: inc/class.traveler.php:448
 msgid "New Location"
@@ -18326,7 +18326,7 @@ msgstr ""
 
 #: inc/class.traveler.php:491
 msgid "Add New Location Type"
-msgstr ""
+msgstr "Adicionar novo tipo de localização"
 
 #: inc/class.traveler.php:492
 msgid "New Location Type Name"
@@ -21638,7 +21638,7 @@ msgstr ""
 #: inc/class/class.user.php:3988 inc/layouts/modern/class/class.user.php:3705
 #: st_templates/layouts/modern/tour/elements/search/single/extra-solo.php:42
 msgid "Packages"
-msgstr ""
+msgstr "Pacotes"
 
 #: inc/class/class.user.php:4137
 #: inc/layouts/modern/admin/class.admin.tours.php:1476
@@ -22508,7 +22508,7 @@ msgstr "Favoritos"
 #: inc/layouts/modern/class/class.user.php:11922
 #: inc/layouts/modern/class/class.user.php:12059
 msgid "Add new Hotel"
-msgstr ""
+msgstr "Adicionar novo Hotel"
 
 #: inc/class/class.user.php:11960 inc/class/class.user.php:12917
 #: inc/class/class.user.php:13056 inc/layouts/modern/class/class.user.php:11040
@@ -32088,7 +32088,7 @@ msgstr ""
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:17
 msgid "Hotel service"
-msgstr ""
+msgstr "Serviço de Hotel"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:22
 msgid "Activity service"
@@ -32105,12 +32105,12 @@ msgstr ""
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:42
 #: st_templates/fields/package.php:37
 msgid "Getting Hotels By Location"
-msgstr ""
+msgstr "Obtendo Hotéis por Localização"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:63
 #: st_templates/fields/package.php:61
 msgid "Custom hotel data"
-msgstr ""
+msgstr "Dados de hotel personalizados"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:73
 #: st_templates/fields/package.php:86
@@ -39348,7 +39348,7 @@ msgstr "Desde:"
 #: language/english/modun/user.php:38
 #: language/english/modun/user_create_hotel.php:3 template-user.php:323
 msgid "Add new hotel"
-msgstr ""
+msgstr "Adicionar novo hotel"
 
 #: language/english/all.php:583 language/english/all.php:713
 #: language/english/modun/user.php:44
@@ -41006,7 +41006,7 @@ msgstr ""
 
 #: st_templates/fields/package.php:24
 msgid "Hotel Service"
-msgstr ""
+msgstr "Serviços de Hotel"
 
 #: st_templates/fields/package.php:75
 msgid "Activity Service"
@@ -41022,7 +41022,7 @@ msgstr ""
 
 #: st_templates/fields/package.php:217
 msgid "Save Tour Packages"
-msgstr ""
+msgstr "Salvar Pacotes de Passeios e Trilhas"
 
 #: st_templates/flight/skyscanner/search/field-return.php:33
 #: st_templates/travelpayouts_api/search/flight/field-return.php:33
@@ -43947,7 +43947,7 @@ msgstr ""
 #: st_templates/search/content-search-tp-hotel.php:17
 #: st_templates/search/content-search-tp-hotel.php:19
 msgid "City or hotel name"
-msgstr ""
+msgstr "Cidade ou nome do hotel"
 
 #: st_templates/layouts/modern/tp_hotel/search/location.php:53
 #: st_templates/layouts/modern/travelpayouts_api/search/hotel/field-destination.php:34
@@ -44490,13 +44490,13 @@ msgstr ""
 #: st_templates/tours/elements/stour-package.php:20
 #: st_templates/tours/elements/stour-package.php:30
 msgid "Hotel name"
-msgstr ""
+msgstr "Nome do hotel"
 
 #: st_templates/tours/elements/stour-package-custom.php:11
 #: st_templates/tours/elements/stour-package-custom.php:23
 #: st_templates/tours/elements/stour-package-custom.php:39
 msgid "Hotel price"
-msgstr ""
+msgstr "Preço do Hotel"
 
 #: st_templates/tours/elements/stour-package-flight.php:111
 msgid "No flights found!"
@@ -44615,11 +44615,11 @@ msgstr ""
 
 #: st_templates/tours/wc_order_item_meta.php:159
 msgid "Hotel packages"
-msgstr ""
+msgstr "Pacotes de hotel"
 
 #: st_templates/tours/wc_order_item_meta.php:176
 msgid "Activity packages"
-msgstr ""
+msgstr "Pacotes de Gastronomia e Vinícolas"
 
 #: st_templates/tours/wc_order_item_meta.php:193
 msgid "Car packages"
