@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-08-12 20:16-0300\n"
+"PO-Revision-Date: 2022-08-12 20:40-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -1517,7 +1517,7 @@ msgstr "Propriedades perto do hotel"
 #: st_templates/user/edit/user-create-location.php:103
 #: st_templates/user/user-create-location.php:109
 msgid "Featured Image"
-msgstr "Imagem"
+msgstr "Imagem Principal"
 
 #: inc/admin/class.admin.activity.php:765 inc/admin/class.admin.cars.php:1024
 #: inc/admin/class.admin.hotel.php:478 inc/admin/class.admin.rental.php:728
@@ -1849,7 +1849,7 @@ msgstr ""
 #: inc/admin/class.admin.activity.php:847
 #: inc/layouts/modern/admin/class.admin.activity.php:865
 msgid "Activity video"
-msgstr ""
+msgstr "Vídeo"
 
 #: inc/admin/class.admin.activity.php:850 inc/admin/class.admin.cars.php:1170
 #: inc/admin/class.admin.rental.php:897 inc/admin/class.admin.tours.php:948
@@ -2295,7 +2295,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4209
 #: inc/layouts/modern/configs/partner.php:4717
 msgid "Type of discount by people"
-msgstr ""
+msgstr "Tipo de desconto por pessoa"
 
 #: inc/admin/class.admin.activity.php:1044
 #: inc/admin/class.admin.activity.php:1147 inc/admin/class.admin.tours.php:1123
@@ -2315,7 +2315,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4724
 #: inc/layouts/modern/configs/partner.php:4786
 msgid "Percent"
-msgstr ""
+msgstr "Porcentagem"
 
 #: inc/admin/class.admin.activity.php:1048
 #: inc/admin/class.admin.activity.php:1151
@@ -2355,7 +2355,7 @@ msgstr ""
 #: st_templates/user/user-withdrawal.php:123
 #: st_templates/user/user-withdrawal.php:125
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #: inc/admin/class.admin.activity.php:1054 inc/admin/class.admin.tours.php:1134
 #: inc/class/class.user.php:3144 inc/configs/partner.php:954
@@ -2368,7 +2368,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4088
 #: inc/layouts/modern/configs/partner.php:4610
 msgid "Infant price"
-msgstr ""
+msgstr "Preço por bebê"
 
 #: inc/admin/class.admin.activity.php:1057 inc/admin/class.admin.tours.php:1137
 #: inc/layouts/modern/admin/class.admin.activity.php:1185
@@ -2468,7 +2468,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5256
 #: inc/layouts/modern/configs/partner.php:5743
 msgid "Max of number"
-msgstr ""
+msgstr "Número Máximo"
 
 #: inc/admin/class.admin.activity.php:1122
 #: inc/admin/class.admin.rental.php:1039
@@ -2499,7 +2499,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5266
 #: inc/layouts/modern/configs/partner.php:5753
 msgid "Required Extra"
-msgstr ""
+msgstr "Obrigatório"
 
 #: inc/admin/class.admin.activity.php:1135
 #: inc/admin/class.admin.activity.php:1136 inc/admin/class.admin.cars.php:1410
@@ -2570,7 +2570,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4272
 #: inc/layouts/modern/configs/partner.php:4780
 msgid "Type of discount"
-msgstr ""
+msgstr "Tipo de desconto"
 
 #: inc/admin/class.admin.activity.php:1157 inc/admin/class.admin.cars.php:1417
 #: inc/admin/class.admin.rental.php:1074 inc/admin/class.admin.tours.php:1244
@@ -2579,7 +2579,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:1098
 #: inc/layouts/modern/admin/class.admin.tours.php:1359
 msgid "Sale schedule"
-msgstr ""
+msgstr "Venda agendada"
 
 #: inc/admin/class.admin.activity.php:1163
 #: inc/admin/class.admin.activity.php:1164 inc/admin/class.admin.cars.php:1423
@@ -2649,7 +2649,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5334
 #: inc/layouts/modern/configs/partner.php:5701
 msgid "Deposit payment options"
-msgstr ""
+msgstr "Opções de método de depósito"
 
 #: inc/admin/class.admin.activity.php:1209
 #: inc/admin/class.admin.rental.php:1097 inc/admin/class.admin.room.php:948
@@ -2668,7 +2668,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.cars.php:1625
 #: inc/layouts/modern/admin/class.admin.rental.php:1126
 msgid "Disallow deposit"
-msgstr ""
+msgstr "Desabilitar Depósito"
 
 #: inc/admin/class.admin.activity.php:1218 inc/admin/class.admin.cars.php:1455
 #: inc/admin/class.admin.rental.php:1106 inc/admin/class.admin.room.php:957
@@ -2681,7 +2681,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:752
 #: inc/layouts/modern/configs/partner.php:3772
 msgid "Deposit by percent"
-msgstr ""
+msgstr "Depósito por percentual"
 
 #: inc/admin/class.admin.activity.php:1227 inc/admin/class.admin.cars.php:1460
 #: inc/admin/class.admin.rental.php:1115 inc/admin/class.admin.room.php:966
@@ -2741,7 +2741,7 @@ msgstr ""
 #: inc/admin/class.admin.activity.php:1251
 #: inc/layouts/modern/admin/class.admin.activity.php:1379
 msgid "Allow cancelation"
-msgstr ""
+msgstr "Permitir Cancelamento"
 
 #: inc/admin/class.admin.activity.php:1257
 #: inc/admin/class.admin.activity.php:1258 inc/admin/class.admin.cars.php:1522
@@ -3123,7 +3123,7 @@ msgstr "Preço por criança"
 #: st_templates/layouts/modern/page/booking_infomation.php:190
 #: st_templates/layouts/modern/single_hotel/page/booking_infomation.php:160
 msgid "Discount rate"
-msgstr ""
+msgstr "Taxa de Desconto: "
 
 #: inc/admin/class.admin.cars.php:589 inc/class/class.cars.php:2068
 #: inc/class/class.cars.php:2129 inc/helpers/st-car-helpers.php:27
@@ -3615,7 +3615,7 @@ msgstr ""
 
 #: inc/admin/class.admin.cars.php:1167
 msgid "Car video"
-msgstr ""
+msgstr "Vídeo"
 
 #: inc/admin/class.admin.cars.php:1173 inc/admin/class.admin.cars.php:1176
 msgid "Car logo"
@@ -3916,7 +3916,7 @@ msgstr ""
 #: st_templates/user/user-affiliate_wp_visits.php:50
 #: st_templates/user/user-create-location.php:63
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: inc/admin/class.admin.cars.php:1332 inc/admin/class.admin.rental.php:1018
 #: inc/admin/class.admin.tours.php:1187 inc/configs/partner.php:655
@@ -3939,7 +3939,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.room.php:951
 #: inc/layouts/modern/admin/class.admin.tours.php:1317
 msgid "Max of Number"
-msgstr ""
+msgstr "Número Máximo"
 
 #: inc/admin/class.admin.cars.php:1353 inc/admin/class.admin.room.php:909
 #: inc/admin/class.admin.tours.php:1208
@@ -4081,7 +4081,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.room.php:1168
 #: inc/layouts/modern/admin/class.admin.tours.php:1644
 msgid "Allow cancellation"
-msgstr ""
+msgstr "Permitir Cancelamento"
 
 #: inc/admin/class.admin.cars.php:1676 inc/admin/views/car/booking_index.php:75
 #: inc/layouts/modern/admin/class.admin.cars.php:1833
@@ -4506,7 +4506,7 @@ msgstr ""
 #: inc/admin/class.admin.hotel.php:543
 #: inc/layouts/modern/admin/class.admin.hotel.php:561
 msgid "Hotel gallery"
-msgstr ""
+msgstr "Galeria"
 
 #: inc/admin/class.admin.hotel.php:546
 #: inc/layouts/modern/admin/class.admin.hotel.php:564
@@ -4516,7 +4516,7 @@ msgstr ""
 #: inc/admin/class.admin.hotel.php:549
 #: inc/layouts/modern/admin/class.admin.hotel.php:567
 msgid "Hotel video"
-msgstr ""
+msgstr "Vídeo"
 
 #: inc/admin/class.admin.hotel.php:552
 #: inc/layouts/modern/admin/class.admin.hotel.php:570
@@ -5275,7 +5275,7 @@ msgstr ""
 #: st_templates/user/user-add-activity-booking.php:197
 #: st_templates/user/user-add-tour-booking.php:185
 msgid "Infant Price"
-msgstr ""
+msgstr "Preço por bebê"
 
 #: inc/admin/class.admin.order.php:144
 msgid "Number Infant"
@@ -5844,7 +5844,7 @@ msgstr ""
 #: inc/admin/class.admin.rental.php:888
 #: inc/layouts/modern/admin/class.admin.rental.php:894
 msgid "Rental gallery"
-msgstr ""
+msgstr "Galeria"
 
 #: inc/admin/class.admin.rental.php:891
 #: inc/admin/class.admin.rental.room.php:120
@@ -5856,7 +5856,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:900
 #: inc/layouts/modern/class/class.user.php:1558
 msgid "Rental video"
-msgstr ""
+msgstr "Vídeo"
 
 #: inc/admin/class.admin.rental.php:939
 #: inc/layouts/modern/admin/class.admin.rental.php:945
@@ -5997,7 +5997,7 @@ msgstr ""
 #: inc/admin/class.admin.rental.php:1071
 #: inc/layouts/modern/admin/class.admin.rental.php:1094
 msgid "Discount rate by %"
-msgstr ""
+msgstr "Taxa de Desconto por %"
 
 #: inc/admin/class.admin.rental.php:1096 inc/admin/class.admin.room.php:947
 #: inc/layouts/modern/admin/class.admin.rental.php:1120
@@ -6083,7 +6083,7 @@ msgstr ""
 
 #: inc/admin/class.admin.rental.room.php:117
 msgid "Room gallery"
-msgstr ""
+msgstr "Galeria"
 
 #: inc/admin/class.admin.rental.room.php:123
 msgid "Rental room layout"
@@ -6317,7 +6317,7 @@ msgstr "Número de quartos disponíveis para reserva"
 #: language/english/modun/user_create_room.php:35
 #: language/english/modun/user_create_tour.php:14
 msgid "Gallery"
-msgstr ""
+msgstr "Galeria"
 
 #: inc/admin/class.admin.room.php:766
 #: inc/layouts/modern/admin/class.admin.room.php:778
@@ -6419,7 +6419,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.room.php:1005
 #: inc/layouts/modern/admin/class.admin.room.php:1008
 msgid "Discount rate (%)"
-msgstr ""
+msgstr "Taxa de Desconto por %"
 
 #: inc/admin/class.admin.room.php:953 inc/admin/class.admin.tours.php:1272
 #: inc/configs/partner.php:640 inc/configs/partner.php:1188
@@ -6438,7 +6438,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5341
 #: inc/layouts/modern/configs/partner.php:5708
 msgid "Disallow Deposit"
-msgstr ""
+msgstr "Desabilitar Depósito"
 
 #: inc/admin/class.admin.room.php:973
 #: inc/layouts/modern/admin/class.admin.room.php:1039
@@ -10443,7 +10443,7 @@ msgstr ""
 #: st_templates/user/user-affiliate_wp_visits.php:50
 #: st_templates/user/user-create-location.php:64
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: inc/admin/class.admin.settings.php:2996
 #: inc/layouts/modern/admin/class.admin.settings.php:2703
@@ -14683,7 +14683,7 @@ msgstr "Novo"
 #: inc/layouts/modern/admin/class.admin.tours.php:825
 #: st_templates/user/user-edit-tours.php:23
 msgid "Edit Tour"
-msgstr ""
+msgstr "Editar Passeio/Trilha"
 
 #: inc/admin/class.admin.tours.php:748
 #: inc/layouts/modern/admin/class.admin.tours.php:826
@@ -14752,7 +14752,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:783
 #: inc/layouts/modern/admin/class.admin.tours.php:861
 msgid "Edit Tour Categories"
-msgstr ""
+msgstr "Editar categoria de Passeio/Trilha"
 
 #: inc/admin/class.admin.tours.php:784
 #: inc/layouts/modern/admin/class.admin.tours.php:862
@@ -14807,7 +14807,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:840
 #: inc/layouts/modern/admin/class.admin.tours.php:917
 msgid "Real tour address "
-msgstr ""
+msgstr "Endereço"
 
 #: inc/admin/class.admin.tours.php:843
 #: inc/layouts/modern/admin/class.admin.tours.php:920
@@ -14844,7 +14844,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:939
 #: inc/layouts/modern/admin/class.admin.tours.php:1065
 msgid "Tour gallery"
-msgstr ""
+msgstr "Galeria"
 
 #: inc/admin/class.admin.tours.php:942
 #: inc/layouts/modern/admin/class.admin.tours.php:1068
@@ -14854,7 +14854,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:945
 #: inc/layouts/modern/admin/class.admin.tours.php:1071
 msgid "Tour video"
-msgstr ""
+msgstr "Vídeo"
 
 #: inc/admin/class.admin.tours.php:988
 #: inc/layouts/modern/admin/class.admin.tours.php:1111
@@ -14869,21 +14869,21 @@ msgstr "CONFIGURAÇÕES DE PREÇO"
 #: inc/admin/class.admin.tours.php:1009
 #: inc/layouts/modern/admin/class.admin.tours.php:1132
 msgid "Show price by person/fixed"
-msgstr ""
+msgstr "Mostrar preço por pessoa/fixo"
 
 #: inc/admin/class.admin.tours.php:1014 inc/configs/partner.php:906
 #: inc/layouts/modern/admin/class.admin.tours.php:1137
 #: inc/layouts/modern/configs/partner.php:1020
 #: inc/layouts/modern/configs/partner.php:4040
 msgid "Price by person"
-msgstr ""
+msgstr "Preço por pessoa"
 
 #: inc/admin/class.admin.tours.php:1018 inc/configs/partner.php:907
 #: inc/layouts/modern/admin/class.admin.tours.php:1141
 #: inc/layouts/modern/configs/partner.php:1021
 #: inc/layouts/modern/configs/partner.php:4041
 msgid "Price by fixed"
-msgstr ""
+msgstr "Preço Fixo"
 
 #: inc/admin/class.admin.tours.php:1022 inc/class/class.user.php:11703
 #: inc/layouts/modern/class/class.user.php:10782
@@ -14899,12 +14899,12 @@ msgstr ""
 #: st_templates/tours/wc_order_item_meta.php:43
 #: st_templates/user/detail-booking-history/st_tours.php:76
 msgid "Fixed Departure"
-msgstr ""
+msgstr "Partida fixa"
 
 #: inc/admin/class.admin.tours.php:1026
 #: inc/layouts/modern/admin/class.admin.tours.php:1145
 msgid "Show price by person or fixed."
-msgstr ""
+msgstr "Mostrar preço por pessoa ou fixo."
 
 #: inc/admin/class.admin.tours.php:1029 inc/class/class.user.php:3941
 #: inc/class/class.user.php:8832 inc/configs/partner.php:913
@@ -17660,7 +17660,7 @@ msgstr "Tipo"
 
 #: inc/admin/views/tour/booking_edit.php:17
 msgid "Edit Tour Booking"
-msgstr ""
+msgstr "Editar Reservas de Passeios/Trilhas"
 
 #: inc/admin/views/tour/booking_edit.php:384
 #: inc/shortcodes/email/email.php:1132
@@ -20994,7 +20994,7 @@ msgstr "Destino"
 #: st_templates/user/loop/loop-flight-upage.php:62
 #: st_templates/user/loop/loop-flight.php:79
 msgid "Departure time"
-msgstr ""
+msgstr "Hora do embarque:"
 
 #: inc/class/class.user.php:329 inc/gateways/dpo/dpo.php:78
 #: inc/layouts/modern/class/class.user.php:270
@@ -21046,7 +21046,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5630
 #: inc/layouts/modern/configs/partner.php:6005
 msgid "Featured image"
-msgstr ""
+msgstr "Imagem Principal"
 
 #: inc/class/class.user.php:338 inc/class/class.user.php:935
 #: inc/class/class.user.php:976 inc/class/class.user.php:8517
@@ -21360,7 +21360,7 @@ msgstr ""
 #: st_templates/layouts/modern/activity/single/single-1.php:90
 #: st_templates/layouts/modern/activity/single/single-3.php:113
 msgid "Video"
-msgstr ""
+msgstr "Vídeo"
 
 #: inc/class/class.user.php:1633 inc/class/class.user.php:2602
 #: inc/class/class.user.php:3171 inc/class/class.user.php:3974
@@ -21566,7 +21566,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5714
 #: st_templates/tours/cart_item_html.php:161
 msgid "Deposit amount"
-msgstr ""
+msgstr "Valor do depósito"
 
 #: inc/class/class.user.php:3164 inc/class/class.user.php:9308
 #: inc/class/class.user.php:9357 inc/configs/partner.php:1751
@@ -21646,29 +21646,29 @@ msgstr "Pacotes"
 #: inc/layouts/modern/admin/class.admin.tours.php:1476
 #: inc/layouts/modern/class/class.user.php:3885
 msgid "Tour Included"
-msgstr ""
+msgstr "Incluído"
 
 #: inc/class/class.user.php:4147
 #: inc/layouts/modern/admin/class.admin.tours.php:1482
 #: inc/layouts/modern/class/class.user.php:3895
 msgid "Tour Excluded"
-msgstr ""
+msgstr "Não Incluído"
 
 #: inc/class/class.user.php:4156
 #: inc/layouts/modern/admin/class.admin.tours.php:1488
 #: inc/layouts/modern/class/class.user.php:3904
 msgid "Tour Highlight"
-msgstr ""
+msgstr "Destaque"
 
 #: inc/class/class.user.php:4165
 #: inc/layouts/modern/admin/class.admin.tours.php:1585
 #: inc/layouts/modern/class/class.user.php:3913
 msgid "Tour FAQ"
-msgstr ""
+msgstr "Perguntas/respostas"
 
 #: inc/class/class.user.php:4186 inc/layouts/modern/class/class.user.php:3934
 msgid "Tour Program"
-msgstr ""
+msgstr "Programação"
 
 #: inc/class/class.user.php:4581 inc/class/class.user.php:4587
 #: inc/layouts/modern/class/class.user.php:4306
@@ -22153,7 +22153,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:9405
 #: inc/layouts/modern/class/class.user.php:9747
 msgid "The Featured Image field is required."
-msgstr ""
+msgstr "A imagem principal é obrigatória."
 
 #: inc/class/class.user.php:8181 inc/class/class.user.php:8495
 #: inc/class/class.user.php:8812 inc/class/class.user.php:9269
@@ -22166,7 +22166,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:9408
 #: inc/layouts/modern/class/class.user.php:9750
 msgid "The Gallery field is required."
-msgstr ""
+msgstr "Galeria é obrigatório."
 
 #: inc/class/class.user.php:8184 inc/class/class.user.php:9744
 #: inc/layouts/modern/class/class.user.php:7577
@@ -22242,7 +22242,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4771
 #: inc/layouts/modern/configs/partner.php:5661
 msgid "Discount Rate"
-msgstr ""
+msgstr "Taxa de Desconto"
 
 #: inc/class/class.user.php:8503 inc/class/class.user.php:8839
 #: inc/class/class.user.php:8849 inc/class/class.user.php:9298
@@ -22281,7 +22281,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:9003
 #: inc/layouts/modern/class/class.user.php:9426
 msgid "Deposit Amount"
-msgstr ""
+msgstr "Valor do depósito"
 
 #: inc/class/class.user.php:8513 inc/class/class.user.php:8859
 #: inc/class/class.user.php:9352 inc/class/class.user.php:9771
@@ -22782,7 +22782,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:12003
 #: inc/layouts/modern/class/class.user.php:12137
 msgid "Edit Tour "
-msgstr ""
+msgstr "Editar Passeio/Trilha "
 
 #: inc/class/class.user.php:12998 inc/class/class.user.php:13134
 #: inc/layouts/modern/class/class.user.php:12006
@@ -23068,7 +23068,7 @@ msgstr ""
 #: inc/configs/partner.php:147 inc/layouts/modern/configs/partner.php:227
 #: inc/layouts/modern/configs/partner.php:3291
 msgid "Hotel Video"
-msgstr ""
+msgstr "Vídeo"
 
 #: inc/configs/partner.php:173 inc/layouts/modern/configs/partner.php:255
 #: inc/layouts/modern/configs/partner.php:3319
@@ -23300,7 +23300,7 @@ msgstr ""
 #: inc/configs/partner.php:674 inc/layouts/modern/configs/partner.php:785
 #: inc/layouts/modern/configs/partner.php:3805
 msgid "Max Of Number"
-msgstr ""
+msgstr "Número Máximo"
 
 #: inc/configs/partner.php:695 inc/configs/partner.php:1203
 #: inc/configs/partner.php:1707 inc/configs/partner.php:2205
@@ -23316,7 +23316,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5802
 #: st_templates/user/tabs/cancel-booking.php:17
 msgid "Allow Cancel"
-msgstr ""
+msgstr "Permitir Cancelamento"
 
 #: inc/configs/partner.php:751 inc/layouts/modern/configs/partner.php:90
 #: inc/layouts/modern/configs/partner.php:462
@@ -23354,17 +23354,17 @@ msgstr "Fotos"
 #: inc/configs/partner.php:864 inc/layouts/modern/configs/partner.php:978
 #: inc/layouts/modern/configs/partner.php:3998
 msgid "TOUR IMAGE"
-msgstr ""
+msgstr "Fotos"
 
 #: inc/configs/partner.php:900 inc/layouts/modern/configs/partner.php:1014
 #: inc/layouts/modern/configs/partner.php:4034
 msgid "Show price by"
-msgstr ""
+msgstr "Mostrar preço por"
 
 #: inc/configs/partner.php:908 inc/layouts/modern/configs/partner.php:1022
 #: inc/layouts/modern/configs/partner.php:4042
 msgid "Fixed departure"
-msgstr ""
+msgstr "Partida fixa"
 
 #: inc/configs/partner.php:974 inc/configs/partner.php:1481
 #: inc/layouts/modern/configs/partner.php:1088
@@ -23372,7 +23372,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4108
 #: inc/layouts/modern/configs/partner.php:4619
 msgid "Hide adult on booking form"
-msgstr ""
+msgstr "Ocultar adulto no formulário de reserva"
 
 #: inc/configs/partner.php:988 inc/configs/partner.php:1494
 #: inc/layouts/modern/configs/partner.php:1102
@@ -23380,7 +23380,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4122
 #: inc/layouts/modern/configs/partner.php:4632
 msgid "Hide child on booking form"
-msgstr ""
+msgstr "Ocultar criança no formulário de reserva"
 
 #: inc/configs/partner.php:1001 inc/configs/partner.php:1506
 #: inc/layouts/modern/configs/partner.php:1115
@@ -23388,7 +23388,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4135
 #: inc/layouts/modern/configs/partner.php:4644
 msgid "Hide infant on booking form"
-msgstr ""
+msgstr "Ocultar bebê no formulário de reserva"
 
 #: inc/configs/partner.php:1014 inc/configs/partner.php:1518
 #: inc/layouts/modern/configs/partner.php:1128
@@ -23396,7 +23396,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4148
 #: inc/layouts/modern/configs/partner.php:4656
 msgid "Discount by Adults"
-msgstr ""
+msgstr "Desconto por adultos"
 
 #: inc/configs/partner.php:1028 inc/configs/partner.php:1532
 #: inc/layouts/modern/configs/partner.php:1142
@@ -23404,7 +23404,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4162
 #: inc/layouts/modern/configs/partner.php:4670
 msgid "No. Adult (From)"
-msgstr ""
+msgstr "Nº. Adulto (A partir)"
 
 #: inc/configs/partner.php:1033 inc/configs/partner.php:1537
 #: inc/layouts/modern/configs/partner.php:1147
@@ -23412,7 +23412,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4167
 #: inc/layouts/modern/configs/partner.php:4675
 msgid "No. Adult (To)"
-msgstr ""
+msgstr "Nº. Adulto (Até)"
 
 #: inc/configs/partner.php:1038 inc/configs/partner.php:1068
 #: inc/configs/partner.php:1542 inc/configs/partner.php:1572
@@ -23425,7 +23425,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4680
 #: inc/layouts/modern/configs/partner.php:4710
 msgid "Percentage of discount"
-msgstr ""
+msgstr "Porcentagem de desconto"
 
 #: inc/configs/partner.php:1045 inc/configs/partner.php:1549
 #: inc/layouts/modern/configs/partner.php:1159
@@ -23433,7 +23433,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4179
 #: inc/layouts/modern/configs/partner.php:4687
 msgid "Discount by children"
-msgstr ""
+msgstr "Desconto por criança"
 
 #: inc/configs/partner.php:1058 inc/configs/partner.php:1562
 #: inc/layouts/modern/configs/partner.php:1172
@@ -23441,7 +23441,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4192
 #: inc/layouts/modern/configs/partner.php:4700
 msgid "No. Children (From)"
-msgstr "N. Crianças (De)"
+msgstr "Nº. Crianças (A partir)"
 
 #: inc/configs/partner.php:1063 inc/configs/partner.php:1567
 #: inc/layouts/modern/configs/partner.php:1177
@@ -23449,7 +23449,7 @@ msgstr "N. Crianças (De)"
 #: inc/layouts/modern/configs/partner.php:4197
 #: inc/layouts/modern/configs/partner.php:4705
 msgid "No. Children (To)"
-msgstr "N de Crianças (Para)"
+msgstr "Nº. Crianças (Até)"
 
 #: inc/configs/partner.php:1150 inc/configs/partner.php:1654
 #: inc/layouts/modern/configs/partner.php:1264
@@ -23457,7 +23457,7 @@ msgstr "N de Crianças (Para)"
 #: inc/layouts/modern/configs/partner.php:4284
 #: inc/layouts/modern/configs/partner.php:4792
 msgid "Sale Schedule"
-msgstr ""
+msgstr "Venda agendada"
 
 #: inc/configs/partner.php:1167 inc/configs/partner.php:1176
 #: inc/configs/partner.php:1671 inc/configs/partner.php:1680
@@ -23519,7 +23519,7 @@ msgstr ""
 #: inc/configs/partner.php:1244 inc/layouts/modern/configs/partner.php:1358
 #: inc/layouts/modern/configs/partner.php:4378
 msgid "Real tour address"
-msgstr ""
+msgstr "Endereço"
 
 #: inc/configs/partner.php:1313 inc/configs/partner.php:1839
 #: inc/configs/partner.php:2315
@@ -27145,7 +27145,7 @@ msgstr ""
 #: inc/layouts/modern/vc-elements/vc_map.php:8
 #: inc/modules/hotel-alone/vc_map.php:1729
 msgid "ST Video"
-msgstr ""
+msgstr "Vídeo"
 
 #: inc/layouts/modern/vc-elements/vc_map.php:12
 #: inc/modules/hotel-alone/vc_map.php:1733
@@ -29169,7 +29169,7 @@ msgstr ""
 
 #: inc/modules/flights/views/admin/booking_edit.php:441
 msgid "Departure Time"
-msgstr ""
+msgstr "Hora do embarque"
 
 #: inc/modules/flights/views/admin/booking_edit.php:469
 #: st_templates/layouts/modern/car/elements/search/date.php:43
@@ -32046,7 +32046,7 @@ msgstr ""
 #: st_templates/tours/elements/stour-package-custom-flight.php:69
 #: st_templates/tours/elements/stour-package-custom.php:49
 msgid "Add new"
-msgstr ""
+msgstr "Adicionar novo"
 
 #: inc/plugins/ot-custom/fields/rental-distance/views/index.php:65
 msgid "Radius"
@@ -40142,7 +40142,7 @@ msgstr ""
 #: st_templates/tours/elements/tabs-content/tab-request.php:295
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_sidebar.php:227
 msgid "Required extra service"
-msgstr ""
+msgstr "Serviço extra obrigatório"
 
 #: st_templates/activity/elements/loop/loop-1.php:103
 msgid "Activity Type: "
@@ -40744,7 +40744,7 @@ msgstr ""
 
 #: st_templates/cars/success_payment_item_row.php:52
 msgid "Discount Rate: "
-msgstr ""
+msgstr "Taxa de Desconto: "
 
 #: st_templates/cars/success_payment_item_row.php:58
 #: st_templates/email/booking_infomation_cars.php:115
@@ -41012,7 +41012,7 @@ msgstr "Serviços de Hotel"
 
 #: st_templates/fields/package.php:75
 msgid "Activity Service"
-msgstr ""
+msgstr "Serviço de Gastronomia/Vinícolas"
 
 #: st_templates/fields/package.php:121
 msgid "Car Service"
@@ -41020,7 +41020,7 @@ msgstr "Serviço de carro"
 
 #: st_templates/fields/package.php:168
 msgid "Flight Service"
-msgstr ""
+msgstr "Serviço de Vôo"
 
 #: st_templates/fields/package.php:217
 msgid "Save Tour Packages"
@@ -43858,7 +43858,7 @@ msgstr "BUSCAR PASSEIOS"
 #: st_templates/layouts/modern/tour/single/single-6.php:118
 #: st_templates/layouts/modern/tour/single/single-7.php:449
 msgid "Tour Video"
-msgstr ""
+msgstr "Vídeo"
 
 #: st_templates/layouts/modern/tour/single/single-1.php:172
 #: st_templates/layouts/modern/tour/single/single-2.php:107
@@ -44935,7 +44935,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/woo/st_hotel.php:117
 #: st_templates/user/detail-booking-history/woo/st_rental.php:98
 msgid "Discount Rate:"
-msgstr ""
+msgstr "Taxa de Desconto: "
 
 #: st_templates/user/detail-booking-history/detail-price-car.php:18
 #: st_templates/user/detail-booking-history/detail-price.php:34
