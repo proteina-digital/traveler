@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-08-12 18:03-0300\n"
+"PO-Revision-Date: 2022-08-12 18:21-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -13,7 +13,11 @@ msgstr ""
 "X-Generator: Poedit 2.0.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: .git\n"
 "X-Poedit-SearchPathExcluded-1: .idea\n"
@@ -48,7 +52,7 @@ msgstr "Voltar pra Home"
 
 #: author.php:34 template-partner-information.php:25
 msgid "Partner is not exists."
-msgstr ""
+msgstr "Anunciante não existe."
 
 #: author.php:70 st_templates/user/user-alert_package.php:11
 #: template-package-success.php:83
@@ -1835,7 +1839,7 @@ msgstr ""
 #: inc/admin/class.admin.activity.php:840
 #: inc/layouts/modern/admin/class.admin.activity.php:858
 msgid "Activity gallery"
-msgstr ""
+msgstr "Galeria de Gastronomia e Vinícolas"
 
 #: inc/admin/class.admin.activity.php:843
 #: inc/layouts/modern/admin/class.admin.activity.php:861
@@ -1876,7 +1880,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:182
 #: inc/layouts/modern/configs/partner.php:3246
 msgid "Select contact info will show"
-msgstr ""
+msgstr "As informações de contato selecionadas serão exibidas"
 
 #: inc/admin/class.admin.activity.php:864 inc/admin/class.admin.cars.php:1201
 #: inc/admin/class.admin.hotel.php:574 inc/admin/class.admin.rental.php:924
@@ -1916,7 +1920,9 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.cars.php:1376
 #: inc/layouts/modern/admin/class.admin.rental.php:942
 #: inc/layouts/modern/admin/class.admin.tours.php:1099
-msgid "Use info configuration in theme option || Use contact info of people who upload hotel || Use contact info in hotel detail"
+msgid ""
+"Use info configuration in theme option || Use contact info of people who "
+"upload hotel || Use contact info in hotel detail"
 msgstr ""
 
 #: inc/admin/class.admin.activity.php:879
@@ -2191,7 +2197,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.activity.php:1079
 #: inc/layouts/modern/admin/class.admin.cars.php:1403
 msgid "Price setting"
-msgstr ""
+msgstr "Ajuste de Preços"
 
 #: inc/admin/class.admin.activity.php:973 inc/admin/class.admin.tours.php:1051
 #: inc/class/class.user.php:3142 inc/configs/partner.php:933
@@ -2652,7 +2658,8 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:1121
 #: inc/layouts/modern/admin/class.admin.room.php:1014
 #: inc/layouts/modern/admin/class.admin.tours.php:1381
-msgid "You can select <code>Disallow Deposit</code>, <code>Deposit by percent</code>"
+msgid ""
+"You can select <code>Disallow Deposit</code>, <code>Deposit by percent</code>"
 msgstr ""
 
 #: inc/admin/class.admin.activity.php:1214 inc/admin/class.admin.cars.php:1451
@@ -2840,7 +2847,9 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:1232
 #: inc/layouts/modern/admin/class.admin.room.php:1197
 #: inc/layouts/modern/admin/class.admin.tours.php:1673
-msgid "Enter an ical url and click Import button. All data will be updated and shown in the Availability tab"
+msgid ""
+"Enter an ical url and click Import button. All data will be updated and "
+"shown in the Availability tab"
 msgstr ""
 
 #: inc/admin/class.admin.activity.php:1287 inc/admin/class.admin.cars.php:1541
@@ -2878,7 +2887,7 @@ msgstr ""
 #: inc/admin/class.admin.activity.php:1499
 #: inc/layouts/modern/admin/class.admin.activity.php:1626
 msgid "Add new Activity Booking"
-msgstr ""
+msgstr "Adicionar nova reserva de gastronomia ou vinícola"
 
 #: inc/admin/class.admin.activity.php:1516 inc/admin/class.admin.cars.php:1714
 #: inc/admin/class.admin.hotel.php:1025 inc/admin/class.admin.rental.php:1460
@@ -3513,7 +3522,9 @@ msgid "Price unit"
 msgstr ""
 
 #: inc/admin/class.admin.cars.php:1121
-msgid "You can choose <code>Fixed Price</code>, <code>Price per Hour</code>, <code>Price per Day</code>"
+msgid ""
+"You can choose <code>Fixed Price</code>, <code>Price per Hour</code>, "
+"<code>Price per Day</code>"
 msgstr ""
 
 #: inc/admin/class.admin.cars.php:1126
@@ -3625,7 +3636,8 @@ msgstr ""
 
 #: inc/admin/class.admin.cars.php:1219
 #: inc/layouts/modern/admin/class.admin.cars.php:1382
-msgid "E-mail car agent, this address will received email when have new booking"
+msgid ""
+"E-mail car agent, this address will received email when have new booking"
 msgstr ""
 
 #: inc/admin/class.admin.cars.php:1225
@@ -3938,7 +3950,8 @@ msgstr ""
 
 #: inc/admin/class.admin.cars.php:1356 inc/admin/class.admin.tours.php:1218
 #: inc/layouts/modern/admin/class.admin.tours.php:1334
-msgid "You can define any extra service and price for with name, quantity, and price"
+msgid ""
+"You can define any extra service and price for with name, quantity, and price"
 msgstr ""
 
 #: inc/admin/class.admin.cars.php:1360
@@ -4003,7 +4016,8 @@ msgstr ""
 
 #: inc/admin/class.admin.cars.php:1446
 #: inc/layouts/modern/admin/class.admin.cars.php:1620
-msgid "You can select <code>Disallow deposit</code>, <code>Deposit by percent</code>"
+msgid ""
+"You can select <code>Disallow deposit</code>, <code>Deposit by percent</code>"
 msgstr ""
 
 #: inc/admin/class.admin.cars.php:1467
@@ -4019,7 +4033,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:3333
 #: inc/layouts/modern/configs/partner.php:5591
 msgid "Minimum stay"
-msgstr ""
+msgstr "Estadia mínima"
 
 #: inc/admin/class.admin.cars.php:1477
 msgid "Minimum stay in this car"
@@ -4123,7 +4137,10 @@ msgstr ""
 
 #: inc/admin/class.admin.cars.php:1852
 #: inc/layouts/modern/admin/class.admin.cars.php:2018
-msgid "Example: <br>Input \"fa-desktop\" for <a href=\"http://fortawesome.github.io/Font-Awesome/icons/\" target=\"_blank\" >Fontawesome</a>,<br>Input \"im-pool\" for <a href=\"https://icomoon.io/\" target=\"_blank\">Icomoon</a>  "
+msgid ""
+"Example: <br>Input \"fa-desktop\" for <a href=\"http://fortawesome.github.io/"
+"Font-Awesome/icons/\" target=\"_blank\" >Fontawesome</a>,<br>Input \"im-pool"
+"\" for <a href=\"https://icomoon.io/\" target=\"_blank\">Icomoon</a>  "
 msgstr ""
 
 #: inc/admin/class.admin.duplicate.data.php:59
@@ -4417,11 +4434,13 @@ msgstr ""
 #: inc/admin/class.admin.hotel.php:446
 #: inc/layouts/modern/admin/class.admin.hotel.php:448
 msgid "Hotel location"
-msgstr ""
+msgstr "Localização do hotel"
 
 #: inc/admin/class.admin.hotel.php:449
 #: inc/layouts/modern/admin/class.admin.hotel.php:451
-msgid "Select one or more locations for your hotel (Enter the name you need to search in search box to filter address faster)"
+msgid ""
+"Select one or more locations for your hotel (Enter the name you need to "
+"search in search box to filter address faster)"
 msgstr ""
 
 #: inc/admin/class.admin.hotel.php:453
@@ -4532,7 +4551,9 @@ msgstr ""
 
 #: inc/admin/class.admin.hotel.php:586
 #: inc/layouts/modern/admin/class.admin.hotel.php:604
-msgid " Use contact info of people who upload hotel || Use contact info in hotel details"
+msgid ""
+" Use contact info of people who upload hotel || Use contact info in hotel "
+"details"
 msgstr ""
 
 #: inc/admin/class.admin.hotel.php:589
@@ -4558,12 +4579,12 @@ msgstr ""
 #: inc/admin/class.admin.hotel.php:602
 #: inc/layouts/modern/admin/class.admin.hotel.php:620
 msgid "Hotel phone number"
-msgstr ""
+msgstr "Telefone do hotel"
 
 #: inc/admin/class.admin.hotel.php:605
 #: inc/layouts/modern/admin/class.admin.hotel.php:623
 msgid "Enter hotel phone number"
-msgstr ""
+msgstr "Digite o número de telefone do hotel"
 
 #: inc/admin/class.admin.hotel.php:608
 #: inc/layouts/modern/admin/class.admin.hotel.php:626
@@ -4580,11 +4601,12 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:286
 #: inc/layouts/modern/configs/partner.php:3350
 msgid "Set auto calculation average price"
-msgstr ""
+msgstr "Definir preço médio de cálculo automático"
 
 #: inc/admin/class.admin.hotel.php:622
 #: inc/layouts/modern/admin/class.admin.hotel.php:640
-msgid "The average price of hotel<br/>ON: Automatically<br/>OFF: Input manually"
+msgid ""
+"The average price of hotel<br/>ON: Automatically<br/>OFF: Input manually"
 msgstr ""
 
 #: inc/admin/class.admin.hotel.php:626 inc/configs/partner.php:215
@@ -4613,7 +4635,9 @@ msgstr ""
 
 #: inc/admin/class.admin.hotel.php:644
 #: inc/layouts/modern/admin/class.admin.hotel.php:662
-msgid "You can book room with full day<br/>Eg: booking from 22 -23, then all days 22 and 23 are full, other people cannot book"
+msgid ""
+"You can book room with full day<br/>Eg: booking from 22 -23, then all days "
+"22 and 23 are full, other people cannot book"
 msgstr ""
 
 #: inc/admin/class.admin.hotel.php:647
@@ -4672,17 +4696,17 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.hotel.php:700
 #: inc/layouts/modern/admin/class.admin.hotel.php:705
 msgid "Hotel policy"
-msgstr ""
+msgstr "Política do hotel"
 
 #: inc/admin/class.admin.hotel.php:689
 #: inc/layouts/modern/admin/class.admin.hotel.php:707
 msgid "Enter hotel policy"
-msgstr ""
+msgstr "Insira a política do hotel"
 
 #: inc/admin/class.admin.hotel.php:693
 #: inc/layouts/modern/admin/class.admin.hotel.php:711
 msgid "Policy Description"
-msgstr ""
+msgstr "Descrição da política"
 
 #: inc/admin/class.admin.hotel.php:701 inc/admin/class.admin.hotel.php:706
 #: inc/class/class.user.php:698 inc/class/class.user.php:731
@@ -4707,7 +4731,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.hotel.php:1055
 #: inc/layouts/modern/admin/class.admin.room.php:457
 msgid "Add new Hotel Booking"
-msgstr ""
+msgstr "Adicionar nova reserva de hotel"
 
 #: inc/admin/class.admin.hotel.php:1109 inc/admin/class.admin.room.php:576
 #: inc/layouts/modern/admin/class.admin.hotel.php:1158
@@ -4734,7 +4758,7 @@ msgstr ""
 #: inc/layouts/modern/helpers/availability.helper.php:2347
 #: inc/layouts/modern/helpers/availability.helper.php:2490
 msgid "Successfully"
-msgstr ""
+msgstr "Sucesso"
 
 #: inc/admin/class.admin.landing.page.php:42
 msgid "Please confirm by keyword  : yes"
@@ -4742,7 +4766,10 @@ msgstr ""
 
 #: inc/admin/class.admin.landing.page.php:180
 #: inc/admin/class.admin.landing.page.php:187
-msgid "WARNING: Importing data is recommended on fresh installs only once. Importing on sites with content or importing twice will duplicate menus, pages and all posts."
+msgid ""
+"WARNING: Importing data is recommended on fresh installs only once. "
+"Importing on sites with content or importing twice will duplicate menus, "
+"pages and all posts."
 msgstr ""
 
 #: inc/admin/class.admin.landing.page.php:199
@@ -5256,7 +5283,7 @@ msgstr ""
 
 #: inc/admin/class.admin.order.php:147
 msgid "Type Activity"
-msgstr ""
+msgstr "Tipo de gastronomia ou vinícola"
 
 #: inc/admin/class.admin.order.php:153 st_templates/tours/cart_item_html.php:70
 msgid "Type Tour"
@@ -5993,7 +6020,9 @@ msgid "Allow cutomer can booking full day"
 msgstr ""
 
 #: inc/admin/class.admin.rental.php:1142
-msgid "Eg: booking from 22 -23, then all of day 22 and 23 is full, other people can not booking"
+msgid ""
+"Eg: booking from 22 -23, then all of day 22 and 23 is full, other people can "
+"not booking"
 msgstr ""
 
 #: inc/admin/class.admin.rental.php:1158
@@ -6543,7 +6572,9 @@ msgstr ""
 
 #: inc/admin/class.admin.settings.php:154
 #: inc/layouts/modern/admin/class.admin.settings.php:272
-msgid "<b>Traveler data update</b> – We need to update your database to the latest version."
+msgid ""
+"<b>Traveler data update</b> – We need to update your database to the latest "
+"version."
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:156
@@ -9229,7 +9260,9 @@ msgstr ""
 
 #: inc/admin/class.admin.settings.php:2014
 #: inc/layouts/modern/admin/class.admin.settings.php:2092
-msgid "ON: Show email of author(who posts service) in single, email page. OFF: Show email entered in metabox of service"
+msgid ""
+"ON: Show email of author(who posts service) in single, email page. OFF: Show "
+"email entered in metabox of service"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:2021
@@ -9240,7 +9273,9 @@ msgstr ""
 
 #: inc/admin/class.admin.settings.php:2022
 #: inc/layouts/modern/admin/class.admin.settings.php:2100
-msgid "ON: Show services for partner. OFF: Turn off services, partner is not allowed to register service, it is not displayed in dashboard"
+msgid ""
+"ON: Show services for partner. OFF: Turn off services, partner is not "
+"allowed to register service, it is not displayed in dashboard"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:2029
@@ -9252,7 +9287,8 @@ msgstr ""
 #: inc/admin/class.admin.settings.php:2030
 #: inc/layouts/modern/admin/class.admin.settings.php:2108
 #: inc/st-theme-options.php:5760
-msgid "ON: When partner posts a service, it needs to be approved by administrator "
+msgid ""
+"ON: When partner posts a service, it needs to be approved by administrator "
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:2037
@@ -9494,7 +9530,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.settings.php:2300
 #: inc/st-theme-options.php:5914
 msgid "Minimum value request when withdrawal"
-msgstr ""
+msgstr "Solicitação de valor mínimo na retirada"
 
 #: inc/admin/class.admin.settings.php:2233
 #: inc/layouts/modern/admin/class.admin.settings.php:2303
@@ -9518,7 +9554,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.settings.php:2316
 #: inc/st-theme-options.php:5930
 msgid "Inbox Options"
-msgstr ""
+msgstr "Opções da caixa de entrada"
 
 #: inc/admin/class.admin.settings.php:2252
 #: inc/layouts/modern/admin/class.admin.settings.php:2322
@@ -10100,7 +10136,9 @@ msgid "Set car transfer search field by location"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:2711
-msgid "ON: Search car transfer by location - Off: Search car transfer by hotel/airport"
+msgid ""
+"ON: Search car transfer by location - Off: Search car transfer by hotel/"
+"airport"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:2715 inc/st-theme-options.php:5231
@@ -10160,7 +10198,8 @@ msgid "Calendar position"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:2885 inc/st-theme-options.php:4678
-msgid "ON: Show calendar below book form<br/>OFF: Show calendar above book form"
+msgid ""
+"ON: Show calendar below book form<br/>OFF: Show calendar above book form"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:2889
@@ -10580,7 +10619,9 @@ msgid "Activity custom fields"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:3407 inc/st-theme-options.php:5183
-msgid "You can create custom fields for activity. Fields will be displayed in metabox of single activity"
+msgid ""
+"You can create custom fields for activity. Fields will be displayed in "
+"metabox of single activity"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:3411
@@ -10812,7 +10853,8 @@ msgid "Number of tour booked users"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:4007 inc/st-theme-options.php:4603
-msgid "ON: Show number of users who booked tour on each item in search results page"
+msgid ""
+"ON: Show number of users who booked tour on each item in search results page"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:4014
@@ -10824,7 +10866,9 @@ msgid "Tour custom fields"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:4025 inc/st-theme-options.php:4613
-msgid "You can create custom fields for tour. Fields will be displayed in metabox of single tour"
+msgid ""
+"You can create custom fields for tour. Fields will be displayed in metabox "
+"of single tour"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:4072
@@ -11090,7 +11134,10 @@ msgstr ""
 #: inc/admin/class.admin.settings.php:4354
 #: inc/layouts/modern/admin/class.admin.settings.php:3332
 #: inc/st-theme-options.php:3294
-msgid "The unit to calculate the price of car<br/>Day: The price is calculated according to day<br/>Hour: The price is calculated according to hour<br/>Distance: The price is calculated according to distance"
+msgid ""
+"The unit to calculate the price of car<br/>Day: The price is calculated "
+"according to day<br/>Hour: The price is calculated according to hour<br/"
+">Distance: The price is calculated according to distance"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:4363
@@ -11122,7 +11169,9 @@ msgid "Set default booking info"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:4405
-msgid "ON: Add one day / hour into day / hour for check in. For example: 22-23/11/2017 will be 2 days."
+msgid ""
+"ON: Add one day / hour into day / hour for check in. For example: "
+"22-23/11/2017 will be 2 days."
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:4409
@@ -11189,7 +11238,9 @@ msgid "Location & Date Change Box"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:4685 inc/st-theme-options.php:3612
-msgid "You can add, sort fields in the change box for car search in the car single page"
+msgid ""
+"You can add, sort fields in the change box for car search in the car single "
+"page"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:4705 inc/st-theme-options.php:3634
@@ -11532,11 +11583,15 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.settings.php:3575
 #: inc/st-theme-options.php:1098
 msgid ""
-"The date format, combination of d, dd, mm, yy, yyyy. It is surrounded by <code>'{}'</code>. Ex: {dd}/{mm}/{yyyy}.\n"
+"The date format, combination of d, dd, mm, yy, yyyy. It is surrounded by "
+"<code>'{}'</code>. Ex: {dd}/{mm}/{yyyy}.\n"
 "                <ul>\n"
-"                <li><code>d, dd</code>: Numeric date, no leading zero and leading zero, respectively. Eg, 5, 05.</li>\n"
-"                <li><code>m, mm</code>: Numeric month, no leading zero and leading zero, respectively. Eg, 7, 07.</li>\n"
-"                <li><code>yy, yyyy:</code> 2- and 4-digit years, respectively. Eg, 12, 2012.</li>\n"
+"                <li><code>d, dd</code>: Numeric date, no leading zero and "
+"leading zero, respectively. Eg, 5, 05.</li>\n"
+"                <li><code>m, mm</code>: Numeric month, no leading zero and "
+"leading zero, respectively. Eg, 7, 07.</li>\n"
+"                <li><code>yy, yyyy:</code> 2- and 4-digit years, "
+"respectively. Eg, 12, 2012.</li>\n"
 "                </ul>\n"
 "                "
 msgstr ""
@@ -11941,7 +11996,9 @@ msgstr ""
 #: inc/admin/class.admin.settings.php:6310
 #: inc/layouts/modern/admin/class.admin.settings.php:4448
 #: inc/st-theme-options.php:1198
-msgid "Show/hide booking mode with popup form. This option only works when turning off Woocommerce Checkout"
+msgid ""
+"Show/hide booking mode with popup form. This option only works when turning "
+"off Woocommerce Checkout"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6318
@@ -12144,7 +12201,9 @@ msgstr ""
 #: inc/admin/class.admin.settings.php:6491
 #: inc/layouts/modern/admin/class.admin.settings.php:4653
 #: inc/st-theme-options.php:1387
-msgid "It is used to convert any currency into dollars (USD) when booking in paypal with the currencies having not been supported yet."
+msgid ""
+"It is used to convert any currency into dollars (USD) when booking in paypal "
+"with the currencies having not been supported yet."
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6513
@@ -12179,7 +12238,8 @@ msgstr ""
 
 #: inc/admin/class.admin.settings.php:6531
 #: inc/layouts/modern/admin/class.admin.settings.php:4693
-msgid "This options required input checker \"Create new account\" for Guest booking "
+msgid ""
+"This options required input checker \"Create new account\" for Guest booking "
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6539
@@ -12212,7 +12272,10 @@ msgstr ""
 
 #: inc/admin/class.admin.settings.php:6562
 #: inc/layouts/modern/admin/class.admin.settings.php:4717
-msgid "Enable/disable multi item in cart for Booking. If the multi is on then The cancel function in dashboard user is deactived. Only cancel in admin. If the multi is cancel off then the cancel function in dashobard user is actived"
+msgid ""
+"Enable/disable multi item in cart for Booking. If the multi is on then The "
+"cancel function in dashboard user is deactived. Only cancel in admin. If the "
+"multi is cancel off then the cancel function in dashobard user is actived"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6570
@@ -12256,7 +12319,9 @@ msgstr ""
 
 #: inc/admin/class.admin.settings.php:6600
 #: inc/layouts/modern/admin/class.admin.settings.php:4755
-msgid "ON: Tax has been included in the price of product - OFF: Tax has not been included in the price of product"
+msgid ""
+"ON: Tax has been included in the price of product - OFF: Tax has not been "
+"included in the price of product"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6608
@@ -12350,7 +12415,9 @@ msgid "Location link options"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6703
-msgid "ON: Link of items will redirect to results search page - OFF: Link of items will redirect to details page"
+msgid ""
+"ON: Link of items will redirect to results search page - OFF: Link of items "
+"will redirect to details page"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6710
@@ -12370,7 +12437,9 @@ msgid "Write review"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6743
-msgid "ON: Reviews can be written without logging in - OFF: Reviews cannot be written without logging in"
+msgid ""
+"ON: Reviews can be written without logging in - OFF: Reviews cannot be "
+"written without logging in"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6750 inc/st-theme-options.php:934
@@ -12397,7 +12466,8 @@ msgstr ""
 
 #: inc/admin/class.admin.settings.php:6767
 #: inc/layouts/modern/admin/class.admin.settings.php:4861
-msgid "ON: Review must be approved by admin - OFF: Review is automatically approved"
+msgid ""
+"ON: Review must be approved by admin - OFF: Review is automatically approved"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6781 inc/st-theme-options.php:1556
@@ -12413,7 +12483,9 @@ msgstr ""
 #: inc/admin/class.admin.settings.php:6790
 #: inc/layouts/modern/admin/class.admin.settings.php:4892
 #: inc/st-theme-options.php:1565
-msgid "AVG: Show average price on results search page <br>MIN: Show minimum price on results search page"
+msgid ""
+"AVG: Show average price on results search page <br>MIN: Show minimum price "
+"on results search page"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6795
@@ -12437,7 +12509,9 @@ msgstr ""
 #: inc/admin/class.admin.settings.php:6808
 #: inc/layouts/modern/admin/class.admin.settings.php:4910
 #: inc/st-theme-options.php:1583
-msgid "Hotel star: Show hotel stars on elements of hotel list <br>Hotel review: Show the number of review stars on elements of hotel list "
+msgid ""
+"Hotel star: Show hotel stars on elements of hotel list <br>Hotel review: "
+"Show the number of review stars on elements of hotel list "
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6813
@@ -12554,7 +12628,8 @@ msgid "Hotel custom search form"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:6954 inc/st-theme-options.php:1733
-msgid "You can add, edit, delete or sort fields to make a search form for hotel"
+msgid ""
+"You can add, edit, delete or sort fields to make a search form for hotel"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:7007
@@ -12583,7 +12658,9 @@ msgid "Hotel Advanced Search fields"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:7199 inc/st-theme-options.php:1979
-msgid "You can add, edit, delete, drag and drop any field for settingup advanced search form"
+msgid ""
+"You can add, edit, delete, drag and drop any field for settingup advanced "
+"search form"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:7203
@@ -12672,11 +12749,13 @@ msgid "Room advanced search fields"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:7549 inc/st-theme-options.php:2267
-msgid "You can add, edit, delete, drag and drop any fields to setup advanced form"
+msgid ""
+"You can add, edit, delete, drag and drop any fields to setup advanced form"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:7787 inc/st-theme-options.php:2507
-msgid "You can add, edit, delete, drag and drop any field for setup advanced form"
+msgid ""
+"You can add, edit, delete, drag and drop any field for setup advanced form"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:7976
@@ -12912,7 +12991,8 @@ msgid "Wrap background"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:8198 inc/st-theme-options.php:491
-msgid "To change background color, bachground image of box surrounding the content"
+msgid ""
+"To change background color, bachground image of box surrounding the content"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:8209 inc/st-theme-options.php:502
@@ -13367,7 +13447,9 @@ msgstr ""
 #: inc/admin/class.admin.settings.php:8755
 #: inc/layouts/modern/admin/class.admin.settings.php:5712
 #: inc/st-theme-options.php:253
-msgid "Hide one or many services of theme. In order to disable services (holtel, tour,..) you do not use, please tick the checkbox"
+msgid ""
+"Hide one or many services of theme. In order to disable services (holtel, "
+"tour,..) you do not use, please tick the checkbox"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:8787 inc/class/class.user.php:5127
@@ -13417,7 +13499,8 @@ msgstr ""
 #: inc/st-theme-options.php:296
 msgid ""
 "Note: You MUST re-name Logo Retina to logo-name@2x.ext-name. Example:<br>\n"
-"                                    Logo is: <em>my-logo.jpg</em><br>Logo Retina must be: <em>my-logo@2x.jpg</em>  "
+"                                    Logo is: <em>my-logo.jpg</em><br>Logo "
+"Retina must be: <em>my-logo@2x.jpg</em>  "
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:8824
@@ -13533,7 +13616,9 @@ msgid "Enable Google Captcha Login"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:8914 inc/st-theme-options.php:394
-msgid "Show/hide google captcha for page login and register. Note: This function not support for popup login and popup register"
+msgid ""
+"Show/hide google captcha for page login and register. Note: This function "
+"not support for popup login and popup register"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:8922 inc/st-theme-options.php:402
@@ -13548,7 +13633,10 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.settings.php:5911
 #: inc/layouts/modern/helpers/class.sthelper.php:810
 #: inc/st-theme-options.php:7375
-msgid "From version 1.1.9 you can edit email template for Admin, Partner, Customer by use our shortcodes system with some layout we ready build in. Below is the list shortcodes you can use"
+msgid ""
+"From version 1.1.9 you can edit email template for Admin, Partner, Customer "
+"by use our shortcodes system with some layout we ready build in. Below is "
+"the list shortcodes you can use"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:8967 inc/helpers/class.sthelper.php:939
@@ -13563,7 +13651,7 @@ msgstr ""
 #: inc/layouts/modern/helpers/class.sthelper.php:816
 #: inc/st-theme-options.php:7381
 msgid "Customer Information:"
-msgstr ""
+msgstr "Informação ao Cliente:"
 
 #: inc/admin/class.admin.settings.php:8974
 #: inc/admin/class.admin.settings.php:9041
@@ -13882,7 +13970,9 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.settings.php:6093
 #: inc/layouts/modern/helpers/class.sthelper.php:980
 #: inc/st-theme-options.php:7544
-msgid "Display original price of the item (not included custom price, sale price and tax)"
+msgid ""
+"Display original price of the item (not included custom price, sale price "
+"and tax)"
 msgstr ""
 
 #: inc/admin/class.admin.settings.php:9151 inc/helpers/class.sthelper.php:1110
@@ -14058,7 +14148,7 @@ msgstr ""
 #: inc/layouts/modern/helpers/class.sthelper.php:1062
 #: inc/st-theme-options.php:7626
 msgid "Booking Payment method"
-msgstr ""
+msgstr "Forma de pagamento da reserva"
 
 #: inc/admin/class.admin.settings.php:9231 inc/helpers/class.sthelper.php:1190
 #: inc/layouts/modern/admin/class.admin.settings.php:6178
@@ -14582,7 +14672,7 @@ msgstr ""
 #: st_templates/user/user-my-tours.php:16
 #: st_templates/user/user-my-tours.php:75
 msgid "Add New Tour"
-msgstr ""
+msgstr "Adicionar Novo Passeio ou Trilha"
 
 #: inc/admin/class.admin.tours.php:746
 #: inc/layouts/modern/admin/class.admin.tours.php:824
@@ -14598,7 +14688,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:748
 #: inc/layouts/modern/admin/class.admin.tours.php:826
 msgid "View Tour"
-msgstr ""
+msgstr "Ver Passeio"
 
 #: inc/admin/class.admin.tours.php:749
 #: inc/layouts/modern/admin/class.admin.tours.php:827
@@ -14774,7 +14864,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:1003
 #: inc/layouts/modern/admin/class.admin.tours.php:1126
 msgid "Price settings"
-msgstr ""
+msgstr "CONFIGURAÇÕES DE PREÇO"
 
 #: inc/admin/class.admin.tours.php:1009
 #: inc/layouts/modern/admin/class.admin.tours.php:1132
@@ -14945,7 +15035,9 @@ msgstr "Tipo"
 
 #: inc/admin/class.admin.tours.php:1300
 #: inc/layouts/modern/admin/class.admin.tours.php:1414
-msgid "Select tour type. If you selected the 'Specific Date' tour, you need to set price in 'Availability' tab (required)"
+msgid ""
+"Select tour type. If you selected the 'Specific Date' tour, you need to set "
+"price in 'Availability' tab (required)"
 msgstr ""
 
 #: inc/admin/class.admin.tours.php:1304
@@ -15021,7 +15113,7 @@ msgstr ""
 #: inc/admin/class.admin.tours.php:1654
 #: inc/layouts/modern/admin/class.admin.tours.php:1937
 msgid "Add new Tour Booking"
-msgstr ""
+msgstr "Adicionar Nova Reserva de Passeio ou Trilha"
 
 #: inc/admin/class.admin.tours.php:2018
 #: inc/admin/views/tour/booking_edit.php:186
@@ -15079,7 +15171,8 @@ msgid "Partner Withdrawal"
 msgstr ""
 
 #: inc/admin/class.admin.withdrawal.php:212
-msgid "You have done withdrawal request  of the current month already. Please wait!"
+msgid ""
+"You have done withdrawal request  of the current month already. Please wait!"
 msgstr ""
 
 #: inc/admin/class.admin.withdrawal.php:215
@@ -15158,7 +15251,9 @@ msgid "Email content is empty"
 msgstr ""
 
 #: inc/admin/class.attributes.php:609
-msgid "You can upload your font-icon file in the site by navigating to Traveler Settings -> Importer Fonticon"
+msgid ""
+"You can upload your font-icon file in the site by navigating to Traveler "
+"Settings -> Importer Fonticon"
 msgstr ""
 
 #: inc/admin/class.attributes.php:613
@@ -15180,12 +15275,15 @@ msgstr ""
 
 #: inc/admin/class.attributes.php:808 inc/admin/class.attributes.php:914
 #, php-format
-msgid "Slug “%s” is not allowed because it is a reserved term. Change it, please."
+msgid ""
+"Slug “%s” is not allowed because it is a reserved term. Change it, please."
 msgstr ""
 
 #: inc/admin/class.attributes.php:907 inc/admin/views/attributes/edit.php:36
 #: inc/admin/views/attributes/index.php:86
-msgid "Unique slug/reference for the attribute; must be shorter than 28 characters and type Alphabet."
+msgid ""
+"Unique slug/reference for the attribute; must be shorter than 28 characters "
+"and type Alphabet."
 msgstr ""
 
 #: inc/admin/class.attributes.php:920 inc/admin/class.attributes.php:925
@@ -15714,7 +15812,7 @@ msgstr ""
 #: inc/admin/class.user.php:284 inc/admin/class.user.php:326
 #: inc/admin/views/users/partner_index.php:609
 msgid "Not Verified"
-msgstr ""
+msgstr "Não Verificado"
 
 #: inc/admin/class.user.php:320 inc/admin/views/users/partner_index.php:609
 msgid "A Part"
@@ -15940,7 +16038,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:45
 #: st_templates/user/user-add-tour-booking.php:45
 msgid "Customer First Name"
-msgstr ""
+msgstr "Nome do cliente"
 
 #: inc/admin/views/activity/booking_edit.php:159
 #: inc/admin/views/car/booking_edit.php:157
@@ -15957,7 +16055,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:53
 #: st_templates/user/user-add-tour-booking.php:53
 msgid "Customer Last Name"
-msgstr ""
+msgstr "Sobrenome do cliente"
 
 #: inc/admin/views/activity/booking_edit.php:181
 #: inc/admin/views/car/booking_edit.php:179
@@ -15974,7 +16072,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:63
 #: st_templates/user/user-add-tour-booking.php:63
 msgid "Customer Email"
-msgstr ""
+msgstr "Email do cliente"
 
 #: inc/admin/views/activity/booking_edit.php:203
 #: inc/admin/views/car/booking_edit.php:201
@@ -15991,7 +16089,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:71
 #: st_templates/user/user-add-tour-booking.php:71
 msgid "Customer Phone"
-msgstr ""
+msgstr "Telefone do cliente"
 
 #: inc/admin/views/activity/booking_edit.php:227
 #: inc/admin/views/car/booking_edit.php:225
@@ -16028,7 +16126,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:99
 #: st_templates/user/user-add-tour-booking.php:99
 msgid "Customer City"
-msgstr ""
+msgstr "Cidade do cliente"
 
 #: inc/admin/views/activity/booking_edit.php:423
 #: inc/admin/views/tour/booking_edit.php:202 inc/class/class.user.php:4094
@@ -16571,7 +16669,7 @@ msgstr ""
 #: st_templates/user/user-booking-tours-email.php:73
 #: st_templates/user/user-booking-tours.php:51
 msgid "Customer"
-msgstr ""
+msgstr "Cliente"
 
 #: inc/admin/views/activity/booking_index.php:201
 #: inc/class/class.activity.php:417 inc/configs/partner.php:1338
@@ -16583,7 +16681,7 @@ msgstr ""
 #: st_templates/user/detail-booking-history/woo/st_activity.php:57
 #: st_templates/user/detail-booking-history/woo/st_tours.php:279
 msgid "Activity Name"
-msgstr ""
+msgstr "Nome gastronomia ou vinícola"
 
 #: inc/admin/views/activity/booking_index.php:217
 #: inc/admin/views/car/booking_index.php:209
@@ -16684,7 +16782,11 @@ msgid "Hierarchy"
 msgstr ""
 
 #: inc/admin/views/attributes/edit.php:48
-msgid "Determines how you select attributes for products. Under admin panel -> products -> product data -> attributes -> values, <strong>Text</strong> allows manual entry whereas <strong>select</strong> allows pre-configured terms in a drop-down list."
+msgid ""
+"Determines how you select attributes for products. Under admin panel -> "
+"products -> product data -> attributes -> values, <strong>Text</strong> "
+"allows manual entry whereas <strong>select</strong> allows pre-configured "
+"terms in a drop-down list."
 msgstr ""
 
 #: inc/admin/views/attributes/edit.php:53
@@ -16731,7 +16833,8 @@ msgid "Add New Attribute"
 msgstr ""
 
 #: inc/admin/views/attributes/index.php:76
-msgid "Attributes let you define unlimited extra infomation for Hotel, Car ..etc"
+msgid ""
+"Attributes let you define unlimited extra infomation for Hotel, Car ..etc"
 msgstr ""
 
 #: inc/admin/views/attributes/index.php:112
@@ -16745,7 +16848,7 @@ msgstr ""
 #: inc/admin/views/car/booking_edit.php:85
 #: inc/admin/views/rental/booking_edit.php:77
 msgid "Customer ID"
-msgstr ""
+msgstr "ID Cliente"
 
 #: inc/admin/views/car/booking_edit.php:498 inc/class/class.user.php:5195
 #: inc/class/class.user.php:5210 inc/layouts/modern/class/class.user.php:4894
@@ -16843,7 +16946,16 @@ msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_install.php:15
 #, php-format
-msgid "The Demo content is a replication of the Live Content. By importing it, you could get several sliders, sliders,pages, posts, theme options, widgets, sidebars and other settings.To be able to get them, make sure that you have installed and activated these plugins:  Contact form 7 , Option tree and Visual Composer <br><span style=\"color:#f0ad4e\">WARNING: By clicking Import Demo Content button, your current theme options, sliders and widgets will be replaced. It can also take a minute to complete.</span> <br><span style=\"color:red\"><b>Please back up your database before doing this.</b> %s "
+msgid ""
+"The Demo content is a replication of the Live Content. By importing it, you "
+"could get several sliders, sliders,pages, posts, theme options, widgets, "
+"sidebars and other settings.To be able to get them, make sure that you have "
+"installed and activated these plugins:  Contact form 7 , Option tree and "
+"Visual Composer <br><span style=\"color:#f0ad4e\">WARNING: By clicking "
+"Import Demo Content button, your current theme options, sliders and widgets "
+"will be replaced. It can also take a minute to complete.</span> <br><span "
+"style=\"color:red\"><b>Please back up your database before doing this.</b> "
+"%s "
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_install.php:95
@@ -16860,7 +16972,15 @@ msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_quick_install.php:15
 #, php-format
-msgid "The Demo content is a replication of the Live Content. By importing it, you could get several sliders, sliders,pages, posts, theme options, widgets, sidebars and other settings.To be able to get them, make sure that you have installed and activated these plugins:  Contact form 7 ,  Visual Composer <br><span style=\"color:#f0ad4e\">WARNING: By clicking Import Demo Content button, your current theme options, sliders and widgets will be replaced. It can also take a minute to complete.</span> <br><span style=\"color:red\"><b>Please back up your database before doing this.</b> %s "
+msgid ""
+"The Demo content is a replication of the Live Content. By importing it, you "
+"could get several sliders, sliders,pages, posts, theme options, widgets, "
+"sidebars and other settings.To be able to get them, make sure that you have "
+"installed and activated these plugins:  Contact form 7 ,  Visual Composer "
+"<br><span style=\"color:#f0ad4e\">WARNING: By clicking Import Demo Content "
+"button, your current theme options, sliders and widgets will be replaced. It "
+"can also take a minute to complete.</span> <br><span style=\"color:red"
+"\"><b>Please back up your database before doing this.</b> %s "
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_quick_install.php:184
@@ -16868,7 +16988,9 @@ msgid "Processing..."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:13
-msgid "To access our support forum and resources, you first must register your purchase."
+msgid ""
+"To access our support forum and resources, you first must register your "
+"purchase."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:15
@@ -16885,7 +17007,10 @@ msgid "Submit A Ticket"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:45
-msgid "We offer excellent support through our advanced ticket system. Make sure to register your purchase first to access our support services and other resources."
+msgid ""
+"We offer excellent support through our advanced ticket system. Make sure to "
+"register your purchase first to access our support services and other "
+"resources."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:51
@@ -16894,7 +17019,10 @@ msgid "Documentation"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:53
-msgid "This is the place to go to reference different aspects of the theme. Our online documentation is an incredible resource for learning the ins and outs of using traveler."
+msgid ""
+"This is the place to go to reference different aspects of the theme. Our "
+"online documentation is an incredible resource for learning the ins and outs "
+"of using traveler."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:59
@@ -16903,7 +17031,10 @@ msgid "Knowledgebase"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:61
-msgid "Our knowledgebase contains additional content that is not inside of our documentation. This information is more specific and unique to various versions or aspects of traveler."
+msgid ""
+"Our knowledgebase contains additional content that is not inside of our "
+"documentation. This information is more specific and unique to various "
+"versions or aspects of traveler."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:67
@@ -16911,7 +17042,10 @@ msgid "Video Tutorials"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:69
-msgid "Nothing is better than watching a video to learn. We have a growing library of high-definition, narrated video tutorials to help teach you the different aspects of using traveler."
+msgid ""
+"Nothing is better than watching a video to learn. We have a growing library "
+"of high-definition, narrated video tutorials to help teach you the different "
+"aspects of using traveler."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:71
@@ -16924,11 +17058,15 @@ msgid "Community Forum"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_support.php:77
-msgid "We also have a community forum for user to user interactions. Ask another traveler user! Please note that ThemeFusion does not provide product support here."
+msgid ""
+"We also have a community forum for user to user interactions. Ask another "
+"traveler user! Please note that ThemeFusion does not provide product support "
+"here."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_sync_price.php:15
-msgid "Recommend : To avoid losing data, Please backup the database before running"
+msgid ""
+"Recommend : To avoid losing data, Please backup the database before running"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:8
@@ -16985,7 +17123,9 @@ msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:47
 #, php-format
-msgid "%s - We recommend setting memory to at least 128MB. See: <a href=\"%s\" target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgid ""
+"%s - We recommend setting memory to at least 128MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:54
@@ -17022,7 +17162,9 @@ msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:84
 #, php-format
-msgid "%s - We recommend a minimum PHP version of 5.6. See: <a href=\"%s\" target=\"_blank\">How to update your PHP version</a>"
+msgid ""
+"%s - We recommend a minimum PHP version of 5.6. See: <a href=\"%s\" target="
+"\"_blank\">How to update your PHP version</a>"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:89
@@ -17042,7 +17184,9 @@ msgid "PHP Time Limit"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:101
-msgid "The amount of time (in seconds) that your site will spend on a single operation before timing out (to avoid server lockups)"
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:105
@@ -17050,7 +17194,9 @@ msgid "PHP Max Input Vars"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:106
-msgid "The maximum number of variables your server can use for a single function to avoid overloads."
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:111
@@ -17066,7 +17212,8 @@ msgid "Max Upload Size"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:122
-msgid "The largest filesize that can be uploaded to your WordPress installation."
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:126
@@ -17083,20 +17230,30 @@ msgid "Default timezone is %s - it should be UTC"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:141
-msgid "Payment gateways can use cURL to communicate with remote servers to authorize payments, other plugins may also use it when communicating with remote services."
+msgid ""
+"Payment gateways can use cURL to communicate with remote servers to "
+"authorize payments, other plugins may also use it when communicating with "
+"remote services."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:146
-msgid "Your server does not have fsockopen or cURL enabled - PayPal IPN and other scripts which communicate with other servers will not work. Contact your hosting provider."
+msgid ""
+"Your server does not have fsockopen or cURL enabled - PayPal IPN and other "
+"scripts which communicate with other servers will not work. Contact your "
+"hosting provider."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:150
-msgid "HTML/Multipart emails use DOMDocument to generate inline CSS in templates."
+msgid ""
+"HTML/Multipart emails use DOMDocument to generate inline CSS in templates."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:155
 #, php-format
-msgid "Your server does not have the <a href=\"%s\">DOMDocument</a> class enabled - HTML/Multipart emails, and also some extensions, will not work without DOMDocument."
+msgid ""
+"Your server does not have the <a href=\"%s\">DOMDocument</a> class enabled - "
+"HTML/Multipart emails, and also some extensions, will not work without "
+"DOMDocument."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:159
@@ -17105,7 +17262,10 @@ msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:164
 #, php-format
-msgid "Your server does not support the <a href=\"%s\">gzopen</a> function - this is required to use the GeoIP database from MaxMind. The API fallback will be used instead for geolocation."
+msgid ""
+"Your server does not support the <a href=\"%s\">gzopen</a> function - this "
+"is required to use the GeoIP database from MaxMind. The API fallback will be "
+"used instead for geolocation."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:167
@@ -17113,11 +17273,15 @@ msgid "Remote Post"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:168
-msgid "PayPal uses this method of communicating when sending back transaction information."
+msgid ""
+"PayPal uses this method of communicating when sending back transaction "
+"information."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:179
-msgid "wp_remote_post() failed. PayPal IPN won't work with your server. Contact your hosting provider."
+msgid ""
+"wp_remote_post() failed. PayPal IPN won't work with your server. Contact "
+"your hosting provider."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:181
@@ -17137,11 +17301,15 @@ msgid "Remote Get"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:189
-msgid "WooCommerce plugins may use this method of communication when checking for plugin updates."
+msgid ""
+"WooCommerce plugins may use this method of communication when checking for "
+"plugin updates."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:194
-msgid "wp_remote_get() failed. The WooCommerce plugin updater won't work with your server. Contact your hosting provider."
+msgid ""
+"wp_remote_get() failed. The WooCommerce plugin updater won't work with your "
+"server. Contact your hosting provider."
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:223
@@ -17212,7 +17380,7 @@ msgstr ""
 #: st_templates/user/user-withdrawal.php:167
 #: woocommerce/single-product-reviews.php:81
 msgid "Submit"
-msgstr ""
+msgstr "Enviar"
 
 #: inc/admin/views/landing_page/landing_page-st_product_reg.php:78
 msgid "Deregistration"
@@ -17223,7 +17391,10 @@ msgid "Welcome to Traveler!"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page.php:33
-msgid "Traveler is now installed and ready to use!  Get ready to build something beautiful. Please register your purchase to get support and automatic theme updates. Read below for additional information. We hope you enjoy it!"
+msgid ""
+"Traveler is now installed and ready to use!  Get ready to build something "
+"beautiful. Please register your purchase to get support and automatic theme "
+"updates. Read below for additional information. We hope you enjoy it!"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page.php:57
@@ -17231,7 +17402,9 @@ msgid "Version "
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page.php:123
-msgid "Thank you for choosing traveler. We are honored and are fully dedicated to making your experience perfect."
+msgid ""
+"Thank you for choosing traveler. We are honored and are fully dedicated to "
+"making your experience perfect."
 msgstr ""
 
 #: inc/admin/views/member_packages/edit.php:18
@@ -17292,7 +17465,9 @@ msgstr ""
 
 #: inc/admin/views/member_packages/edit.php:92
 #: inc/admin/views/member_packages/index.php:69
-msgid "The commission between admin and partner. Default from Theme Settings -> Partner Options -> Commissions"
+msgid ""
+"The commission between admin and partner. Default from Theme Settings -> "
+"Partner Options -> Commissions"
 msgstr ""
 
 #: inc/admin/views/member_packages/edit.php:95
@@ -17708,7 +17883,7 @@ msgstr ""
 
 #: inc/admin/views/users/partner_index.php:455
 msgid "View detail"
-msgstr ""
+msgstr "Ver detalhes"
 
 #: inc/admin/views/users/partner_index.php:609
 #: st_templates/user/verify/info.php:56 st_templates/user/verify/info.php:60
@@ -18018,7 +18193,7 @@ msgstr ""
 #: inc/admin/views/users_withdrawal/partner_profile.php:149
 #: st_templates/user/user-withdrawal-history.php:16
 msgid "Withdrawal History"
-msgstr ""
+msgstr "Histórico de Cancelamento"
 
 #: inc/admin/views/users_withdrawal/partner_profile.php:271
 #: inc/admin/views/users_withdrawal/partner_profile.php:483
@@ -18058,7 +18233,9 @@ msgstr "Mostrar Mais"
 
 #: inc/class.traveler.php:200
 #, php-format
-msgid "You must upgrade your PHP version to at least  5.3. Your current is %s. Please contact your Hosting Provide to know how to upgrade it"
+msgid ""
+"You must upgrade your PHP version to at least  5.3. Your current is %s. "
+"Please contact your Hosting Provide to know how to upgrade it"
 msgstr ""
 
 #: inc/class.traveler.php:442 inc/class.traveler.php:444
@@ -18076,7 +18253,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5479
 #: inc/layouts/modern/travel-helper.php:3749 inc/travel-helper.php:3701
 msgid "Locations"
-msgstr ""
+msgstr "Localizações"
 
 #: inc/class.traveler.php:447
 msgid "Add New Location"
@@ -18623,7 +18800,8 @@ msgstr ""
 #: inc/class/class.activity.php:1246
 #: inc/layouts/modern/class/class.activity.php:256
 #: inc/layouts/modern/class/class.activity.php:1457
-msgid "The check in, check out day is not invalid or this activity not available."
+msgid ""
+"The check in, check out day is not invalid or this activity not available."
 msgstr ""
 
 #: inc/class/class.activity.php:1266
@@ -19317,7 +19495,9 @@ msgid "Limited for user"
 msgstr ""
 
 #: inc/class/class.coupon.php:106
-msgid "Input number of times use this coupon for each user. Set empty for use unlimited"
+msgid ""
+"Input number of times use this coupon for each user. Set empty for use "
+"unlimited"
 msgstr ""
 
 #: inc/class/class.coupon.php:132
@@ -19754,7 +19934,7 @@ msgstr ""
 
 #: inc/class/class.location.php:290
 msgid "Feature image"
-msgstr ""
+msgstr "Imagem em destaque"
 
 #: inc/class/class.location.php:296 inc/class/class.location.php:299
 msgid "Set this location as feature"
@@ -19789,7 +19969,9 @@ msgid "Build content for this location"
 msgstr ""
 
 #: inc/class/class.location.php:330
-msgid "Allow you can build content, layout, information for this location like the way you want"
+msgid ""
+"Allow you can build content, layout, information for this location like the "
+"way you want"
 msgstr ""
 
 #: inc/class/class.location.php:334
@@ -20016,7 +20198,7 @@ msgstr ""
 
 #: inc/class/class.order.php:161
 msgid "Submit Form"
-msgstr ""
+msgstr "Enfiar Formulário"
 
 #: inc/class/class.packages.php:28 inc/class/class.packages.php:156
 #: inc/layouts/modern/class/class.cart.php:157
@@ -20153,7 +20335,8 @@ msgstr ""
 #: inc/class/class.payment_gateways.php:454
 #: inc/layouts/modern/class/class.payment_gateways.php:455
 #, php-format
-msgid "Your order has been made but we can not process the payment with %s. %s "
+msgid ""
+"Your order has been made but we can not process the payment with %s. %s "
 msgstr ""
 
 #: inc/class/class.payment_gateways.php:461
@@ -20675,7 +20858,7 @@ msgstr ""
 #: inc/class/class.user-verify.php:32
 #: inc/layouts/modern/vc-elements/vc_map.php:408
 msgid "Company Name"
-msgstr ""
+msgstr "Nome da empresa"
 
 #: inc/class/class.user-verify.php:33
 msgid "Company Email"
@@ -20683,11 +20866,11 @@ msgstr ""
 
 #: inc/class/class.user-verify.php:34
 msgid "Company Address"
-msgstr ""
+msgstr "Endereço da Empresa"
 
 #: inc/class/class.user-verify.php:35
 msgid "Company Phone"
-msgstr ""
+msgstr "Telefone da empresa"
 
 #: inc/class/class.user-verify.php:36
 msgid "Representative Name"
@@ -21039,7 +21222,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5510
 #: inc/layouts/modern/configs/partner.php:5986
 msgid "Short Intro"
-msgstr ""
+msgstr "Breve introdução"
 
 #: inc/class/class.user.php:928 inc/layouts/modern/class/class.user.php:831
 msgid "Rental parent"
@@ -21139,7 +21322,8 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:1443
 #: inc/layouts/modern/class/class.user.php:9446
 #, php-format
-msgid "You cannot set featured for this rental. Your remaining item is %s (items)"
+msgid ""
+"You cannot set featured for this rental. Your remaining item is %s (items)"
 msgstr ""
 
 #: inc/class/class.user.php:1611 inc/layouts/modern/class/class.user.php:1451
@@ -21357,7 +21541,8 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:8598
 #: inc/layouts/modern/class/class.user.php:8642
 #, php-format
-msgid "You cannot set featured for this activity. Your remaining item is %s (items)"
+msgid ""
+"You cannot set featured for this activity. Your remaining item is %s (items)"
 msgstr ""
 
 #: inc/class/class.user.php:3133 inc/layouts/modern/class/class.user.php:2899
@@ -21438,7 +21623,8 @@ msgstr ""
 
 #: inc/class/class.user.php:3915 inc/layouts/modern/class/class.user.php:3638
 #, php-format
-msgid "You cannot set featured for this tour. Your remaining item is %s (items)"
+msgid ""
+"You cannot set featured for this tour. Your remaining item is %s (items)"
 msgstr ""
 
 #: inc/class/class.user.php:3937
@@ -21548,7 +21734,7 @@ msgstr ""
 
 #: inc/class/class.user.php:4734 inc/layouts/modern/class/class.user.php:4457
 msgid "+ Add A Facility"
-msgstr ""
+msgstr "+ Adicionar uma instalação"
 
 #: inc/class/class.user.php:4750 inc/layouts/modern/class/class.user.php:4473
 msgid "(eg. fa-facebook)"
@@ -21569,12 +21755,13 @@ msgstr "Estrela"
 #: inc/layouts/modern/class/class.user.php:4841
 #: inc/layouts/modern/class/class.user.php:7593
 #, php-format
-msgid "You cannot set featured for this hotel. Your remaining item is %s (items)"
+msgid ""
+"You cannot set featured for this hotel. Your remaining item is %s (items)"
 msgstr ""
 
 #: inc/class/class.user.php:5226 inc/layouts/modern/class/class.user.php:4925
 msgid "Booking full day"
-msgstr ""
+msgstr "Reserva de dia inteiro"
 
 #: inc/class/class.user.php:5285 inc/layouts/modern/class/class.user.php:4973
 #: inc/layouts/modern/class/class.user.php:5006
@@ -22330,7 +22517,7 @@ msgstr ""
 #: language/english/all.php:641 language/english/modun/user.php:46
 #: language/english/modun/user.php:102 template-user.php:327
 msgid "My Hotel"
-msgstr ""
+msgstr "Meu Hotel"
 
 #: inc/class/class.user.php:11963 inc/class/class.user.php:12920
 #: inc/class/class.user.php:13059 inc/layouts/modern/class/class.user.php:11043
@@ -22339,7 +22526,7 @@ msgstr ""
 #: language/english/all.php:821 language/english/modun/user.php:39
 #: language/english/modun/user_create_room.php:3 template-user.php:350
 msgid "Add new room"
-msgstr ""
+msgstr "Adicionar novos quartos"
 
 #: inc/class/class.user.php:11966 inc/class/class.user.php:12923
 #: inc/class/class.user.php:13062 inc/layouts/modern/class/class.user.php:11046
@@ -22348,7 +22535,7 @@ msgstr ""
 #: language/english/all.php:643 language/english/modun/user.php:47
 #: language/english/modun/user.php:104 template-user.php:346
 msgid "My Room"
-msgstr ""
+msgstr "Meu quarto"
 
 #: inc/class/class.user.php:11969 inc/class/class.user.php:12956
 #: inc/class/class.user.php:13092 inc/layouts/modern/class/class.user.php:11049
@@ -22357,7 +22544,7 @@ msgstr ""
 #: language/english/all.php:861 language/english/modun/user.php:40
 #: language/english/modun/user_create_tour.php:2 template-user.php:381
 msgid "Add new tour"
-msgstr ""
+msgstr "Adicionar Novo Passeio ou Trilha"
 
 #: inc/class/class.user.php:11972 inc/class/class.user.php:12959
 #: inc/class/class.user.php:13095 inc/layouts/modern/class/class.user.php:11052
@@ -22481,7 +22668,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:11899
 #: inc/layouts/modern/class/class.user.php:12036
 msgid " Dashboard "
-msgstr ""
+msgstr " Painel de Controle "
 
 #: inc/class/class.user.php:12896 inc/class/class.user.php:13035
 #: inc/layouts/modern/class/class.user.php:11904
@@ -22563,7 +22750,7 @@ msgstr ""
 #: language/english/all.php:637 language/english/modun/user.php:49
 #: language/english/modun/user.php:98
 msgid "My Activities"
-msgstr ""
+msgstr "Minhas Gastronomias e Vinícolas"
 
 #: inc/class/class.user.php:12983 inc/class/class.user.php:13119
 #: inc/layouts/modern/class/class.user.php:11991
@@ -22607,7 +22794,7 @@ msgstr ""
 
 #: inc/class/class.user.php:13004 inc/layouts/modern/class/class.user.php:12012
 msgid "Withdrawal "
-msgstr ""
+msgstr "Cancelamento "
 
 #: inc/class/class.user.php:13007 inc/layouts/modern/class/class.user.php:12015
 msgid "Withdrawal History "
@@ -22624,7 +22811,7 @@ msgstr ""
 #: st_templates/layouts/modern/common/header/topbar-items/login.php:40
 #: st_templates/user/user-dashboard.php:27 template-user.php:222
 msgid "Dashboard"
-msgstr ""
+msgstr "Painel de Controle"
 
 #: inc/class/class.user.php:13104 inc/layouts/modern/class/class.user.php:12110
 #: st_templates/user/user-my-flights.php:14 template-user.php:520
@@ -22693,7 +22880,8 @@ msgstr "Os campos de nome de usuário e senha estão vazios"
 
 #: inc/class/class.user.php:14453 inc/layouts/modern/class/class.user.php:13358
 #, php-format
-msgid "The password you entered for the username <strong>%s</strong> is incorrect."
+msgid ""
+"The password you entered for the username <strong>%s</strong> is incorrect."
 msgstr "A senha informada para o usuário <strong>%s</strong> está errada."
 
 #: inc/class/class.user.php:14456 inc/layouts/modern/class/class.user.php:13361
@@ -22784,7 +22972,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:2918
 #: inc/layouts/modern/configs/partner.php:5938
 msgid "1. BASIC INFO"
-msgstr ""
+msgstr "1. Informação básica"
 
 #: inc/configs/partner.php:19 inc/configs/partner.php:356
 msgid "2. Facilities"
@@ -22796,7 +22984,7 @@ msgstr "2.Facilidades"
 #: inc/layouts/modern/configs/partner.php:2922
 #: inc/layouts/modern/configs/partner.php:5942
 msgid "3. Photos"
-msgstr ""
+msgstr "3. Fotos"
 
 #: inc/configs/partner.php:27 inc/configs/partner.php:368
 #: inc/configs/partner.php:1851 inc/configs/partner.php:2327
@@ -22805,7 +22993,7 @@ msgstr ""
 
 #: inc/configs/partner.php:31
 msgid "5. Policy"
-msgstr ""
+msgstr "5. Política"
 
 #: inc/configs/partner.php:39 inc/configs/partner.php:376
 #: inc/configs/partner.php:775 inc/configs/partner.php:1333
@@ -22847,7 +23035,7 @@ msgstr ""
 #: inc/configs/partner.php:97 inc/layouts/modern/configs/partner.php:177
 #: inc/layouts/modern/configs/partner.php:3241
 msgid "DETAIL CONTACT"
-msgstr ""
+msgstr "DETALHE DE CONTATO"
 
 #: inc/configs/partner.php:115 inc/layouts/modern/configs/partner.php:195
 #: inc/layouts/modern/configs/partner.php:3259 language/english/all.php:772
@@ -22868,7 +23056,7 @@ msgstr "Site do Hotel"
 #: inc/layouts/modern/configs/partner.php:3275 language/english/all.php:774
 #: language/english/modun/user_create_hotel.php:13
 msgid "Hotel Phone"
-msgstr ""
+msgstr "Telefone do hotel"
 
 #: inc/configs/partner.php:139 inc/layouts/modern/configs/partner.php:219
 #: inc/layouts/modern/configs/partner.php:3283
@@ -22883,23 +23071,23 @@ msgstr ""
 #: inc/configs/partner.php:173 inc/layouts/modern/configs/partner.php:255
 #: inc/layouts/modern/configs/partner.php:3319
 msgid "BOOK SETTING"
-msgstr ""
+msgstr "CONFIGURAÇÃO DO LIVRO"
 
 #: inc/configs/partner.php:198 inc/layouts/modern/configs/partner.php:281
 #: inc/layouts/modern/configs/partner.php:3345
 msgid "PRICE SETTING"
-msgstr ""
+msgstr "AJUSTE DE PREÇOS"
 
 #: inc/configs/partner.php:229 inc/layouts/modern/configs/partner.php:338
 #: inc/layouts/modern/configs/partner.php:3376
 msgid "HOTEL IMAGE"
-msgstr ""
+msgstr "IMAGEM DO HOTEL"
 
 #: inc/configs/partner.php:256 inc/configs/partner.php:728
 #: inc/layouts/modern/configs/partner.php:365
 #: inc/layouts/modern/configs/partner.php:3403
 msgid "Hotel Location"
-msgstr ""
+msgstr "Localização do Hotel"
 
 #: inc/configs/partner.php:259 inc/configs/partner.php:731
 #: inc/configs/partner.php:1239 inc/configs/partner.php:1765
@@ -22923,7 +23111,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:373
 #: inc/layouts/modern/configs/partner.php:3411
 msgid "Real hotel address"
-msgstr ""
+msgstr "Endereço real do hotel"
 
 #: inc/configs/partner.php:284 inc/configs/partner.php:1264
 #: inc/configs/partner.php:1790 inc/configs/partner.php:2266
@@ -22941,7 +23129,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:5861
 #: inc/layouts/modern/configs/partner.php:5904
 msgid "+ Add New"
-msgstr ""
+msgstr "+ Adicionar novo"
 
 #: inc/configs/partner.php:305 inc/configs/partner.php:1285
 #: inc/configs/partner.php:1811 inc/configs/partner.php:2287
@@ -22998,7 +23186,7 @@ msgstr ""
 #: inc/configs/partner.php:329 inc/layouts/modern/configs/partner.php:438
 #: inc/layouts/modern/configs/partner.php:3476
 msgid "+ Add A Policy"
-msgstr ""
+msgstr "+ Adicionar uma Política"
 
 #: inc/configs/partner.php:364 inc/configs/partner.php:1847
 #: inc/configs/partner.php:2323
@@ -23008,17 +23196,17 @@ msgstr ""
 #: inc/configs/partner.php:381 inc/layouts/modern/configs/partner.php:492
 #: inc/layouts/modern/configs/partner.php:3530
 msgid "Hotel Room Name"
-msgstr ""
+msgstr "Nome do quarto de hotel"
 
 #: inc/configs/partner.php:389 inc/layouts/modern/configs/partner.php:500
 #: inc/layouts/modern/configs/partner.php:3538
 msgid "Select the hotel own this room"
-msgstr ""
+msgstr "Selecione o hotel que possui este quarto"
 
 #: inc/configs/partner.php:427 inc/layouts/modern/configs/partner.php:538
 #: inc/layouts/modern/configs/partner.php:3576
 msgid "Number of this room"
-msgstr ""
+msgstr "Número do quarto"
 
 #: inc/configs/partner.php:435 inc/layouts/modern/configs/partner.php:546
 #: inc/layouts/modern/configs/partner.php:3584 language/english/all.php:837
@@ -23042,7 +23230,7 @@ msgstr "Número de adultos"
 #: st_templates/tours/cart_item_html.php:143
 #: st_templates/tours/success_payment_item_row.php:67
 msgid "Number of Children"
-msgstr ""
+msgstr "Número de crianças"
 
 #: inc/configs/partner.php:451 inc/layouts/modern/configs/partner.php:562
 #: inc/layouts/modern/configs/partner.php:3600 language/english/all.php:839
@@ -23141,7 +23329,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:4974
 #: inc/layouts/modern/configs/partner.php:5463
 msgid "BASIC INFO"
-msgstr ""
+msgstr "Informação básica"
 
 #: inc/configs/partner.php:759 inc/layouts/modern/configs/partner.php:98
 #: inc/layouts/modern/configs/partner.php:470
@@ -23159,7 +23347,7 @@ msgstr ""
 #: st_templates/user/user-verify_user.php:106
 #: st_templates/user/user-verify_user.php:196
 msgid "Photos"
-msgstr ""
+msgstr "Fotos"
 
 #: inc/configs/partner.php:864 inc/layouts/modern/configs/partner.php:978
 #: inc/layouts/modern/configs/partner.php:3998
@@ -23661,7 +23849,9 @@ msgid "Traveler SMS"
 msgstr ""
 
 #: inc/extensions/process/class.reg.extension.php:85
-msgid "Traveler SMS help to send SMS notification for Admin, Partner, and Customer when make a booking on the site by Traveler theme."
+msgid ""
+"Traveler SMS help to send SMS notification for Admin, Partner, and Customer "
+"when make a booking on the site by Traveler theme."
 msgstr ""
 
 #: inc/extensions/process/class.reg.extension.php:93
@@ -23669,7 +23859,10 @@ msgid "Traveler Duplicate"
 msgstr ""
 
 #: inc/extensions/process/class.reg.extension.php:97
-msgid "Traveler Duplicate Add-on will make it easier for you. Content such as price, availability of each service (hotel, tour, car, flight) will be fully copied."
+msgid ""
+"Traveler Duplicate Add-on will make it easier for you. Content such as "
+"price, availability of each service (hotel, tour, car, flight) will be fully "
+"copied."
 msgstr ""
 
 #: inc/extensions/process/class.reg.extension.php:105
@@ -23677,7 +23870,9 @@ msgid "Traveler Compare"
 msgstr ""
 
 #: inc/extensions/process/class.reg.extension.php:109
-msgid "The new add-on that can be used for Traveler. It helps bookers can compare any services like Hotel, Tour, Car, Rental, Activity."
+msgid ""
+"The new add-on that can be used for Traveler. It helps bookers can compare "
+"any services like Hotel, Tour, Car, Rental, Activity."
 msgstr ""
 
 #: inc/extensions/process/class.reg.extension.php:123
@@ -23764,7 +23959,9 @@ msgstr ""
 
 #: inc/gateways/authorize/authorize.php:52
 #, php-format
-msgid "<strong>Authorize.net</strong> require %s version %s or above. Your current is %s"
+msgid ""
+"<strong>Authorize.net</strong> require %s version %s or above. Your current "
+"is %s"
 msgstr ""
 
 #: inc/gateways/authorize/authorize.php:52 inc/gateways/payfast/payfast.php:56
@@ -23877,12 +24074,15 @@ msgid "Payment Failed: "
 msgstr ""
 
 #: inc/gateways/dpo/dpo.php:250
-msgid " Varification error: Unable to connect to the payment gateway, please try again"
+msgid ""
+" Varification error: Unable to connect to the payment gateway, please try "
+"again"
 msgstr ""
 
 #: inc/gateways/payfast/payfast.php:56
 #, php-format
-msgid "<strong>PayFast</strong> require %s version %s or above. Your current is %s"
+msgid ""
+"<strong>PayFast</strong> require %s version %s or above. Your current is %s"
 msgstr ""
 
 #: inc/gateways/payfast/payfast.php:99
@@ -24092,7 +24292,8 @@ msgstr ""
 
 #: inc/gateways/payu/payu.php:55
 #, php-format
-msgid "<strong>Payu</strong> require %s version %s or above. Your current is %s"
+msgid ""
+"<strong>Payu</strong> require %s version %s or above. Your current is %s"
 msgstr ""
 
 #: inc/gateways/payu/payu.php:80
@@ -24117,7 +24318,8 @@ msgstr ""
 
 #: inc/gateways/skrill/skrill.php:109
 #, php-format
-msgid "<strong>Skrill</strong> require %s version %s or above. Your current is %s"
+msgid ""
+"<strong>Skrill</strong> require %s version %s or above. Your current is %s"
 msgstr ""
 
 #: inc/gateways/skrill/skrill.php:165
@@ -24126,7 +24328,8 @@ msgstr ""
 
 #: inc/gateways/stripe/stripe.php:66
 #, php-format
-msgid "<strong>Stripe</strong> require %s version %s or above. Your current is %s"
+msgid ""
+"<strong>Stripe</strong> require %s version %s or above. Your current is %s"
 msgstr ""
 
 #: inc/gateways/stripe/stripe.php:92
@@ -24175,7 +24378,9 @@ msgid "Enable Creative UI Form (Using Token)"
 msgstr ""
 
 #: inc/gateways/stripe/stripe.php:137
-msgid "Allow you to use token for stripe. Read more about it https://stripe.com/docs/stripe-js/elements/quickstart"
+msgid ""
+"Allow you to use token for stripe. Read more about it https://stripe.com/"
+"docs/stripe-js/elements/quickstart"
 msgstr ""
 
 #: inc/gateways/stripe/stripe.php:158
@@ -24188,7 +24393,9 @@ msgstr ""
 
 #: inc/gateways/twocheckout/twocheckout.php:51
 #, php-format
-msgid "<strong>TwoCheckout</strong> require %s version %s or above. Your current is %s"
+msgid ""
+"<strong>TwoCheckout</strong> require %s version %s or above. Your current is "
+"%s"
 msgstr ""
 
 #: inc/gateways/twocheckout/twocheckout.php:75
@@ -25588,7 +25795,9 @@ msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2766
 #: inc/layouts/modern/admin/class.admin.settings.php:3009
-msgid "Example: <i class=\"lar la-clock\"></i> : Link search icon : https://icons8.com/line-awesome"
+msgid ""
+"Example: <i class=\"lar la-clock\"></i> : Link search icon : https://icons8."
+"com/line-awesome"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2773
@@ -25596,7 +25805,9 @@ msgid "Icon Cancel Single Activity"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2774
-msgid "Example: <i class=\"las la-ban\"></i> : Link search icon : https://icons8.com/line-awesome"
+msgid ""
+"Example: <i class=\"las la-ban\"></i> : Link search icon : https://icons8."
+"com/line-awesome"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2781
@@ -25605,7 +25816,9 @@ msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2782
 #: inc/layouts/modern/admin/class.admin.settings.php:3025
-msgid "Example: <i class=\"las la-user-friends\"></i> : Link search icon : https://icons8.com/line-awesome"
+msgid ""
+"Example: <i class=\"las la-user-friends\"></i> : Link search icon : https://"
+"icons8.com/line-awesome"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2789
@@ -25614,7 +25827,9 @@ msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2790
 #: inc/layouts/modern/admin/class.admin.settings.php:3033
-msgid "Example: <i class=\"las la-language\"></i> : Link search icon : https://icons8.com/line-awesome"
+msgid ""
+"Example: <i class=\"las la-language\"></i> : Link search icon : https://"
+"icons8.com/line-awesome"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2797
@@ -25708,7 +25923,9 @@ msgid "Icon Tour Type Single Tour"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:3017
-msgid "Example: <i class=\"las la-shoe-prints\"></i> : Link search icon : https://icons8.com/line-awesome"
+msgid ""
+"Example: <i class=\"las la-shoe-prints\"></i> : Link search icon : https://"
+"icons8.com/line-awesome"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:3024
@@ -25784,11 +26001,15 @@ msgid "Show Calculated Ajax Price on Single Service Page"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:4457
-msgid "ON: The price automatically changes when editing the booking conditions in the sidebar"
+msgid ""
+"ON: The price automatically changes when editing the booking conditions in "
+"the sidebar"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:4465
-msgid "Enable captcha for booking form. It is applied for normal booking form : link https://www.google.com/recaptcha/admin"
+msgid ""
+"Enable captcha for booking form. It is applied for normal booking form : "
+"link https://www.google.com/recaptcha/admin"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:4473
@@ -25796,7 +26017,9 @@ msgid "Site key"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:4474
-msgid "Use this Google reCAPTCHA V3 site key in the HTML code your site serves to users. : https://www.google.com/recaptcha/admin"
+msgid ""
+"Use this Google reCAPTCHA V3 site key in the HTML code your site serves to "
+"users. : https://www.google.com/recaptcha/admin"
 msgstr ""
 
 #: inc/layouts/modern/admin/class.admin.settings.php:4481
@@ -26441,7 +26664,7 @@ msgstr "Facilidades"
 #: inc/layouts/modern/configs/partner.php:106
 #: inc/layouts/modern/configs/partner.php:3170
 msgid "Policy"
-msgstr ""
+msgstr "Política"
 
 #: inc/layouts/modern/configs/partner.php:839
 #: inc/layouts/modern/configs/partner.php:3859
@@ -26846,8 +27069,12 @@ msgstr ""
 #: inc/layouts/modern/travel-helper.php:5290
 #: inc/layouts/modern/travel-helper.php:5564
 #, php-format
-msgid "<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a>. <a href=\"%4$s\">Log out?</a>"
-msgstr "<a href=“%1$s” aria-label=“%2$s”>Logao como %3$s</a>. <a href=“%4$s”>Sair?</a>"
+msgid ""
+"<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a>. <a href=\"%4$s"
+"\">Log out?</a>"
+msgstr ""
+"<a href=“%1$s” aria-label=“%2$s”>Logao como %3$s</a>. <a href=“%4$s”>Sair?</"
+"a>"
 
 #: inc/layouts/modern/travel-helper.php:5293
 #: inc/layouts/modern/travel-helper.php:5565
@@ -27091,7 +27318,7 @@ msgstr ""
 
 #: inc/layouts/modern/vc-elements/vc_map.php:414
 msgid "Company Info"
-msgstr ""
+msgstr "Informações da empresa"
 
 #: inc/layouts/modern/vc-elements/vc_map.php:424
 msgid "ST Contact Map"
@@ -28177,7 +28404,9 @@ msgid "Link Relationship (XFN)"
 msgstr ""
 
 #: inc/mega-menu/edit_custom_walker.php:160
-msgid "The description will be displayed in the menu if the current theme supports it."
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
 msgstr ""
 
 #: inc/mega-menu/edit_custom_walker.php:169
@@ -28224,7 +28453,7 @@ msgstr ""
 #: inc/st.customvc.php:106 inc/st.customvc.php:143 language/english/all.php:615
 #: language/english/modun/user.php:76 st_templates/fields/upload.php:75
 msgid "Upload"
-msgstr ""
+msgstr "Envio"
 
 #: inc/modules/flights/controllers/attribute_controller.php:173
 msgid "Do you want delete this logo?"
@@ -29657,7 +29886,9 @@ msgstr ""
 #: inc/modules/hotel-alone/helpers/hotel-alone-helper.php:117
 #: inc/modules/hotel-alone/helpers/hotel-alone-helper.php:571
 #: inc/modules/hotel-alone/helpers/hotel-alone-helper.php:753
-msgid "Our system does not find any rooms from your searching. You can change search feature now."
+msgid ""
+"Our system does not find any rooms from your searching. You can change "
+"search feature now."
 msgstr ""
 
 #: inc/modules/hotel-alone/helpers/hotel-alone-helper.php:487
@@ -29734,7 +29965,9 @@ msgstr ""
 #: inc/modules/hotel-alone/vc_map.php:1818
 #: inc/modules/hotel-alone/vc_map.php:1850 inc/shortcodes/vc_map.php:1585
 #: inc/shortcodes/vc_map.php:1630 inc/shortcodes/vc_map.php:1720
-msgid "Style particular content element differently - add a class name and refer to it in custom CSS."
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
 msgstr ""
 
 #: inc/modules/hotel-alone/vc_map.php:71
@@ -31030,7 +31263,10 @@ msgid "Set as new product"
 msgstr ""
 
 #: inc/plugins/BFI_Thumb.php:120
-msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
 msgstr ""
 
 #: inc/plugins/BFI_Thumb.php:235
@@ -31098,8 +31334,12 @@ msgstr[1] ""
 #: inc/plugins/class-tgm-plugin-activation.php:348
 #: inc/st-required-plugins.php:97
 #, php-format
-msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
-msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -31178,7 +31418,9 @@ msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:392
 #, php-format
-msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:394
@@ -31187,7 +31429,9 @@ msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:396
-msgid "There are one or more required or recommended plugins to install, update or activate."
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:397
@@ -31203,16 +31447,22 @@ msgid "Update Required"
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:934
-msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:934
 #: inc/plugins/class-tgm-plugin-activation.php:937
-msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:937
-msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:1121
@@ -31411,7 +31661,9 @@ msgid "The installation of %1$s failed."
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:3507
-msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:3509
@@ -31439,7 +31691,9 @@ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:3515
-msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:3517
@@ -31496,7 +31750,9 @@ msgstr ""
 #: inc/plugins/custom-option-tree/js/select2-new/js/select2.min.js:2
 #: inc/plugins/custom-select-post/js/select2-new/js/select2.full.min.js:2
 #: inc/plugins/custom-select-post/js/select2-new/js/select2.min.js:2
-msgid "<span class=\"select2-dropdown\"><span class=\"select2-results\"></span></span>"
+msgid ""
+"<span class=\"select2-dropdown\"><span class=\"select2-results\"></span></"
+"span>"
 msgstr ""
 
 #: inc/plugins/custom-option-tree/st-list-item-post-type.php:79
@@ -31599,7 +31855,9 @@ msgstr ""
 #: inc/plugins/ot-custom/fields/hotel-calendar/views/index.php:91
 #: inc/plugins/ot-custom/fields/rental-calendar/views/index.php:89
 #: inc/plugins/ot-custom/fields/tour-calendar/views/index.php:111
-msgid "You can select and drag dates in the calendar to select check in and check out date"
+msgid ""
+"You can select and drag dates in the calendar to select check in and check "
+"out date"
 msgstr ""
 
 #: inc/plugins/ot-custom/fields/address-autocomplete/address-autocomplete.php:41
@@ -33357,7 +33615,9 @@ msgid "Form Content"
 msgstr ""
 
 #: inc/plugins/wpbooking-form-builder/shinetheme/views/admin/form-content/edit.php:49
-msgid "Drag each item into the order you prefer. Click the blue icon on the right of the item to reveal additional configuration options."
+msgid ""
+"Drag each item into the order you prefer. Click the blue icon on the right "
+"of the item to reveal additional configuration options."
 msgstr ""
 
 #: inc/plugins/wpbooking-form-builder/shinetheme/views/admin/form-content/edit.php:52
@@ -33365,7 +33625,10 @@ msgid "Add form items from the column on the left."
 msgstr ""
 
 #: inc/plugins/wpbooking-form-builder/shinetheme/views/admin/form-content/edit.php:102
-msgid "To send notification email to your customers after they finished booking, required entering the name field to be <strong>\"st_email\"</strong>  or just simply select the mail user in the user group."
+msgid ""
+"To send notification email to your customers after they finished booking, "
+"required entering the name field to be <strong>\"st_email\"</strong>  or "
+"just simply select the mail user in the user group."
 msgstr ""
 
 #: inc/plugins/wpbooking-form-builder/shinetheme/views/admin/form-content/edit.php:106
@@ -33439,7 +33702,9 @@ msgstr ""
 #: st_templates/activity/elements/form-book.php:76
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_facility.php:227
 #, php-format
-msgid "Cancellation within %s Day(s) before the date of arrival %s%s will be charged."
+msgid ""
+"Cancellation within %s Day(s) before the date of arrival %s%s will be "
+"charged."
 msgstr ""
 
 #: inc/shortcodes/cars/cars.php:103 inc/shortcodes/cars/cars.php:105
@@ -33737,7 +34002,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:128
 #: st_templates/user/user-add-tour-booking.php:128
 msgid "Booking Information"
-msgstr ""
+msgstr "Informações de reserva"
 
 #: inc/shortcodes/email/email.php:2221
 msgid "booked your system"
@@ -33763,7 +34028,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:18
 #: st_templates/user/user-add-tour-booking.php:18
 msgid "Customer Information"
-msgstr ""
+msgstr "Informação ao Cliente"
 
 #: inc/shortcodes/email/email.php:2242
 msgid "First name:"
@@ -34841,12 +35106,21 @@ msgid "next month"
 msgstr ""
 
 #: inc/st-hook-functions.php:542
-msgid "<h3>How to use?</h3><p><strong>Change price/availability:</strong> Click on <strong>start date</strong> then hover to <strong>end date</strong> and click again. Enter the price in the text field when the popup is displayed</p><p><strong>Change the display date range</strong>: Click on the icons at the bottom (today, previous month, next month) or enter the date in <strong>the start date, end date</strong> field and click <strong>the View button</strong>.</p><p><strong>Change the number of room</strong>: Click on the pen icon near the name of room. Enter the number in the text field when the popup is displayed</p>"
+msgid ""
+"<h3>How to use?</h3><p><strong>Change price/availability:</strong> Click on "
+"<strong>start date</strong> then hover to <strong>end date</strong> and "
+"click again. Enter the price in the text field when the popup is displayed</"
+"p><p><strong>Change the display date range</strong>: Click on the icons at "
+"the bottom (today, previous month, next month) or enter the date in "
+"<strong>the start date, end date</strong> field and click <strong>the View "
+"button</strong>.</p><p><strong>Change the number of room</strong>: Click on "
+"the pen icon near the name of room. Enter the number in the text field when "
+"the popup is displayed</p>"
 msgstr ""
 
 #: inc/st-hook-functions.php:917
 msgid "COMPLETE YOUR REGISTRATION"
-msgstr ""
+msgstr "COMPLETE YOUR REGISTRATION"
 
 #: inc/st-hook-functions.php:918
 msgid "COMPLETE"
@@ -34861,7 +35135,7 @@ msgstr ""
 #: st_templates/user/user-edit-room.php:106
 #: st_templates/user/user-edit-tours.php:109
 msgid "CONTINUE"
-msgstr ""
+msgstr "Continuar"
 
 #: inc/st-hook-functions.php:1785
 msgid "Select hotel"
@@ -35093,7 +35367,9 @@ msgid "Select layout size"
 msgstr ""
 
 #: inc/st-metabox.php:320
-msgid "Select layout width size (<a href='http://getbootstrap.com/css/'>Read more </a>)"
+msgid ""
+"Select layout width size (<a href='http://getbootstrap.com/css/'>Read more </"
+"a>)"
 msgstr ""
 
 #: inc/st-metabox.php:323 inc/vc-elements/vc_map.php:603
@@ -35110,22 +35386,40 @@ msgstr ""
 
 #: inc/st-required-plugins.php:93
 #, php-format
-msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
-msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
 msgstr[0] ""
 msgstr[1] ""
 
 #: inc/st-required-plugins.php:96
 #, php-format
-msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
-msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
 msgstr[0] ""
 msgstr[1] ""
 
 #: inc/st-required-plugins.php:98
 #, php-format
-msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
-msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -35143,11 +35437,15 @@ msgid "This allows you to turn on or off <em>Sticky Menu Feature</em>"
 msgstr ""
 
 #: inc/st-theme-options.php:906
-msgid "ON: Link of items will redirect to results search page <br>OFF: Link of items will redirect to details page"
+msgid ""
+"ON: Link of items will redirect to results search page <br>OFF: Link of "
+"items will redirect to details page"
 msgstr ""
 
 #: inc/st-theme-options.php:927
-msgid "ON: Reviews can be written without logging in <br>OFF: Reviews cannot be written without logging in"
+msgid ""
+"ON: Reviews can be written without logging in <br>OFF: Reviews cannot be "
+"written without logging in"
 msgstr ""
 
 #: inc/st-theme-options.php:935
@@ -35159,7 +35457,9 @@ msgid "ON: Only one time for review <br>OFF: Many times for review"
 msgstr ""
 
 #: inc/st-theme-options.php:952
-msgid "ON: Review must be approved by admin <br>OFF: Review is automatically approved"
+msgid ""
+"ON: Review must be approved by admin <br>OFF: Review is automatically "
+"approved"
 msgstr ""
 
 #: inc/st-theme-options.php:1151
@@ -35184,15 +35484,22 @@ msgid "Purchase code"
 msgstr ""
 
 #: inc/st-theme-options.php:1428
-msgid "This options required input checker <em>Create new account</em> for Guest booking "
+msgid ""
+"This options required input checker <em>Create new account</em> for Guest "
+"booking "
 msgstr ""
 
 #: inc/st-theme-options.php:1453
-msgid "Enable/disable multi item in cart for Booking. If the multi is on then the cancel function in dashboard user is deactived. Only cancel in admin. If the multi is off then the cancel function in dashobard user is actived"
+msgid ""
+"Enable/disable multi item in cart for Booking. If the multi is on then the "
+"cancel function in dashboard user is deactived. Only cancel in admin. If the "
+"multi is off then the cancel function in dashobard user is actived"
 msgstr ""
 
 #: inc/st-theme-options.php:1492
-msgid "ON: Tax has been included in the price of product <br>OFF: Tax has not been included in the price of product"
+msgid ""
+"ON: Tax has been included in the price of product <br>OFF: Tax has not been "
+"included in the price of product"
 msgstr ""
 
 #: inc/st-theme-options.php:1657
@@ -35204,7 +35511,9 @@ msgid "ON: Show featured items on top of result search page"
 msgstr ""
 
 #: inc/st-theme-options.php:3333
-msgid "ON: Add one day / hour into day / hour for check in.<br/>For example: 22-23/11/2017 will be 2 days."
+msgid ""
+"ON: Add one day / hour into day / hour for check in.<br/>For example: "
+"22-23/11/2017 will be 2 days."
 msgstr ""
 
 #: inc/st-theme-options.php:3338
@@ -35228,11 +35537,15 @@ msgid "ON: Show featured activities on top of result search page"
 msgstr ""
 
 #: inc/st-theme-options.php:5744
-msgid "ON: Show email of author(who posts service) in single, email page<br/>OFF: Show email entered in metabox of service"
+msgid ""
+"ON: Show email of author(who posts service) in single, email page<br/>OFF: "
+"Show email entered in metabox of service"
 msgstr ""
 
 #: inc/st-theme-options.php:5752
-msgid "ON: Show services for partner.<br/>OFF: Turn off services, partner is not allowed to register service, it is not displayed in dashboard"
+msgid ""
+"ON: Show services for partner.<br/>OFF: Turn off services, partner is not "
+"allowed to register service, it is not displayed in dashboard"
 msgstr ""
 
 #: inc/st-theme-options.php:5768
@@ -36137,7 +36450,7 @@ msgstr ""
 
 #: inc/vc-elements/vc_map.php:1421 inc/vc-elements/vc_map.php:1445
 msgid "--- All ---"
-msgstr ""
+msgstr "--- Tudo ---"
 
 #: inc/vc-elements/vc_map.php:1432
 msgid "ST Location statistical"
@@ -36157,18 +36470,24 @@ msgstr ""
 
 #: inc/vc-elements/vc_map.php:1460
 msgid "--- All ---<br>"
-msgstr ""
+msgstr "--- TUDO ---<br>"
 
 #: inc/vc-elements/vc_map.php:1461
-msgid "<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i> (5)<br> "
+msgid ""
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star"
+"\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i> (5)<br> "
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1462
-msgid "<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i> (4)<br> "
+msgid ""
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star"
+"\"></i><i class=\"fa fa-star\"></i> (4)<br> "
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1463
-msgid "<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i> (3)<br> "
+msgid ""
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star"
+"\"></i> (3)<br> "
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1464
@@ -36212,7 +36531,9 @@ msgid "Address or using Latitude and Longitude"
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1580
-msgid "Latitude, you can get it from  <a target='_blank' href='http://www.latlong.net/convert-address-to-lat-long.html'>here</a>"
+msgid ""
+"Latitude, you can get it from  <a target='_blank' href='http://www.latlong."
+"net/convert-address-to-lat-long.html'>here</a>"
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1595
@@ -36220,7 +36541,9 @@ msgid "Lightness"
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1598
-msgid "(a floating point value between -100 and 100) indicates the percentage change in brightness of the element."
+msgid ""
+"(a floating point value between -100 and 100) indicates the percentage "
+"change in brightness of the element."
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1604
@@ -37119,7 +37442,9 @@ msgid "Grid Style 2"
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:6047
-msgid "Noticed: the field \"Items per row\" only applicable to \"Last Minute Deal\" style"
+msgid ""
+"Noticed: the field \"Items per row\" only applicable to \"Last Minute Deal\" "
+"style"
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:6094
@@ -37515,7 +37840,8 @@ msgid "ST Shop Reset Filter"
 msgstr ""
 
 #: inc/widgets/st-text/st-text.php:9
-msgid "Text sidebar with traveler header style and can be shortcodes in content "
+msgid ""
+"Text sidebar with traveler header style and can be shortcodes in content "
 msgstr ""
 
 #: inc/widgets/st-text/st-text.php:11
@@ -37942,7 +38268,9 @@ msgid "OR"
 msgstr ""
 
 #: language/english/all.php:153 language/english/modun/general.php:17
-msgid "Important: You will be redirected to PayPal's website to securely complete your payment."
+msgid ""
+"Important: You will be redirected to PayPal's website to securely complete "
+"your payment."
 msgstr ""
 
 #: language/english/all.php:154 language/english/modun/general.php:18
@@ -38163,7 +38491,7 @@ msgstr ""
 #: st_templates/email/booking_infomation_rental.php:46
 #: st_templates/email/booking_infomation_tours.php:52
 msgid "Payment Method :"
-msgstr ""
+msgstr "Método de pagamento:"
 
 #: language/english/all.php:207 language/english/modun/general.php:71
 msgid "Amount :"
@@ -38247,7 +38575,9 @@ msgid "Want to write a review?"
 msgstr ""
 
 #: language/english/all.php:225 language/english/modun/general.php:89
-msgid "Only verified guests can leave a review. After check-out, you\"ll  receive an invitation to review your stay"
+msgid ""
+"Only verified guests can leave a review. After check-out, you\"ll  receive "
+"an invitation to review your stay"
 msgstr ""
 
 #: language/english/all.php:226 language/english/modun/general.php:90
@@ -38488,11 +38818,15 @@ msgid "Ready to publish your first post? <a href=#>Get started here</a>."
 msgstr ""
 
 #: language/english/all.php:291 language/english/modun/general.php:155
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
 #: language/english/all.php:292 language/english/modun/general.php:156
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
 #: language/english/all.php:293 language/english/modun/general.php:157
@@ -39051,19 +39385,19 @@ msgstr ""
 
 #: language/english/all.php:608 language/english/modun/user.php:69
 msgid "Change Password"
-msgstr ""
+msgstr "Mudar senha"
 
 #: language/english/all.php:609 language/english/modun/user.php:70
 msgid "Current Password"
-msgstr ""
+msgstr "Senha atual"
 
 #: language/english/all.php:610 language/english/modun/user.php:71
 msgid "New Password"
-msgstr ""
+msgstr "Nova Senha"
 
 #: language/english/all.php:611 language/english/modun/user.php:72
 msgid "New Password Again"
-msgstr ""
+msgstr "Nova senha novamente"
 
 #: language/english/all.php:616 language/english/modun/user.php:77
 msgid "Update successfully"
@@ -39078,7 +39412,7 @@ msgstr ""
 #: st_templates/user/user-booking-rental.php:56
 #: st_templates/user/user-booking-tours.php:55
 msgid "Action"
-msgstr ""
+msgstr "Ação"
 
 #: language/english/all.php:619 language/english/modun/user.php:80
 #, php-format
@@ -39119,7 +39453,7 @@ msgstr ""
 #: language/english/all.php:634 language/english/modun/user.php:95
 #: st_templates/user/user-booking-hotel-room.php:162
 msgid "No Room"
-msgstr ""
+msgstr "Sem quarto"
 
 #: language/english/all.php:635 language/english/modun/user.php:96
 #: st_templates/user/user-booking-flight-email.php:174
@@ -39133,7 +39467,7 @@ msgstr ""
 
 #: language/english/all.php:644 language/english/modun/user.php:105
 msgid "My Tours"
-msgstr ""
+msgstr "Meus passeios e trilhas"
 
 #: language/english/all.php:656 language/english/all.php:870
 #: language/english/modun/user_create_activity.php:13
@@ -39172,7 +39506,7 @@ msgstr ""
 #: language/english/modun/user_create_room.php:36
 #: language/english/modun/user_create_tour.php:30
 msgid "SUBMIT"
-msgstr ""
+msgstr "ENVIAR"
 
 #: language/english/all.php:685 language/english/modun/user_create_car.php:8
 msgid "Car Details"
@@ -39390,7 +39724,9 @@ msgstr ""
 
 #: language/english/all.php:905 language/english/modun/validation.php:19
 #, php-format
-msgid "The %s field may only contain alpha-numeric characters, underscores, and dashes."
+msgid ""
+"The %s field may only contain alpha-numeric characters, underscores, and "
+"dashes."
 msgstr ""
 
 #: language/english/all.php:906 language/english/modun/validation.php:20
@@ -40135,7 +40471,8 @@ msgid "Equipment(s)"
 msgstr ""
 
 #: st_templates/cars/content-cars.php:104
-msgid "There are no available cars for this location, time and/or date you selected."
+msgid ""
+"There are no available cars for this location, time and/or date you selected."
 msgstr ""
 
 #: st_templates/cars/elements/car_show_info_discount.php:14
@@ -40487,7 +40824,7 @@ msgstr ""
 #: st_templates/check_out/member_package_new.php:45
 #: st_templates/layouts/modern/checkout/check_out.php:18
 msgid "Select Payment Method"
-msgstr ""
+msgstr "Selecione o método de pagamento"
 
 #: st_templates/email/booking_customer_infomation.php:79
 msgid "country"
@@ -40661,7 +40998,7 @@ msgstr ""
 
 #: st_templates/fields/list-item.php:28 st_templates/fields/list-item.php:211
 msgid "Add new item"
-msgstr ""
+msgstr "ADICIONAR NOVO ITEM"
 
 #: st_templates/fields/package.php:13
 msgid "Please select location or put address value"
@@ -41064,7 +41401,7 @@ msgstr ""
 #: st_templates/hotel/elements/tabs-content/tabs-content.php:14
 #: st_templates/tours/elements/tabs-content/tabs-content.php:14
 msgid "GALLERY"
-msgstr ""
+msgstr "Galeria"
 
 #: st_templates/hotel/hotel_room_booking_modal.php:72
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_sidebar.php:92
@@ -41369,7 +41706,7 @@ msgstr ""
 #: st_templates/user/loop/loop-wishlist-activity.php:92
 #: st_templates/user/loop/loop-wishlist.php:283
 msgid "VIEW DETAIL"
-msgstr ""
+msgstr "VER DETALHES"
 
 #: st_templates/layouts/modern/activity/elements/loop/none.php:1
 msgid "Could not find any activities."
@@ -42625,7 +42962,9 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/search-page2.php:188
 #: st_templates/layouts/modern/rental/search-page2.php:174
 #, php-format
-msgid "I have read and accept the <a class=\"st-link\" href=\"%s\">Terms and Privacy Policy</a>"
+msgid ""
+"I have read and accept the <a class=\"st-link\" href=\"%s\">Terms and "
+"Privacy Policy</a>"
 msgstr ""
 
 #: st_templates/layouts/modern/common/registerForm-solo.php:100
@@ -43168,7 +43507,7 @@ msgstr ""
 #: st_templates/layouts/modern/single_hotel/page/booking_infomation.php:44
 #: template-package-success.php:70
 msgid "Payment Method:"
-msgstr ""
+msgstr "Método de pagamento:"
 
 #: st_templates/layouts/modern/page/booking_infomation.php:46
 #: template-package-success.php:57
@@ -43208,7 +43547,8 @@ msgstr ""
 #: st_templates/layouts/modern/rental/single/single-1.php:946
 #: st_templates/layouts/modern/rental/single/single-2.php:952
 #, php-format
-msgid "<span class=\"price\">%s</span><span class=\"unit\">/ %d night(s)</span>"
+msgid ""
+"<span class=\"price\">%s</span><span class=\"unit\">/ %d night(s)</span>"
 msgstr ""
 
 #: st_templates/layouts/modern/rental/elements/loop/halfmap-grid.php:75
@@ -43419,7 +43759,7 @@ msgstr ""
 
 #: st_templates/layouts/modern/tour/elements/best-seller.php:58
 msgid "View Detail"
-msgstr ""
+msgstr "Ver Detalhes"
 
 #: st_templates/layouts/modern/tour/elements/cart-item.php:235
 #: st_templates/tours/cart_item_html.php:202
@@ -43478,7 +43818,7 @@ msgstr ""
 #: st_templates/user/loop/loop-tour.php:151
 #: st_templates/user/loop/loop-wishlist-tour.php:104
 msgid "VIEW TOUR"
-msgstr ""
+msgstr "VER PASSEIO"
 
 #: st_templates/layouts/modern/tour/elements/loop/none.php:1
 msgid "Could not find any tours."
@@ -43733,7 +44073,9 @@ msgstr "Clique aqui e informe seu código"
 
 #: st_templates/layouts/modern/woo/checkout/thankyou.php:21
 #: woocommerce/checkout/thankyou.php:21
-msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
 msgstr ""
 
 #: st_templates/layouts/modern/woo/checkout/thankyou.php:24
@@ -43863,7 +44205,8 @@ msgstr ""
 
 #: st_templates/layouts/modern/woo/single-product-reviews.php:119
 #: woocommerce/single-product-reviews.php:141
-msgid "Only logged in customers who have purchased this product may leave a review."
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
 msgstr ""
 
 #: st_templates/layouts/modern/woo/single-product/sale-flash.php:27
@@ -43886,23 +44229,31 @@ msgid "0 offer"
 msgstr ""
 
 #: st_templates/location/location_tabcontent-st_activity.php:43
-msgid "There are no available activity for this location, time and/or date you selected."
+msgid ""
+"There are no available activity for this location, time and/or date you "
+"selected."
 msgstr ""
 
 #: st_templates/location/location_tabcontent-st_cars.php:43
-msgid "There are no available car for this location, time and/or date you selected."
+msgid ""
+"There are no available car for this location, time and/or date you selected."
 msgstr ""
 
 #: st_templates/location/location_tabcontent-st_hotel.php:44
-msgid "There are no available hotel for this location, time and/or date you selected."
+msgid ""
+"There are no available hotel for this location, time and/or date you "
+"selected."
 msgstr ""
 
 #: st_templates/location/location_tabcontent-st_rental.php:43
-msgid "There are no available rentals for this location, time and/or date you selected."
+msgid ""
+"There are no available rentals for this location, time and/or date you "
+"selected."
 msgstr ""
 
 #: st_templates/location/location_tabcontent-st_tours.php:42
-msgid "There are no available tour for this location, time and/or date you selected."
+msgid ""
+"There are no available tour for this location, time and/or date you selected."
 msgstr ""
 
 #: st_templates/location/result_string.php:90
@@ -44115,7 +44466,7 @@ msgstr ""
 #: st_templates/tours/elements/stour-package-custom-activity.php:20
 #: st_templates/tours/elements/stour-package-custom-activity.php:34
 msgid "Activity name"
-msgstr ""
+msgstr "Nome gastronomia ou vinícola"
 
 #: st_templates/tours/elements/stour-package-activity.php:43
 msgid "No activities found!"
@@ -44313,7 +44664,7 @@ msgstr ""
 #: st_templates/user/cancel-booking/success-paypal.php:13
 #: st_templates/user/cancel-booking/success-stripe.php:13
 msgid "Amount: "
-msgstr ""
+msgstr "Quantia "
 
 #: st_templates/user/cancel-booking/cancel-step-1.php:73
 #: st_templates/user/cancel-booking/email-has-refund-for-partner.php:33
@@ -44398,7 +44749,7 @@ msgstr ""
 #: st_templates/user/cancel-booking/cancel-with-refund.php:57
 #: st_templates/user/cancel-booking/success-bank.php:15
 msgid "Bank Name: "
-msgstr ""
+msgstr "Nome do Banco "
 
 #: st_templates/user/cancel-booking/cancel-step-2.php:57
 #: st_templates/user/cancel-booking/cancel-with-refund.php:60
@@ -44558,7 +44909,7 @@ msgstr "Detalhes do cliente"
 #: st_templates/user/detail-booking-history/woo/st_tours.php:35
 #: template-package-success-new.php:76
 msgid "Payment Method: "
-msgstr ""
+msgstr "Método de pagamento "
 
 #: st_templates/user/detail-booking-history/car_transfer.php:67
 msgid "Address "
@@ -44888,7 +45239,7 @@ msgstr ""
 
 #: st_templates/user/inbox/list.php:137
 msgid "You have 0 conversation"
-msgstr ""
+msgstr "Você tem 0 conversa"
 
 #: st_templates/user/inbox/live.php:11
 msgid "All messages"
@@ -44979,12 +45330,14 @@ msgstr ""
 
 #: st_templates/user/tabs/cancel-booking.php:37
 #, php-format
-msgid "Your percentage should be more than the commission percentage of the admin. The commission percentage of the admin is %s"
+msgid ""
+"Your percentage should be more than the commission percentage of the admin. "
+"The commission percentage of the admin is %s"
 msgstr ""
 
 #: st_templates/user/user-add-activity-booking.php:10
 msgid "Add New Activity Booking"
-msgstr ""
+msgstr "Adicionar nova reserva de gastronomia ou vinícola"
 
 #: st_templates/user/user-add-activity-booking.php:87
 #: st_templates/user/user-add-car-booking.php:82
@@ -44994,7 +45347,7 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:81
 #: st_templates/user/user-add-tour-booking.php:81
 msgid "Customer Address"
-msgstr ""
+msgstr "Endereço do cliente"
 
 #: st_templates/user/user-add-activity-booking.php:95
 #: st_templates/user/user-add-car-booking.php:90
@@ -45004,11 +45357,11 @@ msgstr ""
 #: st_templates/user/user-add-rental-booking.php:89
 #: st_templates/user/user-add-tour-booking.php:89
 msgid "Customer Address 2"
-msgstr ""
+msgstr "Endereço do cliente 2"
 
 #: st_templates/user/user-add-activity-booking.php:168
 msgid "Type activity"
-msgstr ""
+msgstr "Tipo de gastronomia ou vinícola"
 
 #: st_templates/user/user-add-car-booking.php:11
 msgid "Add New Car Booking"
@@ -45031,7 +45384,7 @@ msgstr ""
 #: st_templates/user/user-add-hotel-booking.php:210
 #: st_templates/user/user-add-hotel-room-booking.php:195
 msgid "No. Rooms"
-msgstr ""
+msgstr "Número quartos"
 
 #: st_templates/user/user-add-hotel-room-booking.php:10
 msgid "Add New Room Booking"
@@ -45043,7 +45396,7 @@ msgstr ""
 
 #: st_templates/user/user-add-tour-booking.php:9
 msgid "Add New Tour Booking"
-msgstr ""
+msgstr "Adicionar Nova Reserva de Passeio ou Trilha"
 
 #: st_templates/user/user-affiliate_wp.php:11
 msgid "Paid"
@@ -45202,7 +45555,7 @@ msgstr ""
 #: st_templates/user/user-booking-rental.php:27
 #: st_templates/user/user-booking-tours.php:25
 msgid "Send email notification"
-msgstr ""
+msgstr "Enviar notificação por e-mail"
 
 #: st_templates/user/user-booking-activity.php:53
 #: st_templates/user/user-booking-hotel-email.php:76
@@ -45263,7 +45616,7 @@ msgstr ""
 
 #: st_templates/user/user-booking-history.php:130
 msgid "Cancel Booking Information"
-msgstr ""
+msgstr "Cancelar Informações de Reserva"
 
 #: st_templates/user/user-booking-hotel-email.php:171
 msgid "No Hotels"
@@ -45271,7 +45624,7 @@ msgstr ""
 
 #: st_templates/user/user-booking-hotel-room-email.php:168
 msgid "No Rooms"
-msgstr ""
+msgstr "Sem quartos"
 
 #: st_templates/user/user-booking-hotel-room.php:15
 msgid "Room Booking"
@@ -45279,7 +45632,7 @@ msgstr ""
 
 #: st_templates/user/user-booking-hotel.php:17
 msgid "Hotel Booking"
-msgstr ""
+msgstr "Reserva no hotel"
 
 #: st_templates/user/user-booking-rental-email.php:171
 msgid "No Rentals"
@@ -45287,7 +45640,7 @@ msgstr ""
 
 #: st_templates/user/user-booking-tours.php:16
 msgid "Tours Booking"
-msgstr ""
+msgstr "Reserva de Passeios e Trilhas"
 
 #: st_templates/user/user-certificate.php:19
 msgid "Update Certificate"
@@ -45488,7 +45841,7 @@ msgstr ""
 
 #: st_templates/user/user-edit-activity.php:25
 msgid "Add Activity"
-msgstr ""
+msgstr "Adicionar Gastronomias e vinícolas"
 
 #: st_templates/user/user-edit-activity.php:106
 #: st_templates/user/user-edit-cars.php:96
@@ -45499,7 +45852,7 @@ msgstr ""
 #: st_templates/user/user-edit-room.php:105
 #: st_templates/user/user-edit-tours.php:108
 msgid "BACK"
-msgstr ""
+msgstr "Voltar"
 
 #: st_templates/user/user-edit-cars.php:20
 msgid "Add Car"
@@ -45511,7 +45864,7 @@ msgstr ""
 
 #: st_templates/user/user-edit-hotel.php:30
 msgid "Add Hotel"
-msgstr ""
+msgstr "Adicionar Hotel"
 
 #: st_templates/user/user-edit-room-rental.php:16
 msgid "Edit Rental Room"
@@ -45523,15 +45876,15 @@ msgstr ""
 
 #: st_templates/user/user-edit-room.php:25
 msgid "Add Room"
-msgstr ""
+msgstr "Adicionar quarto"
 
 #: st_templates/user/user-edit-tours.php:25
 msgid "Add Tour"
-msgstr ""
+msgstr "Adicionar Passeios e Trilhas"
 
 #: st_templates/user/user-hotel-inventory.php:21 template-user.php:341
 msgid "Hotel Inventory"
-msgstr ""
+msgstr "Inventário de hotéis"
 
 #: st_templates/user/user-hotel-inventory.php:68
 msgid "Edit number of room"
@@ -45539,7 +45892,7 @@ msgstr ""
 
 #: st_templates/user/user-inbox.php:2
 msgid "Inbox"
-msgstr ""
+msgstr "Caixa de entrada"
 
 #: st_templates/user/user-my-cars.php:29
 msgid "Search Car"
@@ -45568,7 +45921,7 @@ msgstr ""
 
 #: st_templates/user/user-my-room.php:29
 msgid "Search Room"
-msgstr ""
+msgstr "Buscar quarto"
 
 #: st_templates/user/user-setting.php:66 template-user.php:205
 msgid "Upgrade"
@@ -45599,7 +45952,9 @@ msgid " (Days left)"
 msgstr ""
 
 #: st_templates/user/user-setting.php:163
-msgid "<strong>PACKAGE INFORMATIONS:</strong> Some of your items are not published because it exceeds the amount of the package."
+msgid ""
+"<strong>PACKAGE INFORMATIONS:</strong> Some of your items are not published "
+"because it exceeds the amount of the package."
 msgstr ""
 
 #: st_templates/user/user-setting.php:177
@@ -45657,7 +46012,7 @@ msgstr ""
 
 #: st_templates/user/user-verify_user.php:27
 msgid "Not verified"
-msgstr ""
+msgstr "Não verificado"
 
 #: st_templates/user/user-verify_user.php:45
 msgid "Admin Notification:"
@@ -45666,7 +46021,7 @@ msgstr ""
 #: st_templates/user/user-verify_user.php:81
 #: st_templates/user/verify/info.php:102
 msgid "Personal identity card or passport"
-msgstr ""
+msgstr "Carteira de identidade ou passaporte"
 
 #: st_templates/user/user-verify_user.php:88
 #: st_templates/user/verify/info.php:126
@@ -45675,7 +46030,7 @@ msgstr ""
 
 #: st_templates/user/user-verify_user.php:100
 msgid "Birthday on Card"
-msgstr ""
+msgstr "Data de nascimento"
 
 #: st_templates/user/user-verify_user.php:124
 #: st_templates/user/user-verify_user.php:214
@@ -45685,7 +46040,7 @@ msgstr ""
 #: st_templates/user/user-verify_user.php:125
 #: st_templates/user/user-verify_user.php:215
 msgid "Select Images"
-msgstr ""
+msgstr "Selecionar imagens"
 
 #: st_templates/user/user-verify_user.php:127
 #: st_templates/user/user-verify_user.php:217
@@ -45695,36 +46050,36 @@ msgstr ""
 #: st_templates/user/user-verify_user.php:129
 #: st_templates/user/user-verify_user.php:219
 msgid "Please select image"
-msgstr ""
+msgstr "Por favor selecione a imagem"
 
 #: st_templates/user/user-verify_user.php:144
 #: st_templates/user/verify/info.php:208
 msgid "Company name"
-msgstr ""
+msgstr "Nome da empresa"
 
 #: st_templates/user/user-verify_user.php:156
 #: st_templates/user/verify/info.php:232
 msgid "Company address"
-msgstr ""
+msgstr "Endereço da Empresa"
 
 #: st_templates/user/user-verify_user.php:167
 msgid "Representative"
-msgstr ""
+msgstr "Representante"
 
 #: st_templates/user/user-verify_user.php:171
 #: st_templates/user/verify/info.php:257
 msgid "Fullname"
-msgstr ""
+msgstr "Nome Complreto"
 
 #: st_templates/user/user-verify_user.php:183
 #: st_templates/user/verify/info.php:281
 msgid "Personal Indentity/passport"
-msgstr ""
+msgstr "Carteira de identidade/ Passaporte"
 
 #: st_templates/user/user-verify_user.php:189
 #: st_templates/user/verify/info.php:293
 msgid "Issue date"
-msgstr ""
+msgstr "Data de Emissão"
 
 #: st_templates/user/user-verify_user.php:232
 msgid "Facebook: Connected"
@@ -45744,7 +46099,7 @@ msgstr ""
 
 #: st_templates/user/user-withdrawal.php:59
 msgid "Money Availability"
-msgstr ""
+msgstr "DISPONIBILIDADE DE DINHEIRO"
 
 #: st_templates/user/user-withdrawal.php:79
 msgid "PayOut"
@@ -45752,7 +46107,7 @@ msgstr ""
 
 #: st_templates/user/user-withdrawal.php:127
 msgid "Minimum value :"
-msgstr ""
+msgstr "Valor mínimo:"
 
 #: st_templates/user/user-withdrawal.php:141
 #: st_templates/user/user-withdrawal.php:143
@@ -45761,11 +46116,11 @@ msgstr ""
 
 #: st_templates/user/user-withdrawal.php:159
 msgid "Bank Infomation"
-msgstr ""
+msgstr "Informação bancária"
 
 #: st_templates/user/user-withdrawal.php:161
 msgid "(Bank name, Bank account, Swift code, ...)"
-msgstr ""
+msgstr "(Nome do banco, conta bancária, código Swift, ...)"
 
 #: st_templates/user/user-write_review.php:103
 msgid "book before write review"
@@ -45801,7 +46156,7 @@ msgstr ""
 
 #: st_templates/user/verify/info.php:150
 msgid "Birthday"
-msgstr ""
+msgstr "Aniversário"
 
 #: st_templates/user/verify/info.php:255
 msgid "Representative Information"
@@ -46323,7 +46678,7 @@ msgstr ""
 
 #: woocommerce/single-product/tabs/description.php:16
 msgid "Product Description"
-msgstr ""
+msgstr "Descrição do Produto"
 
 #: woocommerce/single-style/style-list.php:110
 #: woocommerce/single-style/style.php:92
