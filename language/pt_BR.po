@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-08-12 19:57-0300\n"
+"PO-Revision-Date: 2022-08-12 20:03-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -19258,7 +19258,7 @@ msgstr ""
 #: st_templates/user/user-booking-cars-email.php:80
 #: st_templates/user/user-booking-cars.php:64
 msgid "Car Name"
-msgstr ""
+msgstr "Nome do carro"
 
 #: inc/class/class.cars.php:2157 inc/layouts/modern/class/class.cars.php:2118
 msgid "Day"
@@ -30955,7 +30955,7 @@ msgstr ""
 #: st_templates/tours/elements/stour-package-custom-car.php:23
 #: st_templates/tours/elements/stour-package-custom-car.php:38
 msgid "Quantity"
-msgstr ""
+msgstr "Quantidade"
 
 #: inc/modules/hotel-alone/views/elements/st-booking-room/style-1.php:281
 #: inc/modules/hotel-alone/views/elements/st-booking-room/style-2.php:169
@@ -32092,15 +32092,15 @@ msgstr "Serviço de Hotel"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:22
 msgid "Activity service"
-msgstr ""
+msgstr "Serviço de Gastronomia/Vinícolas"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:27
 msgid "Car service"
-msgstr ""
+msgstr "Serviço de carro"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:32
 msgid "Flight service"
-msgstr ""
+msgstr "Serviço de Vôo"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:42
 #: st_templates/fields/package.php:37
@@ -32115,12 +32115,12 @@ msgstr "Dados de hotel personalizados"
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:73
 #: st_templates/fields/package.php:86
 msgid "Getting Activities By Location"
-msgstr ""
+msgstr "Obtendo restaurantes/Vinícolas por Localização"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:94
 #: st_templates/fields/package.php:107
 msgid "Custom activity data"
-msgstr ""
+msgstr "Dados de Restaurantes/Vinícolas personalizado"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:104
 #: st_templates/fields/package.php:132
@@ -32130,7 +32130,7 @@ msgstr ""
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:125
 #: st_templates/fields/package.php:153
 msgid "Custom car data"
-msgstr ""
+msgstr "Dados de carro personalizado"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:135
 #: st_templates/fields/package.php:180
@@ -32140,7 +32140,7 @@ msgstr ""
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:156
 #: st_templates/fields/package.php:204
 msgid "Custom flight data"
-msgstr ""
+msgstr "Dados de vôo personalizado"
 
 #: inc/plugins/ot-custom/fields/tour-package/views/index.php:167
 msgid "Save data"
@@ -33858,7 +33858,7 @@ msgstr ""
 #: st_templates/tours/elements/stour-package-custom-flight.php:47
 #: st_templates/user/detail-booking-history/st_tours.php:385
 msgid "Origin/Destination"
-msgstr ""
+msgstr "Origem/Destino"
 
 #: inc/shortcodes/email/email.php:1196
 msgid "BUSINESS"
@@ -41014,7 +41014,7 @@ msgstr ""
 
 #: st_templates/fields/package.php:121
 msgid "Car Service"
-msgstr ""
+msgstr "Serviço de carro"
 
 #: st_templates/fields/package.php:168
 msgid "Flight Service"
@@ -45129,7 +45129,7 @@ msgstr ""
 
 #: st_templates/user/detail-booking-history/st_flight.php:75
 msgid "Departure Time:"
-msgstr ""
+msgstr "Hora do embarque:"
 
 #: st_templates/user/detail-booking-history/st_flight.php:83
 msgid "Return Time:"
