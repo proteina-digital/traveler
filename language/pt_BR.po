@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-08-12 21:12-0300\n"
+"PO-Revision-Date: 2022-08-12 21:27-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -2143,7 +2143,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:3000
 #: inc/layouts/modern/class/class.user.php:3779
 msgid "Booking period"
-msgstr ""
+msgstr "Período de reserva"
 
 #: inc/admin/class.admin.activity.php:938
 #: inc/layouts/modern/admin/class.admin.activity.php:955
@@ -2882,7 +2882,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.activity.php:1596
 #: st_templates/user/user-booking-activity.php:16
 msgid "Activity Booking"
-msgstr ""
+msgstr "Reservas"
 
 #: inc/admin/class.admin.activity.php:1499
 #: inc/layouts/modern/admin/class.admin.activity.php:1626
@@ -15986,7 +15986,7 @@ msgstr ""
 
 #: inc/admin/views/activity/booking_edit.php:41
 msgid "Edit Activity Booking"
-msgstr ""
+msgstr "Editar Reserva"
 
 #: inc/admin/views/activity/booking_edit.php:71
 #: inc/admin/views/car/booking_edit.php:75
@@ -21577,14 +21577,14 @@ msgstr ""
 
 #: inc/class/class.user.php:3212 inc/layouts/modern/class/class.user.php:2972
 msgid "Select activity type"
-msgstr ""
+msgstr "Tipo de gastronomia ou vinícola"
 
 #: inc/class/class.user.php:3232 inc/layouts/modern/class/class.user.php:2992
 #: language/english/all.php:547 language/english/all.php:669
 #: language/english/modun/user.php:8
 #: language/english/modun/user_create_activity.php:26
 msgid "Activity Timing"
-msgstr ""
+msgstr "Tempo"
 
 #: inc/class/class.user.php:3249 inc/class/class.user.php:3926
 #: inc/class/class.user.php:4086 inc/layouts/modern/class/class.user.php:3009
@@ -21595,33 +21595,33 @@ msgstr ""
 
 #: inc/class/class.user.php:3257 inc/layouts/modern/class/class.user.php:3017
 msgid "Max people. Leave empty or enter '0' for unlimited"
-msgstr ""
+msgstr "Máximo de pessoas. Deixe vazio ou digite “0” se for ilimitado"
 
 #: inc/class/class.user.php:3300
 #: inc/layouts/modern/admin/class.admin.activity.php:985
 msgid "Activity Included"
-msgstr ""
+msgstr "Incluído"
 
 #: inc/class/class.user.php:3310
 #: inc/layouts/modern/admin/class.admin.activity.php:991
 msgid "Activity Excluded"
-msgstr ""
+msgstr "Não Incluído"
 
 #: inc/class/class.user.php:3319
 #: inc/layouts/modern/admin/class.admin.activity.php:997
 #: inc/layouts/modern/class/class.user.php:3103
 msgid "Activity Highlight"
-msgstr ""
+msgstr "Destaques"
 
 #: inc/class/class.user.php:3329
 #: inc/layouts/modern/admin/class.admin.activity.php:1067
 #: inc/layouts/modern/class/class.user.php:3112
 msgid "Activity FAQ"
-msgstr ""
+msgstr "Perguntas/respostas"
 
 #: inc/class/class.user.php:3350 inc/layouts/modern/class/class.user.php:3133
 msgid "Activity Program"
-msgstr ""
+msgstr "Programação"
 
 #: inc/class/class.user.php:3915 inc/layouts/modern/class/class.user.php:3638
 #, php-format
@@ -22203,7 +22203,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:2563
 #: inc/layouts/modern/configs/partner.php:5583
 msgid "Booking Period"
-msgstr ""
+msgstr "Período de reserva"
 
 #: inc/class/class.user.php:8214 inc/class/class.user.php:8527
 #: inc/class/class.user.php:8888 inc/class/class.user.php:9372
@@ -22569,12 +22569,12 @@ msgstr ""
 #: language/english/modun/user.php:41
 #: language/english/modun/user_create_activity.php:3 template-user.php:411
 msgid "Add new activity"
-msgstr ""
+msgstr "Adicionar novo Restaurante/Vinícola "
 
 #: inc/class/class.user.php:11984 inc/layouts/modern/class/class.user.php:11064
 #: template-user.php:407
 msgid "My Activity"
-msgstr ""
+msgstr "Meus estabelecimentos"
 
 #: inc/class/class.user.php:11987 inc/class/class.user.php:12947
 #: inc/class/class.user.php:12950 inc/class/class.user.php:13083
@@ -22744,7 +22744,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:11982
 #: inc/layouts/modern/class/class.user.php:12116
 msgid "Add new activity "
-msgstr ""
+msgstr "Adicionar novo Restaurante/Vinícola "
 
 #: inc/class/class.user.php:12977 inc/class/class.user.php:13113
 #: inc/layouts/modern/class/class.user.php:11985
@@ -22823,7 +22823,7 @@ msgstr ""
 #: inc/class/class.user.php:13137 inc/layouts/modern/class/class.user.php:12143
 #: template-user.php:421
 msgid "Activity Bookings"
-msgstr ""
+msgstr "Reservas"
 
 #: inc/class/class.user.php:13439 inc/class/class.user.php:13802
 #: inc/layouts/modern/class/class.user.php:12435
@@ -23537,7 +23537,7 @@ msgstr ""
 #: inc/configs/partner.php:1422 inc/layouts/modern/configs/partner.php:1539
 #: inc/layouts/modern/configs/partner.php:4559
 msgid "ACTIVITY IMAGE"
-msgstr ""
+msgstr "FOTOS DO ESTABELECIMENTO"
 
 #: inc/configs/partner.php:1738 inc/layouts/modern/configs/partner.php:4876
 #: language/english/all.php:44 language/english/all.php:674
@@ -24423,7 +24423,7 @@ msgstr ""
 #: inc/layouts/modern/helpers/availability.helper.php:304
 #: inc/modules/flights/controllers/flight_controller.php:165
 msgid "Added successful."
-msgstr ""
+msgstr "Adicionado com sucesso."
 
 #: inc/helpers/availability.helper.php:360
 #: inc/helpers/availability.helper.php:1893
@@ -25516,7 +25516,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.activity.php:1023
 #: inc/layouts/modern/admin/class.admin.activity.php:1042
 msgid "Activity program"
-msgstr ""
+msgstr "Programação"
 
 #: inc/layouts/modern/admin/class.admin.activity.php:1048
 #: inc/layouts/modern/admin/class.admin.tours.php:1543
@@ -26485,11 +26485,11 @@ msgstr ""
 
 #: inc/layouts/modern/class/class.user.php:3084
 msgid "Activity Include"
-msgstr ""
+msgstr "Incluído"
 
 #: inc/layouts/modern/class/class.user.php:3094
 msgid "Activity Exclude"
-msgstr ""
+msgstr "Não Incluído"
 
 #: inc/layouts/modern/class/class.user.php:5717
 msgid "Your request cancel booking is completed."
@@ -46603,7 +46603,7 @@ msgstr "Adicionar Reserva"
 
 #: template-user.php:416
 msgid "Add Booking Activity"
-msgstr ""
+msgstr "Adicionar Reserva"
 
 #: template-user.php:447
 msgid "Add Booking Car"
