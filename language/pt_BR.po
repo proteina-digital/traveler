@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-08-12 21:27-0300\n"
+"PO-Revision-Date: 2022-08-12 21:48-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -2000,7 +2000,7 @@ msgstr ""
 #: st_templates/user/verify/info.php:78 template-package-success-new.php:134
 #: template-package-success.php:109
 msgid "Phone"
-msgstr ""
+msgstr "Telefone"
 
 #: inc/admin/class.admin.activity.php:897
 #: inc/admin/class.admin.activity.php:900 inc/admin/class.admin.cars.php:1234
@@ -14263,14 +14263,14 @@ msgstr ""
 #: inc/layouts/modern/helpers/class.sthelper.php:1140
 #: inc/st-theme-options.php:7706
 msgid "Car Driver Informations"
-msgstr ""
+msgstr "Informações"
 
 #: inc/admin/class.admin.settings.php:9321 inc/helpers/class.sthelper.php:1271
 #: inc/layouts/modern/admin/class.admin.settings.php:6268
 #: inc/layouts/modern/helpers/class.sthelper.php:1144
 #: inc/st-theme-options.php:7710
 msgid "Car Driver Informations  "
-msgstr ""
+msgstr "Informações "
 
 #: inc/admin/class.admin.settings.php:9327 inc/helpers/class.sthelper.php:1277
 #: inc/layouts/modern/admin/class.admin.settings.php:6274
@@ -34161,7 +34161,7 @@ msgstr ""
 #: st_templates/tours/elements/info-tours-2.php:27
 #: st_templates/tours/elements/tabs-content/tab-request.php:15
 msgid "Tour Informations"
-msgstr ""
+msgstr "Informações"
 
 #: inc/shortcodes/tour/tour.php:181
 #: st_templates/tours/elements/info-tours-2.php:27
@@ -35182,7 +35182,7 @@ msgstr ""
 #: inc/st-hook-functions.php:1985
 #: st_templates/email/email_single_service.php:72
 msgid "Note"
-msgstr ""
+msgstr "Mensagem"
 
 #: inc/st-hook-functions.php:2002
 msgid "Thank you for contacting us!<br>We will be in contact shortly."
@@ -41286,7 +41286,7 @@ msgstr ""
 #: st_templates/hotel/elements/map_gallery_half_map.php:101
 #: st_templates/hotel/elements/map_gallery_half_mapbox.php:92
 msgid " / night"
-msgstr ""
+msgstr " / noite"
 
 #: st_templates/hotel/elements/map_gallery_full_map.php:137
 #: st_templates/tours/elements/gallery-map/gallery-map.php:157
@@ -43356,7 +43356,7 @@ msgstr "Informações"
 #: st_templates/layouts/modern/hotel/single/single-style-2.php:392
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:522
 msgid "Hotel Policies"
-msgstr ""
+msgstr "Políticas do Hotel"
 
 #: st_templates/layouts/modern/hotel/single/single-style-1.php:543
 #: st_templates/layouts/modern/hotel/single/single-style-2.php:528
