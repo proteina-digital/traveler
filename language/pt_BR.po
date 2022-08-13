@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-08-12 20:40-0300\n"
+"PO-Revision-Date: 2022-08-12 21:12-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -1769,7 +1769,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:3804
 #: inc/layouts/modern/class/class.user.php:4479 inc/st-theme-options.php:1191
 msgid "Booking Options"
-msgstr ""
+msgstr "Opção de reserva"
 
 #: inc/admin/class.admin.activity.php:815 inc/admin/class.admin.cars.php:1073
 #: inc/admin/class.admin.rental.php:840 inc/admin/class.admin.room.php:743
@@ -1787,7 +1787,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:3809
 #: inc/layouts/modern/class/class.user.php:4484
 msgid "Instant Booking"
-msgstr ""
+msgstr "Reserva Imediata"
 
 #: inc/admin/class.admin.activity.php:819 inc/admin/class.admin.cars.php:1077
 #: inc/admin/class.admin.rental.php:844 inc/admin/class.admin.room.php:747
@@ -1805,7 +1805,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:3810
 #: inc/layouts/modern/class/class.user.php:4485
 msgid "Enquire Booking"
-msgstr ""
+msgstr "Consultar Reserva"
 
 #: inc/admin/class.admin.activity.php:823 inc/admin/class.admin.cars.php:1081
 #: inc/admin/class.admin.rental.php:848 inc/admin/class.admin.room.php:751
@@ -1823,7 +1823,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:3811
 #: inc/layouts/modern/class/class.user.php:4486
 msgid "Instant & Enquire Booking"
-msgstr ""
+msgstr "Imediata & Consultar Reserva"
 
 #: inc/admin/class.admin.activity.php:831
 #: inc/layouts/modern/admin/class.admin.activity.php:831
@@ -3529,7 +3529,7 @@ msgstr ""
 
 #: inc/admin/class.admin.cars.php:1126
 msgid "Fixed price"
-msgstr ""
+msgstr "Preço Fixo"
 
 #: inc/admin/class.admin.cars.php:1130
 msgid "Price per hour"
@@ -3537,7 +3537,7 @@ msgstr ""
 
 #: inc/admin/class.admin.cars.php:1134
 msgid "Price per day"
-msgstr ""
+msgstr "Preço por dia"
 
 #: inc/admin/class.admin.cars.php:1140 inc/class/class.user.php:1809
 #: inc/layouts/modern/class/class.user.php:1646
@@ -3709,7 +3709,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:2082
 #: inc/layouts/modern/configs/partner.php:5102
 msgid "By Fixed"
-msgstr ""
+msgstr "Fixo"
 
 #: inc/admin/class.admin.cars.php:1273 inc/configs/partner.php:1962
 #: inc/layouts/modern/admin/class.admin.cars.php:1436
@@ -3738,7 +3738,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.room.php:874
 #, php-format
 msgid "Pricing (%s)"
-msgstr ""
+msgstr "Preço (%s)"
 
 #: inc/admin/class.admin.cars.php:1295 inc/configs/partner.php:1985
 #: inc/layouts/modern/admin/class.admin.cars.php:1458
@@ -3925,7 +3925,7 @@ msgstr "Sim"
 #: inc/layouts/modern/configs/partner.php:766
 #: inc/layouts/modern/configs/partner.php:3786
 msgid "Extra pricing"
-msgstr ""
+msgstr "Preço extra"
 
 #: inc/admin/class.admin.cars.php:1340 inc/admin/class.admin.room.php:896
 #: inc/admin/class.admin.tours.php:1195
@@ -4674,7 +4674,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:3324
 #: st_templates/hotel/elements/tabs-content/tab-policies_fqa.php:34
 msgid "Book before number of day"
-msgstr ""
+msgstr "Dias para reservar com antecedência"
 
 #: inc/admin/class.admin.hotel.php:671 inc/admin/class.admin.rental.php:1150
 #: inc/layouts/modern/admin/class.admin.hotel.php:689
@@ -4716,7 +4716,7 @@ msgstr "Descrição da política"
 #: inc/layouts/modern/class/class.user.php:646
 #: inc/plugins/ot-custom/fields/inventory/inventory.php:71
 msgid "Inventory"
-msgstr ""
+msgstr "Inventário"
 
 #: inc/admin/class.admin.hotel.php:975
 #: inc/admin/views/hotel/booking_index.php:59 inc/class/class.user.php:12926
@@ -4742,7 +4742,7 @@ msgstr ""
 #: inc/admin/class.admin.hotel.php:1300
 #: inc/layouts/modern/admin/class.admin.hotel.php:1349
 msgid "----Select a room----"
-msgstr ""
+msgstr "——Selecione o quarto——"
 
 #: inc/admin/class.admin.landing.page.php:40
 #: inc/helpers/availability.helper.php:1926
@@ -5188,11 +5188,11 @@ msgstr ""
 
 #: inc/admin/class.admin.order.php:99
 msgid "Check In Time"
-msgstr ""
+msgstr "Horário do Check in"
 
 #: inc/admin/class.admin.order.php:102
 msgid "Check Out Time"
-msgstr ""
+msgstr "Horário de Check out"
 
 #: inc/admin/class.admin.order.php:105
 msgid "Check In Timestamp"
@@ -5974,7 +5974,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.room.php:977
 #: inc/layouts/modern/configs/partner.php:719
 msgid "per Day"
-msgstr ""
+msgstr "Por Dia"
 
 #: inc/admin/class.admin.rental.php:1062 inc/admin/class.admin.room.php:932
 #: inc/configs/partner.php:609
@@ -5985,14 +5985,14 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:2259
 #: inc/layouts/modern/configs/partner.php:5279 inc/vc-elements/vc_map.php:3364
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 #: inc/admin/class.admin.rental.php:1068 inc/configs/partner.php:626
 #: inc/layouts/modern/admin/class.admin.rental.php:1091
 #: inc/layouts/modern/configs/partner.php:737
 #: inc/layouts/modern/configs/partner.php:3757
 msgid "Discount rating"
-msgstr ""
+msgstr "Valor do desconto"
 
 #: inc/admin/class.admin.rental.php:1071
 #: inc/layouts/modern/admin/class.admin.rental.php:1094
@@ -6519,7 +6519,7 @@ msgstr ""
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_calendar.php:24
 #: st_templates/vc-elements/st-rental/st_rental_calendar.php:43
 msgid "Available"
-msgstr ""
+msgstr "Disponível"
 
 #: inc/admin/class.admin.room.php:1071 inc/class/class.hotel.php:748
 #: inc/layouts/modern/admin/class.admin.room.php:1152
@@ -6710,7 +6710,7 @@ msgstr ""
 #: inc/vc-elements/vc_map.php:3999 st_templates/fields/map.php:90
 #: st_templates/fields/mapbox.php:78
 msgid "On"
-msgstr ""
+msgstr "Ligado"
 
 #: inc/admin/class.admin.settings.php:493 inc/class/class.user.php:1933
 #: inc/class/class.user.php:1961 inc/class/class.user.php:1973
@@ -6756,7 +6756,7 @@ msgstr ""
 #: st_templates/fields/mapbox.php:79
 #: st_templates/vc-elements/st-promotion/html.php:22
 msgid "Off"
-msgstr ""
+msgstr "Desligado"
 
 #: inc/admin/class.admin.settings.php:502
 #: inc/admin/class.admin.settings.php:1791
@@ -14919,7 +14919,7 @@ msgstr "Mostrar preço por pessoa ou fixo."
 #: language/english/modun/user_create_activity.php:24
 #: st_templates/tours/wc_cart_item_information.php:41
 msgid "Start date"
-msgstr ""
+msgstr "Data Inicial"
 
 #: inc/admin/class.admin.tours.php:1030
 msgid "Start date for fixed departure tour"
@@ -14938,7 +14938,7 @@ msgstr ""
 #: language/english/modun/user_create_activity.php:25
 #: st_templates/tours/wc_cart_item_information.php:42
 msgid "End date"
-msgstr ""
+msgstr "Data final"
 
 #: inc/admin/class.admin.tours.php:1038
 msgid "End date for fixed departure tour"
@@ -15343,7 +15343,7 @@ msgstr "Não disponível "
 #: inc/admin/class.stadmin.php:227 inc/helpers/new_layout.helper.php:783
 #: inc/st-hook-functions.php:507
 msgid "Available "
-msgstr ""
+msgstr "Disponível "
 
 #: inc/admin/class.stadmin.php:228 inc/helpers/new_layout.helper.php:317
 #: inc/helpers/new_layout.helper.php:784 inc/st-hook-functions.php:508
@@ -16748,14 +16748,14 @@ msgstr ""
 #: inc/plugins/ot-custom/fields/custom_price/views/index.php:53
 #: inc/plugins/ot-custom/fields/custom_price/views/index.php:113
 msgid "Start Date:"
-msgstr ""
+msgstr "Data Inicial:"
 
 #: inc/admin/views/admin/html-price.php:39
 #: inc/admin/views/admin/html-price.php:103
 #: inc/plugins/ot-custom/fields/custom_price/views/index.php:57
 #: inc/plugins/ot-custom/fields/custom_price/views/index.php:117
 msgid "End Date:"
-msgstr ""
+msgstr "Data final:"
 
 #: inc/admin/views/admin/html-price.php:75
 #: inc/plugins/ot-custom/fields/custom_price/views/index.php:89
@@ -17547,7 +17547,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:104
 #: st_templates/tours/tour-starttime-calendar.php:86
 msgid "Years"
-msgstr ""
+msgstr "Anos"
 
 #: inc/admin/views/reports/orders/by_date.php:11
 #: inc/admin/views/reports/orders/by_partner.php:23
@@ -19608,7 +19608,7 @@ msgstr ""
 
 #: inc/class/class.hotel.php:735 inc/layouts/modern/class/class.hotel.php:1046
 msgid "Out of stock"
-msgstr ""
+msgstr "Sem Vagas"
 
 #: inc/class/class.hotel.php:747 inc/layouts/modern/class/class.hotel.php:1058
 msgid "N"
@@ -21086,7 +21086,7 @@ msgstr "Número de camas"
 #: inc/layouts/modern/configs/partner.php:570
 #: inc/layouts/modern/configs/partner.php:3608
 msgid "Room Footage (square meters)"
-msgstr ""
+msgstr "Medidas do quartoTamanho do quarto"
 
 #: inc/class/class.user.php:372 inc/class/class.user.php:547
 #: inc/class/class.user.php:579 inc/class/class.user.php:642
@@ -21408,7 +21408,7 @@ msgstr ""
 
 #: inc/class/class.user.php:1804 inc/layouts/modern/class/class.user.php:1641
 msgid "Price per Day"
-msgstr ""
+msgstr "Preço por dia"
 
 #: inc/class/class.user.php:1864 inc/layouts/modern/class/class.user.php:1699
 msgid "Contact email addresses"
@@ -21705,7 +21705,7 @@ msgstr ""
 #: inc/layouts/modern/configs/partner.php:642
 #: inc/layouts/modern/configs/partner.php:3680
 msgid "Allow price per person"
-msgstr ""
+msgstr "Permitir preço por pessoa"
 
 #: inc/class/class.user.php:4617 inc/configs/partner.php:646
 #: inc/layouts/modern/class/class.user.php:4342
@@ -21732,7 +21732,7 @@ msgstr ""
 
 #: inc/class/class.user.php:4730 inc/layouts/modern/class/class.user.php:4453
 msgid "Add a Facility"
-msgstr ""
+msgstr "Adicionar Facilidade"
 
 #: inc/class/class.user.php:4734 inc/layouts/modern/class/class.user.php:4457
 msgid "+ Add A Facility"
@@ -22554,7 +22554,7 @@ msgstr "Adicionar Novo Passeio ou Trilha"
 #: inc/layouts/modern/class/class.user.php:12101 language/english/all.php:587
 #: language/english/modun/user.php:48 template-user.php:377
 msgid "My Tour"
-msgstr ""
+msgstr "Meus passeios e trilhas"
 
 #: inc/class/class.user.php:11975 inc/layouts/modern/class/class.user.php:11055
 msgid "Create new flight"
@@ -22722,7 +22722,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:11970
 #: inc/layouts/modern/class/class.user.php:12104 template-user.php:391
 msgid "Tour Bookings"
-msgstr ""
+msgstr "Reservas"
 
 #: inc/class/class.user.php:12965 inc/class/class.user.php:13101
 #: inc/layouts/modern/class/class.user.php:11973
@@ -22839,7 +22839,7 @@ msgstr ""
 #: st_templates/vc-elements/st-list-map-new/html.php:18
 #: st_templates/vc-elements/st-list-map/html.php:37
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: inc/class/class.user.php:13467 inc/class/class.user.php:13514
 #: inc/class/class.user.php:13832 inc/class/class.user.php:13874
@@ -23015,7 +23015,7 @@ msgstr "5. Política"
 #: inc/layouts/modern/configs/partner.php:5488
 #: inc/layouts/modern/configs/partner.php:5955
 msgid "PERSONAL INFORMATION"
-msgstr "INFORMAÇÕES PESSOAIS"
+msgstr "INFORMAÇÕES"
 
 #: inc/configs/partner.php:44 inc/layouts/modern/configs/partner.php:120
 #: inc/layouts/modern/configs/partner.php:3184
@@ -23183,7 +23183,7 @@ msgstr ""
 #: inc/configs/partner.php:325 inc/layouts/modern/configs/partner.php:434
 #: inc/layouts/modern/configs/partner.php:3472
 msgid "ADD A POLICY"
-msgstr ""
+msgstr "POLÍTICA DO HOTEL"
 
 #: inc/configs/partner.php:329 inc/layouts/modern/configs/partner.php:438
 #: inc/layouts/modern/configs/partner.php:3476
@@ -23243,32 +23243,32 @@ msgstr "Número de camas"
 #: inc/configs/partner.php:492 inc/layouts/modern/configs/partner.php:603
 #: inc/layouts/modern/configs/partner.php:3641
 msgid "HOTEL ROOM IMAGE"
-msgstr ""
+msgstr "IMAGEM DO QUARTO"
 
 #: inc/configs/partner.php:519 inc/layouts/modern/configs/partner.php:630
 #: inc/layouts/modern/configs/partner.php:3668
 msgid "Allow customer can booking full day"
-msgstr ""
+msgstr "Permitir que o cliente possa reservar o dia inteiro"
 
 #: inc/configs/partner.php:543 inc/layouts/modern/configs/partner.php:654
 #: inc/layouts/modern/configs/partner.php:3692
 msgid "Pricing"
-msgstr ""
+msgstr "Preço"
 
 #: inc/configs/partner.php:552 inc/layouts/modern/configs/partner.php:663
 #: inc/layouts/modern/configs/partner.php:3701
 msgid "Adult Pricing"
-msgstr ""
+msgstr "Preço por adulto"
 
 #: inc/configs/partner.php:561 inc/layouts/modern/configs/partner.php:672
 #: inc/layouts/modern/configs/partner.php:3710
 msgid "Child Pricing"
-msgstr ""
+msgstr "Preço por criança"
 
 #: inc/configs/partner.php:570 inc/layouts/modern/configs/partner.php:681
 #: inc/layouts/modern/configs/partner.php:3719
 msgid "Discount by No.Days"
-msgstr ""
+msgstr "Desconto por No.Dias"
 
 #: inc/configs/partner.php:583 inc/layouts/modern/configs/partner.php:3732
 msgid "No. days"
@@ -23280,22 +23280,22 @@ msgstr ""
 
 #: inc/configs/partner.php:602 inc/layouts/modern/configs/partner.php:713
 msgid "Extra price unit (Accompanied service Price Unit)"
-msgstr ""
+msgstr "Valor extra (por acompanhante)"
 
 #: inc/configs/partner.php:614 inc/layouts/modern/configs/partner.php:725
 #: inc/layouts/modern/configs/partner.php:3745
 msgid "Discount type. This only use for discount by number of days."
-msgstr ""
+msgstr "Tipo de desconto. Isso só é usado para desconto por número de dias."
 
 #: inc/configs/partner.php:620 inc/layouts/modern/configs/partner.php:731
 #: inc/layouts/modern/configs/partner.php:3751
 msgid "Percent(%)"
-msgstr ""
+msgstr "Porcentagem(%)"
 
 #: inc/configs/partner.php:634 inc/layouts/modern/configs/partner.php:745
 #: inc/layouts/modern/configs/partner.php:3765
 msgid "Deposit options. "
-msgstr ""
+msgstr "Opções de método de depósito"
 
 #: inc/configs/partner.php:674 inc/layouts/modern/configs/partner.php:785
 #: inc/layouts/modern/configs/partner.php:3805
@@ -24458,7 +24458,7 @@ msgstr ""
 #: inc/layouts/modern/helpers/availability.helper.php:487
 #: inc/modules/flights/controllers/flight_controller.php:481
 msgid "The room field is required."
-msgstr ""
+msgstr "É necessário selecionar o quarto."
 
 #: inc/helpers/availability.helper.php:1227
 #: inc/helpers/availability.helper.php:1242
@@ -24571,7 +24571,7 @@ msgstr ""
 #: st_templates/rental/rental-calendar.php:135
 #: st_templates/tours/tour-calendar.php:199
 msgid "Unavailable"
-msgstr ""
+msgstr "Não Disponível"
 
 #: inc/helpers/availability.helper.php:1854
 #: inc/helpers/availability.helper.php:1954
@@ -25182,67 +25182,67 @@ msgstr ""
 #: inc/modules/hotel-alone/controllers/base_controller.php:159
 #: inc/st-hook-functions.php:901
 msgid "Jan"
-msgstr ""
+msgstr "Jan"
 
 #: inc/helpers/new_layout.helper.php:196
 #: inc/modules/hotel-alone/controllers/base_controller.php:161
 #: inc/st-hook-functions.php:902
 msgid "Feb"
-msgstr ""
+msgstr "Fev"
 
 #: inc/helpers/new_layout.helper.php:197
 #: inc/modules/hotel-alone/controllers/base_controller.php:163
 #: inc/st-hook-functions.php:903
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
 #: inc/helpers/new_layout.helper.php:198
 #: inc/modules/hotel-alone/controllers/base_controller.php:165
 #: inc/st-hook-functions.php:904
 msgid "Apr"
-msgstr ""
+msgstr "Abr"
 
 #: inc/helpers/new_layout.helper.php:200
 #: inc/modules/hotel-alone/controllers/base_controller.php:169
 #: inc/st-hook-functions.php:906
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #: inc/helpers/new_layout.helper.php:201
 #: inc/modules/hotel-alone/controllers/base_controller.php:171
 #: inc/st-hook-functions.php:907
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 #: inc/helpers/new_layout.helper.php:202
 #: inc/modules/hotel-alone/controllers/base_controller.php:173
 #: inc/st-hook-functions.php:908
 msgid "Aug"
-msgstr ""
+msgstr "Ago"
 
 #: inc/helpers/new_layout.helper.php:203
 #: inc/modules/hotel-alone/controllers/base_controller.php:175
 #: inc/st-hook-functions.php:909
 msgid "Sep"
-msgstr ""
+msgstr "Set"
 
 #: inc/helpers/new_layout.helper.php:204
 #: inc/modules/hotel-alone/controllers/base_controller.php:177
 #: inc/st-hook-functions.php:910
 msgid "Oct"
-msgstr ""
+msgstr "Out"
 
 #: inc/helpers/new_layout.helper.php:205
 #: inc/modules/hotel-alone/controllers/base_controller.php:179
 #: inc/st-hook-functions.php:911
 msgid "Nov"
-msgstr ""
+msgstr "Nov"
 
 #: inc/helpers/new_layout.helper.php:206
 #: inc/modules/hotel-alone/controllers/base_controller.php:181
 #: inc/st-hook-functions.php:912
 msgid "Dec"
-msgstr ""
+msgstr "Dez"
 
 #: inc/helpers/new_layout.helper.php:207 inc/st-hook-functions.php:913
 msgid "Room number field is required!"
@@ -25254,7 +25254,7 @@ msgstr ""
 
 #: inc/helpers/new_layout.helper.php:306 inc/helpers/new_layout.helper.php:738
 msgid "Not Available: "
-msgstr ""
+msgstr "Não disponível "
 
 #: inc/helpers/new_layout.helper.php:315 inc/st-hook-functions.php:512
 msgid "Adult "
@@ -25270,15 +25270,15 @@ msgstr "Bebê"
 
 #: inc/helpers/new_layout.helper.php:795
 msgid "Start at"
-msgstr ""
+msgstr "Começa em"
 
 #: inc/helpers/new_layout.helper.php:796
 msgid "End at"
-msgstr ""
+msgstr "Termina em"
 
 #: inc/helpers/partner.booking.helper.php:39
 msgid "----Select a Room----"
-msgstr ""
+msgstr "——Selecione o quarto——"
 
 #: inc/helpers/st-car-helpers.php:26 inc/layouts/modern/travel-helper.php:3010
 #: inc/plugins/ot-custom/fields/activity-calendar/views/index.php:60
@@ -25306,7 +25306,7 @@ msgstr ""
 #: st_templates/vc-elements/st-slide-location/loop-style-2.php:137
 #: template-transfer-search.php:56
 msgid "hour"
-msgstr ""
+msgstr "Hora"
 
 #: inc/helpers/tour.helper.php:35 inc/helpers/tour.helper.php:56
 #: inc/layouts/modern/admin/class.admin.settings.php:3612
@@ -25317,7 +25317,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:37
 #: st_templates/tours/tour-starttime-calendar.php:32
 msgid "Monday"
-msgstr ""
+msgstr "Segunda-Feira"
 
 #: inc/helpers/tour.helper.php:38
 #: inc/layouts/modern/admin/class.admin.settings.php:3616
@@ -25328,7 +25328,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:38
 #: st_templates/tours/tour-starttime-calendar.php:33
 msgid "Tuesday"
-msgstr ""
+msgstr "Terça-Feira"
 
 #: inc/helpers/tour.helper.php:41
 #: inc/layouts/modern/admin/class.admin.settings.php:3620
@@ -25339,7 +25339,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:39
 #: st_templates/tours/tour-starttime-calendar.php:34
 msgid "Wednesday"
-msgstr ""
+msgstr "Quarta-Feira"
 
 #: inc/helpers/tour.helper.php:44
 #: inc/layouts/modern/admin/class.admin.settings.php:3624
@@ -25350,7 +25350,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:40
 #: st_templates/tours/tour-starttime-calendar.php:35
 msgid "Thursday"
-msgstr ""
+msgstr "Quinta-Feira"
 
 #: inc/helpers/tour.helper.php:47
 #: inc/layouts/modern/admin/class.admin.settings.php:3628
@@ -25361,7 +25361,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:41
 #: st_templates/tours/tour-starttime-calendar.php:36
 msgid "Friday"
-msgstr ""
+msgstr "Sexta-Feira"
 
 #: inc/helpers/tour.helper.php:50
 #: inc/layouts/modern/admin/class.admin.settings.php:3632
@@ -25372,7 +25372,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:42
 #: st_templates/tours/tour-starttime-calendar.php:37
 msgid "Saturday"
-msgstr ""
+msgstr "Sábado"
 
 #: inc/helpers/tour.helper.php:53
 #: inc/layouts/modern/admin/class.admin.settings.php:3608
@@ -25383,7 +25383,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:36
 #: st_templates/tours/tour-starttime-calendar.php:31
 msgid "Sunday"
-msgstr ""
+msgstr "Domingo"
 
 #: inc/helpers/validate.normal.checkout.php:85
 #: inc/helpers/validate.normal.checkout.php:136
@@ -26671,12 +26671,12 @@ msgstr "Política"
 #: inc/layouts/modern/configs/partner.php:839
 #: inc/layouts/modern/configs/partner.php:3859
 msgid "Hotel Room Location"
-msgstr ""
+msgstr "Localização"
 
 #: inc/layouts/modern/configs/partner.php:847
 #: inc/layouts/modern/configs/partner.php:3867
 msgid "Real hotel room address"
-msgstr ""
+msgstr "Endereço do Hotel"
 
 #: inc/layouts/modern/configs/post.php:153
 #: inc/layouts/modern/configs/post.php:175
@@ -26920,7 +26920,7 @@ msgstr ""
 
 #: inc/layouts/modern/travel-helper.php:3019 inc/travel-helper.php:2956
 msgid "months"
-msgstr ""
+msgstr "meses"
 
 #: inc/layouts/modern/travel-helper.php:3022 inc/travel-helper.php:2959
 msgid "weeks"
@@ -29229,7 +29229,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:33
 #: st_templates/tours/tour-starttime-calendar.php:28
 msgid "Days Of Week"
-msgstr ""
+msgstr "Dias da semana"
 
 #: inc/modules/flights/views/admin/bulk-calendar.php:47
 #: inc/plugins/ot-custom/fields/inventory/views/index.php:111
@@ -29238,7 +29238,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:47
 #: st_templates/tours/tour-starttime-calendar.php:42
 msgid "Days Of Month"
-msgstr ""
+msgstr "Dias do Mês"
 
 #: inc/modules/flights/views/admin/bulk-calendar.php:65
 #: inc/plugins/ot-custom/fields/inventory/views/index.php:129
@@ -29247,7 +29247,7 @@ msgstr ""
 #: st_templates/tours/tour-calendar.php:67
 #: st_templates/tours/tour-starttime-calendar.php:62
 msgid "Months"
-msgstr ""
+msgstr "Meses"
 
 #: inc/modules/flights/views/admin/bulk-calendar.php:122
 #: inc/plugins/ot-custom/fields/flight-calendar/views/index.php:43
@@ -31971,19 +31971,19 @@ msgstr ""
 
 #: inc/plugins/ot-custom/fields/inventory/views/index.php:39
 msgid "View by period:"
-msgstr ""
+msgstr "Ver período:"
 
 #: inc/plugins/ot-custom/fields/inventory/views/index.php:58
 msgid "Out of Stock"
-msgstr ""
+msgstr "Sem Vagas"
 
 #: inc/plugins/ot-custom/fields/inventory/views/index.php:81
 msgid "Select a Room"
-msgstr ""
+msgstr "Selecione o quarto"
 
 #: inc/plugins/ot-custom/fields/inventory/views/index.php:84
 msgid "---- room ----"
-msgstr ""
+msgstr "—— quarto ——"
 
 #: inc/plugins/ot-custom/fields/layout-select/layout-select.php:35
 msgid "Layout select"
@@ -35122,7 +35122,7 @@ msgstr ""
 
 #: inc/st-hook-functions.php:917
 msgid "COMPLETE YOUR REGISTRATION"
-msgstr "COMPLETE YOUR REGISTRATION"
+msgstr "COMPLETE SEU CADASTRO"
 
 #: inc/st-hook-functions.php:918
 msgid "COMPLETE"
@@ -37084,7 +37084,7 @@ msgstr ""
 
 #: inc/vc-elements/vc_map.php:3231
 msgid "End Date"
-msgstr ""
+msgstr "Data final"
 
 #: inc/vc-elements/vc_map.php:3240
 msgid "[Ajax] ST Filter Taxonomy"
@@ -39160,7 +39160,7 @@ msgstr ""
 
 #: language/english/all.php:433 language/english/modun/rental.php:27
 msgid "per day"
-msgstr ""
+msgstr "Por Dia"
 
 #: language/english/all.php:449 language/english/modun/rental.php:43
 #, php-format
@@ -40158,7 +40158,7 @@ msgstr ""
 #: st_templates/tours/elements/seat-availability.php:18
 #: st_templates/tours/elements/seat-availability.php:20
 msgid "available"
-msgstr ""
+msgstr "disponível"
 
 #: st_templates/activity/success_payment_item_row.php:62
 msgid "NUmber of Children"
@@ -40866,7 +40866,7 @@ msgstr ""
 
 #: st_templates/email/booking_infomation.php:128
 msgid "Booking room"
-msgstr ""
+msgstr "Reservas de quartos"
 
 #: st_templates/email/booking_infomation.php:178
 #: st_templates/email/booking_infomation_activity.php:141
@@ -41353,7 +41353,7 @@ msgstr ""
 
 #: st_templates/hotel/elements/tabs-content/tab-check_availability.php:85
 msgid "AVAILABLE ROOMS"
-msgstr ""
+msgstr "Número de quartos disponíveis para reserva"
 
 #: st_templates/hotel/elements/tabs-content/tab-gallery.php:31
 #: st_templates/tours/elements/tabs-content/tab-gallery.php:37
@@ -44608,12 +44608,12 @@ msgstr "Data da chegada:"
 #: st_templates/tours/wc_order_item_meta.php:46
 #: st_templates/user/detail-booking-history/st_tours.php:125
 msgid "Start date:"
-msgstr ""
+msgstr "Data inicial:"
 
 #: st_templates/tours/wc_order_item_meta.php:56
 #: st_templates/user/detail-booking-history/st_tours.php:135
 msgid "End date:"
-msgstr ""
+msgstr "Data final:"
 
 #: st_templates/tours/wc_order_item_meta.php:159
 msgid "Hotel packages"
@@ -46583,15 +46583,15 @@ msgstr ""
 
 #: template-user.php:331
 msgid "Add Booking Hotel"
-msgstr ""
+msgstr "Adicionar Reserva"
 
 #: template-user.php:336
 msgid "Booking Hotel"
-msgstr ""
+msgstr "Reservas"
 
 #: template-user.php:355
 msgid "Add Booking Room"
-msgstr ""
+msgstr "Adicionar reserva de quarto"
 
 #: template-user.php:360
 msgid "Booking Room"
@@ -46599,7 +46599,7 @@ msgstr ""
 
 #: template-user.php:386
 msgid "Add Booking Tour"
-msgstr ""
+msgstr "Adicionar Reserva"
 
 #: template-user.php:416
 msgid "Add Booking Activity"
