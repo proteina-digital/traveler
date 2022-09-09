@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-09-09 16:03-0300\n"
+"PO-Revision-Date: 2022-09-09 17:25-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -25115,7 +25115,7 @@ msgstr "Não há vagas"
 #: st_templates/layouts/modern/tour/single/single-6.php:908
 #: st_templates/layouts/modern/tour/single/single-6.php:1084
 msgid "a vacancy"
-msgstr ""
+msgstr "por vez"
 
 #: inc/helpers/new_layout.helper.php:100 inc/helpers/new_layout.helper.php:771
 #: inc/st-hook-functions.php:501
