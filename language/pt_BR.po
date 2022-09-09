@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-08-12 21:48-0300\n"
+"PO-Revision-Date: 2022-09-09 15:31-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -25775,7 +25775,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/elements/search/single/guest.php:14
 #: st_templates/layouts/modern/tour/elements/search/single/guest.php:18
 msgid "Age 6-17"
-msgstr "Idade 6-17"
+msgstr "Idade 6-12"
 
 #: inc/layouts/modern/admin/class.admin.settings.php:2758
 #: inc/layouts/modern/admin/class.admin.settings.php:2993
@@ -27300,7 +27300,7 @@ msgstr ""
 
 #: inc/layouts/modern/vc-elements/vc_map.php:346
 msgid "More Information"
-msgstr ""
+msgstr "Mais informações"
 
 #: inc/layouts/modern/vc-elements/vc_map.php:356
 msgid "ST About Us Statistic"
@@ -46704,3 +46704,9 @@ msgstr "Quero Anunciar"
 
 msgid "I want to register as a partner"
 msgstr "Quero me registrar como anunciante"
+
+msgid "Wineries"
+msgstr "Vinícolas"
+
+msgid "Winery"
+msgstr "Vinícola"

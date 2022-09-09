@@ -14,7 +14,23 @@
                         <?php
                             switch ($current_post_type) {
                                 case 'st_activity':
-                                    $current_pt_name = __( 'Restaurant', 'traveler' );
+
+                                    $attractions = wp_get_post_terms( get_the_ID(), "attractions" );
+
+                                    // echo "<pre>";
+                                    // print_r($attractions);
+                                    // echo "</pre>";
+
+                                    if(count($attractions) == 0 || count($attractions) > 1){
+                                        $current_pt_name = __( 'Restaurant', 'traveler' );
+                                    }else{
+                                        if ($attractions[0]->slug == 'vinicolas') {
+                                            $current_pt_name = __( 'Winery', 'traveler' );
+                                        }else{
+                                            $current_pt_name = __( 'Restaurant', 'traveler' );
+                                        }
+                                    }
+
                                     break;
                                 case 'st_tours':
                                     $current_pt_name = __( 'Tour', 'traveler' );

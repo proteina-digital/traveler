@@ -5,7 +5,7 @@ if ( !empty( $tour_programs ) ) {
     <div class="accordion-item">
         <h2 class="st-heading-section" id="headingItinerary">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseItinerary" aria-expanded="true" aria-controls="collapseItinerary">
-                <?php echo __('Cardápio', 'traveler'); ?>
+                <?php echo __('More Information', 'traveler'); ?>
             </button>
         </h2>
         <div id="collapseItinerary" class="accordion-collapse collapse show" aria-labelledby="headingItinerary" data-bs-parent="#headingItinerary">
