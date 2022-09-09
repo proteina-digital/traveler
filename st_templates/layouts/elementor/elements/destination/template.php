@@ -74,13 +74,21 @@
                             $size = 'full';
                             $img_src = wp_get_attachment_image_url($thumbnail, $size);
                             ?>
-                            <a class="st-link" href="<?php echo esc_url(get_the_permalink($location_id)) ?>">
+
+                            <?php 
+                                $link_location = $location_id;
+                                $pagina_da_cidade = get_field('pagina_da_cidade', $location_id);
+                                if( $pagina_da_cidade ):
+                                    $link_location = $pagina_da_cidade->ID;
+                                endif;
+                            ?>
+                            <a class="st-link" href="<?php echo esc_url(get_the_permalink($link_location)) ?>">
                                 <img src="<?php echo esc_url($img_src); ?>" alt = "<?php echo get_the_title();?>"
                                      class="img-responsive">
                             </a>
                             <div class="content">
                                 <h4 class="title">
-                                    <a href="<?php echo esc_url(get_the_permalink($location_id)); ?>">
+                                    <a href="<?php echo esc_url(get_the_permalink($link_location)); ?>">
                                         <?php the_title() ?>
                                     </a>
                                 </h4>
