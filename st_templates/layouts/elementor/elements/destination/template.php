@@ -102,27 +102,27 @@
                                             case 'st_hotel':
                                                 $result_page = get_the_permalink(st()->get_option('hotel_search_result_page'));
                                                 $result_page = add_query_arg(['location_name' => $location_name, 'location_id' => $location_id], $result_page);
-                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Hotel', '%s Hotels', $vv['total_item'], 'traveler'), $vv['total_item']) . '</a>';
+                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Hotel', '%s Hotels', $vv['total_item'], 'traveler'), $vv['total_item']) . ' </a>';
                                                 break;
                                             case 'st_rental':
                                                 $result_page = get_the_permalink(st()->get_option('rental_search_result_page'));
                                                 $result_page = add_query_arg(['location_name' => $location_name, 'location_id' => $location_id], $result_page);
-                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Rental', '%s Rentals', $vv['total_item'], 'traveler'), $vv['total_item']) . '</a>';
+                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Rental', '%s Rentals', $vv['total_item'], 'traveler'), $vv['total_item']) . ' </a>';
                                                 break;
                                             case 'st_tours':
                                                 $result_page = get_the_permalink(st()->get_option('tours_search_result_page'));
                                                 $result_page = add_query_arg(['location_name' => $location_name, 'location_id' => $location_id], $result_page);
-                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Tour', '%s Tours', $vv['total_item'], 'traveler'), $vv['total_item']) . '</a>';
+                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Tour', '%s Tours', $vv['total_item'], 'traveler'), $vv['total_item']) . ' </a>';
                                                 break;
                                             case 'st_activity':
                                                 $result_page = get_the_permalink(st()->get_option('activity_search_result_page'));
                                                 $result_page = add_query_arg(['location_name' => $location_name, 'location_id' => $location_id], $result_page);
-                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Activity', '%s Activities', $vv['total_item'], 'traveler'), $vv['total_item']) . '</a>';
+                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Activity', '%s Activities', $vv['total_item'], 'traveler'), $vv['total_item']) . ' </a>';
                                                 break;
                                             case 'st_cars':
                                                 $result_page = get_the_permalink(st()->get_option('cars_search_result_page'));
                                                 $result_page = add_query_arg(['location_name' => $location_name, 'location_id' => $location_id], $result_page);
-                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Car', '%s Cars', $vv['total_item'], 'traveler'), $vv['total_item']) . '</a>';
+                                                $desc_str .= '<a href="' . esc_url($result_page) . '">' . sprintf(_n('%s Car', '%s Cars', $vv['total_item'], 'traveler'), $vv['total_item']) . ' </a>';
                                                 break;
                                         }
                                     }

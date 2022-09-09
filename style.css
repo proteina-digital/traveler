@@ -590,3 +590,7 @@ img.wp-smiley,
 .sidebar-submenu{
     background: #EAEEF3 !important;
 }
+
+.destination-item .desc.d-flex.align-items-center.justify-content-center.flex-wrap.multi{
+    display: none !important;
+}
