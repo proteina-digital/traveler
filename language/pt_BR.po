@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-09-09 20:15-0300\n"
+"PO-Revision-Date: 2022-09-09 20:26-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -1891,7 +1891,7 @@ msgstr "As informações de contato selecionadas serão exibidas"
 #: inc/layouts/modern/admin/class.admin.rental.php:930
 #: inc/layouts/modern/admin/class.admin.tours.php:1087
 msgid "----Select----"
-msgstr ""
+msgstr "——Selecione——"
 
 #: inc/admin/class.admin.activity.php:868 inc/admin/class.admin.cars.php:1205
 #: inc/admin/class.admin.rental.php:928 inc/admin/class.admin.tours.php:967
@@ -1900,7 +1900,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.rental.php:934
 #: inc/layouts/modern/admin/class.admin.tours.php:1091
 msgid "Use agent contact info"
-msgstr ""
+msgstr "Usar contato do estabelecimento"
 
 #: inc/admin/class.admin.activity.php:872 inc/admin/class.admin.cars.php:1209
 #: inc/admin/class.admin.rental.php:932 inc/admin/class.admin.tours.php:971
@@ -1912,7 +1912,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:1520
 #: inc/layouts/modern/class/class.user.php:1693
 msgid "Use item info"
-msgstr ""
+msgstr "Usar contato personalizado"
 
 #: inc/admin/class.admin.activity.php:876 inc/admin/class.admin.cars.php:1213
 #: inc/admin/class.admin.rental.php:936 inc/admin/class.admin.tours.php:975
@@ -4716,7 +4716,7 @@ msgstr "Descrição da política"
 #: inc/layouts/modern/class/class.user.php:646
 #: inc/plugins/ot-custom/fields/inventory/inventory.php:71
 msgid "Inventory"
-msgstr "Inventário"
+msgstr "Disponibilidade"
 
 #: inc/admin/class.admin.hotel.php:975
 #: inc/admin/views/hotel/booking_index.php:59 inc/class/class.user.php:12926
@@ -10560,7 +10560,7 @@ msgstr ""
 #: inc/st-theme-options.php:5144 language/english/all.php:98
 #: language/english/modun/car.php:39 template-member-packages.php:72
 msgid "Select"
-msgstr ""
+msgstr "Selecione"
 
 #: inc/admin/class.admin.settings.php:3164
 #: inc/admin/class.admin.settings.php:3372
@@ -16854,13 +16854,13 @@ msgstr "ID Cliente"
 #: inc/class/class.user.php:5210 inc/layouts/modern/class/class.user.php:4894
 #: inc/layouts/modern/class/class.user.php:4909
 msgid "Check in time"
-msgstr ""
+msgstr "Horário do Check in"
 
 #: inc/admin/views/car/booking_edit.php:548 inc/class/class.user.php:5202
 #: inc/class/class.user.php:5217 inc/layouts/modern/class/class.user.php:4901
 #: inc/layouts/modern/class/class.user.php:4916
 msgid "Check out time"
-msgstr ""
+msgstr "Horário de Check out"
 
 #: inc/admin/views/car/booking_edit.php:580 inc/class/class.user.php:1777
 #: inc/layouts/modern/class/class.user.php:1614 language/english/all.php:688
@@ -21086,7 +21086,7 @@ msgstr "Número de camas"
 #: inc/layouts/modern/configs/partner.php:570
 #: inc/layouts/modern/configs/partner.php:3608
 msgid "Room Footage (square meters)"
-msgstr "Medidas do quartoTamanho do quarto"
+msgstr "Tamanho do quarto(m²)"
 
 #: inc/class/class.user.php:372 inc/class/class.user.php:547
 #: inc/class/class.user.php:579 inc/class/class.user.php:642
@@ -23073,7 +23073,7 @@ msgstr "Vídeo"
 #: inc/configs/partner.php:173 inc/layouts/modern/configs/partner.php:255
 #: inc/layouts/modern/configs/partner.php:3319
 msgid "BOOK SETTING"
-msgstr "CONFIGURAÇÃO DO LIVRO"
+msgstr "CONFIGURAÇÃO DA RESERVA"
 
 #: inc/configs/partner.php:198 inc/layouts/modern/configs/partner.php:281
 #: inc/layouts/modern/configs/partner.php:3345
@@ -23208,7 +23208,7 @@ msgstr "Selecione o hotel que possui este quarto"
 #: inc/configs/partner.php:427 inc/layouts/modern/configs/partner.php:538
 #: inc/layouts/modern/configs/partner.php:3576
 msgid "Number of this room"
-msgstr "Número do quarto"
+msgstr "Número de quartos para reservas"
 
 #: inc/configs/partner.php:435 inc/layouts/modern/configs/partner.php:546
 #: inc/layouts/modern/configs/partner.php:3584 language/english/all.php:837
@@ -27697,7 +27697,7 @@ msgstr ""
 #: inc/modules/hotel-alone/vc_map.php:806
 #: inc/modules/hotel-alone/vc_map.php:849
 msgid "Select Hotel"
-msgstr ""
+msgstr "Selecione o hotel"
 
 #: inc/layouts/modern/vc-elements/vc_map.php:1178
 #: inc/modules/hotel-alone/vc_map.php:577
@@ -31079,12 +31079,12 @@ msgstr ""
 #: inc/modules/hotel-alone/views/elements/st-room-in-out-info/info.php:29
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_facility.php:28
 msgid "Check In time"
-msgstr ""
+msgstr "Horário do Check in"
 
 #: inc/modules/hotel-alone/views/elements/st-room-in-out-info/info.php:35
 #: st_templates/vc-elements/st-hotel-room/st_hotel_room_facility.php:31
 msgid "Check Out time"
-msgstr ""
+msgstr "Horário de Check out"
 
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-1.php:23
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-1.php:35
@@ -35141,7 +35141,7 @@ msgstr "Continuar"
 
 #: inc/st-hook-functions.php:1785
 msgid "Select hotel"
-msgstr ""
+msgstr "Selecione o hotel"
 
 #: inc/st-hook-functions.php:1959
 msgid "Please enter your name"
@@ -43386,7 +43386,7 @@ msgstr "Exibindo %s to %s"
 #: st_templates/layouts/modern/hotel/single/single-style-1.php:601
 #, php-format
 msgid " <span class=\"price\">%s</span> <span class=\"unit\"> /night</span>"
-msgstr ""
+msgstr " <span class=“price”>%s</span> <span class=“unit”> /noite</span>"
 
 #: st_templates/layouts/modern/hotel/single/single-style-1.php:694
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:878
@@ -43398,7 +43398,7 @@ msgstr ""
 #: st_templates/layouts/modern/hotel/single/single-style-3.php:932
 #, php-format
 msgid " <span class=\"price\">%s</span><span class=\"unit\">/night</span>"
-msgstr ""
+msgstr " <span class=“price”>%s</span><span class=“unit”>/noite</span>"
 
 #: st_templates/layouts/modern/hotel/single/single-style-2.php:661
 msgid "RELATED HOTEL"
@@ -43424,7 +43424,7 @@ msgstr ""
 #: st_templates/layouts/modern/location/elements/loop/rental/grid.php:47
 #, php-format
 msgid "<span class=\"price\">%s</span><span class=\"unit\">/night</span>"
-msgstr ""
+msgstr "<span class=“price”>%s</span><span class=“unit”>/noite</span>"
 
 #: st_templates/layouts/modern/location/elements/loop/rental/grid.php:67
 #: st_templates/layouts/modern/rental/elements/loop/grid.php:67
@@ -43551,7 +43551,7 @@ msgstr ""
 #, php-format
 msgid ""
 "<span class=\"price\">%s</span><span class=\"unit\">/ %d night(s)</span>"
-msgstr ""
+msgstr "<span class=“price”>%s</span><span class=“unit”>/ %d noite(s)</span>"
 
 #: st_templates/layouts/modern/rental/elements/loop/halfmap-grid.php:75
 #: st_templates/rental/loop-list.php:147
