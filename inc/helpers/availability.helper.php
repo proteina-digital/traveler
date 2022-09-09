@@ -1363,18 +1363,30 @@
 			            }
 		            }
 
-		            if(!empty($dateRanges))
-		            {
-			            foreach($dateRanges as $date)
-			            {
-				            $return[]=[
-					            'start'  => date( 'Y-m-d', $date ),
-					            'date'   => date( 'Y-m-d', $date ),
-					            'day'    => date( 'd', $date ),
-					            'status' => 'disable',
-				            ];
-			            }
-		            }
+		            // if(!empty($dateRanges))
+		            // {
+			           //  foreach($dateRanges as $date)
+			           //  {
+				          //   $return[]=[
+					         //    'start'  => date( 'Y-m-d', $date ),
+					         //    'date'   => date( 'Y-m-d', $date ),
+					         //    'day'    => date( 'd', $date ),
+					         //    'status' => 'disable',
+				          //   ];
+			           //  }
+		            // }
+                    if(!empty($dateRanges))
+                    {
+                        foreach($dateRanges as $date)
+                        {
+                            $return[]=[
+                                'start'  => date( 'Y-m-d' ),
+                                'date'   => date( 'Y-m-d' ),
+                                'day'    => date( 'd' ),
+                                'status' => 'disable',
+                            ];
+                        }
+                    }
 	            }
 	            echo json_encode( $return );
 	            die();

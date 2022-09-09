@@ -1419,12 +1419,24 @@ if (!class_exists('AvailabilityHelper')) {
                         }
                     }
                 }
+                // if (!empty($dateRanges)) {
+                //     foreach ($dateRanges as $date) {
+                //         $events[] = [
+                //             'start' => date('Y-m-d', $date),
+                //             'end' => date('Y-m-d', $date),
+                //             'day'    => date( 'd', $date ),
+                //             'event' => __('Unavailable', 'traveler'),
+                //             'status' => 'not_available'
+                //         ];
+                //     }
+                // }
+
                 if (!empty($dateRanges)) {
                     foreach ($dateRanges as $date) {
                         $events[] = [
-                            'start' => date('Y-m-d', $date),
-                            'end' => date('Y-m-d', $date),
-                            'day'    => date( 'd', $date ),
+                            'start' => date('Y-m-d'),
+                            'end' => date('Y-m-d'),
+                            'day'    => date( 'd' ),
                             'event' => __('Unavailable', 'traveler'),
                             'status' => 'not_available'
                         ];
