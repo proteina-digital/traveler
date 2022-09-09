@@ -5,9 +5,9 @@ $adult_number = STInput::post('adult_number', 1);
 $child_number = STInput::post('child_number', 0);
 $infant_number = STInput::post('infant_number', 0);
 $max_people = get_post_meta(get_the_ID(), 'max_people', true);
-$activity_guest_adult = st()->get_option( 'activity_guest_adult', __('Age 18+', 'traveler') );
-$activity_guest_childrent = st()->get_option( 'activity_guest_childrent', __('Age 6-17', 'traveler') );
-$activity_guest_infant = st()->get_option( 'activity_guest_infant', __('Age 0-5', 'traveler') );
+$activity_guest_adult = st()->get_option( 'activity_guest_adult' );
+$activity_guest_childrent = st()->get_option( 'activity_guest_childrent' );
+$activity_guest_infant = st()->get_option( 'activity_guest_infant' );
 
 if(empty($max_people) or $max_people <= 0)
     $max_people = 20;
