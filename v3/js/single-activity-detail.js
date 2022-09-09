@@ -231,8 +231,8 @@
                         el.container.find('.loader-wrapper').show();
                         let data = {
                             action: check_in_out_input.data('action'),
-                            start: start.format('YYYY-MM-DD'),
-                            end: end.format('YYYY-MM-DD'),
+                            start: start.format("MM-DD-YYYY"),
+                            end: end.format("MM-DD-YYYY"),
                             //tour_id: check_in_out_input.data('tour-id'),
                             security: st_params._s
                         };
