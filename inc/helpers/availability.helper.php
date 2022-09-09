@@ -1336,10 +1336,8 @@
 				            if(intval($val['groupday']) == 1) {
 					            unset($dateRanges[$val['check_out']]);
 					            $return[] = [
-                                    // 'start'  => date( 'Y-m-d', $val['check_in'] ),
-						            'start'  => date( 'Y-m-d' ),
-                                    // 'date'   => date( 'Y-m-d', $val['check_in'] ),
-						            'date'   => date( 'Y-m-d' ),
+						            'start'  => date( 'Y-m-d', $val['check_in'] ),
+						            'date'   => date( 'Y-m-d', $val['check_in'] ),
 						            'day'    => date( 'd', $val['check_in'] ),
 						            'end' => date('Y-m-d',strtotime('+1 day', $val['check_out'])),
 						            'date_end' => date('d',$val['check_out']),
@@ -1352,8 +1350,8 @@
 
 				            }else{
 					            $return[] = [
-						            'start'  => date( 'Y-m-d' ),
-						            'date'   => date( 'Y-m-d' ),
+						            'start'  => date( 'Y-m-d', $val['check_in'] ),
+						            'date'   => date( 'Y-m-d', $val['check_in'] ),
 						            'day'    => date( 'd', $val['check_in'] ),
 						            'status' => $status,
 						            'adult_price' => ( (float)$val['adult_price'] > 0 ) ? TravelHelper::format_money($val['adult_price']) :  __('Free', 'traveler'),
@@ -1365,30 +1363,18 @@
 			            }
 		            }
 
-		            // if(!empty($dateRanges))
-		            // {
-			           //  foreach($dateRanges as $date)
-			           //  {
-				          //   $return[]=[
-					         //    'start'  => date( 'Y-m-d', $date ),
-					         //    'date'   => date( 'Y-m-d', $date ),
-					         //    'day'    => date( 'd', $date ),
-					         //    'status' => 'disable',
-				          //   ];
-			           //  }
-		            // }
-                    if(!empty($dateRanges))
-                    {
-                        foreach($dateRanges as $date)
-                        {
-                            $return[]=[
-                                'start'  => date( 'Y-m-d' ),
-                                'date'   => date( 'Y-m-d' ),
-                                'day'    => date( 'd' ),
-                                'status' => 'disable',
-                            ];
-                        }
-                    }
+		            if(!empty($dateRanges))
+		            {
+			            foreach($dateRanges as $date)
+			            {
+				            $return[]=[
+					            'start'  => date( 'Y-m-d', $date ),
+					            'date'   => date( 'Y-m-d', $date ),
+					            'day'    => date( 'd', $date ),
+					            'status' => 'disable',
+				            ];
+			            }
+		            }
 	            }
 	            echo json_encode( $return );
 	            die();

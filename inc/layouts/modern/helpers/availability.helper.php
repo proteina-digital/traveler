@@ -1374,8 +1374,8 @@ if (!class_exists('AvailabilityHelper')) {
                                 $has_starttime = true;
                             }
                             $events[] = [
-                                'start' => date('Y-m-d'),
-                                'date'   => date( 'Y-m-d' ),
+                                'start' => date('Y-m-d', $val['check_in']),
+                                'date'   => date( 'Y-m-d', $val['check_in'] ),
                                 'day'    => date( 'd', $val['check_in'] ),
                                 'end' => date('Y-m-d', $val['check_out']),
                                 'date_end' => date('d',$val['check_out']),
@@ -1404,8 +1404,8 @@ if (!class_exists('AvailabilityHelper')) {
                                 $has_starttime = true;
                             }
                             $events[] = [
-                                'start' => date('Y-m-d'),
-                                'date'   => date( 'Y-m-d' ),
+                                'start' => date('Y-m-d', $val['check_in']),
+                                'date'   => date( 'Y-m-d', $val['check_in'] ),
                                 'day'    => date( 'd', $val['check_in'] ),
                                 'end' => date('Y-m-d', $val['check_in']),
                                 'adult_price' => ( (float)$val['adult_price'] > 0 ) ? TravelHelper::format_money($val['adult_price']) :  __('Free', 'traveler'),
@@ -1419,24 +1419,12 @@ if (!class_exists('AvailabilityHelper')) {
                         }
                     }
                 }
-                // if (!empty($dateRanges)) {
-                //     foreach ($dateRanges as $date) {
-                //         $events[] = [
-                //             'start' => date('Y-m-d', $date),
-                //             'end' => date('Y-m-d', $date),
-                //             'day'    => date( 'd', $date ),
-                //             'event' => __('Unavailable', 'traveler'),
-                //             'status' => 'not_available'
-                //         ];
-                //     }
-                // }
-
                 if (!empty($dateRanges)) {
                     foreach ($dateRanges as $date) {
                         $events[] = [
-                            'start' => date('Y-m-d'),
-                            'end' => date('Y-m-d'),
-                            'day'    => date( 'd' ),
+                            'start' => date('Y-m-d', $date),
+                            'end' => date('Y-m-d', $date),
+                            'day'    => date( 'd', $date ),
                             'event' => __('Unavailable', 'traveler'),
                             'status' => 'not_available'
                         ];
