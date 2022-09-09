@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-09-09 17:25-0300\n"
+"PO-Revision-Date: 2022-09-09 17:30-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -18641,7 +18641,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:10860 language/english/all.php:550
 #: language/english/modun/user.php:11
 msgid "activity"
-msgstr ""
+msgstr "Gastronomia & Vinícolas"
 
 #: inc/class/class.activity.php:421 inc/class/class.cars.php:1748
 #: inc/class/class.rental.php:747 inc/class/class.tour.php:587
@@ -20680,7 +20680,7 @@ msgstr "Passeios e Trilhas"
 
 #: inc/class/class.tour.php:1212
 msgid " tour "
-msgstr ""
+msgstr " passeio "
 
 #: inc/class/class.tour.php:1215
 msgid "No tour found"
