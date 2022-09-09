@@ -1374,8 +1374,8 @@ if (!class_exists('AvailabilityHelper')) {
                                 $has_starttime = true;
                             }
                             $events[] = [
-                                'start' => date('Y-m-d', $val['check_in']),
-                                'date'   => date( 'Y-m-d', $val['check_in'] ),
+                                'start' => date('Y-m-d'),
+                                'date'   => date( 'Y-m-d' ),
                                 'day'    => date( 'd', $val['check_in'] ),
                                 'end' => date('Y-m-d', $val['check_out']),
                                 'date_end' => date('d',$val['check_out']),
@@ -1404,8 +1404,8 @@ if (!class_exists('AvailabilityHelper')) {
                                 $has_starttime = true;
                             }
                             $events[] = [
-                                'start' => date('Y-m-d', $val['check_in']),
-                                'date'   => date( 'Y-m-d', $val['check_in'] ),
+                                'start' => date('Y-m-d'),
+                                'date'   => date( 'Y-m-d' ),
                                 'day'    => date( 'd', $val['check_in'] ),
                                 'end' => date('Y-m-d', $val['check_in']),
                                 'adult_price' => ( (float)$val['adult_price'] > 0 ) ? TravelHelper::format_money($val['adult_price']) :  __('Free', 'traveler'),
