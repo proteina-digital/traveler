@@ -371,7 +371,7 @@ if($list_style =='list' && $style_list == 'vertical'){
                                     array(
                                         'taxonomy' => $term_tax_activity[1],
                                         'field'    => 'term_id',
-                                        'terms'    => $term_tax_tour[0],
+                                        'terms'    => $term_tax_activity[0],
                                     ),
                                 );
                             }
