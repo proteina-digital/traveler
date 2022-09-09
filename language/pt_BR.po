@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-09-09 15:31-0300\n"
+"PO-Revision-Date: 2022-09-09 15:50-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -5342,7 +5342,7 @@ msgstr "Passeios e Trilhas"
 #: inc/st-theme-options.php:7526
 #: st_templates/user/user-booking-activity.php:105
 msgid "Start Time"
-msgstr ""
+msgstr "Horário"
 
 #: inc/admin/class.admin.order.php:186 inc/admin/class.admin.tours.php:1044
 #: inc/class/class.user.php:3946 inc/configs/partner.php:964
@@ -25098,7 +25098,7 @@ msgstr ""
 #: inc/helpers/new_layout.helper.php:98 inc/helpers/new_layout.helper.php:769
 #: inc/st-hook-functions.php:499
 msgid "No vacancies"
-msgstr ""
+msgstr "Não há vagas"
 
 #: inc/helpers/new_layout.helper.php:99 inc/helpers/new_layout.helper.php:770
 #: inc/st-hook-functions.php:500
@@ -25132,7 +25132,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/single/single-6.php:908
 #: st_templates/layouts/modern/tour/single/single-6.php:1084
 msgid "vacancies"
-msgstr ""
+msgstr "vagas"
 
 #: inc/helpers/new_layout.helper.php:108 inc/helpers/new_layout.helper.php:779
 msgid "Childrens"
@@ -40128,7 +40128,7 @@ msgstr ""
 #: st_templates/user/user-add-tour-booking.php:275
 #: st_templates/user/user-booking-tours-email.php:150
 msgid "Start time"
-msgstr ""
+msgstr "Horário"
 
 #: st_templates/activity/elements/form-book.php:242
 #: st_templates/inbox/form-book/st_activity.php:197
@@ -40179,7 +40179,7 @@ msgstr "Duração:"
 #: st_templates/tours/tour-starttime-calendar.php:113
 #: st_templates/user/detail-booking-history/st_activity.php:104
 msgid "Start Time:"
-msgstr ""
+msgstr "Horário:"
 
 #: st_templates/activity/wc_cart_item_information.php:28
 msgid "Department Time:"
@@ -43909,7 +43909,7 @@ msgstr ""
 
 #: st_templates/layouts/modern/tour/success_payment_item_row.php:225
 msgid "Start time:"
-msgstr ""
+msgstr "Horário:"
 
 #: st_templates/layouts/modern/tour/success_payment_item_row.php:278
 #: st_templates/user/detail-booking-history/st_tours.php:263
