@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-09-09 20:26-0300\n"
+"PO-Revision-Date: 2022-09-21 15:31-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -6349,7 +6349,7 @@ msgstr ""
 #: inc/admin/class.admin.room.php:811
 #: inc/layouts/modern/admin/class.admin.room.php:860
 msgid "Price with per person"
-msgstr ""
+msgstr "Preço por pessoa"
 
 #: inc/admin/class.admin.room.php:815
 #: inc/layouts/modern/admin/class.admin.room.php:864
@@ -26328,8 +26328,8 @@ msgstr ""
 #, php-format
 msgid "/person"
 msgid_plural "/%d persons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "/pessoa"
+msgstr[1] "/%d pessoas"
 
 #: inc/layouts/modern/class/class.hotel.php:307
 #: inc/layouts/modern/class/class.hotel.php:312
@@ -29417,7 +29417,7 @@ msgstr ""
 #: language/english/modun/user.php:23 language/english/modun/vc_element.php:14
 #: st_templates/vc-elements/st-simple-location/html.php:75
 msgid "person"
-msgstr ""
+msgstr "pessoa"
 
 #: inc/modules/flights/views/flights/content-flights-load-data-ajax.php:419
 #: inc/modules/flights/views/flights/content-flights-load-data-ajax.php:435
@@ -30404,7 +30404,7 @@ msgstr ""
 
 #: inc/modules/hotel-alone/vc_map.php:712
 msgid "Price per person"
-msgstr ""
+msgstr "Preço por pessoa"
 
 #: inc/modules/hotel-alone/vc_map.php:722
 #: inc/modules/hotel-alone/vc_map.php:1414
@@ -31091,7 +31091,7 @@ msgstr "Horário de Check out"
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-2.php:25
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-2.php:41
 msgid "/person/night"
-msgstr ""
+msgstr "/pessoa/noite"
 
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-1.php:69
 #: inc/modules/hotel-alone/views/elements/st-room-info/style-2.php:77
@@ -43814,7 +43814,7 @@ msgstr ""
 #: st_templates/layouts/modern/tour/single/single-7.php:907
 #, php-format
 msgid "%s person"
-msgstr ""
+msgstr "%s pessoa"
 
 #: st_templates/layouts/modern/tour/elements/loop/list.php:118
 #: st_templates/user/loop/loop-tour.php:151
