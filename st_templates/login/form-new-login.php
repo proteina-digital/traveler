@@ -95,7 +95,7 @@ if(is_page_template('template-login.php')){
     </div>
 </form>
 
-<?php $page_cadastro_anunciante = get_page_by_title( 'Quero me cadastrar' ); if ($page_cadastro_anunciante->ID): ?>
+<?php $page_cadastro_anunciante = get_page_by_title_custom( 'Quero me cadastrar' ); if ($page_cadastro_anunciante->ID): ?>
 <div id="partner_register_area" class="row mt30">
     <div class="col-md-12">
         <div class="form-group <?php echo esc_attr($class_form); ?> form-group-icon-left">

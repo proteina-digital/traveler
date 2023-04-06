@@ -125,7 +125,7 @@
 
                 //die;
 
-                $coupon_object = get_page_by_title( $coupon, OBJECT, 'st_coupon_code' );
+                $coupon_object = get_page_by_title_custom( $coupon, OBJECT, 'st_coupon_code' );
 
                 if ( !$coupon_object ) return [
                     'status'  => 0,
