@@ -138,39 +138,39 @@ function st_remove_message_session(){
 
 
 
-define( 'SMTP_username', '98d7b2f3e8f31bc1343fe894cab797b0' );  // username of host like Gmail
-define( 'SMTP_password', '07fd43d5cf1fb465d4aa4cdddc8ba0bf' );   // password for login into the App
-define( 'SMTP_server', 'in-v3.mailjet.com' );     // SMTP server address
-define( 'SMTP_NAME', 'Revin' );   //  Business From Name
-define( 'SMTP_PORT', '587' );     // Server Port Number
-define( 'SMTP_SECURE', 'tls' );   // Encryption - ssl or tls
-define( 'SMTP_AUTH', true );  // Use SMTP authentication (true|false)
-define( 'SMTP_DEBUG',   2 );  // for debugging purposes only
-define( 'SMTP_FROM', 'web@proteina.digital' );   // Your Business Email Address
+// define( 'SMTP_username', '98d7b2f3e8f31bc1343fe894cab797b0' );  // username of host like Gmail
+// define( 'SMTP_password', '07fd43d5cf1fb465d4aa4cdddc8ba0bf' );   // password for login into the App
+// define( 'SMTP_server', 'in-v3.mailjet.com' );     // SMTP server address
+// define( 'SMTP_NAME', 'Revin' );   //  Business From Name
+// define( 'SMTP_PORT', '587' );     // Server Port Number
+// define( 'SMTP_SECURE', 'tls' );   // Encryption - ssl or tls
+// define( 'SMTP_AUTH', true );  // Use SMTP authentication (true|false)
+// define( 'SMTP_DEBUG',   2 );  // for debugging purposes only
+// define( 'SMTP_FROM', 'web@proteina.digital' );   // Your Business Email Address
 
 
-add_action( 'phpmailer_init', 'my_phpmailer_smtp' );
-function my_phpmailer_smtp( $phpmailer ) {
-    $phpmailer->isSMTP();     
-    $phpmailer->Host = SMTP_server;  
-    $phpmailer->SMTPAuth = SMTP_AUTH;
-    $phpmailer->Port = SMTP_PORT;
-    $phpmailer->Username = SMTP_username;
-    $phpmailer->Password = SMTP_password;
-    $phpmailer->SMTPSecure = SMTP_SECURE;
-    $phpmailer->From = SMTP_FROM;
-    $phpmailer->FromName = SMTP_NAME;
-    $phpmailer->SMTPDebug = SMTP_DEBUG;
+// add_action( 'phpmailer_init', 'my_phpmailer_smtp' );
+// function my_phpmailer_smtp( $phpmailer ) {
+//     $phpmailer->isSMTP();     
+//     $phpmailer->Host = SMTP_server;  
+//     $phpmailer->SMTPAuth = SMTP_AUTH;
+//     $phpmailer->Port = SMTP_PORT;
+//     $phpmailer->Username = SMTP_username;
+//     $phpmailer->Password = SMTP_password;
+//     $phpmailer->SMTPSecure = SMTP_SECURE;
+//     $phpmailer->From = SMTP_FROM;
+//     $phpmailer->FromName = SMTP_NAME;
+//     $phpmailer->SMTPDebug = SMTP_DEBUG;
 
-    $phpmailer->Debugoutput = function($str, $level) {
-        error_log("\t$level\t$str\n");
-    };
-}
+//     $phpmailer->Debugoutput = function($str, $level) {
+//         error_log("\t$level\t$str\n");
+//     };
+// }
 
 
-add_action( 'wp_mail_failed', function ( $error ) {
-    error_log( $error->get_error_message() );
-} );
+// add_action( 'wp_mail_failed', function ( $error ) {
+//     error_log( $error->get_error_message() );
+// } );
 
 
 function get_page_by_title_custom ( $page_title, $output = OBJECT, $post_type = 'page' ){
