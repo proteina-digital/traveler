@@ -535,13 +535,13 @@ if (!class_exists('STAdminHotel')) {
                         'desc' => __('ON: Set this hotel to be featured', 'traveler'),
                         'std' => 'off'
                     ],
-                    [
-                        'label' => __('Hotel logo', 'traveler'),
-                        'id' => 'logo',
-                        'type' => 'upload',
-                        'class' => '',
-                        'desc' => __('Upload the hotel logo (it is recommended using size: 256 x 195 px)', 'traveler'),
-                    ],
+                    // [
+                    //     'label' => __('Hotel logo', 'traveler'),
+                    //     'id' => 'logo',
+                    //     'type' => 'upload',
+                    //     'class' => '',
+                    //     'desc' => __('Upload the hotel logo (it is recommended using size: 256 x 195 px)', 'traveler'),
+                    // ],
                     // [
                     //     'label' => __('Hotel accepted cards', 'traveler'),
                     //     'desc' => __('Accepted cards for payment of hotel', 'traveler'),

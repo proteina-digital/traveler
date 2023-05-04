@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2023-05-04 09:24-0300\n"
+"PO-Revision-Date: 2023-05-04 10:51-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -4758,7 +4758,7 @@ msgstr "——Selecione o quarto——"
 #: inc/layouts/modern/helpers/availability.helper.php:2347
 #: inc/layouts/modern/helpers/availability.helper.php:2490
 msgid "Successfully"
-msgstr "Sucesso"
+msgstr "Salvo com sucesso"
 
 #: inc/admin/class.admin.landing.page.php:42
 msgid "Please confirm by keyword  : yes"
@@ -5397,7 +5397,7 @@ msgstr ""
 
 #: inc/admin/class.admin.packages.php:230
 msgid "The name field is required"
-msgstr ""
+msgstr "O campo nome é obrigatório"
 
 #: inc/admin/class.admin.packages.php:276
 msgid "Added a new package successful."
@@ -11900,7 +11900,7 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.settings.php:4295
 #: inc/st-theme-options.php:1055
 msgid "Select page for successfully booking"
-msgstr ""
+msgstr "Selecione a página de reserva bem-sucedida"
 
 #: inc/admin/class.admin.settings.php:6198
 #: inc/layouts/modern/admin/class.admin.settings.php:4296
@@ -19071,7 +19071,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.car.transfer.php:410
 #: inc/layouts/modern/class/class.car.transfer.php:576
 msgid "is required "
-msgstr ""
+msgstr "é obrigatório "
 
 #: inc/class/class.car.transfer.php:368 inc/class/class.cars.php:1630
 #: inc/layouts/modern/class/class.car.transfer.php:744
@@ -19138,7 +19138,7 @@ msgstr ""
 #: inc/class/class.cars.php:638 inc/class/class.cars.php:645
 #, php-format
 msgid "%s is required"
-msgstr ""
+msgstr "%s é obrigatório"
 
 #: inc/class/class.cars.php:701 inc/layouts/modern/class/class.cars.php:798
 msgid "This car is not set location data."
@@ -21674,7 +21674,7 @@ msgstr "Programação"
 #: inc/layouts/modern/class/class.user.php:4306
 #: inc/layouts/modern/class/class.user.php:4312
 msgid "Successfully."
-msgstr ""
+msgstr "Salva com sucesso."
 
 #: inc/class/class.user.php:4598 inc/layouts/modern/class/class.user.php:4323
 #: inc/shortcodes/vc_map.php:2732
@@ -21908,7 +21908,7 @@ msgstr ""
 #: inc/layouts/modern/class/class.user.php:5951
 #: inc/layouts/modern/class/class.user.php:5983
 msgid "The terms and conditions field is required"
-msgstr ""
+msgstr "O campo termos e condições é obrigatório"
 
 #: inc/class/class.user.php:6478 inc/class/class.user.php:6877
 #: inc/layouts/modern/class/class.user.php:6067
@@ -22172,7 +22172,7 @@ msgstr "Galeria é obrigatório."
 #: inc/layouts/modern/class/class.user.php:7577
 #: inc/layouts/modern/class/class.user.php:8987
 msgid "The Logo field is required."
-msgstr ""
+msgstr "O campo logo é obrigatório."
 
 #: inc/class/class.user.php:8187 inc/class/class.user.php:8817
 #: inc/class/class.user.php:9272 inc/class/class.user.php:9749

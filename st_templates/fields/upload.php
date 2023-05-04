@@ -56,6 +56,9 @@ if(!empty($post_id)){
     }
 }
 ?>
+
+
+<?php if($data['name'] != 'id_logo' && $data['label'] != 'Hotel Logo'): ?>
 <div class="form-group st-field-<?php echo esc_attr($data['type']); ?>">
     <label for="<?php echo 'st-field-' . esc_attr($data['name']); ?>"><?php echo balanceTags($data['label'] . ' ' . $require_text); ?></label>
     <div class="st-selection">
@@ -78,3 +81,4 @@ if(!empty($post_id)){
     </div>
     <div class="st_field_msg"></div>
 </div>
+<?php endif; ?>

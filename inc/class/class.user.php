@@ -4863,7 +4863,7 @@
                             ));
                             die;
                         }else{
-                            $err_field = array('st_title', 'st_content', 'hotel_star', 'is_featured', 'st_desc', 'id_logo', 'hotel_booking_period');
+                            $err_field = array('st_title', 'st_content', 'hotel_star', 'is_featured', 'st_desc', 'hotel_booking_period');
                             if(!empty(STInput::post('website', ''))) {
                                 array_push($err_field, 'website');
                             }
@@ -5124,7 +5124,6 @@
                         $validator->set_rules('st_content', __("Content", 'traveler'), 'required');
                         $validator->set_rules('hotel_star', __("Hotel Star", 'traveler'), 'required');
                         $validator->set_rules('st_desc', __("Short Intro", 'traveler'), 'required');
-                        $validator->set_rules('id_logo', __("Logo", 'traveler'), 'required');
                         $validator->set_rules('hotel_booking_period', __("Book before number of day", 'traveler'), 'required|unsigned_integer');
                         if(!empty(STInput::post('website', ''))) {
                             $validator->set_rules('website', __("Website", 'traveler'), 'valid_url');
@@ -8248,9 +8247,9 @@
                 if ( empty( $_FILES[ 'gallery' ][ 'name' ][ 0 ] ) AND !STInput::request( 'id_gallery' ) ) {
                     $validator->set_error_message( 'gallery', __( "The Gallery field is required.", 'traveler' ) );
                 }
-                if ( empty( $_FILES[ 'logo' ][ 'name' ] ) AND !STInput::request( 'id_logo' ) ) {
-                    $validator->set_error_message( 'logo', __( "The Logo field is required.", 'traveler' ) );
-                }
+                // if ( empty( $_FILES[ 'logo' ][ 'name' ] ) AND !STInput::request( 'id_logo' ) ) {
+                //     $validator->set_error_message( 'logo', __( "The Logo field is required.", 'traveler' ) );
+                // }
                 $validator->set_rules( 'address', __( "Address", 'traveler' ), 'required|max_length[100]' );
                 $validator->set_rules( 'gmap[zoom]', __( "Zoom", 'traveler' ), 'required|numeric' );
 
@@ -9808,9 +9807,9 @@
                 if ( empty( $_FILES[ 'gallery' ][ 'name' ][ 0 ] ) AND !STInput::request( 'id_gallery' ) ) {
                     $validator->set_error_message( 'gallery', __( "The Gallery field is required.", 'traveler' ) );
                 }
-                if ( empty( $_FILES[ 'logo' ][ 'name' ][ 0 ] ) AND !STInput::request( 'id_logo' ) ) {
-                    $validator->set_error_message( 'logo', __( "The Logo field is required.", 'traveler' ) );
-                }
+                // if ( empty( $_FILES[ 'logo' ][ 'name' ][ 0 ] ) AND !STInput::request( 'id_logo' ) ) {
+                //     $validator->set_error_message( 'logo', __( "The Logo field is required.", 'traveler' ) );
+                // }
 
                 $validator->set_rules( 'address', __( "Address", 'traveler' ), 'required|max_length[100]' );
 

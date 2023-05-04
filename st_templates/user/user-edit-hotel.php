@@ -75,7 +75,8 @@ if(!empty($post_id)){
                                                 $class_col .= ' st-clear-fix';
                                             }
                                             ?>
-                                            <div class="<?php echo esc_attr($class_col); ?> st-partner-field-item">
+
+                                            <div name="<?php echo $vv['type']; ?>" class="<?php echo esc_attr($class_col); ?> st-partner-field-item">
                                                 <?php echo st()->load_template('fields/' . esc_html($vv['type']), '', array('data' => $vv, 'post_id' => $post_id)); ?>
                                             </div>
                                             <?php
