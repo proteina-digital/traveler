@@ -1772,6 +1772,7 @@ if (!function_exists('st_get_list_hotels')) {
 
         if (!current_user_can('manage_options')) {
             $args['author'] = get_current_user_id();
+            $args['post_status'] = array('publish', 'pending', 'draft', 'auto-draft', 'future', 'private');
         }
 
         $custom_query = new WP_Query($args);

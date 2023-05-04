@@ -15,6 +15,11 @@ $data_status = 'new';
 if(!empty($post_id)) {
     $data_status = 'edit';
 }
+
+// echo "<pre>";
+// print_r($hotel_add_fields['content']);
+// echo "</pre>";
+
 ?>
 <div class="st-create-service">
     <h2 class="st-header">
