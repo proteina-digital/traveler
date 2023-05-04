@@ -594,3 +594,7 @@ img.wp-smiley,
 .destination-item .desc.d-flex.align-items-center.justify-content-center.flex-wrap.multi{
     display: none !important;
 }
+
+.pd-single-attribute-title{
+    font-size: 16px;
+}

@@ -35,6 +35,7 @@ if(isset($list)){
 $condition = isset($data['condition']) ? $data['condition'] : '';
 $operator = isset($data['operator']) ? $data['operator'] : 'or';
 ?>
+<?php /*
 <div class="form-group st-field-<?php echo esc_attr($data['type']); ?>">
     <label for="<?php echo 'st-field-' . esc_attr($data['name']); ?>"><?php echo balanceTags($data['label'] . ' ' . $require_text); ?></label>
     <div id="<?php echo 'st-field-' . esc_attr($data['name']); ?>" class="row">
@@ -61,4 +62,4 @@ $operator = isset($data['operator']) ? $data['operator'] : 'or';
         ?>
     </div>
     <div class="st_field_msg"></div>
-</div>
+</div> */ ?>

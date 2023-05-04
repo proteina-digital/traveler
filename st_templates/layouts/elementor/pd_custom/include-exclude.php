@@ -16,6 +16,7 @@
                         <?php if (!empty($include)) { ?>
                             <div class="col-lg-6">
                                 <ul class="include">
+                                    <h3 class="pd-single-attribute-title"><?php echo __( 'Included in the booking', 'traveler' ); ?></h3>
                                     <?php
                                     $in_arr = explode("\n", $include);
                                     if (!empty($in_arr)) {
@@ -30,6 +31,7 @@
                         <?php if (!empty($exclude)) { ?>
                             <div class="col-lg-6">
                                 <ul class="include">
+                                    <h3 class="pd-single-attribute-title"><?php echo __( 'Not Included in the booking', 'traveler' ); ?></h3>
                                     <?php
                                     $ex_arr = explode("\n", $exclude);
                                     if (!empty($ex_arr)) {

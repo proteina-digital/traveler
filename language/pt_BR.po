@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Traveler\n"
 "POT-Creation-Date: 2021-12-27 18:56+0700\n"
-"PO-Revision-Date: 2022-09-21 15:31-0300\n"
+"PO-Revision-Date: 2023-05-04 09:24-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
@@ -4139,8 +4139,8 @@ msgstr ""
 #: inc/layouts/modern/admin/class.admin.cars.php:2018
 msgid ""
 "Example: <br>Input \"fa-desktop\" for <a href=\"http://fortawesome.github.io/"
-"Font-Awesome/icons/\" target=\"_blank\" >Fontawesome</a>,<br>Input \"im-pool"
-"\" for <a href=\"https://icomoon.io/\" target=\"_blank\">Icomoon</a>  "
+"Font-Awesome/icons/\" target=\"_blank\" >Fontawesome</a>,<br>Input \"im-"
+"pool\" for <a href=\"https://icomoon.io/\" target=\"_blank\">Icomoon</a>  "
 msgstr ""
 
 #: inc/admin/class.admin.duplicate.data.php:59
@@ -16979,8 +16979,8 @@ msgid ""
 "installed and activated these plugins:  Contact form 7 ,  Visual Composer "
 "<br><span style=\"color:#f0ad4e\">WARNING: By clicking Import Demo Content "
 "button, your current theme options, sliders and widgets will be replaced. It "
-"can also take a minute to complete.</span> <br><span style=\"color:red"
-"\"><b>Please back up your database before doing this.</b> %s "
+"can also take a minute to complete.</span> <br><span style=\"color:"
+"red\"><b>Please back up your database before doing this.</b> %s "
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_quick_install.php:184
@@ -17163,8 +17163,8 @@ msgstr ""
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:84
 #, php-format
 msgid ""
-"%s - We recommend a minimum PHP version of 5.6. See: <a href=\"%s\" target="
-"\"_blank\">How to update your PHP version</a>"
+"%s - We recommend a minimum PHP version of 5.6. See: <a href=\"%s\" "
+"target=\"_blank\">How to update your PHP version</a>"
 msgstr ""
 
 #: inc/admin/views/landing_page/landing_page-st_admin_system.php:89
@@ -27072,8 +27072,8 @@ msgstr ""
 #: inc/layouts/modern/travel-helper.php:5564
 #, php-format
 msgid ""
-"<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a>. <a href=\"%4$s"
-"\">Log out?</a>"
+"<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a>. <a "
+"href=\"%4$s\">Log out?</a>"
 msgstr ""
 "<a href=“%1$s” aria-label=“%2$s”>Logao como %3$s</a>. <a href=“%4$s”>Sair?</"
 "a>"
@@ -36476,20 +36476,20 @@ msgstr "--- TUDO ---<br>"
 
 #: inc/vc-elements/vc_map.php:1461
 msgid ""
-"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star"
-"\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i> (5)<br> "
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-"
+"star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i> (5)<br> "
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1462
 msgid ""
-"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star"
-"\"></i><i class=\"fa fa-star\"></i> (4)<br> "
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-"
+"star\"></i><i class=\"fa fa-star\"></i> (4)<br> "
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1463
 msgid ""
-"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star"
-"\"></i> (3)<br> "
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-"
+"star\"></i> (3)<br> "
 msgstr ""
 
 #: inc/vc-elements/vc_map.php:1464
@@ -46716,3 +46716,9 @@ msgstr "Informações de contato"
 
 msgid "Informations"
 msgstr "Informações"
+
+msgid "Included in the booking"
+msgstr "Incluso na reserva"
+
+msgid "Not Included in the booking"
+msgstr "Não incluído na reserva"
